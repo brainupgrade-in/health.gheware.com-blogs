@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "id": 0,
+      "slug": "2026/01/glp1-pills-wegovy-pill-revolution.html",
+      "title": "GLP-1 Pills: The Wegovy Pill Revolution for Weight Loss",
+      "excerpt": "Oral Wegovy is the first FDA-approved GLP-1 pill for weight loss, achieving 14-16.6% weight loss. Learn about $149-$299 pricing, pill vs injection comparison, eligibility criteria, side effects, and how to track your progress.",
+      "category": "medications",
+      "categoryLabel": "💊 Medications",
+      "image": "assets/images/glp1-pills-wegovy-revolution-hero.jpg",
+      "date": "January 14, 2026",
+      "readTime": "18 min read",
+      "featured": true
+    },
+    {
       "id": 1,
       "slug": "2026/01/coffee-blood-sugar-what-3-cups-really-does.html",
       "title": "Coffee & Blood Sugar: What 3 Cups Really Does",
@@ -975,6 +987,6 @@
       "name": "🏃 Fitness & Diabetes"
     }
   ],
-  "totalPosts": 76,
+  "totalPosts": 77,
   "postsPerPage": 12
 }
