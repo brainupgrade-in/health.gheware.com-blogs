@@ -162,17 +162,12 @@
                 position: 'afterbegin',
                 onLoad: () => {
                     // Fix image paths to use correct base URL
-                    const authorImg = placeholder.querySelector('.author-img');
+                    const authorImg = placeholder.querySelector('.author-avatar');
                     if (authorImg) {
                         authorImg.src = SITE_BASE + 'assets/images/rajesh-gheware.jpg';
                         authorImg.onerror = function() {
                             this.src = SITE_BASE + 'images/rajesh-gheware.jpg';
                         };
-                    }
-                    // Fix follow button link for YouTube
-                    const followBtn = placeholder.querySelector('.follow-btn');
-                    if (followBtn) {
-                        followBtn.href = 'https://youtube.com/@health_gheware?sub_confirmation=1';
                     }
                 }
             });
