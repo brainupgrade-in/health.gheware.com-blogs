@@ -1,4 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" fill="#2563eb"/>
-  <text x="50" y="75" font-family="Arial, sans-serif" font-size="70" font-weight="bold" fill="white" text-anchor="middle">G</text>
+  <!-- Background circle (light) -->
+  <circle cx="50" cy="50" r="48" fill="#f0f4ff"/>
+
+  <!-- Blue outer ring -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#2563eb" stroke-width="4"/>
+
+  <!-- Inner subtle circle -->
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#c7d2fe" stroke-width="1.5"/>
+
+  <!-- Heartbeat line (green) -->
+  <path d="M15 50 L30 50 L35 35 L42 65 L50 50 L58 50"
+        fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Heart shape (pink/magenta) -->
+  <path d="M50 75 C30 55 25 40 35 32 C45 24 50 35 50 35 C50 35 55 24 65 32 C75 40 70 55 50 75 Z"
+        fill="#ec4899"/>
+
+  <!-- Heartbeat line continuation (behind heart handled by order, this extends right) -->
+  <path d="M58 50 L85 50"
+        fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="25" cy="35" r="2.5" fill="#22c55e"/>
+  <circle cx="70" cy="30" r="2" fill="#3b82f6"/>
+  <circle cx="30" cy="70" r="2" fill="#f59e0b"/>
+  <circle cx="75" cy="65" r="1.5" fill="#ec4899"/>
+
+  <!-- Small plus signs -->
+  <g fill="#94a3b8">
+    <path d="M20 25 L20 21 M18 23 L22 23" stroke="#94a3b8" stroke-width="1.5"/>
+    <path d="M80 72 L80 68 M78 70 L82 70" stroke="#94a3b8" stroke-width="1.5"/>
+  </g>
 </svg>

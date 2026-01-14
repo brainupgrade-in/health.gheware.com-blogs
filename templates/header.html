@@ -4,15 +4,16 @@
         <div class="nav-row">
             <a href="/blog/" class="logo-compact">
                 <svg viewBox="0 0 32 32" class="logo-icon-sm">
-                    <defs>
-                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stop-color="#2563eb"/>
-                            <stop offset="100%" stop-color="#1e40af"/>
-                        </linearGradient>
-                    </defs>
-                    <circle cx="16" cy="16" r="15" fill="url(#logoGrad)"/>
-                    <path d="M9 13 L16 20 L23 10" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                    <circle cx="16" cy="6" r="1.5" fill="white"/>
+                    <!-- Background -->
+                    <circle cx="16" cy="16" r="15" fill="#f0f4ff"/>
+                    <!-- Blue ring -->
+                    <circle cx="16" cy="16" r="14" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+                    <!-- Heartbeat line (green) -->
+                    <path d="M5 16 L10 16 L12 12 L14 20 L16 16 L18 16" fill="none" stroke="#22c55e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                    <!-- Heart (pink) -->
+                    <path d="M16 24 C10 18 8 13 11 10 C14 7 16 11 16 11 C16 11 18 7 21 10 C24 13 22 18 16 24 Z" fill="#ec4899"/>
+                    <!-- Line right -->
+                    <path d="M18 16 L27 16" fill="none" stroke="#94a3b8" stroke-width="0.8" stroke-linecap="round"/>
                 </svg>
                 <span class="brand-compact">Health Gheware</span>
             </a>
