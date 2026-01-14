@@ -1,79 +1,235 @@
-<!-- Medical Disclaimer Template -->
-<div class="disclaimer-box">
-    <h4 class="disclaimer-title">Important Medical & Legal Disclaimer</h4>
-    <p class="disclaimer-text">
-        <strong>NOT MEDICAL ADVICE:</strong> This article is for educational and informational purposes only and does NOT constitute medical advice, diagnosis, treatment, or professional healthcare guidance. The information provided should not replace consultation with qualified healthcare professionals.
-    </p>
-    <p class="disclaimer-text">
-        <strong>CONSULT YOUR DOCTOR:</strong> Always consult your physician, endocrinologist, certified diabetes educator (CDE), registered dietitian (RD), or other qualified healthcare provider before making any changes to your diabetes management plan, diet, exercise routine, or medications. Never start, stop, or adjust medications without medical supervision.
-    </p>
-    <p class="disclaimer-text">
-        <strong>INDIVIDUAL RESULTS VARY:</strong> Any case studies, testimonials, or results mentioned represent individual experiences only and are not typical or guaranteed. Your results may differ based on diabetes type, duration, severity, medications, overall health, adherence, genetics, and many other factors. Past results do not predict future outcomes.
-    </p>
-    <p class="disclaimer-text">
-        <strong>NO GUARANTEES:</strong> We make no representations, warranties, or guarantees regarding the accuracy, completeness, or effectiveness of any information provided. Health information changes rapidly and may become outdated.
-    </p>
-    <p class="disclaimer-text">
-        <strong>NOT A MEDICAL DEVICE:</strong> My Health Gheware is an educational wellness and data analysis tool, NOT a medical device. It is not regulated by the FDA or any medical authority. It does not diagnose, treat, cure, prevent, or mitigate any disease or medical condition. It is not a substitute for professional medical care, blood glucose meters, continuous glucose monitors (CGMs), or medical advice.
-    </p>
-    <p class="disclaimer-text">
-        <strong>HEALTH RISKS:</strong> Diabetes management involves serious health risks. Improper management can lead to hypoglycemia (low blood sugar), hyperglycemia (high blood sugar), diabetic ketoacidosis (DKA), and other life-threatening complications. Seek immediate medical attention for emergencies.
-    </p>
-    <p class="disclaimer-text">
-        <strong>NO LIABILITY:</strong> Gheware Technologies, its founders, employees, and affiliates assume no liability for any injury, loss, or damage resulting from use of this information or the My Health Gheware platform. You assume all risks and responsibility for your health decisions.
-    </p>
-    <p class="disclaimer-text">
-        <strong>USE AT YOUR OWN RISK:</strong> By reading this article and using My Health Gheware, you acknowledge that you do so entirely at your own risk and agree to consult appropriate healthcare professionals for medical guidance. You are solely responsible for all health decisions and outcomes.
-    </p>
+<!-- Medical Disclaimer Template - Collapsible -->
+<div class="disclaimer-compact">
+    <div class="disclaimer-header" onclick="toggleDisclaimer()" role="button" tabindex="0" aria-expanded="false" aria-controls="disclaimer-content">
+        <div class="disclaimer-summary">
+            <span class="disclaimer-icon">⚕️</span>
+            <span class="disclaimer-title">Medical & Legal Disclaimer</span>
+            <span class="disclaimer-brief">Not medical advice · Consult your doctor · Individual results vary</span>
+        </div>
+        <span class="disclaimer-toggle" aria-hidden="true">
+            <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </span>
+    </div>
+    <div class="disclaimer-content" id="disclaimer-content" aria-hidden="true">
+        <div class="disclaimer-grid">
+            <div class="disclaimer-item">
+                <strong>Not Medical Advice</strong>
+                <p>Educational content only. Does not constitute medical advice, diagnosis, or treatment.</p>
+            </div>
+            <div class="disclaimer-item">
+                <strong>Consult Your Doctor</strong>
+                <p>Always consult qualified healthcare providers before changing your diabetes management.</p>
+            </div>
+            <div class="disclaimer-item">
+                <strong>Results Vary</strong>
+                <p>Individual experiences differ based on diabetes type, medications, and other factors.</p>
+            </div>
+            <div class="disclaimer-item">
+                <strong>No Guarantees</strong>
+                <p>We make no warranties about the accuracy or effectiveness of information provided.</p>
+            </div>
+            <div class="disclaimer-item">
+                <strong>Not a Medical Device</strong>
+                <p>My Health Gheware is an educational tool, not FDA-regulated or a substitute for medical care.</p>
+            </div>
+            <div class="disclaimer-item">
+                <strong>Health Risks</strong>
+                <p>Diabetes management involves serious risks. Seek immediate care for emergencies.</p>
+            </div>
+        </div>
+        <p class="disclaimer-footer">
+            <strong>By using this content:</strong> You acknowledge doing so at your own risk and agree to consult healthcare professionals for medical guidance.
+            <br><span class="disclaimer-entity">© Gheware Technologies · No liability assumed</span>
+        </p>
+    </div>
 </div>
 
 <style>
-/* Disclaimer Box Styles */
-.disclaimer-box {
-    background: #fef2f2;
+/* Collapsible Disclaimer Styles */
+.disclaimer-compact {
+    background: linear-gradient(135deg, #fef2f2 0%, #fff5f5 100%);
     border: 1px solid #fecaca;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin: 3rem auto;
+    border-radius: 12px;
+    margin: 2rem auto;
     max-width: 800px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(239, 68, 68, 0.08);
+}
+
+.disclaimer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.875rem 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    user-select: none;
+}
+
+.disclaimer-header:hover {
+    background: rgba(254, 202, 202, 0.3);
+}
+
+.disclaimer-header:focus {
+    outline: 2px solid #ef4444;
+    outline-offset: -2px;
+}
+
+.disclaimer-summary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.disclaimer-icon {
+    font-size: 1.25rem;
 }
 
 .disclaimer-title {
-    margin: 0 0 1rem 0;
-    color: #991b1b;
-    font-size: 1.125rem;
     font-weight: 700;
-}
-
-.disclaimer-text {
-    margin: 0 0 0.75rem 0;
-    color: #7f1d1d;
-    font-size: 0.8rem;
-    line-height: 1.6;
-}
-
-.disclaimer-text:last-child {
-    margin-bottom: 0;
-}
-
-.disclaimer-text strong {
     color: #991b1b;
+    font-size: 0.9rem;
 }
 
-/* Responsive */
+.disclaimer-brief {
+    color: #7f1d1d;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.disclaimer-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(239, 68, 68, 0.1);
+    color: #dc2626;
+    transition: transform 0.3s, background 0.2s;
+    flex-shrink: 0;
+}
+
+.chevron-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.disclaimer-compact.expanded .disclaimer-toggle {
+    transform: rotate(180deg);
+    background: rgba(239, 68, 68, 0.2);
+}
+
+.disclaimer-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, padding 0.3s;
+    padding: 0 1rem;
+}
+
+.disclaimer-compact.expanded .disclaimer-content {
+    max-height: 600px;
+    padding: 0 1rem 1rem;
+}
+
+.disclaimer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.disclaimer-item {
+    background: white;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border-left: 3px solid #ef4444;
+}
+
+.disclaimer-item strong {
+    display: block;
+    color: #991b1b;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+}
+
+.disclaimer-item p {
+    margin: 0;
+    color: #7f1d1d;
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+
+.disclaimer-footer {
+    margin: 0;
+    padding-top: 0.75rem;
+    border-top: 1px solid #fecaca;
+    color: #7f1d1d;
+    font-size: 0.7rem;
+    line-height: 1.5;
+}
+
+.disclaimer-entity {
+    opacity: 0.7;
+    font-size: 0.65rem;
+}
+
+/* Mobile */
 @media (max-width: 640px) {
-    .disclaimer-box {
-        padding: 1rem;
-        margin: 2rem 1rem;
-        border-radius: 6px;
+    .disclaimer-compact {
+        margin: 1.5rem 0.5rem;
+        border-radius: 8px;
     }
 
-    .disclaimer-title {
-        font-size: 1rem;
+    .disclaimer-header {
+        padding: 0.75rem;
     }
 
-    .disclaimer-text {
-        font-size: 0.75rem;
+    .disclaimer-brief {
+        display: none;
+    }
+
+    .disclaimer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .disclaimer-compact.expanded .disclaimer-content {
+        max-height: 800px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .disclaimer-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 </style>
+
+<script>
+function toggleDisclaimer() {
+    const container = document.querySelector('.disclaimer-compact');
+    const header = container.querySelector('.disclaimer-header');
+    const content = container.querySelector('.disclaimer-content');
+    const isExpanded = container.classList.toggle('expanded');
+
+    header.setAttribute('aria-expanded', isExpanded);
+    content.setAttribute('aria-hidden', !isExpanded);
+}
+
+// Keyboard support
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.querySelector('.disclaimer-header');
+    if (header) {
+        header.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleDisclaimer();
+            }
+        });
+    }
+});
+</script>
