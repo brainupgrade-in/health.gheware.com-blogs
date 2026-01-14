@@ -804,6 +804,15 @@ html {
     content: none;
 }
 
+.author-link-yt {
+    background: #FF0000;
+}
+
+.author-link-yt:hover {
+    background: #cc0000;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+}
+
 /* CTA Section */
 .blog-cta {
     background: var(--gradient-primary);
