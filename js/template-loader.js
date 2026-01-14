@@ -169,6 +169,11 @@
                             this.src = SITE_BASE + 'images/rajesh-gheware.jpg';
                         };
                     }
+                    // Fix follow button link for YouTube
+                    const followBtn = placeholder.querySelector('.follow-btn');
+                    if (followBtn) {
+                        followBtn.href = 'https://youtube.com/@health_gheware?sub_confirmation=1';
+                    }
                 }
             });
         }
