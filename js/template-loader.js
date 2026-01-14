@@ -159,7 +159,17 @@
         const placeholder = document.getElementById('author-bio-placeholder');
         if (placeholder) {
             await loadTemplate('author-bio', '#author-bio-placeholder', {
-                position: 'afterbegin'
+                position: 'afterbegin',
+                onLoad: () => {
+                    // Fix image paths to use correct base URL
+                    const authorImg = placeholder.querySelector('.author-img');
+                    if (authorImg) {
+                        authorImg.src = SITE_BASE + 'assets/images/rajesh-gheware.jpg';
+                        authorImg.onerror = function() {
+                            this.src = SITE_BASE + 'images/rajesh-gheware.jpg';
+                        };
+                    }
+                }
             });
         }
     }
