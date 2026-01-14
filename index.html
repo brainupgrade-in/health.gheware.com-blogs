@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Health Gheware Blog - AI-powered diabetes management insights, glucose tracking, Time in Range optimization, sleep-health correlations, and nutrition tips.">
+    <meta name="keywords" content="diabetes blog, blood sugar management, Time in Range, CGM tracking, diabetes tips, health gheware, glucose monitoring, diabetes education">
+    <meta name="author" content="Rajesh Gheware">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="Health Gheware Blog RSS Feed" href="feed.xml">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Health Gheware Blog - AI-Powered Diabetes Management">
+    <meta property="og:description" content="Master diabetes management with AI-powered insights. Learn Time in Range optimization, glucose tracking, sleep-health correlations, and nutrition tips.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://health.gheware.com/blog">
+    <meta property="og:image" content="https://health.gheware.com/blog/assets/images/blog-page-hero.jpg">
+
+    <title>Health Gheware Blog - AI-Powered Diabetes Management Insights</title>
+
+    <!-- Google Analytics (GA4) - Reusable Loader -->
+    <script src="js/analytics-loader.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/premium.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <!-- Header will be loaded via template-loader.js -->
+
+    <!-- Blog Hero Section -->
+    <section class="blog-hero">
+        <div class="blog-hero-background">
+            <div class="blog-hero-pattern"></div>
+        </div>
+        <div class="container blog-hero-content">
+            <div class="blog-hero-badge-container">
+                <span class="blog-hero-badge">
+                    <span class="badge-icon">🩺</span>
+                    AI-Powered Diabetes Management
+                    <span class="badge-pulse"></span>
+                </span>
+            </div>
+            <h1 class="blog-hero-title">
+                <span class="title-gradient">Health Gheware Blog</span>
+            </h1>
+            <p class="blog-hero-description">
+                Master your diabetes management with AI-powered insights.
+                Learn Time in Range optimization, glucose tracking, sleep-health correlations,
+                nutrition tips, medication guides, and evidence-based wellness strategies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Compact Search & Filter Section -->
+    <section class="container" style="margin-top: 1rem;">
+        <div class="blog-controls">
+            <!-- Search Row -->
+            <div class="search-row">
+                <div class="search-container">
+                    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input
+                        type="search"
+                        id="blogSearchInput"
+                        class="search-input"
+                        placeholder="Search articles..."
+                        autocomplete="off"
+                    >
+                    <button id="clearSearchBtn" class="clear-search-btn" style="display: none;" title="Clear">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <!-- Results Counter (inline) -->
+                <div id="searchResultsCounter" class="search-results-inline" style="display: none;">
+                    <span><span id="resultsCount">0</span> found</span>
+                    <button id="clearAllFilters" class="clear-link">Clear</button>
+                </div>
+            </div>
+            <!-- Category Filter Row -->
+            <div class="category-filter compact" id="categoryFilter">
+                <button class="category-button active" data-category="all">All</button>
+                <!-- Categories loaded dynamically from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Pagination -->
+    <section class="container">
+        <div class="pagination-container pagination-top" id="paginationContainerTop" style="display: none;">
+            <div class="pagination" id="paginationTop"></div>
+            <div class="pagination-info" id="paginationInfoTop"></div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="container" style="margin-top: 1rem;">
+        <div class="blog-grid" id="blogGrid">
+            <!-- Loading spinner shown initially -->
+            <div class="loading-spinner"></div>
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <section class="container">
+        <div class="pagination-container" id="paginationContainer" style="display: none;">
+            <div class="pagination" id="pagination">
+                <!-- Pagination buttons rendered dynamically -->
+            </div>
+            <div class="pagination-info" id="paginationInfo">
+                <!-- "Showing 1-12 of 76 articles" -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="container" style="margin-top: 2rem; margin-bottom: 2rem;">
+        <div class="newsletter-signup">
+            <h3>📬 Get Weekly Health Insights</h3>
+            <p>Join readers getting weekly updates on diabetes management, AI-powered health tracking, nutrition tips, and wellness strategies</p>
+            <form class="newsletter-form" id="newsletterForm" action="https://health.gheware.com/api/email/subscribe" method="POST">
+                <input
+                    type="email"
+                    name="email"
+                    class="newsletter-input"
+                    placeholder="Enter your email"
+                    required
+                >
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+            <p style="font-size: 0.875rem; color: #94a3b8; margin-top: 1rem;">
+                No spam. Unsubscribe anytime.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer will be loaded via template-loader.js -->
+
+    <!-- Template Loader (MUST be loaded first) -->
+    <script src="js/template-loader.js"></script>
+
+    <!-- Page-specific JavaScript -->
+    <script>
+        // Blog state management
+        const BlogApp = {
+            // Data
+            allPosts: [],
+            categories: [],
+            filteredPosts: [],
+
+            // Config
+            postsPerPage: 12,
+
+            // State
+            currentPage: 1,
+            currentCategory: 'all',
+            currentSearch: '',
+
+            // DOM elements (initialized after DOM ready)
+            elements: {},
+
+            // Initialize the app
+            async init() {
+                this.cacheElements();
+                await this.loadData();
+                this.bindEvents();
+                this.applyURLParams();
+                this.filterAndRender();
+                console.log('✅ Blog initialized with', this.allPosts.length, 'posts');
+            },
+
+            // Cache DOM elements
+            cacheElements() {
+                this.elements = {
+                    blogGrid: document.getElementById('blogGrid'),
+                    categoryFilter: document.getElementById('categoryFilter'),
+                    searchInput: document.getElementById('blogSearchInput'),
+                    clearSearchBtn: document.getElementById('clearSearchBtn'),
+                    searchResultsCounter: document.getElementById('searchResultsCounter'),
+                    resultsCount: document.getElementById('resultsCount'),
+                    clearAllFilters: document.getElementById('clearAllFilters'),
+                    // Bottom pagination
+                    pagination: document.getElementById('pagination'),
+                    paginationContainer: document.getElementById('paginationContainer'),
+                    paginationInfo: document.getElementById('paginationInfo'),
+                    // Top pagination
+                    paginationTop: document.getElementById('paginationTop'),
+                    paginationContainerTop: document.getElementById('paginationContainerTop'),
+                    paginationInfoTop: document.getElementById('paginationInfoTop')
+                };
+            },
+
+            // Load data from JSON
+            async loadData() {
+                try {
+                    const response = await fetch('posts.json');
+                    const data = await response.json();
+                    this.allPosts = data.posts;
+                    this.categories = data.categories;
+                    this.postsPerPage = data.postsPerPage || 12;
+                    this.renderCategories();
+                } catch (error) {
+                    console.error('Failed to load blog data:', error);
+                    this.elements.blogGrid.innerHTML = `
+                        <div class="no-results">
+                            <div class="no-results-icon">⚠️</div>
+                            <h3>Failed to load articles</h3>
+                            <p>Please refresh the page to try again</p>
+                        </div>
+                    `;
+                }
+            },
+
+            // Render category buttons
+            renderCategories() {
+                // Map category IDs to display labels (compact)
+                const categoryConfig = {
+                    'tutorials': { icon: '📚', label: 'Tutorials' },
+                    'diabetes-management': { icon: '🩺', label: 'Diabetes' },
+                    'sleep-health': { icon: '😴', label: 'Sleep' },
+                    'fitness-diabetes': { icon: '🏃', label: 'Fitness' },
+                    'health-education': { icon: '📖', label: 'Education' },
+                    'ai-health-tech': { icon: '🤖', label: 'AI Tech' },
+                    'nutrition-lifestyle': { icon: '🍽️', label: 'Nutrition' },
+                    'building-in-public': { icon: '🏗️', label: 'Building' },
+                    'awareness': { icon: '📊', label: 'Awareness' },
+                    'research': { icon: '🔬', label: 'Research' },
+                    'complications': { icon: '⚠️', label: 'Complications' },
+                    'emergencies': { icon: '🚨', label: 'Emergency' },
+                    'medications': { icon: '💊', label: 'Medications' },
+                    'diagnosis': { icon: '🔍', label: 'Diagnosis' },
+                    'mental-health': { icon: '🧠', label: 'Mental' },
+                    'technology': { icon: '💻', label: 'Tech' }
+                };
+
+                // Get unique categories from posts and sort by post count
+                const categoryCounts = {};
+                this.allPosts.forEach(post => {
+                    categoryCounts[post.category] = (categoryCounts[post.category] || 0) + 1;
+                });
+
+                const sortedCategories = Object.entries(categoryCounts)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 8); // Top 8 categories for compact view
+
+                let buttonsHTML = '<button class="category-button active" data-category="all">All</button>';
+
+                sortedCategories.forEach(([catId, count]) => {
+                    const config = categoryConfig[catId] || { icon: '📄', label: catId };
+                    buttonsHTML += `
+                        <button class="category-button" data-category="${catId}">
+                            ${config.icon} ${config.label}
+                        </button>
+                    `;
+                });
+
+                this.elements.categoryFilter.innerHTML = buttonsHTML;
+
+                // Rebind category button events
+                this.elements.categoryFilter.querySelectorAll('.category-button').forEach(btn => {
+                    btn.addEventListener('click', () => this.handleCategoryClick(btn));
+                });
+            },
+
+            // Bind event listeners
+            bindEvents() {
+                // Search input with debounce
+                let searchTimeout;
+                this.elements.searchInput.addEventListener('input', (e) => {
+                    clearTimeout(searchTimeout);
+                    const value = e.target.value;
+                    this.elements.clearSearchBtn.style.display = value ? 'flex' : 'none';
+
+                    searchTimeout = setTimeout(() => {
+                        this.currentSearch = value;
+                        this.currentPage = 1;
+                        this.filterAndRender();
+                    }, 200);
+                });
+
+                // Clear search
+                this.elements.clearSearchBtn.addEventListener('click', () => {
+                    this.elements.searchInput.value = '';
+                    this.currentSearch = '';
+                    this.elements.clearSearchBtn.style.display = 'none';
+                    this.currentPage = 1;
+                    this.filterAndRender();
+                    this.elements.searchInput.focus();
+                });
+
+                // Clear all filters
+                this.elements.clearAllFilters.addEventListener('click', () => this.resetAllFilters());
+
+                // Escape key
+                this.elements.searchInput.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') {
+                        this.elements.searchInput.value = '';
+                        this.currentSearch = '';
+                        this.elements.clearSearchBtn.style.display = 'none';
+                        this.currentPage = 1;
+                        this.filterAndRender();
+                        this.elements.searchInput.blur();
+                    }
+                });
+
+                // Newsletter form
+                const newsletterForm = document.getElementById('newsletterForm');
+                if (newsletterForm) {
+                    newsletterForm.addEventListener('submit', this.handleNewsletterSubmit.bind(this));
+                }
+            },
+
+            // Handle category button click
+            handleCategoryClick(btn) {
+                this.currentCategory = btn.dataset.category;
+                this.currentPage = 1;
+
+                // Update active state
+                this.elements.categoryFilter.querySelectorAll('.category-button').forEach(b =>
+                    b.classList.remove('active')
+                );
+                btn.classList.add('active');
+
+                this.filterAndRender();
+            },
+
+            // Filter posts based on search and category
+            filterPosts() {
+                const searchTerm = this.currentSearch.toLowerCase().trim();
+
+                this.filteredPosts = this.allPosts.filter(post => {
+                    // Category filter
+                    const matchesCategory = this.currentCategory === 'all' ||
+                        post.category === this.currentCategory;
+
+                    // Search filter
+                    const matchesSearch = searchTerm === '' ||
+                        post.title.toLowerCase().includes(searchTerm) ||
+                        post.excerpt.toLowerCase().includes(searchTerm) ||
+                        post.categoryLabel.toLowerCase().includes(searchTerm) ||
+                        post.category.toLowerCase().includes(searchTerm);
+
+                    return matchesCategory && matchesSearch;
+                });
+            },
+
+            // Get paginated posts
+            getPaginatedPosts() {
+                const start = (this.currentPage - 1) * this.postsPerPage;
+                const end = start + this.postsPerPage;
+                return this.filteredPosts.slice(start, end);
+            },
+
+            // Filter and render
+            filterAndRender() {
+                this.filterPosts();
+                this.renderPosts();
+                this.renderPagination();
+                this.updateResultsCounter();
+                this.updateURL();
+            },
+
+            // Render posts to grid
+            renderPosts() {
+                const posts = this.getPaginatedPosts();
+
+                if (posts.length === 0) {
+                    this.elements.blogGrid.innerHTML = `
+                        <div class="no-results">
+                            <div class="no-results-icon">🔍</div>
+                            <h3>No articles found</h3>
+                            <p>Try adjusting your search or filter criteria</p>
+                            <button class="reset-filters-btn" onclick="BlogApp.resetAllFilters()">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                                    <path d="M3 3v5h5"></path>
+                                </svg>
+                                Reset Filters
+                            </button>
+                        </div>
+                    `;
+                    return;
+                }
+
+                const postsHTML = posts.map((post, index) => `
+                    <article class="blog-card" style="animation: fadeIn 0.3s ease ${index * 0.05}s forwards; opacity: 0;">
+                        <a href="posts/${post.slug}" class="blog-card-image-link">
+                            <img src="${post.image}"
+                                 alt="${post.title}"
+                                 class="blog-card-image"
+                                 loading="lazy">
+                        </a>
+                        <div class="blog-card-header">
+                            <span class="blog-card-category">${post.categoryLabel}</span>
+                            ${post.featured ? '<span class="blog-card-featured">Featured</span>' : ''}
+                        </div>
+                        <div class="blog-card-content">
+                            <h2 class="blog-card-title">
+                                <a href="posts/${post.slug}">${post.title}</a>
+                            </h2>
+                            <p class="blog-card-excerpt">${post.excerpt}</p>
+                        </div>
+                        <div class="blog-card-footer">
+                            <span class="blog-card-date">${post.date}</span>
+                            <span class="blog-card-read-time">${post.readTime}</span>
+                        </div>
+                    </article>
+                `).join('');
+
+                this.elements.blogGrid.innerHTML = postsHTML;
+            },
+
+            // Render pagination (both top and bottom)
+            renderPagination() {
+                const totalPages = Math.ceil(this.filteredPosts.length / this.postsPerPage);
+
+                if (totalPages <= 1) {
+                    this.elements.paginationContainer.style.display = 'none';
+                    this.elements.paginationContainerTop.style.display = 'none';
+                    return;
+                }
+
+                // Show both pagination containers
+                this.elements.paginationContainer.style.display = 'flex';
+                this.elements.paginationContainerTop.style.display = 'flex';
+
+                let paginationHTML = '';
+
+                // Previous button
+                paginationHTML += `
+                    <button class="pagination-btn nav-btn" ${this.currentPage === 1 ? 'disabled' : ''}
+                            onclick="BlogApp.goToPage(${this.currentPage - 1})">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m15 18-6-6 6-6"/>
+                        </svg>
+                        <span>Prev</span>
+                    </button>
+                `;
+
+                // Page numbers
+                const pages = this.getPageNumbers(totalPages);
+                pages.forEach(page => {
+                    if (page === '...') {
+                        paginationHTML += '<span class="pagination-ellipsis">...</span>';
+                    } else {
+                        paginationHTML += `
+                            <button class="pagination-btn ${page === this.currentPage ? 'active' : ''}"
+                                    onclick="BlogApp.goToPage(${page})">${page}</button>
+                        `;
+                    }
+                });
+
+                // Next button
+                paginationHTML += `
+                    <button class="pagination-btn nav-btn" ${this.currentPage === totalPages ? 'disabled' : ''}
+                            onclick="BlogApp.goToPage(${this.currentPage + 1})">
+                        <span>Next</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m9 18 6-6-6-6"/>
+                        </svg>
+                    </button>
+                `;
+
+                // Apply to both top and bottom
+                this.elements.pagination.innerHTML = paginationHTML;
+                this.elements.paginationTop.innerHTML = paginationHTML;
+
+                // Update pagination info
+                const start = (this.currentPage - 1) * this.postsPerPage + 1;
+                const end = Math.min(this.currentPage * this.postsPerPage, this.filteredPosts.length);
+                const infoHTML = `Showing <strong>${start}-${end}</strong> of <strong>${this.filteredPosts.length}</strong> articles`;
+                this.elements.paginationInfo.innerHTML = infoHTML;
+                this.elements.paginationInfoTop.innerHTML = infoHTML;
+            },
+
+            // Get page numbers to display
+            getPageNumbers(totalPages) {
+                const pages = [];
+                const current = this.currentPage;
+
+                if (totalPages <= 7) {
+                    for (let i = 1; i <= totalPages; i++) pages.push(i);
+                } else {
+                    pages.push(1);
+
+                    if (current > 3) pages.push('...');
+
+                    const start = Math.max(2, current - 1);
+                    const end = Math.min(totalPages - 1, current + 1);
+
+                    for (let i = start; i <= end; i++) pages.push(i);
+
+                    if (current < totalPages - 2) pages.push('...');
+
+                    pages.push(totalPages);
+                }
+
+                return pages;
+            },
+
+            // Go to page
+            goToPage(page) {
+                const totalPages = Math.ceil(this.filteredPosts.length / this.postsPerPage);
+                if (page < 1 || page > totalPages) return;
+
+                this.currentPage = page;
+                this.renderPosts();
+                this.renderPagination();
+                this.updateURL();
+
+                // Scroll to top of grid
+                this.elements.blogGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            },
+
+            // Update results counter
+            updateResultsCounter() {
+                const isFiltering = this.currentCategory !== 'all' || this.currentSearch !== '';
+
+                if (isFiltering) {
+                    this.elements.searchResultsCounter.style.display = 'flex';
+                    this.elements.resultsCount.textContent = this.filteredPosts.length;
+                } else {
+                    this.elements.searchResultsCounter.style.display = 'none';
+                }
+            },
+
+            // Update URL
+            updateURL() {
+                const params = new URLSearchParams();
+                if (this.currentCategory !== 'all') params.set('category', this.currentCategory);
+                if (this.currentSearch) params.set('q', this.currentSearch);
+                if (this.currentPage > 1) params.set('page', this.currentPage);
+
+                const newURL = params.toString()
+                    ? `${window.location.pathname}?${params.toString()}`
+                    : window.location.pathname;
+
+                window.history.replaceState({}, '', newURL);
+            },
+
+            // Apply URL params on load
+            applyURLParams() {
+                const params = new URLSearchParams(window.location.search);
+
+                if (params.has('category')) {
+                    this.currentCategory = params.get('category');
+                    const btn = this.elements.categoryFilter.querySelector(`[data-category="${this.currentCategory}"]`);
+                    if (btn) {
+                        this.elements.categoryFilter.querySelectorAll('.category-button').forEach(b =>
+                            b.classList.remove('active')
+                        );
+                        btn.classList.add('active');
+                    }
+                }
+
+                if (params.has('q')) {
+                    this.currentSearch = params.get('q');
+                    this.elements.searchInput.value = this.currentSearch;
+                    this.elements.clearSearchBtn.style.display = 'flex';
+                }
+
+                if (params.has('page')) {
+                    this.currentPage = parseInt(params.get('page')) || 1;
+                }
+            },
+
+            // Reset all filters
+            resetAllFilters() {
+                this.currentCategory = 'all';
+                this.currentSearch = '';
+                this.currentPage = 1;
+                this.elements.searchInput.value = '';
+                this.elements.clearSearchBtn.style.display = 'none';
+
+                this.elements.categoryFilter.querySelectorAll('.category-button').forEach(btn =>
+                    btn.classList.remove('active')
+                );
+                this.elements.categoryFilter.querySelector('[data-category="all"]')?.classList.add('active');
+
+                this.filterAndRender();
+            },
+
+            // Newsletter submission
+            async handleNewsletterSubmit(e) {
+                e.preventDefault();
+                const form = e.target;
+                const email = form.email.value;
+                const button = form.querySelector('button');
+
+                button.disabled = true;
+                button.textContent = 'Subscribing...';
+
+                try {
+                    const response = await fetch(form.action, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            email,
+                            source: 'health_blog_newsletter',
+                            tags: ['health_blog_subscriber']
+                        })
+                    });
+
+                    if (response.ok) {
+                        button.textContent = '✓ Subscribed!';
+                        button.style.background = '#10b981';
+                        form.reset();
+                        setTimeout(() => {
+                            button.textContent = 'Subscribe';
+                            button.style.background = '';
+                            button.disabled = false;
+                        }, 3000);
+                    } else {
+                        throw new Error('Failed');
+                    }
+                } catch (error) {
+                    button.textContent = 'Try Again';
+                    button.disabled = false;
+                }
+            }
+        };
+
+        // Initialize when templates are loaded
+        document.addEventListener('templatesLoaded', () => BlogApp.init());
+    </script>
+</body>
+</html>

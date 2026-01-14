@@ -1,0 +1,31 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="white" opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="150" fill="white" opacity="0.05"/>
+  <circle cx="1100" cy="530" r="200" fill="white" opacity="0.05"/>
+
+  <!-- Icon -->
+  <circle cx="600" cy="280" r="80" fill="white" opacity="0.15"/>
+  <path d="M560 280 L590 310 L640 250" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Text -->
+  <text x="600" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800" fill="white" text-anchor="middle">
+    Gheware Blog
+  </text>
+  <text x="600" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" fill="white" text-anchor="middle" opacity="0.9">
+    Building in Public
+  </text>
+</svg>

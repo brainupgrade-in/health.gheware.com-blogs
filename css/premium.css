@@ -1,0 +1,1316 @@
+/* Premium Design System - Gheware Portfolio */
+
+/* Enhanced Root Variables */
+:root {
+    /* Premium Color Palette */
+    --primary: #2563eb;
+    --primary-dark: #1e40af;
+    --primary-light: #3b82f6;
+    --secondary: #10b981;
+    --secondary-light: #34d399;
+    --accent: #f59e0b;
+    --accent-light: #fbbf24;
+    
+    /* Premium Neutrals */
+    --dark: #0f172a;
+    --dark-soft: #1e293b;
+    --gray-900: #111827;
+    --gray-800: #1f2937;
+    --gray-700: #374151;
+    --gray-600: #4b5563;
+    --gray-500: #6b7280;
+    --gray-400: #9ca3af;
+    --gray-300: #d1d5db;
+    --gray-200: #e5e7eb;
+    --gray-100: #f3f4f6;
+    --gray-50: #f9fafb;
+    --white: #ffffff;
+    
+    /* Premium Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    --gradient-secondary: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-light) 100%);
+    --gradient-hero: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #2563eb 100%);
+    --gradient-card: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+    
+    /* Premium Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    
+    /* Premium Typography (System Fonts - Ultra Fast, No External Requests) */
+    --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Helvetica Neue', Arial, sans-serif;
+
+    /* NOTE: Using system font stack for optimal performance (zero external requests)
+     * System fonts are pre-installed on user devices, providing instant rendering
+     * For custom Inter font, add @font-face rules and update font stacks above
+     */
+    
+    /* Premium Spacing */
+    --space-px: 1px;
+    --space-0: 0;
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+    
+    /* Premium Borders */
+    --radius-sm: 0.375rem;
+    --radius: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --radius-2xl: 2rem;
+    --radius-full: 9999px;
+    
+    /* Animation Timing */
+    --ease-out: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    --ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    --duration-150: 150ms;
+    --duration-300: 300ms;
+    --duration-500: 500ms;
+}
+
+/* Enhanced Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    line-height: 1.7;
+    color: var(--gray-700);
+    background: var(--white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container Base Styles */
+.container {
+    width: 100%;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+/* Premium Header - Apple-Style Minimalist Design */
+.header-premium {
+    background: rgba(251, 251, 253, 0.72);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    height: 44px;
+}
+
+.header-premium .container {
+    padding: 0;
+}
+
+.header-premium.scrolled {
+    background: rgba(251, 251, 253, 0.85);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 44px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.logo-container:hover {
+    opacity: 0.7;
+}
+
+.logo-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-svg {
+    width: 20px;
+    height: 20px;
+    transition: opacity 0.2s ease;
+}
+
+.logo-container:hover .logo-svg {
+    opacity: 0.7;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.brand-name {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    line-height: 1;
+    letter-spacing: 0;
+    transition: opacity 0.2s ease;
+}
+
+.logo-container:hover .brand-name {
+    opacity: 0.7;
+}
+
+.brand-tagline {
+    font-size: 0.625rem;
+    color: #86868b;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.logo-container:hover .brand-tagline {
+    opacity: 0.5;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.nav-links-premium {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: #1d1d1f;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+    transition: opacity 0.2s ease;
+    position: relative;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+.nav-link::before {
+    display: none;
+}
+
+.nav-link.active {
+    opacity: 0.7;
+}
+
+.nav-link.active::after {
+    display: none;
+}
+
+.btn-header-primary {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: var(--gradient-primary);
+    color: var(--white);
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-full);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all var(--duration-300) var(--ease-out);
+    box-shadow: var(--shadow);
+}
+
+.btn-header-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-icon, .btn-arrow {
+    font-size: 1rem;
+    transition: transform var(--duration-300) var(--ease-out);
+}
+
+.btn-header-primary:hover .btn-arrow {
+    transform: translateX(4px);
+}
+
+/* Premium Hero Section */
+.hero-premium {
+    position: relative;
+    background: var(--gradient-hero);
+    color: var(--white);
+    padding: var(--space-6) 0 var(--space-8);
+    overflow: hidden;
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.1;
+}
+
+.hero-pattern {
+    background-image: radial-gradient(circle at 25% 25%, var(--primary-light) 0%, transparent 50%),
+                      radial-gradient(circle at 75% 75%, var(--secondary) 0%, transparent 50%);
+    width: 100%;
+    height: 100%;
+    animation: patternMove 20s ease-in-out infinite alternate;
+}
+
+@keyframes patternMove {
+    0% { transform: scale(1) rotate(0deg); }
+    100% { transform: scale(1.1) rotate(3deg); }
+}
+
+.hero-content-premium {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-main {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-badge-container {
+    margin-bottom: var(--space-6);
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--white);
+    padding: var(--space-2) var(--space-6);
+    border-radius: var(--radius-full);
+    font-size: 0.9rem;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    animation: badgeGlow 3s ease-in-out infinite;
+}
+
+@keyframes badgeGlow {
+    0%, 100% { box-shadow: 0 0 20px rgba(37, 99, 235, 0.3); }
+    50% { box-shadow: 0 0 30px rgba(37, 99, 235, 0.5); }
+}
+
+.badge-pulse {
+    position: absolute;
+    right: var(--space-2);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: var(--accent);
+    border-radius: var(--radius-full);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; transform: translateY(-50%) scale(1); }
+    50% { opacity: 0.5; transform: translateY(-50%) scale(1.2); }
+    100% { opacity: 1; transform: translateY(-50%) scale(1); }
+}
+
+.hero-title {
+    font-family: var(--font-display);
+    margin-bottom: var(--space-2);
+    animation: fadeInUp 0.8s var(--ease-out) both;
+}
+
+.title-highlight {
+    display: block;
+    font-size: 2.8rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 0.95;
+    margin-bottom: 0;
+}
+
+.title-main {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 0.95;
+    margin-bottom: var(--space-1);
+}
+
+.title-sub {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.9;
+    line-height: 1.1;
+}
+
+.hero-description {
+    font-size: 1rem;
+    line-height: 1.3;
+    opacity: 0.9;
+    margin-bottom: var(--space-3);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeInUp 0.8s var(--ease-out) 0.2s both;
+}
+
+.hero-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-3);
+    animation: fadeInUp 0.8s var(--ease-out) 0.4s both;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: var(--space-1);
+}
+
+.stat-divider {
+    width: 1px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-8);
+    animation: fadeInUp 0.8s var(--ease-out) 0.6s both;
+}
+
+.btn-hero-primary {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    background: var(--gradient-secondary);
+    color: var(--white);
+    padding: var(--space-5) var(--space-8);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all var(--duration-300) var(--ease-out);
+    box-shadow: var(--shadow-xl);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-hero-primary:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 32px 64px -12px rgba(16, 185, 129, 0.4);
+}
+
+.btn-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn-text {
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+.btn-subtext {
+    font-size: 0.8rem;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.btn-icon-arrow {
+    font-size: 1.5rem;
+    transition: transform var(--duration-300) var(--ease-out);
+}
+
+.btn-hero-primary:hover .btn-icon-arrow {
+    transform: translateX(6px);
+}
+
+.btn-hero-secondary {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: var(--white);
+    padding: var(--space-4) var(--space-6);
+    border-radius: var(--radius-full);
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all var(--duration-300) var(--ease-out);
+}
+
+.btn-hero-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.play-icon {
+    font-size: 1rem;
+}
+
+.hero-trust {
+    animation: fadeInUp 0.8s var(--ease-out) 0.8s both;
+}
+
+.trust-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-6);
+    flex-wrap: wrap;
+}
+
+.trust-item {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+}
+
+/* Premium Social Proof */
+.social-proof {
+    background: var(--gray-50);
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.proof-content {
+    text-align: center;
+}
+
+.proof-text {
+    color: var(--gray-600);
+    margin-bottom: var(--space-6);
+    font-weight: 500;
+}
+
+.proof-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-8);
+    flex-wrap: wrap;
+}
+
+.logo-item {
+    color: var(--gray-500);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: var(--space-2) var(--space-4);
+    border: 1px solid var(--gray-300);
+    border-radius: var(--radius);
+    background: var(--white);
+}
+
+/* Premium Products Section */
+.products-premium {
+    padding: var(--space-4) 0;
+    background: var(--white);
+}
+
+.section-header-premium {
+    text-align: center;
+    margin-bottom: var(--space-16);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-badge {
+    margin-bottom: var(--space-4);
+}
+
+.badge-text {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: var(--gradient-primary);
+    color: var(--white);
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-full);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.section-title-premium {
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: var(--space-3);
+    line-height: 1.1;
+}
+
+.section-description-premium {
+    font-size: 1rem;
+    color: var(--gray-600);
+    line-height: 1.4;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.products-grid-premium {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--space-4);
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.product-card-premium {
+    background: var(--gradient-card);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: var(--space-4);
+    transition: all var(--duration-500) var(--ease-out);
+    position: relative;
+    overflow: hidden;
+}
+
+.product-card-premium::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient-primary);
+    transform: scaleX(0);
+    transition: transform var(--duration-500) var(--ease-out);
+}
+
+.product-card-premium:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-2xl);
+    border-color: var(--primary-light);
+}
+
+.product-card-premium:hover::before {
+    transform: scaleX(1);
+}
+
+.featured-card {
+    border: 2px solid var(--primary);
+    position: relative;
+}
+
+.featured-card::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-xl);
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: var(--space-3);
+}
+
+.featured-badge, .new-badge {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.featured-badge {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+    color: var(--white);
+}
+
+.new-badge {
+    background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-light) 100%);
+    color: var(--white);
+}
+
+.product-icon-premium {
+    width: 60px;
+    height: 60px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.dhanavikas-icon { background: var(--gradient-primary); color: var(--white); }
+.devops-icon { background: var(--gradient-secondary); color: var(--white); }
+.agentgrow-icon { background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%); color: var(--white); }
+
+.icon-svg {
+    width: 28px;
+    height: 28px;
+}
+
+.card-content {
+    margin-bottom: var(--space-6);
+}
+
+.product-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: var(--space-3);
+    line-height: 1.3;
+}
+
+.product-description {
+    color: var(--gray-600);
+    line-height: 1.6;
+    margin-bottom: var(--space-4);
+}
+
+.features-list-premium {
+    list-style: none;
+    margin-bottom: var(--space-6);
+}
+
+.features-list-premium li {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-2) 0;
+    color: var(--gray-600);
+    font-size: 0.95rem;
+}
+
+.pricing-info {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-2);
+    margin-bottom: var(--space-6);
+}
+
+.price-tag {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.price-note {
+    font-size: 0.9rem;
+    color: var(--gray-500);
+}
+
+.card-footer {
+    margin-top: auto;
+}
+
+.btn-product-primary, .btn-product-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--space-4) var(--space-6);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all var(--duration-300) var(--ease-out);
+}
+
+.btn-product-primary {
+    background: var(--gradient-primary);
+    color: var(--white);
+    box-shadow: var(--shadow);
+}
+
+.btn-product-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-product-secondary {
+    background: var(--white);
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+.btn-product-secondary:hover {
+    background: var(--primary);
+    color: var(--white);
+}
+
+/* Premium Features Section */
+.features-premium {
+    padding: var(--space-4) 0;
+    background: var(--gray-50);
+}
+
+.features-grid-premium {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+}
+
+.feature-card-premium {
+    background: var(--white);
+    padding: var(--space-4);
+    border-radius: var(--radius-xl);
+    text-align: center;
+    transition: all var(--duration-300) var(--ease-out);
+    border: 1px solid var(--gray-200);
+}
+
+.feature-card-premium:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-light);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--space-2);
+    display: block;
+}
+
+.feature-title-premium {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: var(--space-2);
+    line-height: 1.2;
+}
+
+.feature-description {
+    color: var(--gray-600);
+    line-height: 1.4;
+    font-size: 0.95rem;
+}
+
+/* Premium Testimonials */
+.testimonials-premium {
+    padding: var(--space-4) 0;
+    background: var(--white);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+}
+
+.testimonial-card {
+    background: var(--gradient-card);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: var(--space-4);
+    transition: all var(--duration-300) var(--ease-out);
+    position: relative;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-light);
+}
+
+.quote-icon {
+    font-size: 4rem;
+    color: var(--primary-light);
+    opacity: 0.3;
+    position: absolute;
+    top: var(--space-4);
+    left: var(--space-6);
+    font-family: Georgia, serif;
+    line-height: 1;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--gray-700);
+    margin: var(--space-8) 0 var(--space-6);
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+}
+
+.author-avatar {
+    width: 48px;
+    height: 48px;
+    background: var(--gradient-primary);
+    color: var(--white);
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.author-name {
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: var(--space-1);
+}
+
+.author-title {
+    font-size: 0.9rem;
+    color: var(--gray-500);
+}
+
+.testimonial-stats {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.testimonial-stats .stat {
+    background: var(--gray-100);
+    color: var(--gray-700);
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* Premium CTA Section */
+.cta-premium {
+    background: var(--gradient-hero);
+    color: var(--white);
+    padding: var(--space-24) 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-premium::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.05" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom;
+    background-size: cover;
+}
+
+.cta-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-badge {
+    margin-bottom: var(--space-6);
+}
+
+.cta-badge .badge-text {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cta-title {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: var(--space-6);
+    line-height: 1.2;
+}
+
+.cta-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    opacity: 0.95;
+    margin-bottom: var(--space-8);
+}
+
+.cta-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-4);
+    margin-bottom: var(--space-10);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: var(--space-10);
+}
+
+.cta-feature {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.feature-icon {
+    font-size: 1.1rem;
+}
+
+.cta-actions {
+    margin-bottom: var(--space-8);
+}
+
+.btn-cta-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-4);
+    background: var(--gradient-secondary);
+    color: var(--white);
+    padding: var(--space-6) var(--space-10);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    font-weight: 700;
+    transition: all var(--duration-300) var(--ease-out);
+    box-shadow: var(--shadow-2xl);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    font-size: 1.1rem;
+}
+
+.btn-cta-primary:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 40px 80px -12px rgba(16, 185, 129, 0.5);
+}
+
+.trust-text {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Premium Footer */
+.footer-premium {
+    background: var(--dark);
+    color: var(--gray-300);
+    padding: var(--space-4) 0 var(--space-2);
+}
+
+.footer-main {
+    display: block;
+    margin-bottom: var(--space-4);
+}
+
+.footer-brand {
+    max-width: 400px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+}
+
+.footer-brand-text .brand-name {
+    color: var(--white);
+}
+
+.footer-description {
+    line-height: 1.6;
+    margin-bottom: var(--space-4);
+    color: var(--gray-400);
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    color: var(--gray-300);
+}
+
+.contact-icon {
+    font-size: 1.1rem;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+}
+
+.footer-section .section-title {
+    color: var(--white);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: var(--space-4);
+}
+
+.links-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+}
+
+.footer-link {
+    color: var(--gray-400);
+    text-decoration: none;
+    transition: color var(--duration-150) var(--ease-out);
+}
+
+.footer-link:hover {
+    color: var(--primary-light);
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--gray-700);
+    padding-top: var(--space-3);
+}
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-6);
+}
+
+.footer-legal {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+}
+
+.copyright {
+    color: var(--gray-400);
+    font-size: 0.9rem;
+}
+
+.legal-links {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.legal-link {
+    color: var(--gray-400);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color var(--duration-150) var(--ease-out);
+}
+
+.legal-link:hover {
+    color: var(--primary-light);
+}
+
+.footer-badges {
+    display: flex;
+    gap: var(--space-3);
+}
+
+.badge-item {
+    font-size: 0.8rem;
+    color: var(--gray-500);
+    padding: var(--space-1) var(--space-3);
+    border: 1px solid var(--gray-700);
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+/* Premium Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Newsletter Form Styles */
+.newsletter-form-inline {
+    display: flex;
+    gap: var(--space-2);
+    width: 100%;
+}
+
+.newsletter-input {
+    flex: 1;
+    padding: var(--space-3);
+    border: 1px solid var(--gray-300);
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    transition: all var(--duration-150) var(--ease-out);
+}
+
+.newsletter-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.newsletter-btn {
+    padding: var(--space-3) var(--space-6);
+    background: var(--gradient-primary);
+    color: var(--white);
+    border: none;
+    border-radius: var(--radius);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--duration-300) var(--ease-out);
+    white-space: nowrap;
+}
+
+.newsletter-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.newsletter-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.newsletter-message {
+    margin-top: var(--space-2);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Newsletter Form - Footer Specific */
+.newsletter-input-footer:focus {
+    outline: none;
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Premium Responsive Design */
+@media (max-width: 1024px) {
+    .section-title-premium { font-size: 2.5rem; }
+    .title-highlight { font-size: 3rem; }
+    .title-main { font-size: 2.5rem; }
+    .products-grid-premium { grid-template-columns: 1fr; max-width: 500px; }
+    .footer-main { grid-template-columns: 1fr; gap: var(--space-12); }
+}
+
+@media (max-width: 768px) {
+    .nav-wrapper { flex-direction: column; gap: var(--space-4); align-items: stretch; }
+    .nav-menu { justify-content: space-between; }
+    .nav-links-premium { gap: var(--space-4); }
+    
+    .hero-premium { padding: var(--space-4) 0 var(--space-6); }
+    .title-highlight { font-size: 1.8rem; }
+    .title-main { font-size: 1.5rem; }
+    .title-sub { font-size: 1.25rem; }
+    .hero-description { font-size: 1.1rem; }
+    .hero-stats { flex-direction: column; gap: var(--space-4); }
+    .stat-divider { width: 40px; height: 1px; }
+    .hero-actions { flex-direction: column; width: 100%; }
+    .btn-hero-primary, .btn-hero-secondary { width: 100%; justify-content: center; }
+    
+    .section-title-premium { font-size: 2rem; }
+    .cta-title { font-size: 2rem; }
+    .cta-features { grid-template-columns: 1fr; text-align: left; }
+    
+    .testimonials-grid, .features-grid-premium { grid-template-columns: 1fr; }
+    .products-grid-premium { grid-template-columns: 1fr; }
+    
+    .footer-links { grid-template-columns: 1fr; gap: var(--space-6); }
+    .footer-bottom-content { flex-direction: column; align-items: flex-start; gap: var(--space-4); }
+    .footer-legal { flex-direction: column; align-items: flex-start; gap: var(--space-4); }
+}
+
+@media (max-width: 480px) {
+    .container { padding: 0 var(--space-4); }
+    .hero-premium { padding: var(--space-3) 0 var(--space-4); }
+    .products-premium, .features-premium, .testimonials-premium { padding: var(--space-3) 0; }
+}

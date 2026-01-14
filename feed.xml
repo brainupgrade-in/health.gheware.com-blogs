@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Gheware Health Blog</title>
+        <link>https://health.gheware.com/blog</link>
+        <description>AI-powered insights for diabetes management, health tracking, and wellness. Learn about CGM data analysis, blood sugar control, nutrition, sleep, and more.</description>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 09 Dec 2025 16:03:37 +0000</lastBuildDate>
+        <generator>Gheware Blog RSS Generator</generator>
+        <ns0:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+        <image>
+            <url>https://health.gheware.com/blog/favicon.svg</url>
+            <title>Gheware Health Blog</title>
+            <link>https://health.gheware.com/blog</link>
+        </image>
+        <item>
+            <title>Type 2 Diabetes Medications: Complete Overview - DPP-4, Sulfonylureas, TZDs | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/type-2-diabetes-medications-complete-overview.html</link>
+            <description>Complete guide to Type 2 diabetes oral medications: DPP-4 inhibitors, sulfonylureas, TZDs. ADA 2025 guidelines, efficacy, side effects, and when to use.</description>
+            <pubDate>Tue, 09 Dec 2025 23:30:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/type-2-diabetes-medications-complete-overview.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/type-2-diabetes-medications-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Diabetes Statistics 2025: 589 Million Adults Affected Globally - Complete Data Report | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/diabetes-statistics-global-impact-2025.html</link>
+            <description>2025 diabetes statistics: 589M adults globally (IDF), 101M in India, 38M in USA. 252M undiagnosed. $1 trillion healthcare costs. 3.4M deaths annually.</description>
+            <pubDate>Tue, 09 Dec 2025 23:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/diabetes-statistics-global-impact-2025.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetes-statistics-2025-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Diabetes Diagnosis: Complete Testing Guide - HbA1c, FPG, OGTT, Autoantibodies | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/diabetes-diagnosis-complete-testing-guide.html</link>
+            <description>ADA 2025 diabetes diagnostic criteria: HbA1c ≥6.5%, fasting glucose ≥126 mg/dL, OGTT ≥200 mg/dL. Complete guide to autoantibody testing and T1D staging.</description>
+            <pubDate>Tue, 09 Dec 2025 23:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/diabetes-diagnosis-complete-testing-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetes-diagnosis-testing-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Future of Diabetes Treatment: Cures on the Horizon - Stem Cells, Gene Therapy &amp; More | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/future-diabetes-treatment-cures-horizon.html</link>
+            <description>Diabetes cure research 2025: First stem cell reversal achieved (98% Time in Range), Vertex Phase 3 trials, CRISPR beta cells, teplizumab delays T1D by 5 years.</description>
+            <pubDate>Tue, 09 Dec 2025 22:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/future-diabetes-treatment-cures-horizon.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/future-diabetes-treatment-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Rare &amp; Secondary Types of Diabetes: LADA, MODY, Type 3c and More | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/rare-secondary-diabetes-types-lada-mody-guide.html</link>
+            <description>Rare diabetes types: LADA (2-12% of adults), MODY (1-5% genetic), Type 3c, drug-induced, CFRD, and post-transplant diabetes. ADA 2024 diagnosis criteria.</description>
+            <pubDate>Tue, 09 Dec 2025 22:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/rare-secondary-diabetes-types-lada-mody-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/rare-diabetes-types-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Vascular Complications of Diabetes: Stroke, PAD &amp; Diabetic Foot Care Guide | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/vascular-complications-diabetes-stroke-pad-foot-care.html</link>
+            <description>Diabetes increases stroke risk 2-4x and PAD 5x. Learn about peripheral arterial disease, diabetic foot ulcers (6.3% global prevalence), amputation prevention.</description>
+            <pubDate>Tue, 09 Dec 2025 20:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/vascular-complications-diabetes-stroke-pad-foot-care.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/vascular-complications-diabetes-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Can You Stop Diabetes Medication? The Truth About Lifelong Treatment | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/can-you-stop-diabetes-medication-truth-lifelong-treatment.html</link>
+            <description>Can you stop diabetes medication? DiRECT trial shows 26% maintain remission at 5 years. Learn safe discontinuation, relapse risks, and type 1 vs type 2.</description>
+            <pubDate>Tue, 09 Dec 2025 20:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/can-you-stop-diabetes-medication-truth-lifelong-treatment.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/stop-diabetes-medication-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>SGLT2 Inhibitors: How These Diabetes Drugs Also Protect Your Heart and Kidneys | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/sglt2-inhibitors-diabetes-heart-kidney-protection.html</link>
+            <description>SGLT2 inhibitors reduce heart failure hospitalizations by 30-35% and slow kidney disease progression. Learn how empagliflozin, dapagliflozin work and who should take them.</description>
+            <pubDate>Tue, 09 Dec 2025 18:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/sglt2-inhibitors-diabetes-heart-kidney-protection.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/sglt2-inhibitors-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Diabetes Emergencies: HHS &amp; Hyperglycemic Crisis - When to Call 911 | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/diabetes-emergencies-hhs-hyperglycemic-crisis-guide.html</link>
+            <description>Diabetes emergencies guide: HHS has 5-20% mortality (10x higher than DKA). Learn hyperglycemic crisis warning signs, when to call 911, ADA 2024 treatment.</description>
+            <pubDate>Tue, 09 Dec 2025 18:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/diabetes-emergencies-hhs-hyperglycemic-crisis-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetes-emergencies-hhs-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Insulin Therapy Complete Guide: Injection Techniques, Dosing, Smart Pens | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/insulin-therapy-complete-guide.html</link>
+            <description>Insulin therapy guide: ADA 2025 injection techniques, site rotation to prevent lipohypertrophy, dosing basics, smart pens (InPen, NovoPen 6, Tempo).</description>
+            <pubDate>Tue, 09 Dec 2025 16:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/insulin-therapy-complete-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/insulin-therapy-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Heart Disease and Diabetes: Why Blood Sugar Control Saves Your Heart | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/diabetes-heart-disease-cardiovascular-guide.html</link>
+            <description>People with diabetes have 2-4x higher cardiovascular risk. Learn how blood sugar control protects your heart, ADA 2025 guidelines, and medications that save lives.</description>
+            <pubDate>Tue, 09 Dec 2025 16:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/diabetes-heart-disease-cardiovascular-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetes-heart-disease-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Diabetic Nephropathy: Early Signs, Prevention &amp; Treatment Guide | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/diabetic-nephropathy-kidney-disease-guide.html</link>
+            <description>Learn about diabetic kidney disease affecting 20-40% of diabetics. Understand early warning signs, CKD stages, and ADA 2025 prevention strategies.</description>
+            <pubDate>Tue, 09 Dec 2025 14:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/diabetic-nephropathy-kidney-disease-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetic-nephropathy-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Glycemic Index Explained: Choosing Foods That Don't Spike Blood Sugar | My Health Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/glycemic-index-food-choices-guide.html</link>
+            <description>Complete guide to glycemic index (GI) and glycemic load (GL). Learn how to choose low-GI foods, reduce blood sugar spikes, and manage diabetes effectively.</description>
+            <pubDate>Tue, 09 Dec 2025 14:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/glycemic-index-food-choices-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/glycemic-index-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Diabetes Burnout: Managing the Emotional Toll of a Chronic Condition | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/diabetes-burnout-managing-emotional-toll-guide.html</link>
+            <description>79% of people with diabetes experience burnout. Learn symptoms, causes, and evidence-based strategies to overcome diabetes burnout. ADA-recommended mental health support and recovery tips.</description>
+            <pubDate>Tue, 09 Dec 2025 14:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/diabetes-burnout-managing-emotional-toll-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetes-burnout-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Beta Cells: The Insulin Factories and Why They Fail in Diabetes | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/beta-cells-insulin-factories-diabetes-guide.html</link>
+            <description>Beta cells produce insulin in your pancreas. Learn how they work, why 40-50% are lost by T2D diagnosis, and the latest 2024 research on regeneration.</description>
+            <pubDate>Tue, 09 Dec 2025 12:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/beta-cells-insulin-factories-diabetes-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/beta-cells-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Insulin Pumps: How They Work and Who Should Consider One | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/insulin-pumps-how-they-work-complete-guide.html</link>
+            <description>Complete guide to insulin pumps for diabetes. Compare Medtronic 780G, Omnipod 5, Tandem Mobi. Learn how pumps improve HbA1c by 0.4-0.5%, costs in India (₹1.5-6 lakh), and who should consider pump therapy.</description>
+            <pubDate>Tue, 09 Dec 2025 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/insulin-pumps-how-they-work-complete-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/insulin-pumps-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Metabolic Syndrome: The Cluster of Conditions That Predicts Diabetes | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/metabolic-syndrome-diabetes-risk-guide.html</link>
+            <description>Metabolic syndrome guide: 5 diagnostic criteria, 5x diabetes risk, 2x cardiovascular risk. IDF 2024 thresholds and prevention strategies.</description>
+            <pubDate>Tue, 09 Dec 2025 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/metabolic-syndrome-diabetes-risk-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/metabolic-syndrome-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Alcohol and Diabetes: What You Need to Know Before You Drink | My Health Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/alcohol-diabetes-drinking-guide.html</link>
+            <description>Complete guide on alcohol and diabetes. Learn how drinking affects blood sugar, delayed hypoglycemia risks, ADA drinking guidelines and 10 safety tips.</description>
+            <pubDate>Tue, 09 Dec 2025 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/alcohol-diabetes-drinking-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/alcohol-diabetes-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Fasting Blood Sugar Test: How to Prepare and What Results Mean | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/fasting-blood-sugar-test-preparation-results-guide.html</link>
+            <description>Fasting blood sugar test guide: ADA 2025 thresholds (&lt;100 normal, 100-125 prediabetes, ≥126 diabetes mg/dL), prep tips, factors affecting results.</description>
+            <pubDate>Mon, 08 Dec 2025 23:59:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/fasting-blood-sugar-test-preparation-results-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/fasting-blood-sugar-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>The Oral Glucose Tolerance Test (OGTT): What to Expect and How to Interpret | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/oral-glucose-tolerance-test-ogtt-guide.html</link>
+            <description>Complete OGTT guide: ADA 2025 thresholds (140-199 prediabetes, ≥200 diabetes mg/dL), preparation, procedure, gestational diabetes screening, result interpretation.</description>
+            <pubDate>Mon, 08 Dec 2025 23:59:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/oral-glucose-tolerance-test-ogtt-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/ogtt-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>The 3 Ps of Diabetes: Warning Signs You Shouldn't Ignore | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/3-ps-diabetes-warning-signs-symptoms.html</link>
+            <description>Learn about the 3 Ps of diabetes - polyuria, polydipsia, and polyphagia. Understand these warning signs that 57% of undiagnosed diabetics in India miss. Early detection saves lives.</description>
+            <pubDate>Mon, 08 Dec 2025 23:59:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/3-ps-diabetes-warning-signs-symptoms.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/3-ps-diabetes-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Hypoglycemia Complete Guide: Causes, Symptoms, and Treatment | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/hypoglycemia-causes-symptoms-treatment-guide.html</link>
+            <description>Complete guide to hypoglycemia (low blood sugar): ADA 2025 levels (&lt;70 mg/dL), symptoms, the 15-15 Rule treatment, glucagon emergencies, and prevention. Essential for diabetes management.</description>
+            <pubDate>Mon, 08 Dec 2025 23:55:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/hypoglycemia-causes-symptoms-treatment-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/hypoglycemia-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>What is Hyperglycemia? Causes, Symptoms, and When to Worry | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/hyperglycemia-causes-symptoms-guide.html</link>
+            <description>Understand hyperglycemia (high blood sugar): causes, symptoms, and when to seek emergency care. Learn ADA 2025 thresholds (&gt;180 mg/dL), DKA vs HHS emergencies, and prevention strategies.</description>
+            <pubDate>Mon, 08 Dec 2025 23:45:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/hyperglycemia-causes-symptoms-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/hyperglycemia-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>How to Prevent Type 2 Diabetes: Evidence-Based Strategies That Work | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/diabetes-prevention-evidence-based-guide.html</link>
+            <description>Prevent Type 2 diabetes with proven strategies. Learn how the DPP study achieved 58% risk reduction through lifestyle changes. Discover the 7% weight loss target, 150 min exercise goal, and India-specific prevention tips.</description>
+            <pubDate>Mon, 08 Dec 2025 23:30:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/diabetes-prevention-evidence-based-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetes-prevention-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Carb Counting 101: The Essential Skill for Blood Sugar Control | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/carb-counting-101-guide.html</link>
+            <description>Master carb counting for diabetes management. Learn step-by-step carbohydrate estimation, Indian food carb values, insulin-to-carb ratios, and how accurate carb counting can reduce HbA1c by 0.21%.</description>
+            <pubDate>Mon, 08 Dec 2025 23:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/carb-counting-101-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/carb-counting-101-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Low-Carb and Keto for Diabetes: Benefits, Risks, and How to Start | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/low-carb-keto-diabetes-guide.html</link>
+            <description>Complete guide to low-carb and ketogenic diets for diabetes. Learn how keto can reduce HbA1c by 0.8-1.45%, ADA 2025 guidelines, risks, meal plans, and how to start safely.</description>
+            <pubDate>Mon, 08 Dec 2025 22:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/low-carb-keto-diabetes-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/low-carb-keto-diabetes-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>The Artificial Pancreas: How Closed-Loop Systems Are Changing Diabetes | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/artificial-pancreas-closed-loop-systems-guide.html</link>
+            <description>Complete guide to artificial pancreas and closed-loop insulin delivery systems. Compare Medtronic 780G, Omnipod 5, Tandem Control-IQ, and iLet. Learn how automated insulin delivery improves Time in Range by 8-12%.</description>
+            <pubDate>Mon, 08 Dec 2025 21:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/artificial-pancreas-closed-loop-systems-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/artificial-pancreas-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Types of Insulin: Rapid, Short, Intermediate, Long-Acting Complete Guide | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/insulin-types-complete-guide.html</link>
+            <description>Complete guide to all insulin types: rapid-acting (Humalog, NovoRapid), short-acting (Regular), intermediate (NPH), long-acting (Lantus, Tresiba), and ultra-long. Learn onset, peak, duration, and when to use each.</description>
+            <pubDate>Mon, 08 Dec 2025 20:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/insulin-types-complete-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/insulin-types-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>GLP-1 Medications: From Ozempic to Weight Loss and Diabetes Control | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/glp1-ozempic-diabetes-weight-loss-guide.html</link>
+            <description>Complete guide to GLP-1 receptor agonists including Ozempic, Wegovy, Mounjaro, and Trulicity: how they work for diabetes and weight loss, side effects, costs, and who should use them.</description>
+            <pubDate>Mon, 08 Dec 2025 18:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/glp1-ozempic-diabetes-weight-loss-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/glp1-ozempic-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Metformin: The First-Line Diabetes Medication Explained | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/metformin-diabetes-medication-guide.html</link>
+            <description>Complete guide to metformin for Type 2 diabetes: how it works, dosing, side effects, benefits beyond blood sugar, and tips for managing common issues like GI upset.</description>
+            <pubDate>Mon, 08 Dec 2025 16:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/metformin-diabetes-medication-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/metformin-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Diabetic Retinopathy: Protecting Your Vision with Diabetes | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/diabetic-retinopathy-vision-protection-guide.html</link>
+            <description>Complete guide to diabetic retinopathy: understand the stages, symptoms, risk factors, screening, treatment options, and prevention strategies to protect your vision.</description>
+            <pubDate>Mon, 08 Dec 2025 14:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/diabetic-retinopathy-vision-protection-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetic-retinopathy-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Diabetic Neuropathy: Understanding Nerve Damage from Diabetes | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/diabetic-neuropathy-nerve-damage-guide.html</link>
+            <description>Complete guide to diabetic neuropathy: types, symptoms, causes, diagnosis, treatment options, and prevention strategies for diabetes-related nerve damage.</description>
+            <pubDate>Mon, 08 Dec 2025 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/diabetic-neuropathy-nerve-damage-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetic-neuropathy-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>DKA Emergency: Recognizing and Responding to Diabetic Ketoacidosis | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/dka-diabetic-ketoacidosis-emergency-guide.html</link>
+            <description>Complete guide to diabetic ketoacidosis (DKA): recognize warning signs, understand causes, learn emergency response, and prevent this life-threatening diabetes complication.</description>
+            <pubDate>Sun, 07 Dec 2025 20:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/dka-diabetic-ketoacidosis-emergency-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/dka-emergency-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Gestational Diabetes: What Every Expecting Mother Needs to Know | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/gestational-diabetes-pregnancy-guide.html</link>
+            <description>Complete guide to gestational diabetes: understand causes, risk factors, diagnosis (OGTT), blood sugar targets during pregnancy, management strategies, and protecting your baby's health.</description>
+            <pubDate>Sun, 07 Dec 2025 18:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/gestational-diabetes-pregnancy-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/gestational-diabetes-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>HbA1c Complete Guide: What Your A1C Really Means for Diabetes | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/hba1c-complete-guide-a1c-meaning.html</link>
+            <description>Understand HbA1c (A1C) testing: normal ranges, diabetes diagnosis thresholds, how it's calculated, limitations, and why Time in Range complements A1C for complete diabetes management.</description>
+            <pubDate>Sun, 07 Dec 2025 16:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/hba1c-complete-guide-a1c-meaning.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/hba1c-guide-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Type 2 Diabetes Explained: From Insulin Resistance to Reversal Possibilities | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/type-2-diabetes-insulin-resistance-reversal.html</link>
+            <description>Comprehensive guide to Type 2 diabetes: understand insulin resistance, progression stages, treatment options, and evidence-based reversal strategies. Learn how lifestyle changes and data tracking can transform your diabetes management.</description>
+            <pubDate>Sun, 07 Dec 2025 14:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/type-2-diabetes-insulin-resistance-reversal.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/type-2-diabetes-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Type 1 Diabetes Explained: Causes, Autoimmunity, and Living With It (2025 Guide) | My Health Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/type-1-diabetes-causes-autoimmunity-living.html</link>
+            <description>Complete guide to Type 1 diabetes—understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin therapy and data-driven care.</description>
+            <pubDate>Sun, 07 Dec 2025 12:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/type-1-diabetes-causes-autoimmunity-living.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/type-1-diabetes-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Prediabetes: Your Last Chance to Prevent Type 2 Diabetes (2025 Guide) | My Health Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/prediabetes-prevent-type-2-diabetes.html</link>
+            <description>Learn what prediabetes is, how to recognize the warning signs, and proven strategies to reverse it. Discover how lifestyle changes can prevent Type 2 diabetes progression.</description>
+            <pubDate>Sat, 06 Dec 2025 12:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/prediabetes-prevent-type-2-diabetes.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/prediabetes-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Insulin Resistance: The Root Cause of Type 2 Diabetes (2025 Guide) | My Health Gheware™</title>
+            <link>https://health.gheware.com/blog/posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html</link>
+            <description>Understand insulin resistance—the hidden driver behind Type 2 diabetes. Learn causes, symptoms, diagnosis tests, and 7 evidence-based strategies to reverse it naturally.</description>
+            <pubDate>Sat, 06 Dec 2025 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/insulin-resistance-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>How to Install My Health Gheware Android App: Complete Step-by-Step Guide (2025)</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/install-health-gheware-android-app.html</link>
+            <description>Download &amp; install My Health Gheware Android app. Step-by-step APK installation guide. Uses Google Health Connect for sleep &amp; activity data.</description>
+            <pubDate>Sun, 16 Nov 2025 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/install-health-gheware-android-app.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/install-health-gheware-android-app-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>The Future of Personalized Diabetes Care: AI, Predictive Analytics &amp; Precision Medicine</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/future-personalized-diabetes-care.html</link>
+            <description>Discover how AI, predictive analytics, continuous monitoring, and precision medicine are revolutionizing diabetes care. The future is personalized, proactive, and powered by your unique health data.</description>
+            <pubDate>Mon, 10 Nov 2025 06:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/future-personalized-diabetes-care.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/future-personalized-care-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Top 10 Questions About My Health Gheware (Answered) - Complete FAQ</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/top-10-questions-health-gheware.html</link>
+            <description>Get answers to the top 10 questions about My Health Gheware: pricing, data privacy, AI accuracy, CGM compatibility, free credits, and how it compares to other diabetes apps. Everything you need to know before signing up.</description>
+            <pubDate>Sun, 09 Nov 2025 06:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/top-10-questions-health-gheware.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/top-10-questions-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>My Health Gheware vs Traditional CGM Apps: Complete Comparison 2025</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/health-gheware-vs-traditional-cgm-apps.html</link>
+            <description>Comprehensive comparison of My Health Gheware and traditional CGM apps like Dexcom G7, Freestyle Libre. Features, pricing, AI insights, and which tool is right for you.</description>
+            <pubDate>Sat, 08 Nov 2025 06:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/health-gheware-vs-traditional-cgm-apps.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/mhg-vs-cgm-comparison-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Free vs Paid Diabetes Management Tools: What You Need to Know (2025)</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/free-vs-paid-diabetes-management-tools.html</link>
+            <description>Honest comparison of free and paid diabetes management tools. When free tools work, when paid tools are worth it, ROI analysis, and decision framework for choosing the right option.</description>
+            <pubDate>Fri, 07 Nov 2025 06:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/free-vs-paid-diabetes-management-tools.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/free-vs-paid-diabetes-tools-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Do You Need AI for Diabetes Management? (Honest Answer 2025)</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/do-you-need-ai-for-diabetes-management.html</link>
+            <description>Honest assessment of AI diabetes management: when AI helps, when it doesn't, and who actually benefits. No hype, just facts about AI-powered glucose analysis.</description>
+            <pubDate>Wed, 05 Nov 2025 06:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/do-you-need-ai-for-diabetes-management.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/do-you-need-ai-diabetes-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Healthcare Professionals: Save 15 Minutes Per Patient with AI Health Analysis | 2025</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/healthcare-professionals-save-time-ai-analysis.html</link>
+            <description>How endocrinologists, diabetes educators, and primary care doctors save 15 minutes per patient using AI-powered multi-data correlation. Includes workflow integration, clinical benefits, and ROI analysis.</description>
+            <pubDate>Mon, 03 Nov 2025 06:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/healthcare-professionals-save-time-ai-analysis.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/healthcare-professionals-ai-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Building a Complete Diabetes Management Routine: Daily Habits for Better Blood Sugar Control (2025)</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/building-complete-diabetes-management-routine.html</link>
+            <description>Create a sustainable diabetes management routine with proven daily habits. Includes morning rituals, meal planning, exercise schedule, and evening protocols for optimal blood sugar control.</description>
+            <pubDate>Fri, 31 Oct 2025 06:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/building-complete-diabetes-management-routine.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetes-management-routine-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Sleep Tracking for Better Health: Google Fit Integration Guide</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/sleep-tracking-google-fit-integration-guide.html</link>
+            <description>Complete guide to tracking sleep with Google Fit for better diabetes management. Learn setup, integration with health apps, sleep metrics analysis, and how to use sleep data for improved blood sugar control.</description>
+            <pubDate>Tue, 28 Oct 2025 06:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/sleep-tracking-google-fit-integration-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/google-fit-sleep-tracking-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>5 Portfolio Risks Every Retail Investor Should Monitor (2025 Guide)</title>
+            <link>https://health.gheware.com/blog/posts/2025/11/portfolio-risks-zerodha-users.html</link>
+            <description>Discover the top 5 portfolio risks that Zerodha users commonly miss. Learn how to identify sector concentration, stock correlation, and volatility risks with AI-powered insights.</description>
+            <pubDate>Sun, 26 Oct 2025 10:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/11/portfolio-risks-zerodha-users.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/portfolio-risks-zerodha-users-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+        <item>
+            <title>Manual CSV Portfolio Import: Complete Guide for Indian Stock Market Investors (2025)</title>
+            <link>https://health.gheware.com/blog/posts/2025/10/manual-csv-portfolio-import-complete-guide.html</link>
+            <description>Import your stock portfolio from Groww, Upstox, 5paisa to Trade Gheware using CSV. Step-by-step guide with broker-specific templates, validation rules, and troubleshooting tips.</description>
+            <pubDate>Sat, 25 Oct 2025 14:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2025/10/manual-csv-portfolio-import-complete-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/manual-csv-portfolio-import-hero.jpg" type="image/jpeg" length="0" />
+        </item>
+    </channel>
+</rss>

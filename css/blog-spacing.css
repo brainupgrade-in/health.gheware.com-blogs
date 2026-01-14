@@ -1,0 +1,644 @@
+/**
+ * Blog Spacing & UX Enhancements
+ * Standardizes margins, padding, and visual flow across all blog posts
+ * Last Updated: October 26, 2025
+ */
+
+/* ============================
+   VERTICAL RHYTHM & SPACING
+   ============================ */
+
+/* Content Sections - Consistent spacing between major sections */
+.blog-post-content section {
+    margin-bottom: 3rem;
+}
+
+.blog-post-content section:last-child {
+    margin-bottom: 0;
+}
+
+/* Headings - Proper spacing for visual hierarchy */
+.blog-post-content h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    scroll-margin-top: 100px; /* For anchor link navigation */
+}
+
+.blog-post-content h2:first-child {
+    margin-top: 0;
+}
+
+.blog-post-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    scroll-margin-top: 100px;
+}
+
+.blog-post-content h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Paragraphs - Comfortable reading spacing */
+.blog-post-content p {
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+}
+
+.blog-post-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Lists - Better spacing for readability */
+.blog-post-content ul,
+.blog-post-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.blog-post-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+}
+
+.blog-post-content li:last-child {
+    margin-bottom: 0;
+}
+
+/* Nested lists */
+.blog-post-content li ul,
+.blog-post-content li ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ============================
+   SPECIAL CONTENT BOXES
+   ============================ */
+
+/* Key Takeaways Box */
+.key-takeaways {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2.5rem 0;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.15);
+}
+
+.key-takeaways h3 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    font-size: 1.35rem;
+}
+
+.key-takeaways ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.key-takeaways li {
+    margin-bottom: 1rem;
+    padding-left: 0;
+    line-height: 1.6;
+}
+
+.key-takeaways li:last-child {
+    margin-bottom: 0;
+}
+
+.key-takeaways p:last-child {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Opening Summary */
+.opening-summary {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin: 2rem 0;
+    color: #334155;
+}
+
+.opening-summary p {
+    margin-bottom: 0;
+}
+
+/* Soft CTA Box */
+.soft-cta {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 4px solid #0ea5e9;
+    padding: 1.25rem 1.5rem;
+    margin: 2.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(14, 165, 233, 0.1);
+}
+
+.soft-cta p {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+/* Contextual CTA Box */
+.contextual-cta {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    padding: 1.5rem 2rem;
+    margin: 3rem 0;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.2);
+}
+
+.contextual-cta h3 {
+    color: white;
+    margin: 0 0 1rem 0;
+}
+
+.contextual-cta p {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+/* Strong CTA Box */
+.strong-cta {
+    background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
+    color: white;
+    padding: 2rem;
+    margin: 3rem 0 2.5rem 0;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 24px rgba(14, 165, 233, 0.25);
+}
+
+.strong-cta h3 {
+    color: white;
+    margin: 0 0 1.25rem 0;
+    font-size: 1.5rem;
+}
+
+.strong-cta p {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.1rem;
+}
+
+.strong-cta .btn {
+    margin-top: 0.5rem;
+}
+
+/* Definition/Info Boxes */
+.definition-box,
+.info-box {
+    background: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.definition-box p,
+.info-box p {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+/* Alert/Warning Boxes */
+.alert {
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.alert h5 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.alert ul {
+    margin-bottom: 0;
+}
+
+/* ============================
+   TABLE OF CONTENTS
+   ============================ */
+
+.table-of-contents {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2.5rem 0;
+}
+
+.table-of-contents h2 {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    color: #1e293b;
+    font-size: 1.35rem;
+}
+
+.table-of-contents ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 0.75rem;
+}
+
+.table-of-contents li:last-child {
+    margin-bottom: 0;
+}
+
+.table-of-contents a {
+    color: #0ea5e9;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 1.05rem;
+}
+
+.table-of-contents a:hover {
+    color: #0284c7;
+    text-decoration: underline;
+}
+
+/* ============================
+   TABLES
+   ============================ */
+
+.blog-post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.95rem;
+}
+
+.blog-post-content thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.blog-post-content th {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+}
+
+.blog-post-content td {
+    padding: 0.875rem 1rem;
+    border: 1px solid #e2e8f0;
+}
+
+.blog-post-content tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+.blog-post-content tbody tr:hover {
+    background: #f1f5f9;
+}
+
+/* Table responsive wrapper */
+.table-responsive {
+    overflow-x: auto;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================
+   FAQ SECTION
+   ============================ */
+
+.faq-section,
+[itemtype="https://schema.org/FAQPage"] {
+    background: #f8fafc;
+    padding: 2.5rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+}
+
+.faq-item,
+[itemtype="https://schema.org/Question"] {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.faq-item:last-child,
+[itemtype="https://schema.org/Question"]:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.faq-item h3,
+[itemprop="name"] {
+    color: #1e293b;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.faq-item p,
+[itemprop="text"] p {
+    margin-bottom: 0.75rem;
+    color: #475569;
+}
+
+.faq-item p:last-child {
+    margin-bottom: 0;
+}
+
+/* ============================
+   CODE BLOCKS
+   ============================ */
+
+pre {
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 2rem 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+code {
+    background: #f1f5f9;
+    color: #dc2626;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+}
+
+pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+}
+
+/* ============================
+   IMAGES & FIGURES
+   ============================ */
+
+.blog-post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post-content figure {
+    margin: 2.5rem 0;
+}
+
+.blog-post-content figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+    font-style: italic;
+}
+
+/* ============================
+   STATISTICS & CARDS
+   ============================ */
+
+/* Quick stats row */
+.row.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.row > div[class*="col-"] {
+    margin-bottom: 1rem;
+}
+
+/* Stat cards */
+.text-center.p-3.rounded {
+    padding: 1.5rem !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.text-center.p-3.rounded:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Card components */
+.card {
+    margin: 2rem 0;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    margin-bottom: 1.25rem;
+}
+
+/* ============================
+   BLOCKQUOTES
+   ============================ */
+
+blockquote {
+    background: #f8fafc;
+    border-left: 4px solid #8b5cf6;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: #475569;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #64748b;
+    font-style: normal;
+}
+
+/* ============================
+   RELATED POSTS SECTION
+   ============================ */
+
+#related-posts {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 2px solid #e2e8f0;
+}
+
+#related-posts h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.related-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* ============================
+   BUTTONS & LINKS
+   ============================ */
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* In-text links */
+.blog-post-content a:not(.btn) {
+    color: #0ea5e9;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.2s ease;
+}
+
+.blog-post-content a:not(.btn):hover {
+    border-bottom-color: #0ea5e9;
+}
+
+/* ============================
+   RESPONSIVE SPACING ADJUSTMENTS
+   ============================ */
+
+@media (max-width: 768px) {
+    /* Reduce spacing on mobile */
+    .blog-post-content h2 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .blog-post-content section {
+        margin-bottom: 2rem;
+    }
+
+    .key-takeaways,
+    .strong-cta,
+    .contextual-cta {
+        padding: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .table-of-contents,
+    .faq-section {
+        padding: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .blog-post-content table {
+        font-size: 0.85rem;
+    }
+
+    .blog-post-content th,
+    .blog-post-content td {
+        padding: 0.625rem 0.75rem;
+    }
+
+    .related-posts-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+/* ============================
+   PRINT STYLES
+   ============================ */
+
+@media print {
+    .soft-cta,
+    .contextual-cta,
+    .strong-cta,
+    #related-posts {
+        display: none;
+    }
+
+    .blog-post-content {
+        font-size: 11pt;
+        line-height: 1.6;
+    }
+
+    .blog-post-content h2 {
+        page-break-after: avoid;
+    }
+
+    .blog-post-content table {
+        page-break-inside: avoid;
+    }
+}
+
+/* ============================
+   ACCESSIBILITY ENHANCEMENTS
+   ============================ */
+
+/* Focus styles for keyboard navigation */
+.blog-post-content a:focus,
+.btn:focus {
+    outline: 2px solid #0ea5e9;
+    outline-offset: 2px;
+}
+
+/* Skip link (if implemented) */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #0ea5e9;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .blog-post-content {
+        color: #000;
+    }
+
+    .soft-cta,
+    .definition-box,
+    .info-box {
+        border-width: 2px;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
