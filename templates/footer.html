@@ -1,298 +1,10 @@
-<!-- Footer Template -->
-<style>
-/* Footer Responsive Styles */
-.footer-premium {
-    background: var(--gray-900, #1a1a2e);
-    color: var(--gray-300, #d1d5db);
-}
-
-.footer-premium .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-/* Newsletter Section */
-.footer-newsletter-trade {
-    text-align: center;
-    padding: 3rem 1rem;
-    border-bottom: 1px solid var(--gray-700, #374151);
-}
-
-.footer-newsletter-trade h3 {
-    color: var(--white, #ffffff);
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.footer-newsletter-trade > p {
-    color: var(--gray-400, #9ca3af);
-    margin-bottom: 1.5rem;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.newsletter-form-footer {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.newsletter-form-footer > div {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.newsletter-input-footer {
-    flex: 1;
-    min-width: 200px;
-    padding: 0.875rem 1rem;
-    border-radius: 8px;
-    border: 1px solid var(--gray-600, #4b5563);
-    background: var(--gray-800, #1f2937);
-    color: var(--white, #ffffff);
-    font-size: 1rem;
-}
-
-.newsletter-btn-footer {
-    padding: 0.875rem 2rem;
-    background: var(--gradient-primary, linear-gradient(135deg, #2563eb, #1e40af));
-    color: var(--white, #ffffff);
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-}
-
-.newsletter-btn-footer:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
-}
-
-/* Social Section */
-.footer-social {
-    text-align: center;
-    padding: 1.5rem 1rem;
-    border-bottom: 1px solid var(--gray-700, #374151);
-}
-
-.footer-social h4 {
-    color: var(--white, #ffffff);
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-}
-
-.social-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 16px;
-    color: white;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
-}
-
-.social-link:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-}
-
-.social-link svg {
-    flex-shrink: 0;
-}
-
-/* Footer Bottom */
-.footer-bottom {
-    padding: 1rem;
-}
-
-.footer-bottom-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem 1.5rem;
-}
-
-.footer-bottom-content .copyright {
-    color: var(--gray-500, #6b7280);
-    font-size: 0.8rem;
-    margin: 0;
-}
-
-.legal-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.legal-link {
-    color: var(--gray-400, #9ca3af);
-    text-decoration: none;
-    font-size: 0.8rem;
-    transition: color 0.3s ease;
-}
-
-.legal-link:hover {
-    color: var(--primary-light, #60a5fa);
-}
-
-.footer-badges {
-    display: flex;
-    gap: 0.75rem;
-}
-
-.badge-item {
-    color: var(--gray-500, #6b7280);
-    font-size: 0.75rem;
-    white-space: nowrap;
-}
-
-/* Tablet (768px - 1024px) */
-@media (max-width: 1024px) {
-    .footer-newsletter-trade h3 {
-        font-size: 1.35rem;
-    }
-
-    .social-link {
-        padding: 8px 12px;
-        font-size: 0.85rem;
-    }
-
-    .social-link svg {
-        width: 18px;
-        height: 18px;
-    }
-
-    .footer-badges {
-        gap: 0.75rem;
-    }
-}
-
-/* Mobile (< 768px) */
-@media (max-width: 768px) {
-    .footer-newsletter-trade {
-        padding: 2rem 0.5rem;
-    }
-
-    .footer-newsletter-trade h3 {
-        font-size: 1.25rem;
-        line-height: 1.4;
-    }
-
-    .footer-newsletter-trade > p {
-        font-size: 0.9rem;
-    }
-
-    .newsletter-form-footer > div {
-        flex-direction: column;
-    }
-
-    .newsletter-input-footer {
-        min-width: 100%;
-        width: 100%;
-    }
-
-    .newsletter-btn-footer {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    .footer-social {
-        padding: 1.25rem 0.5rem;
-    }
-
-    .social-links {
-        gap: 0.5rem;
-    }
-
-    .social-link {
-        padding: 8px 10px;
-        font-size: 0.8rem;
-        gap: 6px;
-    }
-
-    .social-link svg {
-        width: 16px;
-        height: 16px;
-    }
-
-    /* Hide text on mobile, show only icons for some buttons */
-    .social-link .social-text-hide-mobile {
-        display: none;
-    }
-
-    .footer-bottom {
-        padding: 1rem 0.5rem;
-    }
-
-    .footer-bottom-content {
-        gap: 0.4rem 1rem;
-    }
-}
-
-/* Small Mobile (< 480px) */
-@media (max-width: 480px) {
-    .footer-newsletter-trade {
-        padding: 1.5rem 0.5rem;
-    }
-
-    .footer-newsletter-trade h3 {
-        font-size: 1.1rem;
-    }
-
-    .footer-newsletter-trade > p {
-        font-size: 0.85rem;
-    }
-
-    .social-links {
-        gap: 0.4rem;
-    }
-
-    .social-link {
-        padding: 8px;
-        font-size: 0;
-        gap: 0;
-    }
-
-    .social-link svg {
-        width: 20px;
-        height: 20px;
-    }
-
-    .footer-bottom-content {
-        gap: 0.3rem 0.75rem;
-    }
-
-    .footer-bottom-content .copyright,
-    .legal-link,
-    .badge-item {
-        font-size: 0.7rem;
-    }
-}
-</style>
-
+<!-- Footer Template - Mobile-First Responsive -->
 <footer class="footer-premium">
     <div class="container">
-        <!-- Newsletter Signup Section (Health Blog) -->
+        <!-- Newsletter Signup Section -->
         <div class="footer-newsletter-trade">
             <h3>Stay Updated with Health Insights</h3>
-            <p>
-                Get weekly updates on diabetes management, AI-powered health tracking, nutrition tips, and wellness strategies.
-            </p>
+            <p>Get weekly updates on diabetes management, AI-powered health tracking, nutrition tips, and wellness strategies.</p>
             <form class="newsletter-form-footer" onsubmit="return handleNewsletterSubmit(event, 'footer')">
                 <div>
                     <input
@@ -302,43 +14,47 @@
                         class="newsletter-input-footer"
                         aria-label="Email address for newsletter"
                     >
-                    <button type="submit" class="newsletter-btn-footer">
-                        Subscribe
-                    </button>
+                    <button type="submit" class="newsletter-btn-footer">Subscribe</button>
                 </div>
-                <div class="newsletter-message" id="newsletter-message-footer" style="margin-top: 0.75rem; font-size: 0.9rem;"></div>
+                <div class="newsletter-message" id="newsletter-message-footer"></div>
             </form>
-            <p style="color: var(--gray-500, #6b7280); font-size: 0.85rem; margin-top: 0.75rem;">
-                No spam. Unsubscribe anytime. See our <a href="https://gheware.com/privacy.html" style="color: var(--primary-light, #60a5fa); text-decoration: none;">Privacy Policy</a>.
-            </p>
+            <p class="footer-privacy-note">No spam. Unsubscribe anytime. See our <a href="https://gheware.com/privacy.html">Privacy Policy</a>.</p>
         </div>
 
-        <!-- Social Media Follow Section -->
+        <!-- Social Media Section -->
         <div class="footer-social">
             <h4>Follow Us</h4>
             <div class="social-links">
-                <!-- YouTube Subscribe -->
-                <a href="https://www.youtube.com/channel/UCOBozgG3sNoupvHoeyhoLFg?sub_confirmation=1" target="_blank" rel="noopener noreferrer"
-                   class="social-link" title="Subscribe on YouTube"
-                   style="background: #FF0000;">
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/channel/UCOBozgG3sNoupvHoeyhoLFg?sub_confirmation=1"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-link social-youtube"
+                   title="Subscribe on YouTube">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                     </svg>
                     <span>Subscribe</span>
                 </a>
-                <!-- Health Gheware Instagram -->
-                <a href="https://www.instagram.com/healthgheware/" target="_blank" rel="noopener noreferrer"
-                   class="social-link" title="Follow Health Gheware on Instagram"
-                   style="background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);">
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/healthgheware/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-link social-instagram"
+                   title="Follow Health Gheware on Instagram">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                     </svg>
                     <span>@healthgheware</span>
                 </a>
-                <!-- LinkedIn - Direct link to company page follow section -->
-                <a href="https://www.linkedin.com/company/gheware-technologies?trk=follow_page" target="_blank" rel="noopener noreferrer"
-                   class="social-link" title="Follow on LinkedIn"
-                   style="background: #0A66C2;">
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/company/gheware-technologies?trk=follow_page"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-link social-linkedin"
+                   title="Follow on LinkedIn">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                     </svg>
@@ -347,6 +63,7 @@
             </div>
         </div>
 
+        <!-- Footer Bottom -->
         <div class="footer-bottom">
             <div class="footer-bottom-content">
                 <p class="copyright">&copy; 2025 Gheware Technologies</p>
@@ -355,7 +72,7 @@
                     <a href="https://gheware.com/terms.html" class="legal-link">Terms</a>
                 </div>
                 <div class="footer-badges">
-                    <span class="badge-item">🔒 SSL</span>
+                    <span class="badge-item">🔒 SSL Secured</span>
                     <span class="badge-item">⚡ 99.9% Uptime</span>
                 </div>
             </div>
@@ -363,116 +80,107 @@
     </div>
 </footer>
 
-<!-- Footer JavaScript -->
+<style>
+/* Footer-specific responsive styles (supplements responsive.css) */
+.footer-privacy-note {
+    color: #6b7280;
+    font-size: 0.8125rem;
+    margin-top: 0.75rem;
+}
+
+.footer-privacy-note a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+.footer-privacy-note a:hover {
+    text-decoration: underline;
+}
+
+/* Social link brand colors */
+.social-youtube { background: #FF0000; }
+.social-instagram { background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); }
+.social-linkedin { background: #0A66C2; }
+</style>
+
 <script>
-    // Newsletter Form Submission Handler
-    async function handleNewsletterSubmit(event, location) {
-        event.preventDefault();
+// Newsletter Form Handler
+async function handleNewsletterSubmit(event, location) {
+    event.preventDefault();
 
-        const form = event.target;
-        const emailInput = form.querySelector('input[type="email"]');
-        const submitBtn = form.querySelector('button[type="submit"]');
-        const messageDiv = document.getElementById(`newsletter-message-${location}`);
+    const form = event.target;
+    const emailInput = form.querySelector('input[type="email"]');
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const messageDiv = document.getElementById(`newsletter-message-${location}`);
 
-        const email = emailInput.value.trim();
+    const email = emailInput.value.trim();
+    const originalBtnText = submitBtn.textContent;
 
-        // Disable form during submission
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Subscribing...';
-        if (messageDiv) {
-            messageDiv.textContent = '';
-            messageDiv.className = 'newsletter-message';
-        }
-
-        try {
-            const response = await fetch('https://health.gheware.com/api/email/subscribe', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    email,
-                    source: `health-blog-${location}`,
-                    metadata: {
-                        page_url: window.location.href,
-                        page_title: document.title
-                    }
-                })
-            });
-
-            if (response.ok) {
-                // Success
-                if (messageDiv) {
-                    messageDiv.textContent = '✅ Successfully subscribed! Check your email for confirmation.';
-                    messageDiv.style.color = '#10b981';
-                }
-                emailInput.value = '';
-
-                // Track subscription with analytics (if available)
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'newsletter_subscribe', {
-                        'event_category': 'engagement',
-                        'event_label': location
-                    });
-                }
-            } else if (response.status === 409) {
-                // Already subscribed
-                if (messageDiv) {
-                    messageDiv.textContent = 'ℹ️ This email is already subscribed.';
-                    messageDiv.style.color = '#f59e0b';
-                }
-            } else {
-                // Error
-                throw new Error('Subscription failed');
-            }
-        } catch (error) {
-            // Fallback: Show message that backend is not yet ready
-            console.log('Newsletter API not yet implemented:', error);
-            if (messageDiv) {
-                messageDiv.textContent = '⚠️ Coming soon! Newsletter signup will be available shortly.';
-                messageDiv.style.color = '#f59e0b';
-            }
-
-            // Optional: Store email in localStorage for later
-            try {
-                const pendingSubscriptions = JSON.parse(localStorage.getItem('pendingNewsletterSubscriptions') || '[]');
-                if (!pendingSubscriptions.includes(email)) {
-                    pendingSubscriptions.push(email);
-                    localStorage.setItem('pendingNewsletterSubscriptions', JSON.stringify(pendingSubscriptions));
-                }
-            } catch (e) {
-                console.error('Failed to store pending subscription:', e);
-            }
-        } finally {
-            // Re-enable form
-            submitBtn.disabled = false;
-            submitBtn.textContent = 'Subscribe';
-        }
-
-        return false;
+    // Disable form during submission
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Subscribing...';
+    if (messageDiv) {
+        messageDiv.textContent = '';
     }
 
-    // Add hover effects to newsletter buttons
-    document.querySelectorAll('.newsletter-btn-footer').forEach(btn => {
-        btn.addEventListener('mouseenter', function() {
-            this.style.transform = 'translateY(-2px)';
-            this.style.boxShadow = '0 10px 20px rgba(37, 99, 235, 0.3)';
+    try {
+        const response = await fetch('https://health.gheware.com/api/email/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                email,
+                source: `health-blog-${location}`,
+                metadata: {
+                    page_url: window.location.href,
+                    page_title: document.title
+                }
+            })
         });
-        btn.addEventListener('mouseleave', function() {
-            this.style.transform = 'translateY(0)';
-            this.style.boxShadow = 'none';
-        });
-    });
 
-    // Add hover effects to social links
-    document.querySelectorAll('.social-link').forEach(link => {
-        link.addEventListener('mouseenter', function() {
-            this.style.transform = 'translateY(-3px)';
-            this.style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.3)';
-        });
-        link.addEventListener('mouseleave', function() {
-            this.style.transform = 'translateY(0)';
-            this.style.boxShadow = 'none';
-        });
-    });
+        if (response.ok) {
+            if (messageDiv) {
+                messageDiv.textContent = '✅ Successfully subscribed!';
+                messageDiv.style.color = '#10b981';
+            }
+            emailInput.value = '';
+
+            // Analytics tracking
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'newsletter_subscribe', {
+                    'event_category': 'engagement',
+                    'event_label': location
+                });
+            }
+        } else if (response.status === 409) {
+            if (messageDiv) {
+                messageDiv.textContent = 'ℹ️ Already subscribed!';
+                messageDiv.style.color = '#f59e0b';
+            }
+        } else {
+            throw new Error('Subscription failed');
+        }
+    } catch (error) {
+        console.log('Newsletter API:', error);
+        if (messageDiv) {
+            messageDiv.textContent = '⚠️ Coming soon!';
+            messageDiv.style.color = '#f59e0b';
+        }
+
+        // Store in localStorage as fallback
+        try {
+            const pending = JSON.parse(localStorage.getItem('pendingNewsletterSubscriptions') || '[]');
+            if (!pending.includes(email)) {
+                pending.push(email);
+                localStorage.setItem('pendingNewsletterSubscriptions', JSON.stringify(pending));
+            }
+        } catch (e) {
+            // Silently fail
+        }
+    } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalBtnText;
+    }
+
+    return false;
+}
 </script>

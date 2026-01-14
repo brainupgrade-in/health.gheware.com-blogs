@@ -28,6 +28,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/premium.css">
     <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <!-- Header will be loaded via template-loader.js -->
@@ -119,27 +120,6 @@
             <div class="pagination-info" id="paginationInfo">
                 <!-- "Showing 1-12 of 76 articles" -->
             </div>
-        </div>
-    </section>
-
-    <!-- Newsletter Signup -->
-    <section class="container" style="margin-top: 2rem; margin-bottom: 2rem;">
-        <div class="newsletter-signup">
-            <h3>📬 Get Weekly Health Insights</h3>
-            <p>Join readers getting weekly updates on diabetes management, AI-powered health tracking, nutrition tips, and wellness strategies</p>
-            <form class="newsletter-form" id="newsletterForm" action="https://health.gheware.com/api/email/subscribe" method="POST">
-                <input
-                    type="email"
-                    name="email"
-                    class="newsletter-input"
-                    placeholder="Enter your email"
-                    required
-                >
-                <button type="submit" class="newsletter-button">Subscribe</button>
-            </form>
-            <p style="font-size: 0.875rem; color: #94a3b8; margin-top: 1rem;">
-                No spam. Unsubscribe anytime.
-            </p>
         </div>
     </section>
 
@@ -312,11 +292,6 @@
                     }
                 });
 
-                // Newsletter form
-                const newsletterForm = document.getElementById('newsletterForm');
-                if (newsletterForm) {
-                    newsletterForm.addEventListener('submit', this.handleNewsletterSubmit.bind(this));
-                }
             },
 
             // Handle category button click
@@ -587,45 +562,6 @@
                 this.elements.categoryFilter.querySelector('[data-category="all"]')?.classList.add('active');
 
                 this.filterAndRender();
-            },
-
-            // Newsletter submission
-            async handleNewsletterSubmit(e) {
-                e.preventDefault();
-                const form = e.target;
-                const email = form.email.value;
-                const button = form.querySelector('button');
-
-                button.disabled = true;
-                button.textContent = 'Subscribing...';
-
-                try {
-                    const response = await fetch(form.action, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({
-                            email,
-                            source: 'health_blog_newsletter',
-                            tags: ['health_blog_subscriber']
-                        })
-                    });
-
-                    if (response.ok) {
-                        button.textContent = '✓ Subscribed!';
-                        button.style.background = '#10b981';
-                        form.reset();
-                        setTimeout(() => {
-                            button.textContent = 'Subscribe';
-                            button.style.background = '';
-                            button.disabled = false;
-                        }, 3000);
-                    } else {
-                        throw new Error('Failed');
-                    }
-                } catch (error) {
-                    button.textContent = 'Try Again';
-                    button.disabled = false;
-                }
             }
         };
 

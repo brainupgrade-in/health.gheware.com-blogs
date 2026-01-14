@@ -1,237 +1,4 @@
-<!-- Header Template -->
-<style>
-/* Header Responsive Styles */
-.header-premium {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background: var(--white, #ffffff);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.header-premium .nav-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 0;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.header-premium .logo-container a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.header-premium .logo-icon {
-    flex-shrink: 0;
-}
-
-.header-premium .logo-svg {
-    width: 40px;
-    height: 40px;
-}
-
-.header-premium .logo-text {
-    display: flex;
-    flex-direction: column;
-}
-
-.header-premium .brand-name {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--gray-900, #1a1a2e);
-}
-
-.header-premium .brand-tagline {
-    font-size: 0.75rem;
-    color: var(--gray-500, #6b7280);
-}
-
-.header-premium .nav-menu {
-    display: flex;
-    align-items: center;
-}
-
-.header-premium .nav-links-premium {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;
-}
-
-.header-premium .nav-link {
-    text-decoration: none;
-    color: var(--gray-700, #374151);
-    font-weight: 500;
-    font-size: 0.95rem;
-    padding: 0.5rem 0;
-    transition: color 0.3s ease;
-    white-space: nowrap;
-}
-
-.header-premium .nav-link:hover {
-    color: var(--primary, #2563eb);
-}
-
-.header-premium .nav-link.external-link {
-    background: var(--gradient-primary, linear-gradient(135deg, #2563eb, #1e40af));
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    font-weight: 600;
-}
-
-.header-premium .nav-link.external-link:hover {
-    color: white;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-}
-
-/* Mobile hamburger menu button */
-.header-premium .mobile-menu-btn {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0.5rem;
-    color: var(--gray-700, #374151);
-}
-
-.header-premium .mobile-menu-btn svg {
-    width: 24px;
-    height: 24px;
-}
-
-/* Tablet (768px - 1024px) */
-@media (max-width: 1024px) {
-    .header-premium .nav-links-premium {
-        gap: 1rem;
-    }
-
-    .header-premium .nav-link {
-        font-size: 0.9rem;
-    }
-
-    .header-premium .nav-link.external-link {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.85rem;
-    }
-}
-
-/* Mobile (< 768px) */
-@media (max-width: 768px) {
-    .header-premium .nav-wrapper {
-        padding: 0.75rem 0;
-    }
-
-    .header-premium .mobile-menu-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 44px;
-        height: 44px;
-        border-radius: 8px;
-        background: var(--gray-100, #f3f4f6);
-    }
-
-    .header-premium .mobile-menu-btn:active {
-        background: var(--gray-200, #e5e7eb);
-    }
-
-    .header-premium .nav-menu {
-        display: none;
-        width: 100%;
-        order: 3;
-        flex-basis: 100%;
-    }
-
-    .header-premium .nav-menu.active {
-        display: block;
-        background: var(--white, #ffffff);
-        border-radius: 12px;
-        margin-top: 0.5rem;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-        border: 1px solid var(--gray-200, #e5e7eb);
-    }
-
-    .header-premium .nav-links-premium {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 0;
-        padding: 0.5rem;
-    }
-
-    .header-premium .nav-links-premium li {
-        border-bottom: none;
-    }
-
-    .header-premium .nav-link {
-        display: block;
-        padding: 1rem 1.25rem;
-        font-size: 1.1rem;
-        font-weight: 500;
-        color: var(--gray-800, #1f2937);
-        border-radius: 8px;
-        transition: background 0.2s ease;
-    }
-
-    .header-premium .nav-link:hover,
-    .header-premium .nav-link:active {
-        background: var(--gray-100, #f3f4f6);
-        color: var(--primary, #2563eb);
-    }
-
-    .header-premium .nav-link.external-link {
-        text-align: center;
-        margin: 0.5rem;
-        padding: 1rem 1.25rem;
-        background: var(--gradient-primary, linear-gradient(135deg, #2563eb, #1e40af));
-        color: white;
-    }
-
-    .header-premium .nav-link.external-link:hover,
-    .header-premium .nav-link.external-link:active {
-        background: var(--gradient-primary, linear-gradient(135deg, #1e40af, #1e3a8a));
-        color: white;
-    }
-
-    .header-premium .logo-svg {
-        width: 36px;
-        height: 36px;
-    }
-
-    .header-premium .brand-name {
-        font-size: 1.1rem;
-    }
-}
-
-/* Small Mobile (< 480px) */
-@media (max-width: 480px) {
-    .header-premium .nav-wrapper {
-        padding: 0.5rem 0;
-    }
-
-    .header-premium .logo-svg {
-        width: 32px;
-        height: 32px;
-    }
-
-    .header-premium .brand-name {
-        font-size: 1rem;
-    }
-
-    .header-premium .brand-tagline {
-        font-size: 0.65rem;
-    }
-}
-</style>
-
+<!-- Header Template - Mobile-First Responsive -->
 <header class="header-premium">
     <nav class="container">
         <div class="nav-wrapper">
@@ -258,18 +25,22 @@
             </div>
 
             <!-- Mobile Menu Button -->
-            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+                <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="3" y1="6" x2="21" y2="6"></line>
                     <line x1="3" y1="12" x2="21" y2="12"></line>
                     <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+                <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
             </button>
 
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-links-premium">
                     <li><a href="/blog/" class="nav-link">Home</a></li>
-                    <li><a href="https://health.gheware.com" class="nav-link external-link">Launch Health App →</a></li>
+                    <li><a href="https://health.gheware.com" class="nav-link external-link">Launch Health App</a></li>
                 </ul>
             </div>
         </div>
@@ -277,45 +48,76 @@
 </header>
 
 <script>
-// Header mobile menu functionality - runs immediately when template loads
+// Header mobile menu functionality
 (function() {
-    // Wait for DOM to be ready, then attach event listeners
     function initMobileMenu() {
         const mobileBtn = document.getElementById('mobile-menu-btn');
         const navMenu = document.getElementById('nav-menu');
+        const menuIcon = mobileBtn?.querySelector('.menu-icon');
+        const closeIcon = mobileBtn?.querySelector('.close-icon');
 
         if (!mobileBtn || !navMenu) {
-            // If elements not found, try again shortly (template might still be loading)
             setTimeout(initMobileMenu, 50);
             return;
         }
 
-        // Mobile menu toggle
+        function toggleMenu() {
+            const isOpen = navMenu.classList.toggle('active');
+            mobileBtn.setAttribute('aria-expanded', isOpen);
+
+            if (menuIcon && closeIcon) {
+                menuIcon.style.display = isOpen ? 'none' : 'block';
+                closeIcon.style.display = isOpen ? 'block' : 'none';
+            }
+        }
+
+        function closeMenu() {
+            navMenu.classList.remove('active');
+            mobileBtn.setAttribute('aria-expanded', 'false');
+
+            if (menuIcon && closeIcon) {
+                menuIcon.style.display = 'block';
+                closeIcon.style.display = 'none';
+            }
+        }
+
+        // Toggle on button click
         mobileBtn.addEventListener('click', function(e) {
             e.stopPropagation();
-            navMenu.classList.toggle('active');
+            toggleMenu();
         });
 
-        // Close mobile menu when clicking outside
+        // Close on outside click
         document.addEventListener('click', function(event) {
             if (!navMenu.contains(event.target) && !mobileBtn.contains(event.target)) {
-                navMenu.classList.remove('active');
+                closeMenu();
             }
         });
 
-        // Close mobile menu when window is resized above mobile breakpoint
-        window.addEventListener('resize', function() {
-            if (window.innerWidth > 768) {
-                navMenu.classList.remove('active');
+        // Close on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+                closeMenu();
+                mobileBtn.focus();
             }
+        });
+
+        // Close on resize to desktop
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 768) {
+                closeMenu();
+            }
+        });
+
+        // Close menu when a link is clicked
+        navMenu.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', closeMenu);
         });
     }
 
-    // Initialize when DOM is ready
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initMobileMenu);
     } else {
-        // DOM already loaded, initialize immediately
         initMobileMenu();
     }
 })();

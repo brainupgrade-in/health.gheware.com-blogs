@@ -44,6 +44,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../../../css/premium.css">
     <link rel="stylesheet" href="../../../css/blog.css">
+    <link rel="stylesheet" href="../../../css/responsive.css">
 
     <!-- Google Analytics -->
     <script src="../../../js/analytics-loader.js"></script>
@@ -846,18 +847,7 @@
                 </div>
             </div>
 
-            <!-- Newsletter CTA -->
-            <div style="background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%); border-radius: 12px; padding: 2rem; margin: 2rem 0; text-align: center; color: white;">
-                <h3 style="color: white; margin: 0 0 0.5rem 0;">📬 Stay Informed About Diabetes Testing</h3>
-                <p style="color: rgba(255,255,255,0.9); margin: 0 0 1.5rem 0;">Join our newsletter for the latest on diabetes diagnosis, testing, and management.</p>
-                <form id="newsletter-form" style="display: flex; gap: 0.5rem; max-width: 400px; margin: 0 auto;">
-                    <input type="email" id="newsletter-email" placeholder="Enter your email" required style="flex: 1; padding: 0.75rem 1rem; border: none; border-radius: 8px; font-size: 1rem;">
-                    <button type="submit" style="background: white; color: #1d4ed8; border: none; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 600; cursor: pointer;">Subscribe</button>
-                </form>
-                <p id="newsletter-message" style="margin: 1rem 0 0 0; font-size: 0.9rem;"></p>
-            </div>
-
-            <!-- Medical Disclaimer -->
+<!-- Medical Disclaimer -->
             <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 1.5rem; margin: 2rem 0; font-size: 0.85rem;">
                 <h4 style="margin: 0 0 1rem 0; color: #991b1b;">⚠️ Medical Disclaimer</h4>
                 <p style="margin: 0 0 0.75rem 0; color: #7f1d1d;"><strong>This article is for educational and informational purposes only and does not constitute medical advice.</strong></p>
@@ -874,34 +864,5 @@
 
     <!-- Template Loader -->
     <script src="../../../js/template-loader.js"></script>
-
-    <!-- Newsletter Form Handler -->
-    <script>
-        document.getElementById('newsletter-form').addEventListener('submit', async function(e) {
-            e.preventDefault();
-            const email = document.getElementById('newsletter-email').value;
-            const messageEl = document.getElementById('newsletter-message');
-
-            try {
-                const response = await fetch('https://health.gheware.com/api/email/subscribe', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ email: email, source: 'health_blog_post' })
-                });
-
-                if (response.ok) {
-                    messageEl.textContent = '✓ Thanks for subscribing! Check your inbox.';
-                    messageEl.style.color = '#86efac';
-                    document.getElementById('newsletter-email').value = '';
-                } else {
-                    messageEl.textContent = 'Something went wrong. Please try again.';
-                    messageEl.style.color = '#fca5a5';
-                }
-            } catch (error) {
-                messageEl.textContent = 'Network error. Please try again later.';
-                messageEl.style.color = '#fca5a5';
-            }
-        });
-    </script>
 </body>
 </html>

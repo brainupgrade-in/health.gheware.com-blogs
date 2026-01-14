@@ -42,6 +42,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../../../css/premium.css">
   <link rel="stylesheet" href="../../../css/blog.css">
+    <link rel="stylesheet" href="../../../css/responsive.css">
 
   <!-- Analytics -->
   <script src="../../../js/analytics-loader.js"></script>
@@ -1194,25 +1195,7 @@
         <p style="margin-bottom: 0;"><strong>Last Updated:</strong> November 16, 2025</p>
       </div>
 
-      <!-- Newsletter Signup -->
-      <div class="newsletter-signup">
-        <h3>📬 Get Weekly Health Insights</h3>
-        <p>Join 2,000+ readers getting weekly tips on diabetes management, health tracking, and AI-powered wellness</p>
-        <form class="newsletter-form" id="newsletterForm" action="https://health.gheware.com/api/email/subscribe" method="POST">
-          <input
-            type="email"
-            name="email"
-            class="newsletter-input"
-            placeholder="Enter your email"
-            required
-          >
-          <button type="submit" class="newsletter-button">Subscribe</button>
-        </form>
-        <p style="font-size: 0.875rem; color: #94a3b8; margin-top: 1rem;">
-          No spam. Unsubscribe anytime. Privacy guaranteed.
-        </p>
-      </div>
-    </footer>
+</footer>
   </article>
 
   <!-- Template Loader (MUST be loaded first) -->
@@ -1237,54 +1220,6 @@
           }
         });
       });
-
-      // Newsletter form submission
-      if (document.getElementById('newsletterForm')) {
-        document.getElementById('newsletterForm').addEventListener('submit', async (e) => {
-          e.preventDefault();
-          const form = e.target;
-          const email = form.email.value;
-          const button = form.querySelector('button');
-
-          button.disabled = true;
-          button.textContent = 'Subscribing...';
-
-          try {
-            const response = await fetch(form.action, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-              },
-              body: JSON.stringify({
-                email: email,
-                source: 'health_blog_android_app_guide',
-                tags: ['health_subscriber', 'android_app'],
-                metadata: {
-                  post_url: window.location.href,
-                  post_title: document.title
-                }
-              })
-            });
-
-            if (response.ok) {
-              button.textContent = '✓ Subscribed!';
-              button.style.background = '#10b981';
-              form.reset();
-              setTimeout(() => {
-                button.textContent = 'Subscribe';
-                button.style.background = '';
-                button.disabled = false;
-              }, 3000);
-            } else {
-              throw new Error('Subscription failed');
-            }
-          } catch (error) {
-            button.textContent = 'Try Again';
-            button.disabled = false;
-            alert('Subscription failed. Please try again.');
-          }
-        });
-      }
 
       // Add animation on load
       const heroElements = document.querySelectorAll('.blog-post-hero-content > *');

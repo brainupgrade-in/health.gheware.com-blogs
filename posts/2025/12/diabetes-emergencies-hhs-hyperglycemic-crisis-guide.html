@@ -44,6 +44,7 @@
     <!-- CSS (Correct paths - 4 levels up from /posts/2025/12/) -->
     <link rel="stylesheet" href="../../../css/premium.css">
     <link rel="stylesheet" href="../../../css/blog.css">
+    <link rel="stylesheet" href="../../../css/responsive.css">
 
     <!-- Google Analytics (GA4) - Reusable Loader -->
     <script src="../../../js/analytics-loader.js"></script>
@@ -892,39 +893,7 @@
                 </ul>
             </div>
 
-            <!-- Newsletter CTA -->
-            <div style="background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%); color: white; padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
-                <h3 style="color: white; margin-top: 0;">Get Life-Saving Diabetes Information</h3>
-                <p style="margin: 1rem 0; opacity: 0.95;">Join thousands who receive our weekly health insights. Evidence-based guidance for better diabetes management.</p>
-                <form id="newsletter-form" style="display: flex; gap: 0.5rem; max-width: 400px; margin: 0 auto;">
-                    <input type="email" placeholder="Enter your email" required style="flex: 1; padding: 0.75rem 1rem; border: none; border-radius: 8px; font-size: 1rem;">
-                    <button type="submit" style="background: white; color: #0284c7; border: none; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 600; cursor: pointer;">Subscribe</button>
-                </form>
-                <p style="margin: 1rem 0 0 0; font-size: 0.85rem; opacity: 0.8;">No spam. Unsubscribe anytime.</p>
-            </div>
-            <script>
-                document.getElementById('newsletter-form').addEventListener('submit', async (e) => {
-                    e.preventDefault();
-                    const email = e.target.querySelector('input[type="email"]').value;
-                    try {
-                        const response = await fetch('https://health.gheware.com/api/email/subscribe', {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({ email, source: 'health_blog_post' })
-                        });
-                        if (response.ok) {
-                            alert('Thank you for subscribing!');
-                            e.target.reset();
-                        } else {
-                            alert('Subscription failed. Please try again.');
-                        }
-                    } catch (error) {
-                        alert('Subscription failed. Please try again.');
-                    }
-                });
-            </script>
-
-            <!-- Medical Disclaimer -->
+<!-- Medical Disclaimer -->
             <div class="disclaimer-box" style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 1.5rem; margin: 2rem 0; font-size: 0.875rem; color: #7f1d1d;">
                 <h4 style="margin-top: 0; color: #dc2626;">⚠️ CRITICAL Medical Disclaimer</h4>
                 <p><strong>This article is for educational purposes ONLY and does NOT constitute medical advice.</strong></p>
