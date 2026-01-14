@@ -48,12 +48,16 @@
 
 <style>
 /* Collapsible Disclaimer Styles */
+#disclaimer-placeholder {
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
 .disclaimer-compact {
     background: linear-gradient(135deg, #fef2f2 0%, #fff5f5 100%);
     border: 1px solid #fecaca;
     border-radius: 12px;
-    margin: 2rem auto;
-    max-width: 800px;
+    max-width: 100%;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(239, 68, 68, 0.08);
 }
@@ -179,8 +183,11 @@
 
 /* Mobile */
 @media (max-width: 640px) {
-    .disclaimer-compact {
+    #disclaimer-placeholder {
         margin: 1.5rem 0.5rem;
+    }
+
+    .disclaimer-compact {
         border-radius: 8px;
     }
 
