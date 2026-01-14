@@ -165,6 +165,19 @@
     }
 
     /**
+     * Load disclaimer template (for blog posts)
+     */
+    async function loadDisclaimer() {
+        // Only load if there's a disclaimer-placeholder
+        const placeholder = document.getElementById('disclaimer-placeholder');
+        if (placeholder) {
+            await loadTemplate('disclaimer', '#disclaimer-placeholder', {
+                position: 'afterbegin'
+            });
+        }
+    }
+
+    /**
      * Initialize templates
      * Call this function when DOM is ready
      */
@@ -172,11 +185,12 @@
         console.log('🔄 Loading templates...');
 
         // Load header and footer in parallel (always)
-        // Load author bio if placeholder exists (blog posts only)
+        // Load author bio and disclaimer if placeholders exist (blog posts only)
         await Promise.all([
             loadHeader(),
             loadFooter(),
-            loadAuthorBio()
+            loadAuthorBio(),
+            loadDisclaimer()
         ]);
 
         console.log('✅ All templates loaded');
@@ -199,6 +213,7 @@
         loadHeader,
         loadFooter,
         loadAuthorBio,
+        loadDisclaimer,
         init: initTemplates
     };
 })();
