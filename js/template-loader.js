@@ -164,7 +164,7 @@
                     // Fix image paths to use correct base URL
                     const authorImg = placeholder.querySelector('.author-avatar');
                     if (authorImg) {
-                        authorImg.src = SITE_BASE + 'assets/images/rajesh-gheware.jpg';
+                        authorImg.src = SITE_BASE + 'assets/images/rajesh-gheware.png';
                         authorImg.onerror = function() {
                             this.src = SITE_BASE + 'images/rajesh-gheware.jpg';
                         };
