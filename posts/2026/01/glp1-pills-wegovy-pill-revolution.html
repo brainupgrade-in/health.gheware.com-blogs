@@ -41,13 +41,22 @@
     <meta name="twitter:description" content="First FDA-approved oral GLP-1 for weight loss. 14-16% weight loss, $149-$299/month, no needles. Complete guide to the Wegovy pill.">
     <meta name="twitter:image" content="https://health.gheware.com/blog/assets/images/glp1-pills-wegovy-revolution-hero.jpg">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../../../css/premium.css">
-    <link rel="stylesheet" href="../../../css/blog.css">
-    <link rel="stylesheet" href="../../../css/responsive.css">
+    <!-- Critical CSS Preload -->
+    <link rel="preload" href="../../../css/critical.css" as="style">
+
+    <!-- CSS (async loaded for non-blocking render) -->
+    <link rel="stylesheet" href="../../../css/critical.css">
+    <link rel="stylesheet" href="../../../css/premium.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/blog.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/responsive.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../../../css/premium.css">
+        <link rel="stylesheet" href="../../../css/blog.css">
+        <link rel="stylesheet" href="../../../css/responsive.css">
+    </noscript>
 
     <!-- Google Analytics (GA4) -->
-    <script src="../../../js/analytics-loader.js"></script>
+    <script defer src="../../../js/analytics-loader.js"></script>
 
     <!-- Schema.org BlogPosting Markup -->
     <script type="application/ld+json">
@@ -1073,7 +1082,7 @@
     <div id="footer-placeholder"></div>
 
     <!-- Template Loader -->
-    <script src="../../../js/template-loader.js"></script>
+    <script defer src="../../../js/template-loader.js"></script>
 
     <!-- Page-specific JavaScript -->
     <script>

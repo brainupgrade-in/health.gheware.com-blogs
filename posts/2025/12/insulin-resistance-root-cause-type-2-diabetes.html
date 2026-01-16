@@ -41,13 +41,22 @@
     <meta name="twitter:description" content="Understand insulin resistance—the hidden driver behind Type 2 diabetes. Learn causes, symptoms, and 7 strategies to reverse it naturally.">
     <meta name="twitter:image" content="https://health.gheware.com/blog/assets/images/insulin-resistance-hero.jpg">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../../../css/premium.css">
-    <link rel="stylesheet" href="../../../css/blog.css">
-    <link rel="stylesheet" href="../../../css/responsive.css">
+    <!-- Critical CSS Preload -->
+    <link rel="preload" href="../../../css/critical.css" as="style">
+
+    <!-- CSS (async loaded for non-blocking render) -->
+    <link rel="stylesheet" href="../../../css/critical.css">
+    <link rel="stylesheet" href="../../../css/premium.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/blog.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/responsive.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../../../css/premium.css">
+        <link rel="stylesheet" href="../../../css/blog.css">
+        <link rel="stylesheet" href="../../../css/responsive.css">
+    </noscript>
 
     <!-- Google Analytics (GA4) - Reusable Loader -->
-    <script src="../../../js/analytics-loader.js"></script>
+    <script defer src="../../../js/analytics-loader.js"></script>
 
     <!-- Schema.org BlogPosting Markup -->
     <script type="application/ld+json">
@@ -936,7 +945,7 @@
     <div id="footer-placeholder"></div>
 
     <!-- Template Loader -->
-    <script src="../../../js/template-loader.js"></script>
+    <script defer src="../../../js/template-loader.js"></script>
 <script>
         document.addEventListener('templatesLoaded', function() {
 

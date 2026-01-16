@@ -41,13 +41,22 @@
     <meta name="twitter:description" content="Discover the coffee paradox: caffeine spikes blood sugar short-term, yet 3-4 cups daily reduces diabetes risk by 25%. Learn timing and genetics.">
     <meta name="twitter:image" content="https://health.gheware.com/blog/assets/images/coffee-blood-sugar-hero.png">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../../../css/premium.css">
-    <link rel="stylesheet" href="../../../css/blog.css">
-    <link rel="stylesheet" href="../../../css/responsive.css">
+    <!-- Critical CSS Preload -->
+    <link rel="preload" href="../../../css/critical.css" as="style">
+
+    <!-- CSS (async loaded for non-blocking render) -->
+    <link rel="stylesheet" href="../../../css/critical.css">
+    <link rel="stylesheet" href="../../../css/premium.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/blog.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/responsive.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../../../css/premium.css">
+        <link rel="stylesheet" href="../../../css/blog.css">
+        <link rel="stylesheet" href="../../../css/responsive.css">
+    </noscript>
 
     <!-- Google Analytics (GA4) -->
-    <script src="../../../js/analytics-loader.js"></script>
+    <script defer src="../../../js/analytics-loader.js"></script>
 
     <!-- Schema.org BlogPosting Markup -->
     <script type="application/ld+json">
@@ -732,7 +741,7 @@
     <div id="footer-placeholder"></div>
 
     <!-- Template Loader -->
-    <script src="../../../js/template-loader.js"></script>
+    <script defer src="../../../js/template-loader.js"></script>
 
     <!-- Page-specific JavaScript -->
     <script>

@@ -1,7 +1,5 @@
 /* Blog Styles for Gheware.com - Premium Design */
-
-/* Import parent styles */
-@import url('premium.css');
+/* Note: premium.css is loaded separately to avoid render-blocking @import */
 
 /* Blog-specific variables */
 :root {

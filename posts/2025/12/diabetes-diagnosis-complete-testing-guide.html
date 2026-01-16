@@ -41,13 +41,22 @@
     <meta name="twitter:description" content="ADA 2025 diabetes diagnostic criteria. Complete guide to HbA1c, fasting glucose, OGTT, and autoantibody testing.">
     <meta name="twitter:image" content="https://health.gheware.com/blog/assets/images/diabetes-diagnosis-testing-hero.jpg">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../../../css/premium.css">
-    <link rel="stylesheet" href="../../../css/blog.css">
-    <link rel="stylesheet" href="../../../css/responsive.css">
+    <!-- Critical CSS Preload -->
+    <link rel="preload" href="../../../css/critical.css" as="style">
+
+    <!-- CSS (async loaded for non-blocking render) -->
+    <link rel="stylesheet" href="../../../css/critical.css">
+    <link rel="stylesheet" href="../../../css/premium.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/blog.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/responsive.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../../../css/premium.css">
+        <link rel="stylesheet" href="../../../css/blog.css">
+        <link rel="stylesheet" href="../../../css/responsive.css">
+    </noscript>
 
     <!-- Google Analytics -->
-    <script src="../../../js/analytics-loader.js"></script>
+    <script defer src="../../../js/analytics-loader.js"></script>
 
     <!-- Schema.org BlogPosting -->
     <script type="application/ld+json">
@@ -887,6 +896,6 @@
     <div id="footer-placeholder"></div>
 
     <!-- Template Loader -->
-    <script src="../../../js/template-loader.js"></script>
+    <script defer src="../../../js/template-loader.js"></script>
 </body>
 </html>
