@@ -25,14 +25,14 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Custom selection color */
+/* Custom selection color - Health Green Theme */
 ::selection {
-    background: #667eea;
+    background: #22c55e;
     color: white;
 }
 
 ::-moz-selection {
-    background: #667eea;
+    background: #22c55e;
     color: white;
 }
 
@@ -46,7 +46,7 @@ html {
 /* Premium Blog Hero Section - Compact */
 .blog-hero {
     position: relative;
-    background: url('../assets/images/blog-page-hero.jpg') center center / cover no-repeat;
+    background: url('../assets/images/blog-page-hero.png') center center / cover no-repeat;
     color: white;
     padding: 2.5rem 0 3rem 0;
     overflow: hidden;
@@ -60,7 +60,7 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(30, 41, 59, 0.8) 50%, rgba(37, 99, 235, 0.8) 100%);
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.5) 0%, rgba(30, 41, 59, 0.4) 50%, rgba(34, 197, 94, 0.3) 100%);
     z-index: 0;
 }
 
@@ -70,15 +70,11 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.2;
+    opacity: 1;
 }
 
 .blog-hero-pattern {
-    background-image: radial-gradient(circle at 25% 25%, rgba(37, 99, 235, 0.4) 0%, transparent 50%),
-                      radial-gradient(circle at 75% 75%, rgba(16, 185, 129, 0.4) 0%, transparent 50%);
-    width: 100%;
-    height: 100%;
-    animation: patternMove 20s ease-in-out infinite alternate;
+    display: none;
 }
 
 @keyframes patternMove {
@@ -115,8 +111,8 @@ html {
 }
 
 @keyframes badgeGlow {
-    0%, 100% { box-shadow: 0 0 20px rgba(37, 99, 235, 0.4); }
-    50% { box-shadow: 0 0 40px rgba(37, 99, 235, 0.6); }
+    0%, 100% { box-shadow: 0 0 20px rgba(34, 197, 94, 0.4); }
+    50% { box-shadow: 0 0 40px rgba(34, 197, 94, 0.6); }
 }
 
 .badge-icon {
@@ -146,27 +142,202 @@ html {
 }
 
 .blog-hero-title {
-    font-size: 2.5rem;
+    font-size: clamp(1.75rem, 5vw, 2.75rem);
     font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 0.75rem;
+    line-height: 1.15;
+    margin-bottom: 1rem;
     animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
 .title-gradient {
+    display: block;
     background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
+.title-highlight {
+    display: block;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 50%, #15803d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%, 100% { filter: brightness(1); }
+    50% { filter: brightness(1.2); }
+}
+
+/* Live Dot Animation */
+.badge-live-dot {
+    width: 8px;
+    height: 8px;
+    background: #22c55e;
+    border-radius: 50%;
+    animation: livePulse 1.5s ease-in-out infinite;
+}
+
+@keyframes livePulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.2); }
+}
+
+/* Value Props - Horizontal Scannable Benefits */
+.hero-value-props {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    animation: fadeInUp 0.8s ease-out 0.3s both;
+}
+
+.value-prop {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+}
+
+.value-prop:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.value-icon {
+    width: 16px;
+    height: 16px;
+    stroke: #22c55e;
+    flex-shrink: 0;
+}
+
 .blog-hero-description {
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.85);
-    max-width: 600px;
-    margin: 0 auto;
+    font-size: 0.9375rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 500px;
+    margin: 0 auto 1.25rem;
     line-height: 1.5;
     animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+/* Hero Stats Bar */
+.hero-stats-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    animation: fadeInUp 0.8s ease-out 0.5s both;
+}
+
+.hero-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.hero-stat-number {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #22c55e;
+    font-variant-numeric: tabular-nums;
+}
+
+.hero-stat-label {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+
+.hero-stat-divider {
+    width: 1px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Hero CTA Buttons */
+.hero-cta-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.hero-cta-primary,
+.hero-cta-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.hero-cta-primary {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    color: white;
+    box-shadow: 0 4px 20px rgba(34, 197, 94, 0.4);
+}
+
+.hero-cta-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px rgba(34, 197, 94, 0.5);
+}
+
+.hero-cta-primary svg {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(3px); }
+}
+
+.hero-cta-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-cta-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.hero-cta-secondary svg {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    transition: transform 0.3s ease;
+}
+
+.hero-cta-secondary:hover svg {
+    transform: translateX(4px);
 }
 
 .blog-hero-stats {
