@@ -279,7 +279,8 @@ strong { font-weight: 600; }
    PREVENT LAYOUT SHIFT - Reserve space
    ======================================== */
 #header-placeholder {
-    min-height: 60px;
+    /* Removed: Header is now inserted before this element, not inside it */
+    min-height: 0;
 }
 
 /* Image placeholder to prevent CLS */
