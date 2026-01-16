@@ -1,5 +1,5 @@
-/* Critical CSS - Above-the-fold styles for faster initial render */
-/* This file should be inlined in <head> for optimal performance */
+/* Critical CSS - Above-the-fold styles for LCP optimization */
+/* Includes hero section, navigation, and initial content styles */
 
 /* Essential Root Variables */
 :root {
@@ -7,9 +7,15 @@
     --primary-dark: #1e40af;
     --secondary: #10b981;
     --dark: #0f172a;
+    --dark-soft: #1e293b;
+    --gray-900: #111827;
+    --gray-800: #1f2937;
     --gray-700: #374151;
     --gray-600: #4b5563;
+    --gray-500: #6b7280;
+    --gray-400: #9ca3af;
     --gray-100: #f3f4f6;
+    --gray-50: #f9fafb;
     --white: #ffffff;
     --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Helvetica Neue', Arial, sans-serif;
     --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -25,9 +31,19 @@ body {
     color: var(--gray-700);
     background: var(--white);
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-/* Header - Critical for LCP */
+/* Container */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* ========================================
+   HEADER/NAV - Critical for initial render
+   ======================================== */
 .premium-nav {
     background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(20px);
@@ -55,59 +71,224 @@ body {
 .logo-brand { color: white; font-weight: 700; font-size: 1.125rem; line-height: 1.2; }
 .logo-tagline { color: rgba(255, 255, 255, 0.7); font-size: 0.75rem; }
 
-/* Blog Article Container - Critical */
-.blog-container { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
-.blog-article { max-width: var(--blog-max-width); margin: 0 auto; }
-.blog-article-header { margin-bottom: 2rem; }
+/* ========================================
+   BLOG POST HERO - LCP CRITICAL ELEMENT
+   ======================================== */
+.blog-post-hero {
+    position: relative;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #2563eb 100%);
+    color: white;
+    padding: 3rem 0 4rem 0;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    /* Ensure background image renders immediately */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-/* Hero Image - Critical for LCP */
-.blog-hero-image {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
+.blog-post-hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.12;
+}
+
+.blog-post-hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Breadcrumb */
+.blog-post-breadcrumb {
     margin-bottom: 1.5rem;
-    display: block;
-}
-.blog-hero-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    display: block;
 }
 
-/* Typography - Critical */
-h1, .blog-title {
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
-    font-weight: 800;
+.breadcrumb-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Category Badge */
+.blog-post-category-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.category-icon {
+    font-size: 1.125rem;
+}
+
+/* Hero Title - Primary LCP Element */
+.blog-post-hero-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 2rem;
+    color: white;
+    letter-spacing: -0.02em;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Meta */
+.blog-post-hero-meta {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    flex-wrap: wrap;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+.meta-icon {
+    font-size: 1.125rem;
+}
+
+.meta-divider {
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 300;
+}
+
+/* ========================================
+   BLOG POST CONTENT - Initial visible area
+   ======================================== */
+.blog-post-content {
+    padding: 0 1rem;
+}
+
+.blog-post-content .container {
+    max-width: 800px;
+}
+
+/* Key Takeaways Box - Often visible above fold */
+.blog-post-content > .container > div:first-child {
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+/* ========================================
+   TYPOGRAPHY - Critical for text rendering
+   ======================================== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-body);
+    font-weight: 700;
     line-height: 1.2;
     color: var(--dark);
-    margin-bottom: 1rem;
 }
-h2 { font-size: 1.5rem; font-weight: 700; color: var(--dark); margin: 2rem 0 1rem; }
-h3 { font-size: 1.25rem; font-weight: 600; color: var(--dark); margin: 1.5rem 0 0.75rem; }
+
+h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; }
+h2 { font-size: 1.5rem; margin: 2rem 0 1rem; }
+h3 { font-size: 1.25rem; margin: 1.5rem 0 0.75rem; }
+
 p { margin-bottom: 1rem; }
 a { color: var(--primary); text-decoration: none; }
 ul, ol { margin-bottom: 1rem; padding-left: 1.5rem; }
 li { margin-bottom: 0.5rem; }
+strong { font-weight: 600; }
 
-/* Meta Info */
-.blog-meta { display: flex; flex-wrap: wrap; gap: 1rem; color: var(--gray-600); font-size: 0.875rem; margin-bottom: 1.5rem; }
+/* ========================================
+   RESPONSIVE - Mobile critical styles
+   ======================================== */
+@media (max-width: 768px) {
+    .container { padding: 0 1rem; }
+    .nav-wrapper { padding: 0 1rem; }
 
-/* Reading Progress Bar */
-.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: var(--primary); z-index: 1001; width: 0; }
+    .blog-post-hero {
+        padding: 2rem 0 3rem 0;
+    }
 
-/* Content Boxes - Visible above fold */
-.info-box, .cta-box {
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    border-radius: 8px;
-    border-left: 4px solid var(--primary);
-    background: #eff6ff;
+    .blog-post-hero-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .blog-post-hero-meta {
+        gap: 1rem;
+    }
+
+    .blog-post-category-badge {
+        padding: 0.5rem 1rem;
+        font-size: 0.8125rem;
+    }
 }
 
-/* Responsive - Mobile First */
-@media (max-width: 768px) {
-    .nav-wrapper { padding: 0 1rem; }
-    .blog-container { padding: 1rem; }
-    h1, .blog-title { font-size: 1.5rem; }
+@media (max-width: 480px) {
+    .blog-post-hero-title {
+        font-size: 1.75rem;
+    }
+
+    .blog-post-hero-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .meta-divider {
+        display: none;
+    }
+}
+
+/* ========================================
+   READING PROGRESS BAR
+   ======================================== */
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: var(--primary);
+    z-index: 1001;
+    width: 0;
+}
+
+/* ========================================
+   PREVENT LAYOUT SHIFT - Reserve space
+   ======================================== */
+#header-placeholder {
+    min-height: 60px;
+}
+
+/* Image placeholder to prevent CLS */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero image specific - prevent layout shift */
+.blog-hero-image,
+.blog-hero-image img {
+    width: 100%;
+    aspect-ratio: 1200 / 630;
+    object-fit: cover;
+    border-radius: 12px;
 }
