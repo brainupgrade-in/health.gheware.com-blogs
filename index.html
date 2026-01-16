@@ -184,11 +184,27 @@
         </nav>
     </section>
 
+    <!-- Top Pagination -->
+    <section class="container pagination-top" id="paginationContainerTop" style="display: none;">
+        <div class="pagination-container">
+            <div class="pagination" id="paginationTop"></div>
+            <div class="pagination-info" id="paginationInfoTop"></div>
+        </div>
+    </section>
+
     <!-- Blog Posts Grid -->
     <section class="container" style="margin-top: 1rem;">
         <div class="blog-grid" id="blogGrid">
             <!-- Loading spinner shown initially -->
             <div class="loading-spinner"></div>
+        </div>
+    </section>
+
+    <!-- Bottom Pagination -->
+    <section class="container" id="paginationContainerBottom" style="display: none;">
+        <div class="pagination-container">
+            <div class="pagination" id="paginationBottom"></div>
+            <div class="pagination-info" id="paginationInfoBottom"></div>
         </div>
     </section>
 
@@ -267,14 +283,14 @@
                     searchResultsCounter: document.getElementById('searchResultsCounter'),
                     resultsCount: document.getElementById('resultsCount'),
                     clearAllFilters: document.getElementById('clearAllFilters'),
-                    // Bottom pagination
-                    pagination: document.getElementById('pagination'),
-                    paginationContainer: document.getElementById('paginationContainer'),
-                    paginationInfo: document.getElementById('paginationInfo'),
                     // Top pagination
                     paginationTop: document.getElementById('paginationTop'),
                     paginationContainerTop: document.getElementById('paginationContainerTop'),
-                    paginationInfoTop: document.getElementById('paginationInfoTop')
+                    paginationInfoTop: document.getElementById('paginationInfoTop'),
+                    // Bottom pagination
+                    paginationBottom: document.getElementById('paginationBottom'),
+                    paginationContainerBottom: document.getElementById('paginationContainerBottom'),
+                    paginationInfoBottom: document.getElementById('paginationInfoBottom')
                 };
             },
 
@@ -438,8 +454,106 @@
             filterAndRender() {
                 this.filterPosts();
                 this.renderPosts();
+                this.renderPagination();
                 this.updateResultsCounter();
                 this.updateURL();
+            },
+
+            // Render pagination
+            renderPagination() {
+                const totalPages = Math.ceil(this.filteredPosts.length / this.postsPerPage);
+                const currentPage = this.currentPage;
+
+                // Hide pagination if only one page
+                if (totalPages <= 1) {
+                    this.elements.paginationContainerTop.style.display = 'none';
+                    this.elements.paginationContainerBottom.style.display = 'none';
+                    return;
+                }
+
+                // Show pagination containers
+                this.elements.paginationContainerTop.style.display = 'block';
+                this.elements.paginationContainerBottom.style.display = 'block';
+
+                // Generate pagination HTML
+                let paginationHTML = '';
+
+                // Previous button
+                paginationHTML += `
+                    <button class="pagination-btn nav-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="BlogApp.goToPage(${currentPage - 1})">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m15 18-6-6 6-6"/>
+                        </svg>
+                        <span>Prev</span>
+                    </button>
+                `;
+
+                // Page numbers
+                const maxVisiblePages = 5;
+                let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+                let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+                if (endPage - startPage + 1 < maxVisiblePages) {
+                    startPage = Math.max(1, endPage - maxVisiblePages + 1);
+                }
+
+                // First page + ellipsis
+                if (startPage > 1) {
+                    paginationHTML += `<button class="pagination-btn" onclick="BlogApp.goToPage(1)">1</button>`;
+                    if (startPage > 2) {
+                        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+                    }
+                }
+
+                // Page number buttons
+                for (let i = startPage; i <= endPage; i++) {
+                    paginationHTML += `
+                        <button class="pagination-btn ${i === currentPage ? 'active' : ''}" onclick="BlogApp.goToPage(${i})">${i}</button>
+                    `;
+                }
+
+                // Last page + ellipsis
+                if (endPage < totalPages) {
+                    if (endPage < totalPages - 1) {
+                        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+                    }
+                    paginationHTML += `<button class="pagination-btn" onclick="BlogApp.goToPage(${totalPages})">${totalPages}</button>`;
+                }
+
+                // Next button
+                paginationHTML += `
+                    <button class="pagination-btn nav-btn" ${currentPage === totalPages ? 'disabled' : ''} onclick="BlogApp.goToPage(${currentPage + 1})">
+                        <span>Next</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m9 18 6-6-6-6"/>
+                        </svg>
+                    </button>
+                `;
+
+                // Update both pagination areas
+                this.elements.paginationTop.innerHTML = paginationHTML;
+                this.elements.paginationBottom.innerHTML = paginationHTML;
+
+                // Update info
+                const start = (currentPage - 1) * this.postsPerPage + 1;
+                const end = Math.min(currentPage * this.postsPerPage, this.filteredPosts.length);
+                const infoHTML = `Showing <strong>${start}-${end}</strong> of <strong>${this.filteredPosts.length}</strong> articles`;
+                this.elements.paginationInfoTop.innerHTML = infoHTML;
+                this.elements.paginationInfoBottom.innerHTML = infoHTML;
+            },
+
+            // Go to specific page
+            goToPage(page) {
+                const totalPages = Math.ceil(this.filteredPosts.length / this.postsPerPage);
+                if (page < 1 || page > totalPages) return;
+
+                this.currentPage = page;
+                this.renderPosts();
+                this.renderPagination();
+                this.updateURL();
+
+                // Scroll to top of grid
+                this.elements.blogGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
             },
 
             // Render posts to grid
