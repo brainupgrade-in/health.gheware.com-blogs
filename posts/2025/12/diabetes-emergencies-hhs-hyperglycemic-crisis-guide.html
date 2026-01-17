@@ -223,6 +223,29 @@
       ]
     }
     </script>
+    <!-- VideoObject Schema for Embedded YouTube Short -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "Blood Sugar Over 600? This Kills 1 in 5 Diabetics - HHS Emergency Warning Signs",
+      "description": "40-second animated short explaining the critical warning signs of HHS (Hyperosmolar Hyperglycemic State), a life-threatening diabetes emergency with 20% mortality rate. Learn when to call 911.",
+      "thumbnailUrl": "https://img.youtube.com/vi/DHWt66T15UA/maxresdefault.jpg",
+      "uploadDate": "2026-01-17T00:00:00+05:30",
+      "duration": "PT40S",
+      "contentUrl": "https://www.youtube.com/watch?v=DHWt66T15UA",
+      "embedUrl": "https://www.youtube.com/embed/DHWt66T15UA",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Health Gheware",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.gheware.com/logo.png"
+        }
+      }
+    }
+    </script>
+
     <!-- Hero Image Preload for LCP -->
     <link rel="preload" as="image" href="../../../assets/images/diabetes-emergencies-hhs-hero.jpg" fetchpriority="high">
 </head>
@@ -284,6 +307,24 @@
             <!-- Opening Summary -->
             <div style="font-size: 1.1rem; line-height: 1.8; color: #334155; margin-bottom: 2rem;">
                 <p><strong>Hyperglycemic emergencies can kill within hours if not treated promptly.</strong> Hyperosmolar Hyperglycemic State (HHS) has a mortality rate of 15-20% - approximately 10 times higher than diabetic ketoacidosis (DKA). According to a 2024 Danish cohort study, 17% of HHS patients died in the hospital. This guide covers the critical warning signs, when to call 911, the differences between DKA and HHS, and how to prevent these life-threatening emergencies.</p>
+            </div>
+
+            <!-- Video: HHS Emergency Animated Short -->
+            <div style="margin: 2rem 0; text-align: center;">
+                <h3 style="margin-bottom: 1rem; color: #1e293b;">Watch: HHS Emergency Warning Signs (40 sec)</h3>
+                <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden; max-width: 360px; margin: 0 auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+                    <iframe
+                        src="https://www.youtube.com/embed/DHWt66T15UA"
+                        title="HHS Emergency Warning Signs - Diabetes Emergency Animated Short"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;">
+                    </iframe>
+                </div>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #64748b;">This 40-second animated short explains the critical warning signs of HHS.</p>
             </div>
 
             <!-- Emergency Warning Box -->
