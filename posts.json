@@ -6,11 +6,12 @@
       "title": "GLP-1 Pills: The Wegovy Pill Revolution for Weight Loss",
       "excerpt": "Oral Wegovy is the first FDA-approved GLP-1 pill for weight loss, achieving 14-16.6% weight loss. Learn about $149-$299 pricing, pill vs injection comparison, eligibility criteria, side effects, and how to track your progress.",
       "category": "medications",
-      "categoryLabel": "💊 Medications",
+      "categoryLabel": "\ud83d\udc8a Medications",
       "image": "assets/images/glp1-pills-wegovy-revolution-hero.jpg",
       "date": "January 14, 2026",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "aMfwCxGfYK4"
     },
     {
       "id": 1,
@@ -18,11 +19,12 @@
       "title": "Coffee & Blood Sugar: What 3 Cups Really Does",
       "excerpt": "Discover the coffee paradox: caffeine can spike blood sugar 8-10% short-term, yet 3-4 cups daily reduces diabetes risk by 25%. Learn timing, genetics, and how to optimize your coffee habit.",
       "category": "nutrition-lifestyle",
-      "categoryLabel": "🍽️ Nutrition & Lifestyle",
+      "categoryLabel": "\ud83c\udf7d\ufe0f Nutrition & Lifestyle",
       "image": "assets/images/coffee-blood-sugar-hero.jpg",
       "date": "January 13, 2026",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "GgacWWxPwME"
     },
     {
       "id": 2,
@@ -30,11 +32,12 @@
       "title": "Stress & Cortisol: The Hidden Blood Sugar Saboteur Nobody Talks About",
       "excerpt": "Chronic stress can raise blood sugar by 20-50 mg/dL and increase diabetes risk by 45%. Learn how cortisol triggers glucose spikes, why the dawn phenomenon happens, and 5 evidence-based techniques (MBSR, 4-7-8 breathing, yoga) that lower HbA1c as effectively as metformin.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/stress-cortisol-blood-sugar-saboteur-hero.jpg",
       "date": "January 12, 2026",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "1qxOjSLUHHo"
     },
     {
       "id": 3,
@@ -42,11 +45,12 @@
       "title": "How Ayurveda Treats Type 2 Diabetes: Ancient Wisdom Meets Modern Science",
       "excerpt": "Evidence-based guide to Ayurvedic diabetes treatment: 8 scientifically validated herbs (Gymnema, fenugreek, turmeric), dosha-based diet modifications, yoga practices, and Panchakarma detoxification. Backed by 2024-2025 clinical research.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/ayurveda-diabetes-hero.jpg",
       "date": "January 12, 2026",
       "readTime": "12 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "NpR-f9Wi5_c"
     },
     {
       "id": 4,
@@ -54,11 +58,12 @@
       "title": "Diabetes Statistics 2025: 589 Million Adults Affected Globally",
       "excerpt": "Complete 2025 diabetes data from IDF, ICMR, CDC: 589M global, 101M India, 38M USA. 252M undiagnosed (43%). $1 trillion healthcare costs. 3.4M deaths annually. Projections to 853M by 2050.",
       "category": "awareness",
-      "categoryLabel": "📊 Awareness",
+      "categoryLabel": "\ud83d\udcca Awareness",
       "image": "assets/images/diabetes-statistics-2025-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "bEYaSMasdr4"
     },
     {
       "id": 5,
@@ -66,11 +71,12 @@
       "title": "Future of Diabetes Treatment: Cures on the Horizon",
       "excerpt": "2024 breakthrough: First stem cell reversal achieved - woman insulin-free with 98% TIR. Vertex VX-880 Phase 3 shows 10/12 patients insulin-independent. CRISPR beta cells working without immunosuppression. Is a cure finally coming?",
       "category": "research",
-      "categoryLabel": "🔬 Research",
+      "categoryLabel": "\ud83d\udd2c Research",
       "image": "assets/images/future-diabetes-treatment-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "xqb77l9FmDQ"
     },
     {
       "id": 6,
@@ -78,11 +84,12 @@
       "title": "Vascular Complications of Diabetes: Stroke, PAD & Diabetic Foot Care",
       "excerpt": "Diabetes increases stroke risk 2-4x and PAD 5x. Learn about peripheral arterial disease, diabetic foot ulcers (6.3% global prevalence), and how 80% of amputations are preventable with proper care.",
       "category": "complications",
-      "categoryLabel": "🏥 Complications",
+      "categoryLabel": "\ud83c\udfe5 Complications",
       "image": "assets/images/vascular-complications-diabetes-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "JynTAA62sVI"
     },
     {
       "id": 7,
@@ -90,23 +97,25 @@
       "title": "Diabetes Emergencies: When High Blood Sugar Becomes Life-Threatening",
       "excerpt": "HHS has 15-20% mortality (10x higher than DKA). Learn warning signs, when to call 911, DKA vs HHS differences, and prevention based on 2024 ADA consensus report. 32% of HHS patients had no prior diabetes diagnosis.",
       "category": "emergencies",
-      "categoryLabel": "🚨 Emergencies",
+      "categoryLabel": "\ud83d\udea8 Emergencies",
       "image": "assets/images/diabetes-emergencies-hhs-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 8,
       "slug": "2025/12/insulin-therapy-complete-guide.html",
       "title": "Insulin Therapy Complete Guide: Injection Techniques, Dosing, Smart Pens",
-      "excerpt": "Master insulin delivery: ADA 2025 injection techniques (90° angle, 4-6mm needles), site rotation to prevent lipohypertrophy (affects 50%+), dosing basics, and smart pen comparison (InPen, NovoPen 6, Tempo).",
+      "excerpt": "Master insulin delivery: ADA 2025 injection techniques (90\u00b0 angle, 4-6mm needles), site rotation to prevent lipohypertrophy (affects 50%+), dosing basics, and smart pen comparison (InPen, NovoPen 6, Tempo).",
       "category": "medications",
-      "categoryLabel": "💊 Medications",
+      "categoryLabel": "\ud83d\udc8a Medications",
       "image": "assets/images/insulin-therapy-guide-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "KmdXdjOEBZE"
     },
     {
       "id": 9,
@@ -114,23 +123,25 @@
       "title": "Type 2 Diabetes Medications: Complete Overview",
       "excerpt": "Complete guide to Type 2 diabetes oral medications: DPP-4 inhibitors (sitagliptin), sulfonylureas (glimepiride), TZDs (pioglitazone). ADA 2025 guidelines, efficacy comparison, side effects, and when to use.",
       "category": "medications",
-      "categoryLabel": "💊 Medications",
+      "categoryLabel": "\ud83d\udc8a Medications",
       "image": "assets/images/type-2-diabetes-medications-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "17 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "yc07eD87DA4"
     },
     {
       "id": 10,
       "slug": "2025/12/diabetes-diagnosis-complete-testing-guide.html",
       "title": "Diabetes Diagnosis: Complete Testing Guide",
-      "excerpt": "ADA 2025 diagnostic criteria: HbA1c ≥6.5%, fasting glucose ≥126 mg/dL, OGTT ≥200 mg/dL. Complete guide to autoantibody testing (GAD65, IA-2, ZnT8, IAA) and Type 1 diabetes staging.",
+      "excerpt": "ADA 2025 diagnostic criteria: HbA1c \u22656.5%, fasting glucose \u2265126 mg/dL, OGTT \u2265200 mg/dL. Complete guide to autoantibody testing (GAD65, IA-2, ZnT8, IAA) and Type 1 diabetes staging.",
       "category": "diagnosis",
-      "categoryLabel": "🧪 Diagnosis",
+      "categoryLabel": "\ud83e\uddea Diagnosis",
       "image": "assets/images/diabetes-diagnosis-testing-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "WlJtmkZbJ-w"
     },
     {
       "id": 11,
@@ -138,11 +149,12 @@
       "title": "Rare & Secondary Types of Diabetes: LADA, MODY, and More",
       "excerpt": "Beyond Type 1 and Type 2: LADA affects 2-12% of adults, MODY 1-5% of all diabetes (14+ genetic types), Type 3c 1-9% (pancreatogenic). Learn drug-induced, CFRD, and PTDM. ADA 2024 criteria.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/rare-diabetes-types-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "17 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 12,
@@ -150,11 +162,12 @@
       "title": "Can You Stop Diabetes Medication? The Truth About Lifelong Treatment",
       "excerpt": "DiRECT trial 5-year results: 26% maintain diabetes remission with lifestyle changes. Learn when medication can be safely stopped, relapse risks (74% by year 5), and type 1 vs type 2 differences.",
       "category": "medications",
-      "categoryLabel": "💊 Medications",
+      "categoryLabel": "\ud83d\udc8a Medications",
       "image": "assets/images/stop-diabetes-medication-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "nF6rN-VlU9I"
     },
     {
       "id": 13,
@@ -162,11 +175,12 @@
       "title": "Glycemic Index Explained: Choosing Foods That Don't Spike Blood Sugar",
       "excerpt": "Complete guide to glycemic index (GI) and glycemic load (GL). Low-GI foods improve HbA1c by 0.5% in meta-analysis of 19 RCTs. Learn GI categories, food swaps, and 8 ways to lower meal GI.",
       "category": "nutrition-lifestyle",
-      "categoryLabel": "🍽️ Nutrition & Lifestyle",
+      "categoryLabel": "\ud83c\udf7d\ufe0f Nutrition & Lifestyle",
       "image": "assets/images/glycemic-index-guide-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "1gEVjxEV5AE"
     },
     {
       "id": 14,
@@ -174,11 +188,12 @@
       "title": "Alcohol and Diabetes: What You Need to Know Before You Drink",
       "excerpt": "How alcohol affects blood sugar for up to 24 hours. ADA guidelines for safe drinking, hypoglycemia risks with insulin/sulfonylureas, best drink choices, and medication interactions.",
       "category": "nutrition-lifestyle",
-      "categoryLabel": "🍽️ Nutrition & Lifestyle",
+      "categoryLabel": "\ud83c\udf7d\ufe0f Nutrition & Lifestyle",
       "image": "assets/images/alcohol-diabetes-guide-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "hRQNks20RaM"
     },
     {
       "id": 15,
@@ -186,23 +201,25 @@
       "title": "Diabetes Burnout: Managing the Emotional Toll of a Chronic Condition",
       "excerpt": "79% of people with diabetes experience burnout. Learn symptoms, causes, and evidence-based recovery strategies. ADA recommends annual mental health screening for all diabetics.",
       "category": "mental-health",
-      "categoryLabel": "🧠 Mental Health",
+      "categoryLabel": "\ud83e\udde0 Mental Health",
       "image": "assets/images/diabetes-burnout-guide-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "x__CK32xPCY"
     },
     {
       "id": 16,
       "slug": "2025/12/insulin-pumps-how-they-work-complete-guide.html",
       "title": "Insulin Pumps: How They Work and Who Should Consider One",
-      "excerpt": "Pump usage has increased to 50% in youth and 29% in adults with T1D. Compare Medtronic 780G, Omnipod 5, Tandem Mobi - costs in India (₹1.5-6 lakh) and ADA 2025 candidacy criteria.",
+      "excerpt": "Pump usage has increased to 50% in youth and 29% in adults with T1D. Compare Medtronic 780G, Omnipod 5, Tandem Mobi - costs in India (\u20b91.5-6 lakh) and ADA 2025 candidacy criteria.",
       "category": "technology",
-      "categoryLabel": "🤖 Diabetes Technology",
+      "categoryLabel": "\ud83e\udd16 Diabetes Technology",
       "image": "assets/images/insulin-pumps-guide-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "AgqpPrQpsD4"
     },
     {
       "id": 17,
@@ -210,11 +227,12 @@
       "title": "SGLT2 Inhibitors: How These Diabetes Drugs Also Protect Your Heart and Kidneys",
       "excerpt": "SGLT2 inhibitors reduce heart failure hospitalizations by 30-35% and slow kidney disease progression by 28%. Learn how empagliflozin, dapagliflozin work and who should take them.",
       "category": "medications",
-      "categoryLabel": "💊 Medications",
+      "categoryLabel": "\ud83d\udc8a Medications",
       "image": "assets/images/sglt2-inhibitors-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "AiZDeCySdOY"
     },
     {
       "id": 18,
@@ -222,11 +240,12 @@
       "title": "Heart Disease and Diabetes: Why Blood Sugar Control Saves Your Heart",
       "excerpt": "People with diabetes have 2-4x higher cardiovascular risk. Learn how blood sugar control, SGLT2 inhibitors, and GLP-1 agonists protect your heart based on ADA 2025 guidelines.",
       "category": "complications",
-      "categoryLabel": "🏥 Complications",
+      "categoryLabel": "\ud83c\udfe5 Complications",
       "image": "assets/images/diabetes-heart-disease-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "17 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "x0_6PRDlt3M"
     },
     {
       "id": 19,
@@ -234,11 +253,12 @@
       "title": "Diabetic Nephropathy: Early Signs, Prevention & Treatment",
       "excerpt": "Learn about diabetic kidney disease affecting 20-40% of diabetics. Understand early warning signs like microalbuminuria, CKD stages by eGFR, and ADA 2025 prevention strategies.",
       "category": "complications",
-      "categoryLabel": "🏥 Complications",
+      "categoryLabel": "\ud83c\udfe5 Complications",
       "image": "assets/images/diabetic-nephropathy-guide-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "561FNdPQzn8"
     },
     {
       "id": 20,
@@ -246,47 +266,51 @@
       "title": "Beta Cells: The Insulin Factories and Why They Fail",
       "excerpt": "Complete guide to beta cells: how they produce insulin, why 40-50% are lost by T2D diagnosis, islets of Langerhans explained, and 2024 regeneration breakthroughs showing 700% cell increase.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/beta-cells-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "N6sks5GRmfo"
     },
     {
       "id": 21,
       "slug": "2025/12/metabolic-syndrome-diabetes-risk-guide.html",
       "title": "Metabolic Syndrome: The Cluster of Conditions That Predicts Diabetes",
-      "excerpt": "Complete guide to metabolic syndrome: the 5 diagnostic criteria (waist circumference, triglycerides ≥150 mg/dL, HDL cholesterol, BP ≥130/85, fasting glucose ≥100 mg/dL), 5-fold diabetes risk, and evidence-based reversal strategies.",
+      "excerpt": "Complete guide to metabolic syndrome: the 5 diagnostic criteria (waist circumference, triglycerides \u2265150 mg/dL, HDL cholesterol, BP \u2265130/85, fasting glucose \u2265100 mg/dL), 5-fold diabetes risk, and evidence-based reversal strategies.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/metabolic-syndrome-hero.jpg",
       "date": "December 9, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "Gql3GcewpKI"
     },
     {
       "id": 22,
       "slug": "2025/12/fasting-blood-sugar-test-preparation-results-guide.html",
       "title": "Fasting Blood Sugar Test: How to Prepare and What Results Mean",
-      "excerpt": "Complete guide to fasting blood sugar test: ADA 2025 thresholds (&lt;100 normal, 100-125 prediabetes, ≥126 diabetes mg/dL), 8-12 hour preparation, dawn phenomenon, and what to do with your results.",
+      "excerpt": "Complete guide to fasting blood sugar test: ADA 2025 thresholds (&lt;100 normal, 100-125 prediabetes, \u2265126 diabetes mg/dL), 8-12 hour preparation, dawn phenomenon, and what to do with your results.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/fasting-blood-sugar-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "sseNoSfFd2g"
     },
     {
       "id": 23,
       "slug": "2025/12/oral-glucose-tolerance-test-ogtt-guide.html",
       "title": "The Oral Glucose Tolerance Test: What to Expect and How to Interpret Results",
-      "excerpt": "Complete OGTT guide: ADA 2025 thresholds (&lt;140 normal, 140-199 prediabetes, ≥200 diabetes), IDF 2024 1-hour criteria, gestational diabetes screening, and preparation steps for accurate results.",
+      "excerpt": "Complete OGTT guide: ADA 2025 thresholds (&lt;140 normal, 140-199 prediabetes, \u2265200 diabetes), IDF 2024 1-hour criteria, gestational diabetes screening, and preparation steps for accurate results.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/ogtt-guide-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "FFUOQQldEoQ"
     },
     {
       "id": 24,
@@ -294,11 +318,12 @@
       "title": "The 3 Ps of Diabetes: Warning Signs You Shouldn't Ignore",
       "excerpt": "Learn the 3 Ps of diabetes - polyuria, polydipsia, and polyphagia. These warning signs have 98.42% specificity when present together. 57% of diabetics in India miss them.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/3-ps-diabetes-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "12 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "_y2N3dO2Iuc"
     },
     {
       "id": 25,
@@ -306,11 +331,12 @@
       "title": "Hypoglycemia Complete Guide: Causes, Symptoms, and Treatment",
       "excerpt": "Understand hypoglycemia (low blood sugar): ADA 2025 3-level classification, warning symptoms, the 15-15 Rule treatment, glucagon emergencies, and prevention strategies. Essential for 589 million diabetics worldwide.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/hypoglycemia-guide-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "u6D52lST98k"
     },
     {
       "id": 26,
@@ -318,11 +344,12 @@
       "title": "What is Hyperglycemia? Causes, Symptoms, and When to Worry",
       "excerpt": "Understand hyperglycemia (high blood sugar): causes, symptoms, ADA 2025 thresholds (>180 mg/dL), DKA vs HHS emergencies, and when to seek medical attention. Essential guide for 237 million affected in India.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/hyperglycemia-guide-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "12 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "QtDCzNJwZq0"
     },
     {
       "id": 27,
@@ -330,11 +357,12 @@
       "title": "How to Prevent Type 2 Diabetes: Evidence-Based Strategies",
       "excerpt": "Prevent type 2 diabetes with proven strategies from the landmark DPP study. Learn how 58% reduced their risk through lifestyle changes, 7% weight loss targets, 150 min/week exercise, and India-specific prevention approaches for 136 million with prediabetes.",
       "category": "health-education",
-      "categoryLabel": "📚 Prevention",
+      "categoryLabel": "\ud83d\udcda Prevention",
       "image": "assets/images/diabetes-prevention-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "2RjXxOB0qCw"
     },
     {
       "id": 28,
@@ -342,11 +370,12 @@
       "title": "Carb Counting 101: The Essential Skill for Blood Sugar Control",
       "excerpt": "Master carb counting for diabetes management. Step-by-step guide with Indian food carb values, insulin-to-carb ratios, accuracy tips, and evidence showing 0.21% HbA1c reduction with proper carb counting.",
       "category": "nutrition-lifestyle",
-      "categoryLabel": "🍽️ Nutrition",
+      "categoryLabel": "\ud83c\udf7d\ufe0f Nutrition",
       "image": "assets/images/carb-counting-101-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "KOSCxZFBGLs"
     },
     {
       "id": 29,
@@ -354,95 +383,103 @@
       "title": "Low-Carb and Keto for Diabetes: Benefits, Risks, and How to Start",
       "excerpt": "Complete guide to ketogenic and low-carb diets for diabetes. Research shows 0.8-1.45% HbA1c reduction. Learn ADA 2025 guidelines, 47% remission rates, risks to watch, and how to start safely.",
       "category": "nutrition-lifestyle",
-      "categoryLabel": "🍽️ Nutrition",
+      "categoryLabel": "\ud83c\udf7d\ufe0f Nutrition",
       "image": "assets/images/low-carb-keto-diabetes-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "2zoKuW2UC7Y"
     },
     {
       "id": 30,
       "slug": "2025/12/artificial-pancreas-closed-loop-systems-guide.html",
       "title": "The Artificial Pancreas: How Closed-Loop Systems Are Changing Diabetes",
-      "excerpt": "Complete guide to artificial pancreas and closed-loop insulin delivery systems—how they work, FDA-approved options (Medtronic 780G, Omnipod 5, Tandem Control-IQ), clinical outcomes, India availability, and choosing the right system.",
+      "excerpt": "Complete guide to artificial pancreas and closed-loop insulin delivery systems\u2014how they work, FDA-approved options (Medtronic 780G, Omnipod 5, Tandem Control-IQ), clinical outcomes, India availability, and choosing the right system.",
       "category": "ai-health-tech",
-      "categoryLabel": "🤖 Technology",
+      "categoryLabel": "\ud83e\udd16 Technology",
       "image": "assets/images/artificial-pancreas-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "V54kQvJ6LpU"
     },
     {
       "id": 31,
       "slug": "2025/12/insulin-types-complete-guide.html",
       "title": "Rapid, Short, Intermediate, Long-Acting: Your Guide to Insulin Types",
-      "excerpt": "Complete guide to understanding the different types of insulin—rapid-acting, short-acting, intermediate (NPH), long-acting, and ultra-long-acting—with onset times, peak action, duration, and how to choose the right insulin for your diabetes management.",
+      "excerpt": "Complete guide to understanding the different types of insulin\u2014rapid-acting, short-acting, intermediate (NPH), long-acting, and ultra-long-acting\u2014with onset times, peak action, duration, and how to choose the right insulin for your diabetes management.",
       "category": "health-education",
-      "categoryLabel": "💊 Medications",
+      "categoryLabel": "\ud83d\udc8a Medications",
       "image": "assets/images/insulin-types-guide-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "S3XLceCzQ7M"
     },
     {
       "id": 32,
       "slug": "2025/12/glp1-ozempic-diabetes-weight-loss-guide.html",
       "title": "GLP-1 Medications: From Ozempic to Weight Loss and Diabetes Control",
-      "excerpt": "Complete guide to GLP-1 receptor agonists including Ozempic, Wegovy, Mounjaro, and Trulicity—how they work for diabetes and weight loss, side effects, costs, and who should use them.",
+      "excerpt": "Complete guide to GLP-1 receptor agonists including Ozempic, Wegovy, Mounjaro, and Trulicity\u2014how they work for diabetes and weight loss, side effects, costs, and who should use them.",
       "category": "health-education",
-      "categoryLabel": "💊 Medications",
+      "categoryLabel": "\ud83d\udc8a Medications",
       "image": "assets/images/glp1-ozempic-guide-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "aQX9xwCQfbM"
     },
     {
       "id": 33,
       "slug": "2025/12/metformin-diabetes-medication-guide.html",
       "title": "Metformin: The First-Line Diabetes Medication Explained",
-      "excerpt": "Complete guide to metformin—understand how it works, common side effects and how to manage them, dosing guidelines, drug interactions, benefits beyond blood sugar, and practical tips for getting the most from your treatment.",
+      "excerpt": "Complete guide to metformin\u2014understand how it works, common side effects and how to manage them, dosing guidelines, drug interactions, benefits beyond blood sugar, and practical tips for getting the most from your treatment.",
       "category": "health-education",
-      "categoryLabel": "💊 Medications",
+      "categoryLabel": "\ud83d\udc8a Medications",
       "image": "assets/images/metformin-guide-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "NlCa6wzi-rg"
     },
     {
       "id": 34,
       "slug": "2025/12/diabetic-retinopathy-vision-protection-guide.html",
       "title": "Diabetic Retinopathy: Protecting Your Vision with Diabetes",
-      "excerpt": "Complete guide to diabetic retinopathy—understand the four stages, recognize warning symptoms, learn about screening methods, treatment options, and prevention strategies to protect your vision.",
+      "excerpt": "Complete guide to diabetic retinopathy\u2014understand the four stages, recognize warning symptoms, learn about screening methods, treatment options, and prevention strategies to protect your vision.",
       "category": "health-education",
-      "categoryLabel": "🏥 Complications",
+      "categoryLabel": "\ud83c\udfe5 Complications",
       "image": "assets/images/diabetic-retinopathy-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "fH_QzbO-6Ho"
     },
     {
       "id": 35,
       "slug": "2025/12/diabetic-neuropathy-nerve-damage-guide.html",
       "title": "Diabetic Neuropathy: Understanding Nerve Damage from Diabetes",
-      "excerpt": "Complete guide to diabetic neuropathy—understand the four types (peripheral, autonomic, proximal, focal), recognize warning symptoms, learn risk factors, treatment options, and prevention strategies to protect your nerve health.",
+      "excerpt": "Complete guide to diabetic neuropathy\u2014understand the four types (peripheral, autonomic, proximal, focal), recognize warning symptoms, learn risk factors, treatment options, and prevention strategies to protect your nerve health.",
       "category": "health-education",
-      "categoryLabel": "🏥 Complications",
+      "categoryLabel": "\ud83c\udfe5 Complications",
       "image": "assets/images/diabetic-neuropathy-hero.jpg",
       "date": "December 8, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "0qzS2hdXDWk"
     },
     {
       "id": 36,
       "slug": "2025/12/dka-diabetic-ketoacidosis-emergency-guide.html",
       "title": "DKA Emergency: Recognizing and Responding to Diabetic Ketoacidosis",
-      "excerpt": "Complete guide to diabetic ketoacidosis—recognize warning signs (high glucose, ketones, fruity breath), understand causes, learn emergency response protocols, hospital treatment, and prevention strategies for this life-threatening diabetes complication.",
+      "excerpt": "Complete guide to diabetic ketoacidosis\u2014recognize warning signs (high glucose, ketones, fruity breath), understand causes, learn emergency response protocols, hospital treatment, and prevention strategies for this life-threatening diabetes complication.",
       "category": "health-education",
-      "categoryLabel": "🚨 Diabetes Emergencies",
+      "categoryLabel": "\ud83d\udea8 Diabetes Emergencies",
       "image": "assets/images/dka-emergency-hero.jpg",
       "date": "December 7, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "WFlOUsH1W8s"
     },
     {
       "id": 37,
@@ -450,47 +487,51 @@
       "title": "Gestational Diabetes: What Every Expecting Mother Needs to Know",
       "excerpt": "Complete guide to gestational diabetes: causes, diagnosis through OGTT, blood sugar targets during pregnancy, management strategies, and protecting your baby's health for a healthy pregnancy outcome.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education · Pregnancy",
+      "categoryLabel": "\ud83d\udcda Health Education \u00b7 Pregnancy",
       "image": "assets/images/gestational-diabetes-hero.jpg",
       "date": "December 7, 2025",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "jcnAJDe3zzU"
     },
     {
       "id": 38,
       "slug": "2025/12/hba1c-complete-guide-a1c-meaning.html",
       "title": "HbA1c Complete Guide: What Your A1C Really Means",
-      "excerpt": "Everything you need to know about HbA1c (glycated hemoglobin)—the blood test that reveals your 2-3 month average blood sugar. Learn the normal ranges, how to interpret results, eAG conversion, and evidence-based strategies to lower your A1C naturally.",
+      "excerpt": "Everything you need to know about HbA1c (glycated hemoglobin)\u2014the blood test that reveals your 2-3 month average blood sugar. Learn the normal ranges, how to interpret results, eAG conversion, and evidence-based strategies to lower your A1C naturally.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education · Diabetes Testing",
+      "categoryLabel": "\ud83d\udcda Health Education \u00b7 Diabetes Testing",
       "image": "assets/images/hba1c-guide-hero.jpg",
       "date": "December 7, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "hTAiGKwNLxU"
     },
     {
       "id": 39,
       "slug": "2025/12/type-2-diabetes-insulin-resistance-reversal.html",
       "title": "Type 2 Diabetes: From Insulin Resistance to Reversal Possibilities",
-      "excerpt": "Comprehensive guide to Type 2 diabetes—understand insulin resistance, progression stages, treatment options, and evidence-based reversal strategies. Learn how lifestyle changes can transform your diabetes management.",
+      "excerpt": "Comprehensive guide to Type 2 diabetes\u2014understand insulin resistance, progression stages, treatment options, and evidence-based reversal strategies. Learn how lifestyle changes can transform your diabetes management.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education · Diabetes Types",
+      "categoryLabel": "\ud83d\udcda Health Education \u00b7 Diabetes Types",
       "image": "assets/images/type-2-diabetes-hero.jpg",
       "date": "December 7, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "SyF6-Fy6SYk"
     },
     {
       "id": 40,
       "slug": "2025/12/type-1-diabetes-causes-autoimmunity-living.html",
       "title": "Type 1 Diabetes Explained: Causes, Autoimmunity, and Living With It",
-      "excerpt": "Complete guide to Type 1 diabetes—understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin therapy, CGMs, pumps, and data-driven care.",
+      "excerpt": "Complete guide to Type 1 diabetes\u2014understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin therapy, CGMs, pumps, and data-driven care.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education · Diabetes Types",
+      "categoryLabel": "\ud83d\udcda Health Education \u00b7 Diabetes Types",
       "image": "assets/images/type-1-diabetes-hero.jpg",
       "date": "December 7, 2025",
       "readTime": "20 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "Tp18EkDX_hg"
     },
     {
       "id": 41,
@@ -498,11 +539,12 @@
       "title": "Prediabetes: Your Last Chance to Prevent Type 2 Diabetes",
       "excerpt": "Learn what prediabetes is, how to recognize the warning signs, and proven strategies to reverse it. Discover how lifestyle changes can prevent Type 2 diabetes progression with 58% effectiveness.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education · Diabetes Prevention",
+      "categoryLabel": "\ud83d\udcda Health Education \u00b7 Diabetes Prevention",
       "image": "assets/images/prediabetes-hero.jpg",
       "date": "December 6, 2025",
       "readTime": "20 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "zakJ-m9AKRI"
     },
     {
       "id": 42,
@@ -510,23 +552,25 @@
       "title": "Insulin Resistance: The Root Cause of Type 2 Diabetes",
       "excerpt": "Understand how insulin resistance develops, its metabolic impact, warning signs, and proven reversal strategies. Learn the cellular mechanisms, identify early symptoms, and discover evidence-based interventions including lifestyle modifications, nutrition strategies, and tracking approaches.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education · Diabetes Types",
+      "categoryLabel": "\ud83d\udcda Health Education \u00b7 Diabetes Types",
       "image": "assets/images/insulin-resistance-hero.jpg",
       "date": "December 6, 2025",
       "readTime": "21 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "EkAFu-axE4Q"
     },
     {
       "id": 43,
       "slug": "2025/11/install-health-gheware-android-app.html",
       "title": "How to Install My Health Gheware Android App: Complete Step-by-Step Guide",
-      "excerpt": "Download & install the Health Gheware Android APK safely. Step-by-step installation guide with security tips. Uses Google Health Connect for sleep & activity data. AI-powered diabetes insights. Get ₹500 free balance.",
+      "excerpt": "Download & install the Health Gheware Android APK safely. Step-by-step installation guide with security tips. Uses Google Health Connect for sleep & activity data. AI-powered diabetes insights. Get \u20b9500 free balance.",
       "category": "health-education",
-      "categoryLabel": "📱 App Installation Guide · Tutorial",
+      "categoryLabel": "\ud83d\udcf1 App Installation Guide \u00b7 Tutorial",
       "image": "assets/images/install-health-gheware-android-app-hero.jpg",
       "date": "November 16, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 44,
@@ -534,11 +578,12 @@
       "title": "Top 10 Questions About My Health Gheware (Answered)",
       "excerpt": "Everything you need to know: pricing (500 free credits), data privacy, AI accuracy, CGM compatibility, integrations, analysis time, doctor reports, and how we compare to other diabetes apps. Your questions answered.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education · FAQ",
+      "categoryLabel": "\ud83d\udcda Health Education \u00b7 FAQ",
       "image": "assets/images/top-10-questions-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 45,
@@ -546,11 +591,12 @@
       "title": "The Future of Personalized Diabetes Care: AI, Predictive Analytics & Precision Medicine",
       "excerpt": "How AI, predictive analytics, continuous monitoring, and precision medicine are revolutionizing diabetes care. Explore the technologies making diabetes management truly individualized, proactive, and effective.",
       "category": "ai-health-tech",
-      "categoryLabel": "🤖 AI & Health Tech · Future Trends",
+      "categoryLabel": "\ud83e\udd16 AI & Health Tech \u00b7 Future Trends",
       "image": "assets/images/future-personalized-care-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 46,
@@ -558,11 +604,12 @@
       "title": "How to Share Your Health Data with Your Doctor Effectively",
       "excerpt": "Learn how to present CGM glucose data, sleep patterns, and activity logs to your doctor for better care. Email data 24-48h before appointments, focus on key metrics (TIR, avg glucose, CV%), bring specific questions. Includes report templates and communication strategies.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education · Doctor Communication",
+      "categoryLabel": "\ud83d\udcda Health Education \u00b7 Doctor Communication",
       "image": "assets/images/share-health-data-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 47,
@@ -570,11 +617,12 @@
       "title": "Intermittent Fasting and Blood Sugar: What the Data Shows",
       "excerpt": "Evidence-based analysis: Does IF improve blood sugar for diabetes? 16:8 TRE shows 8-15% TIR improvement, but requires medical supervision and medication adjustments. Learn which protocols work, safety guidelines for Type 1 vs Type 2, and how to track YOUR results with AI.",
       "category": "nutrition-lifestyle",
-      "categoryLabel": "🍽️ Nutrition & Lifestyle · Intermittent Fasting",
+      "categoryLabel": "\ud83c\udf7d\ufe0f Nutrition & Lifestyle \u00b7 Intermittent Fasting",
       "image": "assets/images/intermittent-fasting-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "lKHl7LhScYs"
     },
     {
       "id": 48,
@@ -582,23 +630,25 @@
       "title": "Building a Complete Diabetes Management Routine: Daily Habits for Better Blood Sugar Control",
       "excerpt": "Create a sustainable diabetes routine with the 4 pillars: morning rituals, meal timing, exercise schedule, and sleep hygiene. Includes 6-12 week timeline, troubleshooting guide, and automation strategies. Improve TIR by 10-15% in 8 weeks.",
       "category": "diabetes-management",
-      "categoryLabel": "🩺 Diabetes Management · Routine Building",
+      "categoryLabel": "\ud83e\ude7a Diabetes Management \u00b7 Routine Building",
       "image": "assets/images/diabetes-management-routine-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "pJTK3R4QPGM"
     },
     {
       "id": 49,
       "slug": "2025/11/free-vs-paid-diabetes-management-tools.html",
       "title": "Free vs Paid Diabetes Management Tools: What You Need to Know",
-      "excerpt": "Honest cost-benefit analysis: When free CGM apps are enough, when paid AI tools are worth it, total monthly cost breakdowns (₹3,500-9,500), ROI calculations, hybrid strategies, and decision framework for choosing the right option for your budget.",
+      "excerpt": "Honest cost-benefit analysis: When free CGM apps are enough, when paid AI tools are worth it, total monthly cost breakdowns (\u20b93,500-9,500), ROI calculations, hybrid strategies, and decision framework for choosing the right option for your budget.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education · Cost Comparison",
+      "categoryLabel": "\ud83d\udcda Health Education \u00b7 Cost Comparison",
       "image": "assets/images/free-vs-paid-diabetes-tools-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "J3A3KX7Kb9I"
     },
     {
       "id": 50,
@@ -606,11 +656,12 @@
       "title": "My Health Gheware vs Traditional CGM Apps: Complete Comparison (2025 Guide)",
       "excerpt": "Feature-by-feature comparison of Health Gheware and traditional CGM apps (Dexcom G7, Freestyle Libre 3, Clarity, LibreView). Includes pricing analysis, use cases, decision framework, and recommended workflows for using both tools together.",
       "category": "diabetes-management",
-      "categoryLabel": "🩺 Diabetes Management · Comparison Guide",
+      "categoryLabel": "\ud83e\ude7a Diabetes Management \u00b7 Comparison Guide",
       "image": "assets/images/mhg-vs-cgm-comparison-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "17 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 51,
@@ -618,11 +669,12 @@
       "title": "Healthcare Professionals: How to Save 15 Minutes Per Patient with AI Health Analysis",
       "excerpt": "Clinical workflow optimization guide for endocrinologists and diabetes educators. Learn how AI-powered multi-data correlation saves 15 minutes per consultation, improves patient outcomes, and delivers 400% ROI. Includes implementation roadmap.",
       "category": "ai-health-tech",
-      "categoryLabel": "🤖 AI & Health Tech · For Clinicians",
+      "categoryLabel": "\ud83e\udd16 AI & Health Tech \u00b7 For Clinicians",
       "image": "assets/images/healthcare-professionals-ai-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 52,
@@ -630,11 +682,12 @@
       "title": "From 58% to 74% TIR: How Sarah Transformed Her Diabetes Control in 8 Weeks",
       "excerpt": "Real success story: See how Sarah improved Time in Range from 58% to 74% in 8 weeks using multi-data health tracking. Includes exact strategies, weekly timeline, challenges overcome, and data-driven insights you can replicate.",
       "category": "diabetes-management",
-      "categoryLabel": "🩺 Diabetes Management · Case Study",
+      "categoryLabel": "\ud83e\ude7a Diabetes Management \u00b7 Case Study",
       "image": "assets/images/tir-success-story-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "y9spHFomByM"
     },
     {
       "id": 53,
@@ -642,11 +695,12 @@
       "title": "Nutrition, Sleep, Activity: How They All Affect Your Glucose",
       "excerpt": "Discover how nutrition, sleep, and physical activity interact to affect blood sugar control. Learn the science behind each pillar, synergistic effects, and optimize all three for 25-35% Time in Range improvement.",
       "category": "nutrition-lifestyle",
-      "categoryLabel": "🍽️ Nutrition & Lifestyle",
+      "categoryLabel": "\ud83c\udf7d\ufe0f Nutrition & Lifestyle",
       "image": "assets/images/nutrition-sleep-activity-hero.jpg",
       "date": "November 10, 2025",
       "readTime": "17 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 54,
@@ -654,11 +708,12 @@
       "title": "How to Spot Patterns in Your Glucose Data: Complete Pattern Recognition Guide",
       "excerpt": "Master pattern recognition in CGM data. Learn how to identify 7 critical glucose patterns including dawn phenomenon, post-meal spikes, and nocturnal hypoglycemia. Includes step-by-step analysis framework and AI-powered detection tools.",
       "category": "diabetes-management",
-      "categoryLabel": "🩺 Diabetes Management",
+      "categoryLabel": "\ud83e\ude7a Diabetes Management",
       "image": "assets/images/glucose-pattern-recognition-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "17 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 55,
@@ -666,11 +721,12 @@
       "title": "The Power of Multi-Data Health Tracking: Transform Diabetes Management",
       "excerpt": "Discover how tracking glucose + sleep + activity + food together reveals hidden patterns that single-metric tracking misses. Learn why multi-data correlation is the future of diabetes management with real-world examples.",
       "category": "ai-health-tech",
-      "categoryLabel": "🤖 AI & Health Tech",
+      "categoryLabel": "\ud83e\udd16 AI & Health Tech",
       "image": "assets/images/multi-data-tracking-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "VL-HedVQu5c"
     },
     {
       "id": 56,
@@ -678,11 +734,12 @@
       "title": "Sleep Tracking for Better Health: Google Fit Integration Guide",
       "excerpt": "Complete guide to tracking sleep with Google Fit for better diabetes management. Learn setup, device integration, sleep metrics analysis, and how to use sleep data for improved blood sugar control.",
       "category": "tutorials",
-      "categoryLabel": "📚 Tutorial",
+      "categoryLabel": "\ud83d\udcda Tutorial",
       "image": "assets/images/google-fit-sleep-tracking-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 57,
@@ -690,11 +747,12 @@
       "title": "Why Poor Sleep Sabotages Diabetes Control",
       "excerpt": "Poor sleep increases insulin resistance by 30%, raises fasting glucose 20-40 mg/dL, and destroys time in range. Learn the science behind why sleep deprivation sabotages diabetes control and evidence-based solutions.",
       "category": "sleep-health",
-      "categoryLabel": "😴 Sleep & Health",
+      "categoryLabel": "\ud83d\ude34 Sleep & Health",
       "image": "assets/images/poor-sleep-diabetes-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 58,
@@ -702,11 +760,12 @@
       "title": "5 Sleep Habits That Improve Blood Sugar (Backed by Data)",
       "excerpt": "Discover 5 scientifically proven sleep habits that can improve blood sugar control by 12-20%. Learn optimal sleep duration, timing, temperature, and more for better diabetes management.",
       "category": "sleep-health",
-      "categoryLabel": "😴 Sleep & Health",
+      "categoryLabel": "\ud83d\ude34 Sleep & Health",
       "image": "assets/images/5-sleep-habits-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "oEkhRMlW_CA"
     },
     {
       "id": 59,
@@ -714,11 +773,12 @@
       "title": "Tracking Activity Impact on Glucose: Complete Guide",
       "excerpt": "Learn how to track and analyze how different physical activities affect your blood sugar with data-driven strategies. Complete guide to activity-glucose correlation and optimization.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/tracking-activity-glucose-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 60,
@@ -726,11 +786,12 @@
       "title": "How to Prevent Hypoglycemia During Workouts",
       "excerpt": "Learn how to prevent dangerous low blood sugar during exercise with 8 proven strategies. Includes pre-workout glucose targets, carb timing, and emergency protocols for safe workouts.",
       "category": "fitness-diabetes",
-      "categoryLabel": "🏃 Fitness & Diabetes",
+      "categoryLabel": "\ud83c\udfc3 Fitness & Diabetes",
       "image": "assets/images/prevent-hypo-workouts-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "18 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "ES7lU-qBRXI"
     },
     {
       "id": 61,
@@ -738,11 +799,12 @@
       "title": "Morning vs Evening Exercise: Which is Better for Blood Sugar?",
       "excerpt": "Morning or evening workouts for diabetes? Discover which exercise timing works best for blood sugar control based on insulin sensitivity, research, and real user data.",
       "category": "fitness-diabetes",
-      "categoryLabel": "🏃 Fitness & Diabetes",
+      "categoryLabel": "\ud83c\udfc3 Fitness & Diabetes",
       "image": "assets/images/morning-evening-exercise-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "DUyEYFS_G5I"
     },
     {
       "id": 62,
@@ -750,11 +812,12 @@
       "title": "Meal Timing for Better Glucose Control: A Data-Driven Approach",
       "excerpt": "Discover when to eat for optimal blood sugar control. Learn data-driven meal timing strategies that reduce glucose spikes by 40-60 mg/dL. AI-powered insights.",
       "category": "nutrition-lifestyle",
-      "categoryLabel": "🍽️ Nutrition & Lifestyle",
+      "categoryLabel": "\ud83c\udf7d\ufe0f Nutrition & Lifestyle",
       "image": "assets/images/meal-timing-glucose-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "aAlu0YSG2VU"
     },
     {
       "id": 63,
@@ -762,11 +825,12 @@
       "title": "How AI Analyzes Your Health Data: Behind the Scenes",
       "excerpt": "Discover how AI analyzes glucose, sleep, and activity data for diabetes insights. Learn Claude AI technology behind My Health Gheware. Get 500 free credits.",
       "category": "ai-health-tech",
-      "categoryLabel": "🤖 AI & Health Tech",
+      "categoryLabel": "\ud83e\udd16 AI & Health Tech",
       "image": "assets/images/ai-health-analysis-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "rm4ZsI-uXgo"
     },
     {
       "id": 64,
@@ -774,11 +838,12 @@
       "title": "Understanding Glycemic Variability (CV) and Why It Matters",
       "excerpt": "Learn glycemic variability (CV) and why it matters. CV predicts complications better than A1C. Master glucose stability with AI-powered CV tracking.",
       "category": "diabetes-management",
-      "categoryLabel": "🩺 Diabetes Management",
+      "categoryLabel": "\ud83e\ude7a Diabetes Management",
       "image": "assets/images/glycemic-variability-cv-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "TXGAvH9Z26A"
     },
     {
       "id": 65,
@@ -786,11 +851,12 @@
       "title": "Setting Up Smart Glucose Alerts: Complete Guide",
       "excerpt": "Master glucose alerts for diabetes management. Set up smart CGM alerts, time-in-range tracking, and AI-powered insights. Avoid alert fatigue with personalized thresholds.",
       "category": "diabetes-management",
-      "categoryLabel": "🩺 Diabetes Management",
+      "categoryLabel": "\ud83e\ude7a Diabetes Management",
       "image": "assets/images/smart-glucose-alerts-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 66,
@@ -798,11 +864,12 @@
       "title": "Sleep-Glucose Correlations: What Your Data is Telling You",
       "excerpt": "Discover how sleep quality affects blood sugar control. Learn to read sleep-glucose correlation patterns and use AI to optimize both for better diabetes management.",
       "category": "sleep-health",
-      "categoryLabel": "😴 Sleep & Health",
+      "categoryLabel": "\ud83d\ude34 Sleep & Health",
       "image": "assets/images/sleep-glucose-correlations-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "16 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": null
     },
     {
       "id": 67,
@@ -810,11 +877,12 @@
       "title": "How to Import Your Glucose Data in 60 Seconds",
       "excerpt": "Step-by-step tutorial for importing CGM data from LibreView, Dexcom Clarity, or manual CSV uploads.\n                        Plus Google Fit and Strava integration for multi-data correlation. Zero technical skills required.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/import-glucose-data-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "12 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "_zht9-DA-6U"
     },
     {
       "id": 68,
@@ -822,11 +890,12 @@
       "title": "How to Read Your Glucose Data Like a Doctor",
       "excerpt": "Master the 5 core metrics (TIR, CV, GMI), learn to read AGP charts, identify 7 critical patterns, and use the SOAP analysis framework doctors use.\n                        Turn 288 daily CGM readings into actionable health insights in 15 minutes per week.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/read-glucose-data-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "14 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "DgwZH1UlPC8"
     },
     {
       "id": 69,
@@ -834,11 +903,12 @@
       "title": "10 Foods That Stabilize Blood Sugar Naturally",
       "excerpt": "Discover 10 science-backed foods with low glycemic indexes that help maintain stable glucose levels.\n                        Includes GI values, exact portion sizes, meal timing strategies, and how to track your personal food-glucose responses.",
       "category": "nutrition-lifestyle",
-      "categoryLabel": "🍽️ Nutrition & Lifestyle",
+      "categoryLabel": "\ud83c\udf7d\ufe0f Nutrition & Lifestyle",
       "image": "assets/images/10-foods-blood-sugar-hero.jpg",
       "date": "November 9, 2025",
       "readTime": "15 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "ZrXWAkAVCBM"
     },
     {
       "id": 70,
@@ -846,11 +916,12 @@
       "title": "Introducing My Health Gheware: AI-Powered Diabetes Management",
       "excerpt": "An AI-powered diabetes management platform that correlates glucose, sleep, and activity data for personalized insights.\n                        Get 500 free credits to start. 3 flexible pricing options available.",
       "category": "ai-health-tech",
-      "categoryLabel": "🤖 AI & Health Tech",
+      "categoryLabel": "\ud83e\udd16 AI & Health Tech",
       "image": "assets/images/introducing-my-health-gheware-hero.jpg",
       "date": "November 6, 2025",
       "readTime": "8 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "M-kup8kEa14"
     },
     {
       "id": 71,
@@ -858,11 +929,12 @@
       "title": "What is Time in Range? The #1 Metric for Diabetes Control",
       "excerpt": "Learn why Time in Range (TIR) is the most important diabetes metric. Discover target percentages, how to calculate TIR,\n                        and 7 proven strategies to improve your glucose control starting today.",
       "category": "health-education",
-      "categoryLabel": "🩺 Health & Diabetes",
+      "categoryLabel": "\ud83e\ude7a Health & Diabetes",
       "image": "assets/images/time-in-range-hero.jpg",
       "date": "November 13, 2025",
       "readTime": "7 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "P9wNZQOFNBI"
     },
     {
       "id": 72,
@@ -870,11 +942,12 @@
       "title": "How Sleep Affects Your Blood Sugar (And What to Do About It)",
       "excerpt": "Discover the surprising connection between sleep and glucose control. Learn 5 proven sleep habits\n                        that improved one user's Time in Range by 16%, backed by research on insulin resistance, cortisol, and hunger hormones.",
       "category": "sleep-health",
-      "categoryLabel": "😴 Sleep & Health",
+      "categoryLabel": "\ud83d\ude34 Sleep & Health",
       "image": "assets/images/sleep-glucose-hero.jpg",
       "date": "November 15, 2025",
       "readTime": "8 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "rjVWzcP2Xug"
     },
     {
       "id": 73,
@@ -882,11 +955,12 @@
       "title": "Diabetes 101: A Complete Beginner's Guide to Blood Sugar Management",
       "excerpt": "Everything you need to know about managing diabetes: Type 1 vs Type 2, blood sugar basics, key metrics (TIR, HbA1c),\n                        lifestyle factors, and how AI technology simplifies tracking for better glucose control.",
       "category": "health-education",
-      "categoryLabel": "📚 Health Education",
+      "categoryLabel": "\ud83d\udcda Health Education",
       "image": "assets/images/diabetes-101-hero.jpg",
       "date": "November 18, 2025",
       "readTime": "10 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "vgCdA_4p8hE"
     },
     {
       "id": 74,
@@ -894,11 +968,12 @@
       "title": "7 Ways to Improve Your Time in Range (Backed by Data)",
       "excerpt": "Struggling to improve Time in Range? Get 7 data-backed strategies with specific impact numbers and timelines.\n                        Learn meal timing, exercise tactics, sleep optimization, and more to boost TIR by 15-25% in 8-12 weeks.",
       "category": "diabetes-management",
-      "categoryLabel": "🩺 Diabetes Management",
+      "categoryLabel": "\ud83e\ude7a Diabetes Management",
       "image": "assets/images/improve-tir-hero.jpg",
       "date": "November 20, 2025",
       "readTime": "8 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "5gKfqsEam44"
     },
     {
       "id": 75,
@@ -906,11 +981,12 @@
       "title": "Best Exercises for Blood Sugar Control: A Complete Guide",
       "excerpt": "Discover the 7 best exercises for diabetes control with specific glucose impact numbers. Learn walking (30-50 mg/dL drop),\n                        strength training (8-12% TIR boost), optimal timing, and safety guidelines backed by research.",
       "category": "fitness-diabetes",
-      "categoryLabel": "🏃 Fitness & Diabetes",
+      "categoryLabel": "\ud83c\udfc3 Fitness & Diabetes",
       "image": "assets/images/exercise-blood-sugar-hero.jpg",
       "date": "November 22, 2025",
       "readTime": "9 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "wOPnK_XJfrU"
     },
     {
       "id": 76,
@@ -918,73 +994,74 @@
       "title": "Why Your CGM App Isn't Enough (And What You Need Instead)",
       "excerpt": "Your CGM shows WHAT is happening, but not WHY. Discover the 5 critical gaps in CGM apps and how\n                        AI-powered multi-data correlation provides personalized insights in 10 minutes instead of hours of guesswork.",
       "category": "diabetes-management",
-      "categoryLabel": "🩺 Diabetes Management",
+      "categoryLabel": "\ud83e\ude7a Diabetes Management",
       "image": "assets/images/cgm-app-gaps-hero.jpg",
       "date": "November 25, 2025",
       "readTime": "9 min read",
-      "featured": true
+      "featured": true,
+      "youtubeVideoId": "7cweeZxhVJk"
     }
   ],
   "categories": [
     {
       "id": "nutrition-lifestyle",
-      "name": "🍽️ Nutrition & Lifestyle"
+      "name": "\ud83c\udf7d\ufe0f Nutrition & Lifestyle"
     },
     {
       "id": "health-education",
-      "name": "📚 Health Education"
+      "name": "\ud83d\udcda Health Education"
     },
     {
       "id": "awareness",
-      "name": "📊 Awareness"
+      "name": "\ud83d\udcca Awareness"
     },
     {
       "id": "research",
-      "name": "🔬 Research"
+      "name": "\ud83d\udd2c Research"
     },
     {
       "id": "complications",
-      "name": "🏥 Complications"
+      "name": "\ud83c\udfe5 Complications"
     },
     {
       "id": "emergencies",
-      "name": "🚨 Emergencies"
+      "name": "\ud83d\udea8 Emergencies"
     },
     {
       "id": "medications",
-      "name": "💊 Medications"
+      "name": "\ud83d\udc8a Medications"
     },
     {
       "id": "diagnosis",
-      "name": "🧪 Diagnosis"
+      "name": "\ud83e\uddea Diagnosis"
     },
     {
       "id": "mental-health",
-      "name": "🧠 Mental Health"
+      "name": "\ud83e\udde0 Mental Health"
     },
     {
       "id": "technology",
-      "name": "🤖 Diabetes Technology"
+      "name": "\ud83e\udd16 Diabetes Technology"
     },
     {
       "id": "ai-health-tech",
-      "name": "🤖 AI & Health Tech"
+      "name": "\ud83e\udd16 AI & Health Tech"
     },
     {
       "id": "diabetes-management",
-      "name": "🩺 Diabetes Management"
+      "name": "\ud83e\ude7a Diabetes Management"
     },
     {
       "id": "tutorials",
-      "name": "📚 Tutorial"
+      "name": "\ud83d\udcda Tutorial"
     },
     {
       "id": "sleep-health",
-      "name": "😴 Sleep & Health"
+      "name": "\ud83d\ude34 Sleep & Health"
     },
     {
       "id": "fitness-diabetes",
-      "name": "🏃 Fitness & Diabetes"
+      "name": "\ud83c\udfc3 Fitness & Diabetes"
     }
   ],
   "totalPosts": 77,
