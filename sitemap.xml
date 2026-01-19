@@ -469,4 +469,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2025/11/advanced-cgm-data-analysis-techniques.html</loc>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2025/11/do-you-need-ai-for-diabetes-management.html</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2025/12/sciatica-diabetes-connection-complete-guide.html</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

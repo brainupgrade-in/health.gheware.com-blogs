@@ -1000,6 +1000,45 @@
       "readTime": "9 min read",
       "featured": true,
       "youtubeVideoId": "7cweeZxhVJk"
+    },
+    {
+      "id": 77,
+      "slug": "2025/11/advanced-cgm-data-analysis-techniques.html",
+      "title": "Advanced CGM Data Analysis Techniques for Better Diabetes Control (2025)",
+      "excerpt": "Master advanced CGM data analysis including AGP reports, pattern recognition, statistical analysis, and trend interpretation for optimal diabetes management.",
+      "category": "health-education",
+      "categoryLabel": "📚 Health Education",
+      "image": "assets/images/advanced-cgm-analysis-hero.jpg",
+      "date": "October 22, 2025",
+      "readTime": "16 min read",
+      "featured": true,
+      "youtubeVideoId": null
+    },
+    {
+      "id": 78,
+      "slug": "2025/11/do-you-need-ai-for-diabetes-management.html",
+      "title": "Do You Need AI for Diabetes Management? (Honest Answer 2025)",
+      "excerpt": "Honest assessment of AI diabetes management: when AI helps, when it doesn't, and who actually benefits. No hype, just facts about AI-powered glucose analysis.",
+      "category": "ai-health-tech",
+      "categoryLabel": "🤖 AI & Health Tech",
+      "image": "assets/images/do-you-need-ai-diabetes-hero.jpg",
+      "date": "November 5, 2025",
+      "readTime": "15 min read",
+      "featured": true,
+      "youtubeVideoId": null
+    },
+    {
+      "id": 79,
+      "slug": "2025/12/sciatica-diabetes-connection-complete-guide.html",
+      "title": "Sciatica and Diabetes: The Hidden Connection Affecting Millions",
+      "excerpt": "Discover the surprising link between sciatica and diabetes. Learn how diabetes causes nerve damage that mimics sciatica, plus evidence-based treatments and prevention strategies from 2024 research.",
+      "category": "complications",
+      "categoryLabel": "🏥 Complications",
+      "image": "assets/images/sciatica-diabetes-connection-hero.jpg",
+      "date": "December 21, 2025",
+      "readTime": "18 min read",
+      "featured": true,
+      "youtubeVideoId": "jUnWUCrm7ro"
     }
   ],
   "categories": [
@@ -1064,6 +1103,6 @@
       "name": "🏃 Fitness & Diabetes"
     }
   ],
-  "totalPosts": 77,
+  "totalPosts": 80,
   "postsPerPage": 12
 }
