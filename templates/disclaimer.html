@@ -38,6 +38,18 @@
                 <strong>Health Risks</strong>
                 <p>Diabetes management involves serious risks. Seek immediate care for emergencies.</p>
             </div>
+            <div class="disclaimer-item">
+                <strong>Medication Warning</strong>
+                <p>Never adjust insulin or diabetes medications without consulting your healthcare provider first.</p>
+            </div>
+            <div class="disclaimer-item">
+                <strong>Emergency Care</strong>
+                <p>For hypoglycemia, DKA, or any emergency symptoms, seek immediate medical attention.</p>
+            </div>
+            <div class="disclaimer-item">
+                <strong>Educational Purpose</strong>
+                <p>Content is for informational and educational purposes only. Not intended to prevent or cure disease.</p>
+            </div>
         </div>
         <p class="disclaimer-footer">
             <strong>By using this content:</strong> You acknowledge doing so at your own risk and agree to consult healthcare professionals for medical guidance.
@@ -141,7 +153,7 @@
 
 .disclaimer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 0.75rem;
     margin-bottom: 0.75rem;
 }
@@ -209,9 +221,16 @@
 }
 
 /* Tablet */
-@media (min-width: 641px) and (max-width: 1024px) {
+@media (min-width: 641px) and (max-width: 900px) {
     .disclaimer-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Small Desktop */
+@media (min-width: 901px) and (max-width: 1024px) {
+    .disclaimer-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 </style>
