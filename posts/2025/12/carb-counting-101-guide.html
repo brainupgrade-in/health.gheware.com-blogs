@@ -41,9 +41,19 @@
     <meta name="twitter:description" content="Master carb counting for diabetes. Step-by-step guide with Indian food carb values and insulin-to-carb ratio calculations.">
     <meta name="twitter:image" content="https://health.gheware.com/blog/assets/images/carb-counting-101-hero.jpg">
 
-    <!-- CSS (Correct paths - 4 levels up from /posts/2025/12/) -->
-    <link rel="stylesheet" href="../../../css/blog.css">
-    <link rel="stylesheet" href="../../../css/responsive.css">
+    <!-- Critical CSS Preload -->
+    <link rel="preload" href="../../../css/critical.css" as="style">
+    <!-- Hero Image Preload for LCP -->
+    <link rel="preload" as="image" href="../../../assets/images/carb-counting-101-hero.jpg" fetchpriority="high">
+
+    <!-- CSS (async loaded for non-blocking render) -->
+    <link rel="stylesheet" href="../../../css/critical.css">
+    <link rel="stylesheet" href="../../../css/blog.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/responsive.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../../../css/blog.css">
+        <link rel="stylesheet" href="../../../css/responsive.css">
+    </noscript>
 
     <!-- Google Analytics (GA4) - Reusable Loader -->
     <script defer src="../../../js/analytics-loader.js"></script>
@@ -1209,5 +1219,8 @@
 
     <!-- Footer -->
     <div id="footer-placeholder"></div>
+
+    <!-- Template Loader -->
+    <script defer src="../../../js/template-loader.js"></script>
 </body>
 </html>

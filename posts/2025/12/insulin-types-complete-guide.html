@@ -26,7 +26,7 @@
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Gheware">
     <meta property="article:published_time" content="2025-12-08T20:00:00+05:30">
-    <meta property="article:modified_time" content="2025-12-08T20:00:00+05:30">
+    <meta property="article:modified_time" content="2026-01-19T10:00:00+05:30">
     <meta property="article:author" content="Rajesh Gheware">
     <meta property="article:section" content="Diabetes Medications">
     <meta property="article:tag" content="insulin">
@@ -41,9 +41,19 @@
     <meta name="twitter:description" content="Complete guide to all insulin types: rapid-acting, short-acting, intermediate, long-acting. Learn onset, peak, duration.">
     <meta name="twitter:image" content="https://health.gheware.com/blog/assets/images/insulin-types-guide-hero.jpg">
 
-    <!-- CSS (Correct paths - 4 levels up from /posts/2025/12/) -->
-    <link rel="stylesheet" href="../../../css/blog.css">
-    <link rel="stylesheet" href="../../../css/responsive.css">
+    <!-- Critical CSS Preload -->
+    <link rel="preload" href="../../../css/critical.css" as="style">
+    <!-- Hero Image Preload for LCP -->
+    <link rel="preload" as="image" href="../../../assets/images/insulin-types-guide-hero.jpg" fetchpriority="high">
+
+    <!-- CSS (async loaded for non-blocking render) -->
+    <link rel="stylesheet" href="../../../css/critical.css">
+    <link rel="stylesheet" href="../../../css/blog.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/responsive.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../../../css/blog.css">
+        <link rel="stylesheet" href="../../../css/responsive.css">
+    </noscript>
 
     <!-- Google Analytics (GA4) - Reusable Loader -->
     <script defer src="../../../js/analytics-loader.js"></script>
@@ -63,11 +73,12 @@
         "height": 630
       },
       "datePublished": "2025-12-08T20:00:00+05:30",
-      "dateModified": "2025-12-08T20:00:00+05:30",
+      "dateModified": "2026-01-19T10:00:00+05:30",
       "author": {
         "@type": "Person",
         "name": "Rajesh Gheware",
-        "url": "https://www.gheware.com/about",
+        "url": "https://health.gheware.com/about",
+        "description": "Type 2 diabetic since 2025, software engineer building Health Gheware to help others manage their diabetes through data-driven insights.",
         "sameAs": [
           "https://x.com/gheware_tech",
           "https://linkedin.com/in/rajeshgheware",
@@ -223,8 +234,6 @@
       ]
     }
     </script>
-    <!-- Hero Image Preload for LCP -->
-    <link rel="preload" as="image" href="../../../assets/images/insulin-types-guide-hero.jpg" fetchpriority="high">
 </head>
 <body>
     <!-- Header Template -->
