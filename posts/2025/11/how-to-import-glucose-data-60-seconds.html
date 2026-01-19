@@ -39,9 +39,17 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="../../../favicon.svg">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="../../../css/blog.css">
+  <!-- Critical CSS Preload -->
+  <link rel="preload" href="../../../css/critical.css" as="style">
+
+  <!-- CSS (async loaded for non-blocking render) -->
+  <link rel="stylesheet" href="../../../css/critical.css">
+  <link rel="stylesheet" href="../../../css/blog.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="../../../css/responsive.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="../../../css/blog.css">
     <link rel="stylesheet" href="../../../css/responsive.css">
+  </noscript>
 
   <!-- Analytics -->
   <script defer src="../../../js/analytics-loader.js"></script>
@@ -61,11 +69,12 @@
     "height": 630
    },
    "datePublished": "2025-08-29T06:00:00+05:30",
-   "dateModified": "2025-08-29T06:00:00+05:30",
+   "dateModified": "2026-01-19T00:00:00+05:30",
    "author": {
     "@type": "Person",
     "name": "Rajesh Gheware",
     "url": "https://www.linkedin.com/in/rajeshgheware/",
+    "description": "Type 2 diabetic since 2025, software engineer building Health Gheware to help others manage their diabetes through data-driven insights.",
     "sameAs": [
      "https://twitter.com/rajesh_gheware",
      "https://github.com/rajeshgheware"
@@ -323,9 +332,9 @@
       <div class="table-of-contents" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
         <h3 style="margin-top: 0; color: #1e293b; font-size: 1.1rem;">In This Guide:</h3>
         <ul style="margin: 0; padding-left: 1.5rem; line-height: 2;">
-          <li><a href="#before-you-start" style="color: #0284c7; text-decoration: none;">✅ Before You Start: What You'll Need</a></li>
-          <li><a href="#libreview-export" style="color: #0284c7; text-decoration: none;">📊 Method 1: Import from LibreView (FreeStyle Libre)</a></li>
-          <li><a href="#dexcom-export" style="color: #0284c7; text-decoration: none;">📈 Method 2: Import from Dexcom Clarity</a></li>
+          <li><a href="#before-you-start" style="color: #0284c7; text-decoration: none;">Before You Import Glucose Data: What You'll Need</a></li>
+          <li><a href="#libreview-export" style="color: #0284c7; text-decoration: none;">Import CGM Data from LibreView (FreeStyle Libre)</a></li>
+          <li><a href="#dexcom-export" style="color: #0284c7; text-decoration: none;">Import Glucose Data from Dexcom Clarity</a></li>
           <li><a href="#manual-csv" style="color: #0284c7; text-decoration: none;">📁 Method 3: Manual CSV Upload (Any CGM)</a></li>
           <li><a href="#google-fit" style="color: #0284c7; text-decoration: none;">😴 Connect Google Fit (Sleep & Activity Data)</a></li>
           <li><a href="#strava" style="color: #0284c7; text-decoration: none;">🏃 Connect Strava (Workout Data)</a></li>
@@ -336,7 +345,7 @@
       </div>
 
       <!-- Main Content -->
-      <h2 id="before-you-start">✅ Before You Start: What You'll Need</h2>
+      <h2 id="before-you-start">Before You Import Glucose Data: What You'll Need</h2>
 
       <p>Before importing your glucose data, make sure you have:</p>
 
@@ -363,7 +372,7 @@
 
       <p><strong>Technical difficulty:</strong> Beginner-friendly. If you can download a file and click "Upload," you can do this.</p>
 
-      <h2 id="libreview-export">📊 Method 1: Import from LibreView (FreeStyle Libre)</h2>
+      <h2 id="libreview-export">Import CGM Data from LibreView (FreeStyle Libre)</h2>
 
       <p>FreeStyle Libre users store their CGM data in LibreView, Abbott's cloud platform. Here's how to export it:</p>
 
@@ -423,7 +432,7 @@
         </p>
       </div>
 
-      <h2 id="dexcom-export">📈 Method 2: Import from Dexcom Clarity</h2>
+      <h2 id="dexcom-export">Import Glucose Data from Dexcom Clarity</h2>
 
       <p>Dexcom G6 and G7 users store their CGM data in Dexcom Clarity. The export process is nearly identical to LibreView:</p>
 
