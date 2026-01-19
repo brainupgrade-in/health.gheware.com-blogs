@@ -41,9 +41,19 @@
     <meta name="twitter:description" content="Discover the CGM data analysis secrets endocrinologists use: AGP reports, pattern recognition, and why your glucose spikes.">
     <meta name="twitter:image" content="https://health.gheware.com/blog/assets/images/advanced-cgm-analysis-hero.jpg">
 
-    <!-- CSS (Correct paths - 4 levels up from /posts/2025/11/) -->
-    <link rel="stylesheet" href="../../../css/blog.css">
-    <link rel="stylesheet" href="../../../css/responsive.css">
+    <!-- Critical CSS Preload -->
+    <link rel="preload" href="../../../css/critical.css" as="style">
+    <!-- Hero Image Preload for LCP -->
+    <link rel="preload" as="image" href="../../../assets/images/advanced-cgm-analysis-hero.jpg" fetchpriority="high">
+
+    <!-- CSS (async loaded for non-blocking render) -->
+    <link rel="stylesheet" href="../../../css/critical.css">
+    <link rel="stylesheet" href="../../../css/blog.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../../css/responsive.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../../../css/blog.css">
+        <link rel="stylesheet" href="../../../css/responsive.css">
+    </noscript>
 
     <!-- Google Analytics (GA4) - Reusable Loader -->
     <script defer src="../../../js/analytics-loader.js"></script>
@@ -208,8 +218,6 @@
       ]
     }
     </script>
-    <!-- Hero Image Preload for LCP -->
-    <link rel="preload" as="image" href="../../../assets/images/advanced-cgm-analysis-hero.jpg" fetchpriority="high">
 </head>
 <body>
     <!-- Header Template -->
