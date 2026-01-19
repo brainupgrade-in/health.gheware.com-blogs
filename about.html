@@ -117,78 +117,8 @@
     }
     </script>
 
-    <!-- BreadcrumbList Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://health.gheware.com"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://health.gheware.com/blog/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "About",
-                "item": "https://health.gheware.com/blog/about.html"
-            }
-        ]
-    }
-    </script>
-
     <style>
         /* About Page Redesign Styles */
-
-        /* Breadcrumbs */
-        .breadcrumbs {
-            background: #f8fafc;
-            padding: 0.75rem 0;
-            border-bottom: 1px solid #e5e7eb;
-        }
-
-        .breadcrumbs-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-
-        .breadcrumbs-list {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            font-size: 0.875rem;
-        }
-
-        .breadcrumbs-list a {
-            color: #64748b;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .breadcrumbs-list a:hover {
-            color: #22c55e;
-        }
-
-        .breadcrumbs-list .separator {
-            color: #cbd5e1;
-        }
-
-        .breadcrumbs-list .current {
-            color: #0f172a;
-            font-weight: 500;
-        }
 
         /* Hero Section with Photo */
         .about-hero {
@@ -1063,28 +993,6 @@
 </head>
 <body>
     <!-- Header will be loaded via template-loader.js -->
-
-    <!-- Breadcrumbs -->
-    <nav class="breadcrumbs" aria-label="Breadcrumb">
-        <div class="breadcrumbs-container">
-            <ol class="breadcrumbs-list" itemscope itemtype="https://schema.org/BreadcrumbList">
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="https://health.gheware.com" itemprop="item"><span itemprop="name">Home</span></a>
-                    <meta itemprop="position" content="1">
-                </li>
-                <span class="separator">/</span>
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="/blog/" itemprop="item"><span itemprop="name">Blog</span></a>
-                    <meta itemprop="position" content="2">
-                </li>
-                <span class="separator">/</span>
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <span class="current" itemprop="name">About</span>
-                    <meta itemprop="position" content="3">
-                </li>
-            </ol>
-        </div>
-    </nav>
 
     <!-- Hero Section with Photo -->
     <section class="about-hero">
