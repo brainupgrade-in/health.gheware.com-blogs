@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Meet Rajesh Gheware - founder of My Health Gheware. Diagnosed with Type 2 diabetes in mid-2025, he built this platform to understand his own condition and help others on their diabetes journey.">
-    <meta name="keywords" content="Rajesh Gheware, Health Gheware founder, diabetes story, diabetes journey, IIT Madras, diabetes management">
+    <meta name="keywords" content="Rajesh Gheware, Health Gheware founder, diabetes story, diabetes journey, IIT Madras, diabetes management, CGM analysis">
     <meta name="author" content="Rajesh Gheware">
 
     <!-- Favicon -->
@@ -67,30 +67,194 @@
     }
     </script>
 
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is My Health Gheware?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "My Health Gheware is an AI-powered diabetes management platform that correlates your glucose readings with sleep, activity, nutrition, and stress data to reveal personalized patterns. It helps you understand WHY your blood sugar behaves the way it does, not just WHAT the numbers are."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Rajesh Gheware a doctor?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, Rajesh is not a doctor. He's an IIT Madras graduate with 25+ years in technology who was diagnosed with Type 2 diabetes in mid-2025. He built Health Gheware to understand his own condition and shares his learnings openly. The platform provides educational insights, not medical advice."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Health Gheware differ from other diabetes apps?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Unlike apps that just show glucose graphs, Health Gheware connects data from multiple sources (CGM, Google Fit, Strava) and uses AI to find correlations between your lifestyle factors and blood sugar. It answers the 'why' behind your numbers, showing how sleep quality, meal timing, exercise, and stress affect YOUR unique body."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the content medically reviewed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "All content is researched using peer-reviewed medical literature and clinical studies. However, this is educational content from someone living with diabetes, not medical advice. Always consult your healthcare provider for medical decisions."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can I start using Health Gheware?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Visit health.gheware.com to create a free account. Connect your CGM data and optionally link Google Fit for sleep and activity tracking. The AI will start analyzing your data and surfacing personalized insights within days."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://health.gheware.com"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://health.gheware.com/blog/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "About",
+                "item": "https://health.gheware.com/blog/about.html"
+            }
+        ]
+    }
+    </script>
+
     <style>
-        /* About Page Specific Styles */
-        .about-hero {
-            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #166534 100%);
-            padding: 3rem 0 4rem;
-            color: white;
-            text-align: center;
+        /* About Page Redesign Styles */
+
+        /* Breadcrumbs */
+        .breadcrumbs {
+            background: #f8fafc;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #e5e7eb;
         }
 
-        .about-hero h1 {
+        .breadcrumbs-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .breadcrumbs-list {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 0.875rem;
+        }
+
+        .breadcrumbs-list a {
+            color: #64748b;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .breadcrumbs-list a:hover {
+            color: #22c55e;
+        }
+
+        .breadcrumbs-list .separator {
+            color: #cbd5e1;
+        }
+
+        .breadcrumbs-list .current {
+            color: #0f172a;
+            font-weight: 500;
+        }
+
+        /* Hero Section with Photo */
+        .about-hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #166534 100%);
+            padding: 4rem 0;
+            color: white;
+        }
+
+        .hero-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .hero-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid rgba(255,255,255,0.3);
+            object-fit: cover;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+
+        .hero-content h1 {
             font-size: 2.5rem;
             font-weight: 700;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
             letter-spacing: -0.02em;
         }
 
-        .about-hero .subtitle {
+        .hero-content .tagline {
             font-size: 1.25rem;
             opacity: 0.9;
-            max-width: 600px;
-            margin: 0 auto;
+            margin-bottom: 1.5rem;
             line-height: 1.6;
         }
 
+        .hero-stats {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-stat {
+            text-align: center;
+        }
+
+        .hero-stat .number {
+            font-size: 1.75rem;
+            font-weight: 700;
+            display: block;
+            color: #86efac;
+        }
+
+        .hero-stat .label {
+            font-size: 0.8rem;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* About Content */
         .about-content {
             max-width: 800px;
             margin: 0 auto;
@@ -124,6 +288,11 @@
 
         .story-section p:last-child {
             margin-bottom: 0;
+        }
+
+        .story-section ul {
+            margin: 1rem 0 1rem 1.5rem;
+            line-height: 2;
         }
 
         .highlight-box {
@@ -172,13 +341,500 @@
             line-height: 1.6;
         }
 
-        .quote-block .attribution {
-            font-size: 0.95rem;
-            font-style: normal;
-            color: #64748b;
-            margin-top: 0.75rem;
+        /* Visual Timeline */
+        .timeline-section {
+            background: #f8fafc;
+            padding: 4rem 0;
+            margin: 3rem 0;
         }
 
+        .timeline-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .timeline-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #0f172a;
+            margin-bottom: 3rem;
+            font-weight: 700;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #22c55e, #166534);
+            border-radius: 2px;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) {
+            flex-direction: row;
+        }
+
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-content {
+            width: 45%;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border: 1px solid #e5e7eb;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-right: auto;
+            text-align: right;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: auto;
+            text-align: left;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background: #22c55e;
+            border: 4px solid white;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(34, 197, 94, 0.4);
+            z-index: 1;
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            color: #22c55e;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-content h3 {
+            font-size: 1.1rem;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .timeline-content p {
+            font-size: 0.95rem;
+            color: #64748b;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* Metrics Section */
+        .metrics-section {
+            background: linear-gradient(135deg, #166534 0%, #22c55e 100%);
+            padding: 4rem 0;
+            color: white;
+        }
+
+        .metrics-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            text-align: center;
+        }
+
+        .metrics-title {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .metrics-subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 2.5rem;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .metric-card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .metric-card .icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .metric-card .value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            display: block;
+            line-height: 1.2;
+        }
+
+        .metric-card .label {
+            font-size: 0.875rem;
+            opacity: 0.9;
+        }
+
+        /* Testimonials */
+        .testimonials-section {
+            padding: 4rem 0;
+            background: white;
+        }
+
+        .testimonials-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .testimonials-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .testimonials-subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #64748b;
+            margin-bottom: 3rem;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .testimonial-card {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: 1rem;
+            left: 1.5rem;
+            font-size: 4rem;
+            color: #22c55e;
+            opacity: 0.3;
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+
+        .testimonial-text {
+            font-size: 1rem;
+            color: #374151;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .testimonial-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #22c55e, #166534);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .testimonial-info h4 {
+            font-size: 1rem;
+            color: #0f172a;
+            margin: 0 0 0.25rem 0;
+            font-weight: 600;
+        }
+
+        .testimonial-info p {
+            font-size: 0.875rem;
+            color: #64748b;
+            margin: 0;
+        }
+
+        /* Recent Content */
+        .recent-section {
+            background: #f8fafc;
+            padding: 4rem 0;
+        }
+
+        .recent-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .recent-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .recent-subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #64748b;
+            margin-bottom: 3rem;
+        }
+
+        .recent-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .recent-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            display: block;
+        }
+
+        .recent-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+
+        .recent-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .recent-card-content {
+            padding: 1.25rem;
+        }
+
+        .recent-card-date {
+            font-size: 0.8rem;
+            color: #22c55e;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .recent-card h3 {
+            font-size: 1rem;
+            color: #0f172a;
+            margin: 0 0 0.5rem 0;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .recent-card p {
+            font-size: 0.875rem;
+            color: #64748b;
+            margin: 0;
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Newsletter Section */
+        .newsletter-section {
+            background: white;
+            padding: 4rem 0;
+            border-top: 1px solid #e5e7eb;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .newsletter-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            text-align: center;
+        }
+
+        .newsletter-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .newsletter-title {
+            font-size: 1.75rem;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .newsletter-subtitle {
+            font-size: 1.1rem;
+            color: #64748b;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 0.75rem;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 0.875rem 1rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        .newsletter-form input:focus {
+            outline: none;
+            border-color: #22c55e;
+        }
+
+        .newsletter-form button {
+            padding: 0.875rem 1.5rem;
+            background: linear-gradient(135deg, #166534, #22c55e);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            white-space: nowrap;
+        }
+
+        .newsletter-form button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(34, 197, 94, 0.4);
+        }
+
+        .newsletter-privacy {
+            font-size: 0.8rem;
+            color: #94a3b8;
+            margin-top: 1rem;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 4rem 0;
+            background: #f8fafc;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .faq-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #0f172a;
+            margin-bottom: 3rem;
+            font-weight: 700;
+        }
+
+        .faq-item {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 1.25rem 1.5rem;
+            background: white;
+            border: none;
+            text-align: left;
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #0f172a;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .faq-question:hover {
+            background: #f8fafc;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #22c55e;
+            transition: transform 0.3s;
+        }
+
+        .faq-item.active .faq-question::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-answer-content {
+            padding: 0 1.5rem 1.5rem;
+            font-size: 1rem;
+            color: #64748b;
+            line-height: 1.7;
+        }
+
+        /* Credentials Grid */
         .credentials-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -218,6 +874,7 @@
             margin: 0;
         }
 
+        /* Social Links */
         .social-links {
             display: flex;
             gap: 1rem;
@@ -251,6 +908,7 @@
             height: 20px;
         }
 
+        /* CTA Section */
         .cta-section {
             background: linear-gradient(135deg, #166534 0%, #22c55e 100%);
             border-radius: 16px;
@@ -310,13 +968,75 @@
         }
 
         /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 2rem;
+            }
+
+            .hero-photo {
+                margin: 0 auto;
+                width: 150px;
+                height: 150px;
+            }
+
+            .hero-stats {
+                justify-content: center;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(odd),
+            .timeline-item:nth-child(even) {
+                flex-direction: column;
+                align-items: flex-start;
+                padding-left: 50px;
+            }
+
+            .timeline-content,
+            .timeline-item:nth-child(odd) .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                width: 100%;
+                text-align: left;
+                margin: 0;
+            }
+
+            .timeline-dot {
+                left: 20px;
+            }
+
+            .metrics-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .recent-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .newsletter-form {
+                flex-direction: column;
+            }
+        }
+
         @media (max-width: 640px) {
-            .about-hero h1 {
+            .hero-content h1 {
                 font-size: 2rem;
             }
 
-            .about-hero .subtitle {
+            .hero-content .tagline {
                 font-size: 1.1rem;
+            }
+
+            .hero-stats {
+                gap: 1.5rem;
             }
 
             .story-section h2 {
@@ -334,21 +1054,68 @@
             .cta-section {
                 padding: 2rem 1.5rem;
             }
+
+            .metric-card .value {
+                font-size: 2rem;
+            }
         }
     </style>
 </head>
 <body>
     <!-- Header will be loaded via template-loader.js -->
 
-    <!-- About Hero -->
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <div class="breadcrumbs-container">
+            <ol class="breadcrumbs-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="https://health.gheware.com" itemprop="item"><span itemprop="name">Home</span></a>
+                    <meta itemprop="position" content="1">
+                </li>
+                <span class="separator">/</span>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/blog/" itemprop="item"><span itemprop="name">Blog</span></a>
+                    <meta itemprop="position" content="2">
+                </li>
+                <span class="separator">/</span>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span class="current" itemprop="name">About</span>
+                    <meta itemprop="position" content="3">
+                </li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Photo -->
     <section class="about-hero">
-        <div class="container">
-            <h1>I'm on This Journey With You</h1>
-            <p class="subtitle">Not above you. Not lecturing you. Just someone who got diagnosed with diabetes and refused to accept confusion as the only option.</p>
+        <div class="hero-container">
+            <img src="assets/images/rajesh-gheware.png" alt="Rajesh Gheware - Founder of My Health Gheware" class="hero-photo" loading="eager">
+            <div class="hero-content">
+                <h1>Rajesh Gheware</h1>
+                <p class="tagline">Diagnosed with Type 2 diabetes in mid-2025. Built Health Gheware to understand my own body. Now sharing everything I learn with you.</p>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="number">80+</span>
+                        <span class="label">Blog Posts</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="number">73</span>
+                        <span class="label">Videos</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="number">58%&rarr;74%</span>
+                        <span class="label">My TIR Journey</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="number">25+</span>
+                        <span class="label">Years in Tech</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- About Content -->
+    <!-- Main Content -->
     <main class="about-content">
 
         <!-- The Diagnosis -->
@@ -370,7 +1137,7 @@
             <h2><span class="emoji">😤</span> The Frustration</h2>
             <p>My doctor visits were 15 minutes long. I'd come with a list of questions and leave with more confusion. "Eat less carbs, exercise more, take your medication." Generic advice that didn't account for my unique body.</p>
             <p>I tried everything:</p>
-            <ul style="margin: 1rem 0 1rem 1.5rem; line-height: 2;">
+            <ul>
                 <li>CGM apps that showed graphs but no insights</li>
                 <li>Diet trackers that counted calories but not glucose impact</li>
                 <li>Fitness apps that didn't know I had diabetes</li>
@@ -391,7 +1158,7 @@
             </div>
 
             <p>Patterns emerged that no app had ever shown me:</p>
-            <ul style="margin: 1rem 0 1rem 1.5rem; line-height: 2;">
+            <ul>
                 <li><strong>7+ hours of sleep</strong> = stable fasting glucose</li>
                 <li><strong>15-minute post-dinner walk</strong> = no nighttime spike</li>
                 <li><strong>Stress before meetings</strong> = glucose climbed even without eating</li>
@@ -407,7 +1174,7 @@
             <p>The results surprised even me:</p>
 
             <div class="highlight-box blue">
-                <h3>My Time in Range: 58% → 74%</h3>
+                <h3>My Time in Range: 58% &rarr; 74%</h3>
                 <p>Not through extreme diets. Not through willpower. Through <strong>understanding</strong> what my body was telling me.</p>
             </div>
 
@@ -415,21 +1182,7 @@
             <p>My Health Gheware isn't just another diabetes app. It's the tool I wished existed when I was diagnosed&mdash;something that connects glucose, sleep, activity, nutrition, and stress to show you the <em>why</em> behind your numbers.</p>
         </section>
 
-        <!-- My Philosophy -->
-        <section class="story-section">
-            <h2><span class="emoji">🌱</span> My Philosophy</h2>
-            <p>I'm not a doctor. I'm not going to pretend I have all the answers.</p>
-            <p>Some weeks my TIR drops to 60%. Some experiments fail spectacularly. <strong>I share those too</strong>, because pretending diabetes management is easy helps no one.</p>
-
-            <div class="quote-block">
-                <p>"I believe in data over dogma. Your body is unique&mdash;find what works for YOU. Progress over perfection. Small improvements compound. Community over isolation. We learn faster together."</p>
-            </div>
-
-            <p>When you read my blog posts or watch my videos, know this: I'm living with the same condition you are. I track the same numbers. I have the same frustrations on bad days.</p>
-            <p><strong>I'm on this journey with you&mdash;not above you.</strong></p>
-        </section>
-
-        <!-- Credentials (kept brief) -->
+        <!-- Background/Credentials -->
         <section class="story-section">
             <h2><span class="emoji">📜</span> Background</h2>
             <p>My technical background helps me analyze data, but it's my lived experience with diabetes that drives everything I build.</p>
@@ -458,6 +1211,262 @@
             </div>
         </section>
 
+    </main>
+
+    <!-- Visual Timeline -->
+    <section class="timeline-section">
+        <div class="timeline-container">
+            <h2 class="timeline-title">The Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Mid-2025</div>
+                        <h3>The Diagnosis</h3>
+                        <p>Diagnosed with Type 2 diabetes. Started searching for answers that existing apps couldn't provide.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">August 2025</div>
+                        <h3>The Spreadsheet Era</h3>
+                        <p>Began manually correlating CGM data with sleep, meals, and activity. Discovered personal patterns.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">October 2025</div>
+                        <h3>First Prototype</h3>
+                        <p>Built the first version of Health Gheware. TIR improved from 58% to 68% in 6 weeks.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">November 2025</div>
+                        <h3>Public Launch</h3>
+                        <p>Launched the blog and YouTube channel. Started sharing learnings with the diabetes community.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">January 2026</div>
+                        <h3>Growing Community</h3>
+                        <p>80+ blog posts, 73 videos, and a TIR of 74%. Still learning every day.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section class="metrics-section">
+        <div class="metrics-container">
+            <h2 class="metrics-title">By the Numbers</h2>
+            <p class="metrics-subtitle">What we've built together since November 2025</p>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="icon">📝</div>
+                    <span class="value">80+</span>
+                    <span class="label">Research-Backed Articles</span>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">🎬</div>
+                    <span class="value">73</span>
+                    <span class="label">Educational Videos</span>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">👁️</div>
+                    <span class="value">3,500+</span>
+                    <span class="label">Video Views</span>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">📈</div>
+                    <span class="value">+16%</span>
+                    <span class="label">My TIR Improvement</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="testimonials-container">
+            <h2 class="testimonials-title">What Readers Say</h2>
+            <p class="testimonials-subtitle">Real feedback from the diabetes community</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">Finally, someone who explains the WHY behind glucose spikes, not just shows me another graph. The coffee article changed how I time my morning routine.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">AP</div>
+                        <div class="testimonial-info">
+                            <h4>Anita P.</h4>
+                            <p>Type 2, Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">I've been diabetic for 8 years and learned more from this blog in a month than from countless doctor visits. The sleep-glucose connection article was eye-opening.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">RK</div>
+                        <div class="testimonial-info">
+                            <h4>Ramesh K.</h4>
+                            <p>Type 2, Hyderabad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">What I love is that Rajesh shares his own struggles too. When my TIR drops, I don't feel alone because I know even the founder has bad weeks.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SM</div>
+                        <div class="testimonial-info">
+                            <h4>Sunita M.</h4>
+                            <p>Prediabetic, Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">The research depth is impressive. Every claim has citations. As an engineer myself, I appreciate the data-driven approach to diabetes management.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">VN</div>
+                        <div class="testimonial-info">
+                            <h4>Vikram N.</h4>
+                            <p>Type 2, Bengaluru</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Content -->
+    <section class="recent-section">
+        <div class="recent-container">
+            <h2 class="recent-title">Latest from the Blog</h2>
+            <p class="recent-subtitle">Research-backed articles to help you understand your body</p>
+            <div class="recent-grid">
+                <a href="2026/01/glp1-pills-wegovy-pill-revolution.html" class="recent-card">
+                    <img src="assets/images/glp1-pills-wegovy-revolution-hero.jpg" alt="GLP-1 Pills Wegovy" loading="lazy">
+                    <div class="recent-card-content">
+                        <div class="recent-card-date">January 14, 2026</div>
+                        <h3>GLP-1 Pills: The Wegovy Pill Revolution for Weight Loss</h3>
+                        <p>Oral Wegovy is the first FDA-approved GLP-1 pill for weight loss, achieving 14-16.6% weight loss.</p>
+                    </div>
+                </a>
+                <a href="2026/01/coffee-blood-sugar-what-3-cups-really-does.html" class="recent-card">
+                    <img src="assets/images/coffee-blood-sugar-hero.jpg" alt="Coffee and Blood Sugar" loading="lazy">
+                    <div class="recent-card-content">
+                        <div class="recent-card-date">January 13, 2026</div>
+                        <h3>Coffee & Blood Sugar: What 3 Cups Really Does</h3>
+                        <p>Discover the coffee paradox: caffeine can spike blood sugar 8-10% short-term, yet 3-4 cups daily reduces diabetes risk.</p>
+                    </div>
+                </a>
+                <a href="2026/01/how-ayurveda-treats-type-2-diabetes.html" class="recent-card">
+                    <img src="assets/images/ayurveda-diabetes-hero.jpg" alt="Ayurveda Diabetes Treatment" loading="lazy">
+                    <div class="recent-card-content">
+                        <div class="recent-card-date">January 12, 2026</div>
+                        <h3>How Ayurveda Treats Type 2 Diabetes</h3>
+                        <p>Evidence-based guide to Ayurvedic diabetes treatment: 8 scientifically validated herbs and practices.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <div class="newsletter-icon">📬</div>
+            <h2 class="newsletter-title">Get Weekly Insights</h2>
+            <p class="newsletter-subtitle">Join 500+ people receiving research-backed diabetes insights every week. No spam, just actionable knowledge.</p>
+            <form class="newsletter-form" action="https://health.gheware.com/api/email/subscribe" method="POST">
+                <input type="email" name="email" placeholder="Enter your email" required aria-label="Email address">
+                <button type="submit">Subscribe</button>
+            </form>
+            <p class="newsletter-privacy">Unsubscribe anytime. We respect your inbox.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    What is My Health Gheware?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        My Health Gheware is an AI-powered diabetes management platform that correlates your glucose readings with sleep, activity, nutrition, and stress data to reveal personalized patterns. It helps you understand WHY your blood sugar behaves the way it does, not just WHAT the numbers are.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    Is Rajesh Gheware a doctor?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        No, Rajesh is not a doctor. He's an IIT Madras graduate with 25+ years in technology who was diagnosed with Type 2 diabetes in mid-2025. He built Health Gheware to understand his own condition and shares his learnings openly. The platform provides educational insights, not medical advice.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    How does Health Gheware differ from other diabetes apps?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Unlike apps that just show glucose graphs, Health Gheware connects data from multiple sources (CGM, Google Fit, Strava) and uses AI to find correlations between your lifestyle factors and blood sugar. It answers the 'why' behind your numbers, showing how sleep quality, meal timing, exercise, and stress affect YOUR unique body.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    Is the content medically reviewed?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        All content is researched using peer-reviewed medical literature and clinical studies. However, this is educational content from someone living with diabetes, not medical advice. Always consult your healthcare provider for medical decisions.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    How can I start using Health Gheware?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Visit health.gheware.com to create a free account. Connect your CGM data and optionally link Google Fit for sleep and activity tracking. The AI will start analyzing your data and surfacing personalized insights within days.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy & Connect -->
+    <section class="about-content" style="padding-top: 0;">
+        <section class="story-section">
+            <h2><span class="emoji">🌱</span> My Philosophy</h2>
+            <p>I'm not a doctor. I'm not going to pretend I have all the answers.</p>
+            <p>Some weeks my TIR drops to 60%. Some experiments fail spectacularly. <strong>I share those too</strong>, because pretending diabetes management is easy helps no one.</p>
+
+            <div class="quote-block">
+                <p>"Data over dogma. Your body is unique&mdash;find what works for YOU. Progress over perfection. Small improvements compound. Community over isolation. We learn faster together."</p>
+            </div>
+
+            <p>When you read my blog posts or watch my videos, know this: I'm living with the same condition you are. I track the same numbers. I have the same frustrations on bad days.</p>
+            <p><strong>I'm on this journey with you&mdash;not above you.</strong></p>
+        </section>
+
         <!-- Connect -->
         <section class="story-section">
             <h2><span class="emoji">🤝</span> Let's Connect</h2>
@@ -482,7 +1491,7 @@
         <!-- CTA -->
         <section class="cta-section">
             <h2>Ready to Understand Your Body?</h2>
-            <p>Join thousands of people using My Health Gheware to find the connections between their lifestyle and blood sugar.</p>
+            <p>Join people using My Health Gheware to find the connections between their lifestyle and blood sugar.</p>
             <div class="cta-buttons">
                 <a href="https://health.gheware.com" class="cta-btn cta-btn-primary">
                     Try Health Gheware Free
@@ -492,12 +1501,33 @@
                 </a>
             </div>
         </section>
-
-    </main>
+    </section>
 
     <!-- Footer will be loaded via template-loader.js -->
 
     <!-- Template Loader -->
     <script src="js/template-loader.js"></script>
+
+    <!-- FAQ Accordion Script -->
+    <script>
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const item = button.parentElement;
+                const isActive = item.classList.contains('active');
+
+                // Close all other items
+                document.querySelectorAll('.faq-item').forEach(i => {
+                    i.classList.remove('active');
+                    i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                });
+
+                // Toggle current item
+                if (!isActive) {
+                    item.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
