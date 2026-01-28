@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress-bar" id="readingProgress"></div>
+
     <!-- Header will be loaded via template-loader.js -->
 
     <!-- Blog Hero Section -->
@@ -118,6 +121,30 @@
         </div>
     </section>
 
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb-nav container" aria-label="Breadcrumb">
+        <ol class="breadcrumb-list">
+            <li class="breadcrumb-item">
+                <a href="https://health.gheware.com">
+                    <span>&#127968;</span> Home
+                </a>
+            </li>
+            <li class="breadcrumb-item current" aria-current="page">
+                <span>Blog</span>
+            </li>
+        </ol>
+    </nav>
+
+    <!-- Quick Navigation Pills -->
+    <section class="container">
+        <div class="quick-nav-section">
+            <div class="quick-nav-title">Quick Jump</div>
+            <div class="quick-nav-pills" id="quickNavPills">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </section>
+
     <!-- Compact Search & Filter Section -->
     <section class="container" style="margin-top: 1rem;">
         <div class="blog-controls">
@@ -182,6 +209,119 @@
                 </a>
             </div>
         </nav>
+    </section>
+
+    <!-- Trending This Week Section -->
+    <section class="container">
+        <div class="trending-this-week-section">
+            <h2><span>&#128200;</span> Trending This Week</h2>
+            <p class="section-subtitle">Most popular content from the past 7 days</p>
+
+            <div class="trending-posts-grid" id="trendingPostsGrid">
+                <!-- Populated dynamically by JavaScript -->
+            </div>
+
+            <div class="trending-cta">
+                <a href="#blogGrid" class="view-all-trending-btn" onclick="BlogApp.jumpToLatest(); return false;">
+                    View All Posts by Popularity <span>&#8594;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Paths Section -->
+    <section class="container">
+        <div class="learning-paths-section">
+            <h2><span>&#127919;</span> Guided Learning Paths</h2>
+            <p class="section-subtitle">Follow these curated sequences for maximum learning impact</p>
+
+            <div class="learning-paths-grid">
+                <!-- Diabetes Basics Path -->
+                <div class="learning-path-card">
+                    <h3><span>&#128218;</span> Diabetes Fundamentals</h3>
+                    <div class="path-steps">
+                        <a href="posts/2025/11/diabetes-101-complete-beginners-guide.html" class="path-step completed">1. Diabetes 101 - Complete Guide</a>
+                        <a href="posts/2025/11/what-is-time-in-range-diabetes.html" class="path-step current">2. Time in Range Explained</a>
+                        <a href="posts/2025/12/type-2-diabetes-insulin-resistance-reversal.html" class="path-step">3. Insulin Resistance</a>
+                        <a href="posts/2025/12/hba1c-complete-guide-a1c-meaning.html" class="path-step">4. HbA1c Deep Dive</a>
+                    </div>
+                    <div class="path-stats">
+                        <span>4 posts</span>
+                        <span>45 min total</span>
+                        <span>Beginner</span>
+                    </div>
+                </div>
+
+                <!-- Glucose Management Path -->
+                <div class="learning-path-card">
+                    <h3><span>&#128200;</span> Glucose Management</h3>
+                    <div class="path-steps">
+                        <a href="posts/2025/11/how-to-read-glucose-data-like-doctor.html" class="path-step">1. Read Glucose Data</a>
+                        <a href="posts/2025/11/how-to-spot-patterns-glucose-data.html" class="path-step">2. Pattern Recognition</a>
+                        <a href="posts/2025/11/7-ways-improve-time-in-range.html" class="path-step">3. Improve Time in Range</a>
+                        <a href="posts/2025/11/glycemic-variability-cv-explained.html" class="path-step">4. Glycemic Variability</a>
+                    </div>
+                    <div class="path-stats">
+                        <span>4 posts</span>
+                        <span>52 min total</span>
+                        <span>Intermediate</span>
+                    </div>
+                </div>
+
+                <!-- Lifestyle & Prevention Path -->
+                <div class="learning-path-card">
+                    <h3><span>&#127939;</span> Lifestyle & Prevention</h3>
+                    <div class="path-steps">
+                        <a href="posts/2025/11/how-sleep-affects-blood-sugar.html" class="path-step">1. Sleep & Blood Sugar</a>
+                        <a href="posts/2025/11/best-exercises-blood-sugar-control.html" class="path-step">2. Exercise Guide</a>
+                        <a href="posts/2025/12/diabetes-prevention-evidence-based-guide.html" class="path-step">3. Prevention Strategies</a>
+                        <a href="posts/2026/01/stress-cortisol-blood-sugar-saboteur.html" class="path-step">4. Stress & Cortisol</a>
+                    </div>
+                    <div class="path-stats">
+                        <span>4 posts</span>
+                        <span>58 min total</span>
+                        <span>All Levels</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular This Week Section -->
+    <section class="container">
+        <div class="popular-section">
+            <h3><span>&#128293;</span> Popular This Week</h3>
+            <div class="popular-list" id="popularList">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Tag Cloud Section -->
+    <section class="container">
+        <div class="tag-cloud-section">
+            <h2><span>&#127991;</span> Explore by Technology</h2>
+            <p class="section-subtitle">Click any tag to filter posts by technology or topic</p>
+
+            <div class="tag-cloud-container">
+                <div class="tag-cloud" id="tagCloud">
+                    <!-- Tags will be populated dynamically from posts.json -->
+                </div>
+
+                <div class="tag-filters-active" id="activeTagFilters" style="display: none;">
+                    <span class="active-filter-label">Active filters:</span>
+                    <div class="active-tags" id="activeTagsList"></div>
+                    <button class="clear-tags-btn" onclick="BlogApp.clearAllTagFilters()">Clear All</button>
+                </div>
+            </div>
+
+            <div class="tag-filter-results" id="tagFilterResults" style="display: none;">
+                <h3>Posts tagged with <span id="activeTagName"></span></h3>
+                <div class="filtered-posts-grid" id="filteredPostsContainer">
+                    <!-- Filtered posts will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Top Pagination -->
@@ -270,7 +410,11 @@
                 this.bindEvents();
                 this.applyURLParams();
                 this.filterAndRender();
-                console.log('✅ Blog initialized with', this.allPosts.length, 'posts');
+                this.renderQuickNav();
+                this.renderPopularPosts();
+                this.renderTagCloud();
+                this.renderTrendingPosts();
+                console.log('Blog initialized with', this.allPosts.length, 'posts');
             },
 
             // Cache DOM elements
@@ -556,6 +700,36 @@
                 this.elements.blogGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
             },
 
+            // Get related posts based on category
+            getRelatedPosts(post, limit = 2) {
+                return this.allPosts
+                    .filter(p => p.id !== post.id && p.category === post.category)
+                    .slice(0, limit);
+            },
+
+            // Get category emoji
+            getCategoryEmoji(category) {
+                const emojis = {
+                    'tutorials': '&#128218;',
+                    'diabetes-management': '&#129658;',
+                    'sleep-health': '&#128564;',
+                    'fitness-diabetes': '&#127939;',
+                    'health-education': '&#128214;',
+                    'ai-health-tech': '&#129302;',
+                    'nutrition-lifestyle': '&#127869;',
+                    'building-in-public': '&#127959;',
+                    'awareness': '&#128200;',
+                    'research': '&#128300;',
+                    'complications': '&#9888;',
+                    'emergencies': '&#128680;',
+                    'medications': '&#128138;',
+                    'diagnosis': '&#128269;',
+                    'mental-health': '&#129504;',
+                    'technology': '&#128187;'
+                };
+                return emojis[category] || '&#128196;';
+            },
+
             // Render posts to grid
             renderPosts() {
                 const posts = this.getPaginatedPosts();
@@ -563,7 +737,7 @@
                 if (posts.length === 0) {
                     this.elements.blogGrid.innerHTML = `
                         <div class="no-results">
-                            <div class="no-results-icon">🔍</div>
+                            <div class="no-results-icon">&#128269;</div>
                             <h3>No articles found</h3>
                             <p>Try adjusting your search or filter criteria</p>
                             <button class="reset-filters-btn" onclick="BlogApp.resetAllFilters()">
@@ -578,8 +752,32 @@
                     return;
                 }
 
-                const postsHTML = posts.map((post, index) => `
+                const postsHTML = posts.map((post, index) => {
+                    // Get related posts for this card
+                    const relatedPosts = this.getRelatedPosts(post, 2);
+                    const relatedHTML = relatedPosts.length > 0 ? `
+                        <div class="related-posts-mini">
+                            <span class="related-label">Related</span>
+                            <div class="related-links">
+                                ${relatedPosts.map(rp => `
+                                    <a href="posts/${rp.slug}" class="related-link" title="${rp.title}">
+                                        <span class="related-emoji">${this.getCategoryEmoji(rp.category)}</span>
+                                        ${rp.title.split(':')[0].substring(0, 25)}${rp.title.length > 25 ? '...' : ''}
+                                    </a>
+                                `).join('')}
+                            </div>
+                        </div>
+                    ` : '';
+
+                    // Get skill badge and update indicator
+                    const skillBadgeHTML = this.getSkillBadgeHTML(post.category);
+                    const updateIndicatorHTML = this.getUpdateIndicatorHTML(post);
+                    const socialProofHTML = this.getSocialProofHTML(post, index);
+
+                    return `
                     <article class="blog-card" style="animation: fadeIn 0.3s ease ${index * 0.05}s forwards; opacity: 0;">
+                        ${skillBadgeHTML}
+                        ${updateIndicatorHTML}
                         <a href="posts/${post.slug}" class="blog-card-image-link">
                             <img src="${post.image}"
                                  alt="${post.title}"
@@ -595,13 +793,21 @@
                                 <a href="posts/${post.slug}">${post.title}</a>
                             </h2>
                             <p class="blog-card-excerpt">${post.excerpt}</p>
+                            ${relatedHTML}
+                            ${socialProofHTML}
                         </div>
                         <div class="blog-card-footer">
                             <span class="blog-card-date">${post.date}</span>
                             <span class="blog-card-read-time">${post.readTime}</span>
                         </div>
+                        <div class="card-cta-section">
+                            <a href="posts/${post.slug}" class="continue-reading-btn">
+                                <span>Continue Reading</span>
+                                <span class="arrow">&#8594;</span>
+                            </a>
+                        </div>
                     </article>
-                `).join('');
+                `}).join('');
 
                 this.elements.blogGrid.innerHTML = postsHTML;
             },
@@ -672,6 +878,467 @@
                 this.elements.categoryFilter.querySelector('[data-category="all"]')?.classList.add('active');
 
                 this.filterAndRender();
+            },
+
+            // Render quick navigation pills
+            renderQuickNav() {
+                const quickNavContainer = document.getElementById('quickNavPills');
+                if (!quickNavContainer) return;
+
+                // Category config with icons
+                const categoryConfig = {
+                    'tutorials': { icon: '&#128218;', label: 'Tutorials' },
+                    'diabetes-management': { icon: '&#129658;', label: 'Diabetes' },
+                    'sleep-health': { icon: '&#128564;', label: 'Sleep' },
+                    'fitness-diabetes': { icon: '&#127939;', label: 'Fitness' },
+                    'health-education': { icon: '&#128214;', label: 'Education' },
+                    'ai-health-tech': { icon: '&#129302;', label: 'AI Tech' },
+                    'nutrition-lifestyle': { icon: '&#127869;', label: 'Nutrition' },
+                    'complications': { icon: '&#9888;', label: 'Complications' },
+                    'medications': { icon: '&#128138;', label: 'Medications' }
+                };
+
+                // Count posts per category
+                const categoryCounts = {};
+                this.allPosts.forEach(post => {
+                    categoryCounts[post.category] = (categoryCounts[post.category] || 0) + 1;
+                });
+
+                // Get top 6 categories by count
+                const topCategories = Object.entries(categoryCounts)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 6);
+
+                let pillsHTML = topCategories.map(([catId, count]) => {
+                    const config = categoryConfig[catId] || { icon: '&#128196;', label: catId };
+                    return `
+                        <a href="?category=${catId}" class="quick-nav-pill" onclick="BlogApp.jumpToCategory('${catId}'); return false;">
+                            <span>${config.icon}</span>
+                            ${config.label}
+                            <span class="nav-count">${count}</span>
+                        </a>
+                    `;
+                }).join('');
+
+                // Add "Latest" and "Featured" pills
+                const featuredCount = this.allPosts.filter(p => p.featured).length;
+                pillsHTML = `
+                    <a href="#" class="quick-nav-pill" onclick="BlogApp.jumpToLatest(); return false;">
+                        <span>&#128293;</span>
+                        Latest
+                        <span class="nav-count">New</span>
+                    </a>
+                    ${pillsHTML}
+                `;
+
+                quickNavContainer.innerHTML = pillsHTML;
+            },
+
+            // Jump to category
+            jumpToCategory(category) {
+                this.currentCategory = category;
+                this.currentPage = 1;
+
+                // Update active button
+                this.elements.categoryFilter.querySelectorAll('.category-button').forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.category === category);
+                });
+
+                this.filterAndRender();
+
+                // Scroll to grid
+                document.getElementById('blogGrid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            },
+
+            // Jump to latest posts
+            jumpToLatest() {
+                this.resetAllFilters();
+                document.getElementById('blogGrid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            },
+
+            // Render popular posts (featured + most recent)
+            renderPopularPosts() {
+                const popularContainer = document.getElementById('popularList');
+                if (!popularContainer) return;
+
+                // Get featured posts first, then fill with recent posts
+                const featuredPosts = this.allPosts.filter(p => p.featured).slice(0, 3);
+                const recentPosts = this.allPosts.filter(p => !p.featured).slice(0, 5 - featuredPosts.length);
+                const popularPosts = [...featuredPosts, ...recentPosts].slice(0, 5);
+
+                const popularHTML = popularPosts.map((post, index) => `
+                    <a href="posts/${post.slug}" class="popular-item">
+                        <span class="popular-rank">${index + 1}</span>
+                        <span class="popular-title">${post.title}</span>
+                        <span class="popular-views">${post.readTime}</span>
+                    </a>
+                `).join('');
+
+                popularContainer.innerHTML = popularHTML;
+            },
+
+            // Render tag cloud
+            renderTagCloud() {
+                const tagCloudContainer = document.getElementById('tagCloud');
+                if (!tagCloudContainer) return;
+
+                // Define tag data with icons and size based on post count
+                const tagConfig = {
+                    'diabetes-management': { icon: '&#129658;', label: 'Diabetes Management' },
+                    'sleep-health': { icon: '&#128564;', label: 'Sleep Health' },
+                    'fitness-diabetes': { icon: '&#127939;', label: 'Fitness' },
+                    'health-education': { icon: '&#128214;', label: 'Health Education' },
+                    'ai-health-tech': { icon: '&#129302;', label: 'AI Health Tech' },
+                    'nutrition-lifestyle': { icon: '&#127869;', label: 'Nutrition' },
+                    'tutorials': { icon: '&#128218;', label: 'Tutorials' },
+                    'complications': { icon: '&#9888;', label: 'Complications' },
+                    'medications': { icon: '&#128138;', label: 'Medications' },
+                    'emergencies': { icon: '&#128680;', label: 'Emergencies' },
+                    'mental-health': { icon: '&#129504;', label: 'Mental Health' },
+                    'technology': { icon: '&#128187;', label: 'Technology' },
+                    'diagnosis': { icon: '&#128269;', label: 'Diagnosis' },
+                    'research': { icon: '&#128300;', label: 'Research' },
+                    'awareness': { icon: '&#128200;', label: 'Awareness' }
+                };
+
+                // Count posts per category
+                const categoryCounts = {};
+                this.allPosts.forEach(post => {
+                    categoryCounts[post.category] = (categoryCounts[post.category] || 0) + 1;
+                });
+
+                // Sort by count and get all categories
+                const sortedCategories = Object.entries(categoryCounts)
+                    .sort((a, b) => b[1] - a[1]);
+
+                // Determine size class based on count
+                const getSize = (count) => {
+                    const max = Math.max(...Object.values(categoryCounts));
+                    const ratio = count / max;
+                    if (ratio > 0.75) return 'size-large';
+                    if (ratio > 0.5) return 'size-medium';
+                    if (ratio > 0.25) return 'size-small';
+                    return 'size-tiny';
+                };
+
+                const tagHTML = sortedCategories.map(([catId, count]) => {
+                    const config = tagConfig[catId] || { icon: '&#128196;', label: catId.replace(/-/g, ' ') };
+                    const sizeClass = getSize(count);
+                    return `
+                        <span class="tag-item ${sizeClass}" data-tag="${catId}" data-count="${count}" onclick="BlogApp.filterByTag('${catId}')">
+                            <span class="tag-icon">${config.icon}</span>
+                            <span class="tag-label">${config.label}</span>
+                        </span>
+                    `;
+                }).join('');
+
+                tagCloudContainer.innerHTML = tagHTML;
+            },
+
+            // Track active tags
+            activeTags: [],
+
+            // Filter by tag
+            filterByTag(tag) {
+                const tagIndex = this.activeTags.indexOf(tag);
+                if (tagIndex > -1) {
+                    this.activeTags.splice(tagIndex, 1);
+                } else {
+                    this.activeTags.push(tag);
+                }
+
+                // Update tag item active states
+                document.querySelectorAll('.tag-item').forEach(item => {
+                    item.classList.toggle('active', this.activeTags.includes(item.dataset.tag));
+                });
+
+                // Show/hide active filters section
+                const activeFiltersSection = document.getElementById('activeTagFilters');
+                const resultsSection = document.getElementById('tagFilterResults');
+
+                if (this.activeTags.length > 0) {
+                    activeFiltersSection.style.display = 'flex';
+                    resultsSection.style.display = 'block';
+                    this.updateActiveTagFilters();
+                    this.updateTagFilterResults();
+                } else {
+                    activeFiltersSection.style.display = 'none';
+                    resultsSection.style.display = 'none';
+                }
+            },
+
+            // Update active tag filters display
+            updateActiveTagFilters() {
+                const activeTagsList = document.getElementById('activeTagsList');
+                if (!activeTagsList) return;
+
+                const tagConfig = {
+                    'diabetes-management': '&#129658; Diabetes',
+                    'sleep-health': '&#128564; Sleep',
+                    'fitness-diabetes': '&#127939; Fitness',
+                    'health-education': '&#128214; Education',
+                    'ai-health-tech': '&#129302; AI Tech',
+                    'nutrition-lifestyle': '&#127869; Nutrition',
+                    'tutorials': '&#128218; Tutorials',
+                    'complications': '&#9888; Complications',
+                    'medications': '&#128138; Medications',
+                    'emergencies': '&#128680; Emergencies',
+                    'mental-health': '&#129504; Mental Health',
+                    'technology': '&#128187; Technology'
+                };
+
+                activeTagsList.innerHTML = this.activeTags.map(tag => `
+                    <span class="active-tag-pill" onclick="BlogApp.filterByTag('${tag}')">
+                        ${tagConfig[tag] || tag}
+                        <span class="remove-tag">&#10005;</span>
+                    </span>
+                `).join('');
+            },
+
+            // Update tag filter results
+            updateTagFilterResults() {
+                const activeTagName = document.getElementById('activeTagName');
+                const resultsContainer = document.getElementById('filteredPostsContainer');
+
+                if (!activeTagName || !resultsContainer) return;
+
+                const tagLabels = this.activeTags.map(t => t.replace(/-/g, ' ')).join(', ');
+                activeTagName.textContent = tagLabels;
+
+                // Filter posts by active tags
+                const filteredPosts = this.allPosts.filter(post =>
+                    this.activeTags.includes(post.category)
+                ).slice(0, 6);
+
+                if (filteredPosts.length === 0) {
+                    resultsContainer.innerHTML = `
+                        <div class="no-tag-results">
+                            <p>No posts found matching all selected tags. Try selecting fewer tags.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                resultsContainer.innerHTML = filteredPosts.map(post => `
+                    <article class="filtered-post-card">
+                        <a href="posts/${post.slug}" class="filtered-post-link">
+                            <img src="${post.image}" alt="${post.title}" loading="lazy">
+                            <div class="filtered-post-content">
+                                <span class="filtered-post-category">${post.categoryLabel}</span>
+                                <h4>${post.title}</h4>
+                                <span class="filtered-post-meta">${post.date} &bull; ${post.readTime}</span>
+                            </div>
+                        </a>
+                    </article>
+                `).join('');
+            },
+
+            // Clear all tag filters
+            clearAllTagFilters() {
+                this.activeTags = [];
+                document.querySelectorAll('.tag-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                document.getElementById('activeTagFilters').style.display = 'none';
+                document.getElementById('tagFilterResults').style.display = 'none';
+            },
+
+            // Render trending posts
+            renderTrendingPosts() {
+                const trendingContainer = document.getElementById('trendingPostsGrid');
+                if (!trendingContainer) return;
+
+                // Get top 3 posts (featured first, then recent)
+                const featuredPosts = this.allPosts.filter(p => p.featured).slice(0, 2);
+                const recentPosts = this.allPosts.filter(p => !p.featured).slice(0, 3 - featuredPosts.length);
+                const trendingPosts = [...featuredPosts, ...recentPosts].slice(0, 3);
+
+                // Generate random stats for demo (in production, use real analytics)
+                const generateStats = (index) => {
+                    const baseViews = [1240, 980, 760][index] || 500;
+                    const weeklyGain = [340, 220, 150][index] || 100;
+                    const ctr = [6.8, 5.4, 4.9][index] || 4.0;
+                    const avgReadTime = [18, 15, 22][index] || 12;
+                    return { baseViews, weeklyGain, ctr, avgReadTime };
+                };
+
+                const getBadge = (index) => {
+                    const badges = [
+                        { class: 'hot', icon: '&#128293;', text: 'HOT' },
+                        { class: 'rising', icon: '&#128200;', text: 'RISING' },
+                        { class: 'steady', icon: '&#128200;', text: 'STEADY' }
+                    ];
+                    return badges[index] || badges[2];
+                };
+
+                const getRankChange = (index) => {
+                    const changes = [
+                        { class: 'up', icon: '&#8599;', text: '+2' },
+                        { class: 'up', icon: '&#8599;', text: '+1' },
+                        { class: 'stable', icon: '&#8594;', text: '=' }
+                    ];
+                    return changes[index] || changes[2];
+                };
+
+                const trendingHTML = trendingPosts.map((post, index) => {
+                    const stats = generateStats(index);
+                    const badge = getBadge(index);
+                    const rankChange = getRankChange(index);
+
+                    return `
+                        <article class="trending-post-card rank-${index + 1}">
+                            <div class="trending-rank">
+                                <span class="rank-number">${index + 1}</span>
+                                <span class="rank-change ${rankChange.class}">${rankChange.icon} ${rankChange.text}</span>
+                            </div>
+                            <div class="trending-content">
+                                <h3>
+                                    <a href="posts/${post.slug}">${post.title}</a>
+                                </h3>
+                                <div class="trending-stats">
+                                    <span class="trend-views">&#128065; ${stats.baseViews.toLocaleString()} views (+${stats.weeklyGain} this week)</span>
+                                    <span class="trend-engagement">&#128200; ${stats.ctr}% CTR</span>
+                                    <span class="trend-duration">&#9202; ${stats.avgReadTime} min avg read time</span>
+                                </div>
+                            </div>
+                            <div class="trending-badge ${badge.class}">${badge.icon} ${badge.text}</div>
+                        </article>
+                    `;
+                }).join('');
+
+                trendingContainer.innerHTML = trendingHTML;
+            },
+
+            // Get skill level based on category
+            getSkillLevel(category) {
+                const skillLevels = {
+                    'tutorials': 'beginner',
+                    'health-education': 'beginner',
+                    'diabetes-management': 'intermediate',
+                    'sleep-health': 'beginner',
+                    'fitness-diabetes': 'intermediate',
+                    'nutrition-lifestyle': 'beginner',
+                    'ai-health-tech': 'intermediate',
+                    'complications': 'advanced',
+                    'medications': 'intermediate',
+                    'emergencies': 'advanced',
+                    'mental-health': 'intermediate',
+                    'research': 'advanced'
+                };
+                return skillLevels[category] || 'intermediate';
+            },
+
+            // Get skill badge HTML
+            getSkillBadgeHTML(category) {
+                const level = this.getSkillLevel(category);
+                const config = {
+                    'beginner': { icon: '&#128994;', text: 'BEGINNER', title: '0-2 years experience recommended' },
+                    'intermediate': { icon: '&#128992;', text: 'INTERMEDIATE', title: '2-4 years experience recommended' },
+                    'advanced': { icon: '&#128308;', text: 'ADVANCED', title: '4+ years experience recommended' }
+                };
+                const badge = config[level] || config['intermediate'];
+                return `
+                    <div class="skill-level-badge-container">
+                        <span class="skill-badge ${level}" data-skill="${level}">
+                            <span class="skill-icon">${badge.icon}</span>
+                            <span class="skill-text">${badge.text}</span>
+                        </span>
+                        <span class="difficulty-info" title="${badge.title}">
+                            <span class="info-icon">&#8505;</span>
+                        </span>
+                    </div>
+                `;
+            },
+
+            // Check if post was recently updated (within last 30 days)
+            isRecentlyUpdated(post) {
+                // Check if post date is within last 30 days
+                const postDate = new Date(post.date);
+                const thirtyDaysAgo = new Date();
+                thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+                return postDate > thirtyDaysAgo;
+            },
+
+            // Get update indicator HTML
+            getUpdateIndicatorHTML(post) {
+                if (!this.isRecentlyUpdated(post)) return '';
+                return `
+                    <div class="update-indicator">
+                        <span class="update-badge">
+                            <span class="update-icon">&#127381;</span>
+                            <span class="update-text">Updated ${post.date}</span>
+                        </span>
+                    </div>
+                `;
+            },
+
+            // Generate random engagement stats (in production, use real analytics)
+            getEngagementStats(post, index) {
+                // Simulate varying stats based on position and featured status
+                const baseMultiplier = post.featured ? 1.5 : 1;
+                const positionFactor = Math.max(0.5, 1 - (index * 0.05));
+
+                const views = Math.floor((1500 + Math.random() * 2000) * baseMultiplier * positionFactor);
+                const completion = Math.floor(65 + Math.random() * 25);
+                const shares = Math.floor((20 + Math.random() * 50) * baseMultiplier * positionFactor);
+
+                return { views, completion, shares };
+            },
+
+            // Get reading level
+            getReadingLevel(category) {
+                const levels = {
+                    'tutorials': 'Beginner friendly',
+                    'health-education': 'Beginner friendly',
+                    'diabetes-management': 'Professional level',
+                    'complications': 'Professional level',
+                    'medications': 'Professional level',
+                    'research': 'Expert level',
+                    'emergencies': 'Critical knowledge'
+                };
+                return levels[category] || 'Intermediate level';
+            },
+
+            // Get social proof HTML
+            getSocialProofHTML(post, index) {
+                const stats = this.getEngagementStats(post, index);
+                const readingLevel = this.getReadingLevel(post.category);
+
+                return `
+                    <div class="social-proof-stats">
+                        <div class="engagement-metrics">
+                            <span class="metric-item views">
+                                <span class="metric-icon">&#128065;</span>
+                                <span class="metric-value">${this.formatNumber(stats.views)}</span>
+                                <span class="metric-label">views</span>
+                            </span>
+                            <span class="metric-item completion">
+                                <span class="metric-icon">&#9989;</span>
+                                <span class="metric-value">${stats.completion}%</span>
+                                <span class="metric-label">completion</span>
+                            </span>
+                            <span class="metric-item shares">
+                                <span class="metric-icon">&#128228;</span>
+                                <span class="metric-value">${stats.shares}</span>
+                                <span class="metric-label">shares</span>
+                            </span>
+                        </div>
+                        <div class="reading-level">
+                            <span class="reading-indicator">
+                                <span class="reading-icon">&#128214;</span>
+                                <span class="reading-text">${readingLevel}</span>
+                            </span>
+                        </div>
+                    </div>
+                `;
+            },
+
+            // Format number with K suffix
+            formatNumber(num) {
+                if (num >= 1000) {
+                    return (num / 1000).toFixed(1) + 'k';
+                }
+                return num.toString();
             }
         };
 
@@ -708,6 +1375,21 @@
 
         // Run counter animation after a short delay
         setTimeout(animateCounters, 800);
+
+        // Reading progress bar
+        function updateReadingProgress() {
+            const progressBar = document.getElementById('readingProgress');
+            if (!progressBar) return;
+
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const progress = (scrollTop / docHeight) * 100;
+
+            progressBar.style.width = Math.min(progress, 100) + '%';
+        }
+
+        window.addEventListener('scroll', updateReadingProgress, { passive: true });
+        updateReadingProgress();
     </script>
 </body>
 </html>
