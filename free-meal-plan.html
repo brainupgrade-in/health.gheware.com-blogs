@@ -382,14 +382,21 @@
                 <p class="subtitle">Instant download via email</p>
 
                 <form id="leadForm">
+                    <!-- Honeypot field - hidden from real users, bots will fill it -->
+                    <div style="position: absolute; left: -9999px;" aria-hidden="true">
+                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+                    
                     <div class="form-group">
                         <label for="name">Your Name *</label>
-                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required 
+                               maxlength="100" pattern="[\w\s\.\-']{1,100}">
                     </div>
 
                     <div class="form-group">
                         <label for="email">Email Address *</label>
-                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required
+                               maxlength="254" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
                     </div>
 
                     <div class="form-group">
@@ -472,6 +479,18 @@
     </section>
 
     <script>
+        // Sanitize input to prevent XSS/injection
+        function sanitizeInput(str) {
+            if (!str) return '';
+            return str.replace(/[<>'"&]/g, '').substring(0, 200).trim();
+        }
+        
+        // Validate email format
+        function isValidEmail(email) {
+            const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            return re.test(email);
+        }
+        
         // Form Submission Handler
         document.getElementById('leadForm').addEventListener('submit', async function(e) {
             e.preventDefault();
@@ -480,18 +499,44 @@
             const form = document.getElementById('leadForm');
             const successMessage = document.getElementById('successMessage');
             
+            // Honeypot check - if filled, it's a bot
+            const honeypot = document.getElementById('website').value;
+            if (honeypot) {
+                // Silently fail for bots
+                form.classList.add('hidden');
+                successMessage.classList.add('show');
+                return;
+            }
+            
+            // Get and sanitize inputs
+            const name = sanitizeInput(document.getElementById('name').value);
+            const email = sanitizeInput(document.getElementById('email').value).toLowerCase();
+            const phone = sanitizeInput(document.getElementById('phone').value);
+            const diabetesType = sanitizeInput(document.getElementById('diabetes_type').value);
+            
+            // Validate email
+            if (!isValidEmail(email)) {
+                alert('Please enter a valid email address');
+                return;
+            }
+            
+            // Validate name (no special characters that could be injection)
+            if (name && !/^[\w\s\.\-']{1,100}$/u.test(name)) {
+                alert('Please enter a valid name');
+                return;
+            }
+            
             // Disable button
             submitBtn.disabled = true;
             submitBtn.textContent = 'Sending...';
             
-            // Collect form data
+            // Collect sanitized form data
             const formData = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value || '',
-                diabetes_type: document.getElementById('diabetes_type').value || '',
-                source: 'landing_page',
-                timestamp: new Date().toISOString()
+                name: name,
+                email: email,
+                phone: phone,
+                diabetes_type: diabetesType,
+                source: 'landing_page'
             };
             
             try {
@@ -517,11 +562,12 @@
                         });
                     }
                 } else {
-                    throw new Error('Submission failed');
+                    const data = await response.json().catch(() => ({}));
+                    throw new Error(data.error || 'Submission failed');
                 }
             } catch (error) {
                 console.error('Error:', error);
-                alert('Something went wrong. Please try again or email us at health@gheware.com');
+                alert(error.message || 'Something went wrong. Please try again or email us at health@gheware.com');
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Send Me The Meal Plan →';
             }
