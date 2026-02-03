@@ -1,762 +1,348 @@
-# 🍚 Carb Counting Pocket Guide for Indian Foods
+# Carb Counting Pocket Guide for Indian Foods
 
-**Your Complete Reference for Managing Blood Sugar with Indian Cuisine**
-
----
-
-## Table of Contents
-1. [What is Carb Counting?](#what-is-carb-counting)
-2. [Why Carb Counting Matters](#why-carb-counting-matters)
-3. [How to Use This Guide](#how-to-use-this-guide)
-4. [Portion Size Guide](#portion-size-guide)
-5. [Carb Counts by Category](#carb-counts-by-category)
-   - [Rice & Grains](#rice--grains)
-   - [Rotis & Breads](#rotis--breads)
-   - [Dal & Legumes](#dal--legumes)
-   - [Vegetables (Sabzi)](#vegetables-sabzi)
-   - [Fruits](#fruits)
-   - [Snacks & Chaat](#snacks--chaat)
-   - [Sweets & Desserts](#sweets--desserts)
-   - [Beverages](#beverages)
-   - [Restaurant & Street Foods](#restaurant--street-foods)
-6. [Quick Reference Cards](#quick-reference-cards)
-7. [Tips for Eating Out](#tips-for-eating-out)
-8. [Daily Carb Budgets](#daily-carb-budgets)
-
----
-
-## What is Carb Counting?
-
-**Carb counting** (or carbohydrate counting) is a meal planning technique that helps you track how many grams of carbohydrates you eat throughout the day.
-
-### The Basics
-
-Carbohydrates are found in:
-- 🍚 **Grains & Starches** - Rice, roti, bread, pasta
-- 🫘 **Legumes** - Dal, beans, chickpeas
-- 🍎 **Fruits** - All fruits contain natural sugars
-- 🥛 **Dairy** - Milk, yogurt (not paneer/cheese)
-- 🍬 **Sweets** - Sugar, mithai, desserts
-- 🥤 **Beverages** - Juices, sweetened drinks
-
-### One Carb Serving = 15 grams of carbohydrates
-
-This is your basic counting unit. Most people need 3-5 carb servings (45-75g) per meal.
-
----
-
-## Why Carb Counting Matters
-
-### For Diabetes Management
-
-| Benefit | How It Helps |
-|---------|--------------|
-| **Stable Blood Sugar** | Knowing carb amounts helps predict glucose response |
-| **Better A1C** | Consistent carb intake = better long-term control |
-| **Medication Matching** | Match insulin/medicines to what you eat |
-| **Food Freedom** | Eat your favorite foods in right portions |
-| **Weight Management** | Awareness leads to better choices |
-
-### The Indian Challenge
-
-Indian cuisine is **carb-rich by tradition**:
-- Rice with every meal in South India
-- Rotis as the main staple in North India
-- Sweets at every celebration
-- Chai with sugar multiple times daily
-
-**This guide helps you enjoy Indian food while staying in control.**
+*Your quick reference for managing blood sugar with every meal*
 
 ---
 
 ## How to Use This Guide
 
-### Step 1: Know Your Daily Budget
+**1 Carb Serving = 15g Carbohydrates**
+
+Look up foods by category, note the carb count, and track your daily intake. Most people with diabetes aim for 45-60g carbs per meal (3-4 servings).
+
+💡 **Tip:** Keep this guide on your phone for restaurant visits and grocery shopping!
+
+---
+
+## 🍚 Rice & Grains
+
+| Food Item | Portion | Carbs (g) | Servings |
+|-----------|---------|-----------|----------|
+| White Rice (cooked) | 1 katori (150g) | 45g | 3 |
+| Brown Rice (cooked) | 1 katori (150g) | 40g | 2.7 |
+| Basmati Rice | 1 katori (150g) | 42g | 2.8 |
+| Jeera Rice | 1 katori (150g) | 43g | 2.9 |
+| Pulao/Biryani Rice | 1 katori (150g) | 48g | 3.2 |
+| Khichdi | 1 katori (200g) | 35g | 2.3 |
+| Upma | 1 katori (150g) | 28g | 1.9 |
+| Poha | 1 katori (150g) | 32g | 2.1 |
+| Dalia/Broken Wheat | 1 katori (150g) | 25g | 1.7 |
+| Quinoa (cooked) | 1 katori (150g) | 30g | 2 |
+| Oats (cooked) | 1 katori (150g) | 22g | 1.5 |
+| Sabudana Khichdi | 1 katori (150g) | 45g | 3 |
+| Idli (plain) | 2 pieces | 24g | 1.6 |
+| Dosa (plain) | 1 medium | 28g | 1.9 |
+| Vermicelli/Sevai | 1 katori (150g) | 35g | 2.3 |
+
+**🟢 Better Choices:** Brown rice, Dalia, Oats, Quinoa (lower GI, more fiber)
+
+---
+
+## 🫓 Rotis & Breads
+
+| Food Item | Portion | Carbs (g) | Servings |
+|-----------|---------|-----------|----------|
+| Wheat Roti/Chapati | 1 medium (30g) | 15g | 1 |
+| Multigrain Roti | 1 medium (30g) | 14g | 0.9 |
+| Bajra Roti | 1 medium (30g) | 16g | 1.1 |
+| Jowar Roti | 1 medium (30g) | 15g | 1 |
+| Makki Roti | 1 medium (30g) | 18g | 1.2 |
+| Ragi Roti | 1 medium (30g) | 13g | 0.9 |
+| Paratha (plain) | 1 medium | 22g | 1.5 |
+| Stuffed Paratha | 1 medium | 25-30g | 1.7-2 |
+| Aloo Paratha | 1 medium | 32g | 2.1 |
+| Naan | 1 piece | 45g | 3 |
+| Kulcha | 1 piece | 40g | 2.7 |
+| Roomali Roti | 1 piece | 25g | 1.7 |
+| Puri | 1 piece (20g) | 12g | 0.8 |
+| Bhatura | 1 piece | 35g | 2.3 |
+| Bread (white) | 1 slice | 13g | 0.9 |
+| Bread (whole wheat) | 1 slice | 12g | 0.8 |
+| Pav | 1 piece | 18g | 1.2 |
+
+**🟢 Better Choices:** Ragi roti, Multigrain roti, Jowar roti (more fiber, lower GI)
+
+---
+
+## 🥘 Dal & Legumes
+
+| Food Item | Portion | Carbs (g) | Servings |
+|-----------|---------|-----------|----------|
+| Toor Dal | 1 katori (150g) | 20g | 1.3 |
+| Moong Dal | 1 katori (150g) | 18g | 1.2 |
+| Masoor Dal | 1 katori (150g) | 20g | 1.3 |
+| Chana Dal | 1 katori (150g) | 22g | 1.5 |
+| Urad Dal | 1 katori (150g) | 19g | 1.3 |
+| Mixed Dal | 1 katori (150g) | 20g | 1.3 |
+| Dal Tadka | 1 katori (150g) | 21g | 1.4 |
+| Dal Makhani | 1 katori (150g) | 24g | 1.6 |
+| Rajma (cooked) | 1 katori (150g) | 28g | 1.9 |
+| Chole/Chana | 1 katori (150g) | 30g | 2 |
+| Lobia/Black-eyed peas | 1 katori (150g) | 25g | 1.7 |
+| Sprouts (moong) | 1 katori (100g) | 12g | 0.8 |
+| Sprouts (mixed) | 1 katori (100g) | 14g | 0.9 |
+| Sambhar | 1 katori (150g) | 15g | 1 |
+| Rasam | 1 katori (150g) | 8g | 0.5 |
+
+**🟢 Better Choices:** Moong dal, Sprouts, Sambhar (high protein, lower carbs)
+
+---
+
+## 🥬 Sabzi & Vegetables
+
+### Low-Carb Vegetables (Eat Freely)
+
+| Food Item | Portion | Carbs (g) |
+|-----------|---------|-----------|
+| Spinach/Palak | 1 katori | 2g |
+| Methi (Fenugreek) | 1 katori | 3g |
+| Lauki/Bottle Gourd | 1 katori | 4g |
+| Turai/Ridge Gourd | 1 katori | 3g |
+| Karela/Bitter Gourd | 1 katori | 4g |
+| Tinda | 1 katori | 3g |
+| Cabbage | 1 katori | 4g |
+| Cauliflower/Gobi | 1 katori | 5g |
+| Bhindi/Okra | 1 katori | 5g |
+| Baingan/Eggplant | 1 katori | 5g |
+| Capsicum/Bell Pepper | 1 katori | 4g |
+| Tomato | 1 medium | 4g |
+| Cucumber/Kheera | 1 katori | 3g |
+| Mushrooms | 1 katori | 3g |
+| Beans/French Beans | 1 katori | 5g |
+
+### Medium-Carb Vegetables (Portion Control)
+
+| Food Item | Portion | Carbs (g) | Servings |
+|-----------|---------|-----------|----------|
+| Aloo Sabzi (dry) | 1 katori | 22g | 1.5 |
+| Aloo Sabzi (gravy) | 1 katori | 18g | 1.2 |
+| Aloo Gobi | 1 katori | 15g | 1 |
+| Aloo Matar | 1 katori | 20g | 1.3 |
+| Matar Paneer | 1 katori | 12g | 0.8 |
+| Paneer Bhurji | 1 katori | 6g | 0.4 |
+| Mix Veg | 1 katori | 10g | 0.7 |
+| Baingan Bharta | 1 katori | 8g | 0.5 |
+| Palak Paneer | 1 katori | 8g | 0.5 |
+| Kadhi | 1 katori | 12g | 0.8 |
+| Onion | 1 medium | 8g | 0.5 |
+| Carrot | 1 medium | 6g | 0.4 |
+| Beetroot | 1 medium | 10g | 0.7 |
+| Arbi/Colocasia | 1 katori | 22g | 1.5 |
+| Shakarkandi/Sweet Potato | 1 katori | 28g | 1.9 |
+| Corn/Makai | 1 katori | 25g | 1.7 |
+
+**🟢 Better Choices:** Lauki, Karela, Palak, Gobi (very low carb, high fiber)
+
+---
+
+## 🍎 Fruits
+
+| Food Item | Portion | Carbs (g) | Servings |
+|-----------|---------|-----------|----------|
+| Apple | 1 medium | 20g | 1.3 |
+| Banana | 1 medium | 27g | 1.8 |
+| Orange/Santra | 1 medium | 15g | 1 |
+| Mosambi/Sweet Lime | 1 medium | 12g | 0.8 |
+| Guava/Amrood | 1 medium | 12g | 0.8 |
+| Papaya | 1 katori (150g) | 14g | 0.9 |
+| Watermelon/Tarbooz | 1 katori (150g) | 12g | 0.8 |
+| Mango/Aam | 1 katori (150g) | 25g | 1.7 |
+| Grapes/Angoor | 15-20 pieces | 15g | 1 |
+| Pomegranate/Anar | ½ cup seeds | 13g | 0.9 |
+| Chikoo/Sapota | 1 medium | 22g | 1.5 |
+| Litchi | 8-10 pieces | 15g | 1 |
+| Pear/Nashpati | 1 medium | 18g | 1.2 |
+| Pineapple/Ananas | 1 katori (150g) | 18g | 1.2 |
+| Jamun | 10-12 pieces | 12g | 0.8 |
+| Strawberries | 8-10 pieces | 8g | 0.5 |
+| Sitaphal/Custard Apple | ½ fruit | 20g | 1.3 |
+| Dried Dates/Khajoor | 2 pieces | 15g | 1 |
+| Dried Figs/Anjeer | 2 pieces | 12g | 0.8 |
+| Raisins/Kishmish | 1 tbsp | 8g | 0.5 |
+
+**🟢 Better Choices:** Guava, Jamun, Papaya, Orange (low GI, high fiber)
+
+---
+
+## 🥛 Dairy & Beverages
+
+| Food Item | Portion | Carbs (g) | Servings |
+|-----------|---------|-----------|----------|
+| Milk (full fat) | 1 glass (200ml) | 10g | 0.7 |
+| Milk (toned) | 1 glass (200ml) | 10g | 0.7 |
+| Buttermilk/Chaas | 1 glass (200ml) | 5g | 0.3 |
+| Curd/Dahi (plain) | 1 katori (150g) | 6g | 0.4 |
+| Lassi (sweet) | 1 glass (200ml) | 28g | 1.9 |
+| Lassi (salted) | 1 glass (200ml) | 8g | 0.5 |
+| Paneer | 50g | 1g | 0.1 |
+| Cheese | 30g | 1g | 0.1 |
+| Kheer | 1 katori (150g) | 35g | 2.3 |
+| Chai (with sugar) | 1 cup (150ml) | 10g | 0.7 |
+| Chai (without sugar) | 1 cup (150ml) | 4g | 0.3 |
+| Filter Coffee (with sugar) | 1 cup | 12g | 0.8 |
+| Fresh Lime Water | 1 glass | 8g | 0.5 |
+| Coconut Water | 1 glass (200ml) | 9g | 0.6 |
+| Sugarcane Juice | 1 glass (200ml) | 50g | 3.3 |
+| Mango Shake | 1 glass (200ml) | 40g | 2.7 |
+| Badam Milk | 1 glass (200ml) | 22g | 1.5 |
+
+**🟢 Better Choices:** Chaas, Plain Curd, Paneer (low carb, high protein)
+
+---
+
+## 🍿 Snacks & Street Food
+
+| Food Item | Portion | Carbs (g) | Servings |
+|-----------|---------|-----------|----------|
+| Samosa | 1 piece | 25g | 1.7 |
+| Kachori | 1 piece | 28g | 1.9 |
+| Pakora/Bhajiya | 5 pieces | 20g | 1.3 |
+| Vada Pav | 1 piece | 45g | 3 |
+| Pav Bhaji | 1 serving | 55g | 3.7 |
+| Chole Bhature | 1 serving | 65g | 4.3 |
+| Pani Puri | 6 pieces | 30g | 2 |
+| Bhel Puri | 1 serving | 35g | 2.3 |
+| Sev Puri | 4 pieces | 25g | 1.7 |
+| Dahi Puri | 4 pieces | 28g | 1.9 |
+| Aloo Tikki | 2 pieces | 25g | 1.7 |
+| Bread Pakora | 1 piece | 22g | 1.5 |
+| Dhokla | 4 pieces | 24g | 1.6 |
+| Khandvi | 6 pieces | 15g | 1 |
+| Thepla | 1 piece | 18g | 1.2 |
+| Khakhra | 2 pieces | 12g | 0.8 |
+| Murukku/Chakli | 3 pieces | 18g | 1.2 |
+| Namkeen/Mixture | ¼ cup | 15g | 1 |
+| Roasted Chana | ¼ cup | 12g | 0.8 |
+| Makhana (plain) | 1 cup | 10g | 0.7 |
+| Roasted Peanuts | ¼ cup | 5g | 0.3 |
+
+**🟢 Better Choices:** Makhana, Roasted chana, Khakhra (lower carb, healthier)
+
+---
+
+## 🍛 Restaurant Favorites
+
+| Food Item | Portion | Carbs (g) | Servings |
+|-----------|---------|-----------|----------|
+| Butter Chicken + 2 Naan | 1 serving | 95g | 6.3 |
+| Dal Makhani + 2 Roti | 1 serving | 55g | 3.7 |
+| Paneer Butter Masala + 2 Roti | 1 serving | 45g | 3 |
+| Biryani (Veg) | 1 plate | 75g | 5 |
+| Biryani (Chicken) | 1 plate | 70g | 4.7 |
+| Thali (North Indian) | 1 plate | 90-120g | 6-8 |
+| Thali (South Indian) | 1 plate | 100-130g | 7-9 |
+| Dosa Meal (2 dosa + sambhar) | 1 serving | 65g | 4.3 |
+| Chole Kulche | 1 serving | 70g | 4.7 |
+| Rajma Chawal | 1 serving | 75g | 5 |
+| Kadhi Chawal | 1 serving | 60g | 4 |
+| Pav Bhaji | 1 serving | 55g | 3.7 |
+| Pizza (2 slices) | Medium | 50g | 3.3 |
+| Burger (Veg) | 1 piece | 45g | 3 |
+| Pasta | 1 plate | 55g | 3.7 |
+| Fried Rice | 1 plate | 60g | 4 |
+| Noodles (Hakka) | 1 plate | 55g | 3.7 |
+| Manchurian + Rice | 1 serving | 70g | 4.7 |
+| Spring Roll | 2 pieces | 25g | 1.7 |
+| Momos (6 pcs) | 1 serving | 35g | 2.3 |
+
+### 🍽️ Restaurant Smart Swaps
+
+| Instead of... | Try... | Carb Savings |
+|---------------|--------|--------------|
+| 2 Naan | 2 Roti | Save 60g |
+| Biryani | Tandoori + Salad | Save 50g |
+| Chole Bhature | Chole + 1 Roti | Save 35g |
+| Veg Fried Rice | Steamed Rice (½ portion) | Save 35g |
+| Full Thali | Half rice + extra dal | Save 40g |
+
+---
+
+## 🍬 Sweets & Desserts
+
+| Food Item | Portion | Carbs (g) | Servings |
+|-----------|---------|-----------|----------|
+| Gulab Jamun | 1 piece | 25g | 1.7 |
+| Rasgulla | 1 piece | 20g | 1.3 |
+| Rasmalai | 1 piece | 22g | 1.5 |
+| Kaju Katli | 2 pieces (30g) | 18g | 1.2 |
+| Barfi (plain) | 2 pieces (30g) | 20g | 1.3 |
+| Jalebi | 2 pieces | 35g | 2.3 |
+| Ladoo (besan) | 1 piece | 20g | 1.3 |
+| Ladoo (motichoor) | 1 piece | 22g | 1.5 |
+| Halwa (gajar/suji) | 1 katori | 45g | 3 |
+| Payasam | 1 katori | 40g | 2.7 |
+| Kulfi | 1 piece | 18g | 1.2 |
+| Ice Cream | 1 scoop | 22g | 1.5 |
+| Mithai Box (mixed) | 100g | 55-70g | 4-5 |
+
+**⚠️ Warning:** Sweets are very high in sugar. Save for special occasions!
+
+**🟢 Better Options for Sweet Cravings:**
+- Sugar-free mithai (still has carbs from milk solids)
+- Small portion fruit with cream
+- Dates (2-3 pieces)
+- Dark chocolate (2 squares)
+
+---
+
+## 📱 Quick Reference Card
+
+### Daily Carb Targets
 | Goal | Daily Carbs | Per Meal |
 |------|-------------|----------|
-| Strict Control | 60-100g | 20-30g |
-| Moderate Control | 100-150g | 30-45g |
-| Standard | 150-200g | 45-60g |
+| Strict Control | 100-130g | 30-45g |
+| Moderate Control | 130-180g | 45-60g |
+| Maintenance | 180-230g | 60-75g |
 
-### Step 2: Look Up Foods
-Find your food in the tables below. Note the portion size and carb count.
+### Carb-Free Foods (Eat Freely)
+- Eggs, Chicken, Fish, Mutton
+- Paneer, Cheese, Butter
+- Oils and Ghee
+- Green leafy vegetables
+- Cucumber, Tomato, Onion (small qty)
 
-### Step 3: Build Your Plate
-- Fill half with non-starchy vegetables (free foods!)
-- Quarter with protein (dal, paneer, chicken, fish)
-- Quarter with carbs (rice, roti)
-
-### Step 4: Track & Adjust
-Keep a food diary for a week. Notice patterns in your blood sugar.
-
----
-
-## Portion Size Guide
-
-### Visual References Using Common Objects
-
-| Object | Equals | Good For Measuring |
-|--------|--------|-------------------|
-| 🎾 **Tennis Ball** | 1 cup / 1 medium fruit | Rice, fruit, dal |
-| 🃏 **Deck of Cards** | 3 oz / 85g | Paneer, meat, fish |
-| 🖱️ **Computer Mouse** | 1 medium potato | Aloo, root vegetables |
-| 👊 **Your Fist** | 1 cup | Rice, sabzi, salad |
-| 🤲 **Cupped Palm** | ½ cup | Cooked dal, vegetables |
-| 👍 **Thumb Tip** | 1 tsp | Oil, ghee, butter |
-| 🏏 **Cricket Ball** | 1 medium apple | Round fruits |
-
-### Indian-Specific Measures
-
-| Measure | Metric | Common Use |
-|---------|--------|------------|
-| 1 Katori (small bowl) | ~150ml / ¾ cup | Dal, sabzi, raita |
-| 1 Katori (medium) | ~200ml / 1 cup | Rice, khichdi |
-| 1 Chamach (tablespoon) | ~15ml | Oil, ghee, chutneys |
-| 1 Chota chamach (teaspoon) | ~5ml | Sugar, spices |
+### Hidden Carb Traps
+⚠️ **Watch out:**
+- Sauces and chutneys (5-10g per tbsp)
+- Gravy-based dishes (thickened with flour)
+- "Diet" foods (often high in carbs)
+- Fruit juices (30-40g per glass)
+- Biscuits with tea (10-15g each)
 
 ---
 
-## Carb Counts by Category
+## 🎯 Carb Counting Tips
 
-### Rice & Grains
-
-| Food Item | Portion | Carbs (g) | Notes |
-|-----------|---------|-----------|-------|
-| **White Rice (cooked)** | 1 katori (150g) | 40 | High GI |
-| **Brown Rice (cooked)** | 1 katori (150g) | 35 | Better fiber |
-| **Basmati Rice** | 1 katori (150g) | 38 | Lower GI than regular |
-| **Jeera Rice** | 1 katori (150g) | 42 | Includes ghee |
-| **Pulao/Pilaf** | 1 katori (150g) | 45 | With vegetables |
-| **Biryani (veg)** | 1 katori (200g) | 55 | Restaurant portion |
-| **Biryani (chicken)** | 1 katori (200g) | 50 | With meat |
-| **Lemon Rice** | 1 katori (150g) | 42 | South Indian |
-| **Curd Rice** | 1 katori (200g) | 35 | With yogurt |
-| **Khichdi** | 1 katori (200g) | 30 | Rice + dal mix |
-| **Upma** | 1 katori (150g) | 28 | Semolina based |
-| **Poha (flattened rice)** | 1 katori (150g) | 32 | Light breakfast |
-| **Sabudana Khichdi** | 1 katori (150g) | 45 | High starch |
-| **Dalia/Broken Wheat** | 1 katori (150g) | 25 | Good fiber |
-| **Oats (cooked)** | 1 katori (150g) | 20 | Heart healthy |
-| **Quinoa (cooked)** | 1 katori (150g) | 28 | Complete protein |
-| **Millets (cooked)** | 1 katori (150g) | 30 | Ragi, jowar, bajra |
-| **Vermicelli/Seviyan** | 1 katori (150g) | 35 | Breakfast item |
-| **Idli** | 2 pieces | 24 | Fermented, lower GI |
-| **Dosa (plain)** | 1 medium | 30 | Without filling |
-| **Masala Dosa** | 1 piece | 45 | With potato filling |
-| **Uttapam** | 1 medium | 35 | Thick pancake |
-| **Pongal** | 1 katori (200g) | 40 | Rice + moong dal |
-| **Appam** | 2 pieces | 28 | Kerala specialty |
+1. **Read Labels** - Check "Total Carbohydrates" on packaged foods
+2. **Use Hand Measures** - Fist = 1 katori, Palm = protein portion
+3. **Log Your Food** - Write down what you eat for 1 week
+4. **Test & Learn** - Check blood sugar 2 hours after meals
+5. **Be Consistent** - Similar carbs at similar times daily
+6. **Don't Skip Meals** - Leads to overeating later
 
 ---
 
-### Rotis & Breads
+## Resources
 
-| Food Item | Portion | Carbs (g) | Notes |
-|-----------|---------|-----------|-------|
-| **Chapati/Roti** | 1 medium (30g flour) | 18 | Whole wheat |
-| **Phulka** | 1 piece | 15 | Puffed, no oil |
-| **Tandoori Roti** | 1 piece | 20 | Restaurant style |
-| **Naan (plain)** | 1 piece | 45 | Refined flour, high! |
-| **Butter Naan** | 1 piece | 48 | Extra calories |
-| **Garlic Naan** | 1 piece | 46 | With garlic |
-| **Kulcha** | 1 piece | 40 | Stuffed bread |
-| **Paratha (plain)** | 1 medium | 30 | With ghee/oil |
-| **Aloo Paratha** | 1 piece | 45 | Potato stuffed |
-| **Gobi Paratha** | 1 piece | 35 | Cauliflower stuffed |
-| **Paneer Paratha** | 1 piece | 32 | Cheese stuffed |
-| **Methi Paratha** | 1 piece | 28 | With fenugreek |
-| **Laccha Paratha** | 1 piece | 35 | Layered |
-| **Thepla** | 1 piece | 20 | Gujarati flatbread |
-| **Puri** | 2 pieces | 30 | Deep fried |
-| **Bhatura** | 1 piece | 50 | Deep fried, large |
-| **Luchi** | 2 pieces | 28 | Bengali fried bread |
-| **Roomali Roti** | 1 piece | 25 | Thin, soft |
-| **Missi Roti** | 1 piece | 22 | With besan |
-| **Makki ki Roti** | 1 piece | 25 | Corn flour |
-| **Bajra Roti** | 1 piece | 20 | Pearl millet |
-| **Jowar Roti** | 1 piece | 22 | Sorghum |
-| **Ragi Roti** | 1 piece | 18 | Finger millet |
-| **Akki Rotti** | 1 piece | 22 | Rice flour |
-| **Bread (white)** | 2 slices | 26 | Refined |
-| **Bread (brown/whole wheat)** | 2 slices | 24 | Better choice |
-| **Pav** | 1 piece | 20 | Dinner roll |
-
----
-
-### Dal & Legumes
-
-| Food Item | Portion | Carbs (g) | Notes |
-|-----------|---------|-----------|-------|
-| **Toor Dal (cooked)** | 1 katori (150ml) | 20 | Most common |
-| **Moong Dal (yellow)** | 1 katori (150ml) | 18 | Easy to digest |
-| **Moong Dal (green, whole)** | 1 katori (150ml) | 22 | With skin |
-| **Masoor Dal (red)** | 1 katori (150ml) | 20 | Quick cooking |
-| **Chana Dal** | 1 katori (150ml) | 24 | Lower GI |
-| **Urad Dal (black)** | 1 katori (150ml) | 22 | Used in dosa |
-| **Rajma (kidney beans)** | 1 katori (150ml) | 28 | Punjabi favorite |
-| **Chole/Chana** | 1 katori (150ml) | 30 | Chickpeas |
-| **Kala Chana** | 1 katori (150ml) | 28 | Black chickpeas |
-| **Lobhia (black-eyed peas)** | 1 katori (150ml) | 25 | |
-| **Kadhi** | 1 katori (150ml) | 12 | Yogurt-besan gravy |
-| **Sambar** | 1 katori (150ml) | 15 | With vegetables |
-| **Rasam** | 1 katori (150ml) | 5 | Thin soup |
-| **Dal Makhani** | 1 katori (150ml) | 25 | Rich, creamy |
-| **Dal Tadka** | 1 katori (150ml) | 20 | Tempered dal |
-| **Dal Fry** | 1 katori (150ml) | 22 | Restaurant style |
-| **Panchmel Dal** | 1 katori (150ml) | 22 | 5 dal mix |
-| **Sprouted Moong** | 1 katori (100g) | 12 | Raw/salad |
-| **Sundal** | 1 katori (100g) | 20 | South Indian |
-
----
-
-### Vegetables (Sabzi)
-
-#### Low-Carb Vegetables (Free Foods - < 5g per serving)
-*Eat freely! Great for filling your plate.*
-
-| Food Item | Portion | Carbs (g) |
-|-----------|---------|-----------|
-| **Palak (Spinach)** | 1 cup cooked | 3 |
-| **Methi (Fenugreek leaves)** | 1 cup cooked | 3 |
-| **Bhindi (Okra)** | 1 katori (100g) | 4 |
-| **Lauki/Ghiya (Bottle gourd)** | 1 katori | 3 |
-| **Tori/Turai (Ridge gourd)** | 1 katori | 3 |
-| **Karela (Bitter gourd)** | 1 katori | 4 |
-| **Parwal (Pointed gourd)** | 1 katori | 4 |
-| **Tinda (Apple gourd)** | 1 katori | 3 |
-| **Kakdi/Kheera (Cucumber)** | 1 cup | 3 |
-| **Tamatar (Tomato)** | 1 medium | 4 |
-| **Capsicum/Shimla Mirch** | 1 cup | 4 |
-| **Baingan (Eggplant)** | 1 katori | 5 |
-| **Gobhi (Cauliflower)** | 1 katori | 5 |
-| **Patta Gobhi (Cabbage)** | 1 cup | 4 |
-| **Beans (French beans)** | 1 katori | 5 |
-| **Mushrooms** | 1 cup | 2 |
-| **Sarson ka Saag** | 1 katori | 4 |
-| **Radish/Mooli** | 1 cup | 3 |
-| **Lettuce/Salad greens** | 2 cups | 2 |
-| **Zucchini** | 1 cup | 4 |
-
-#### Medium-Carb Vegetables (5-15g per serving)
-*Eat in moderation, count the carbs.*
-
-| Food Item | Portion | Carbs (g) |
-|-----------|---------|-----------|
-| **Gajar (Carrots)** | 1 katori | 10 |
-| **Onion (cooked)** | ½ cup | 7 |
-| **Matar (Green Peas)** | ½ cup | 12 |
-| **Beetroot** | ½ cup | 8 |
-| **Pumpkin/Kaddu** | 1 katori | 8 |
-
-#### High-Carb Vegetables (>15g per serving)
-*Treat like grains - portion carefully!*
-
-| Food Item | Portion | Carbs (g) | Notes |
-|-----------|---------|-----------|-------|
-| **Aloo (Potato)** | 1 medium (150g) | 26 | High GI |
-| **Aloo (Potato)** | ½ cup cubed | 15 | |
-| **Shakarkandi (Sweet Potato)** | 1 medium | 24 | Better GI than potato |
-| **Arbi/Colocasia** | 1 katori | 20 | Starchy root |
-| **Kachalu/Yam** | 1 katori | 22 | Very starchy |
-| **Corn/Bhutta** | 1 medium cob | 20 | |
-| **Corn (kernels)** | ½ cup | 15 | |
-| **Jackfruit (raw)** | 1 katori | 18 | Vegetable curry |
-| **Banana (raw/kachha kela)** | 1 medium | 25 | Used as vegetable |
-| **Suran/Jimikand** | 1 katori | 20 | Elephant yam |
-
----
-
-### Fruits
-
-#### Low-Carb Fruits (< 10g per serving)
-*Best choices for blood sugar control*
-
-| Fruit | Portion | Carbs (g) | GI |
-|-------|---------|-----------|-----|
-| **Jamun (Indian Blackberry)** | 10-12 pieces | 8 | Low |
-| **Strawberries** | 8-10 pieces | 8 | Low |
-| **Papaya** | 1 cup cubed | 10 | Medium |
-| **Guava (Amrud)** | 1 medium | 8 | Low |
-| **Peach (Aadoo)** | 1 medium | 10 | Low |
-| **Plum (Aloo Bukhara)** | 2 medium | 8 | Low |
-| **Starfruit (Kamrakh)** | 1 medium | 6 | Low |
-| **Watermelon** | 1 cup cubed | 11 | High GI! |
-| **Muskmelon (Kharbuja)** | 1 cup cubed | 12 | Medium |
-
-#### Medium-Carb Fruits (10-20g per serving)
-*Enjoy in moderation*
-
-| Fruit | Portion | Carbs (g) | GI |
-|-------|---------|-----------|-----|
-| **Apple (Seb)** | 1 medium | 20 | Low |
-| **Orange (Santra)** | 1 medium | 15 | Low |
-| **Mosambi (Sweet Lime)** | 1 medium | 14 | Low |
-| **Pear (Nashpati)** | 1 medium | 22 | Low |
-| **Kiwi** | 2 medium | 16 | Low |
-| **Pomegranate (Anar)** | ½ cup seeds | 16 | Low |
-| **Grapes (Angoor)** | 15-20 pieces | 15 | Medium |
-| **Cherries** | 12-15 pieces | 15 | Low |
-| **Lychee** | 7-8 pieces | 15 | Medium |
-| **Sitaphal (Custard Apple)** | ½ fruit | 18 | Medium |
-
-#### High-Carb Fruits (> 20g per serving)
-*Limit portions carefully*
-
-| Fruit | Portion | Carbs (g) | GI |
-|-------|---------|-----------|-----|
-| **Banana (Kela)** | 1 medium | 27 | Medium |
-| **Mango (Aam)** | 1 cup sliced | 25 | Medium |
-| **Mango (Aam)** | ½ medium | 18 | |
-| **Chikoo (Sapota)** | 2 medium | 28 | High |
-| **Grapes** | 1 cup | 27 | Medium |
-| **Dates (Khajoor)** | 3-4 pieces | 30 | High |
-| **Dried Figs (Anjeer)** | 3-4 pieces | 25 | Medium |
-| **Raisins (Kishmish)** | 2 tbsp | 22 | High |
-| **Jack fruit (ripe)** | 1 cup | 35 | Medium |
-| **Pineapple** | 1 cup | 20 | Medium |
-| **Coconut (fresh)** | ½ cup grated | 6 | Low (high fat) |
-| **Coconut water** | 1 cup (240ml) | 9 | Low |
-
----
-
-### Snacks & Chaat
-
-| Snack | Portion | Carbs (g) | Notes |
-|-------|---------|-----------|-------|
-| **Samosa (veg)** | 1 piece | 25 | Deep fried |
-| **Samosa (mini)** | 2 pieces | 20 | Cocktail size |
-| **Kachori** | 1 piece | 30 | High fat too |
-| **Pakora/Bhajiya** | 4-5 pieces | 20 | Deep fried |
-| **Vada** | 2 pieces | 25 | Urad dal |
-| **Medu Vada** | 2 pieces | 24 | South Indian |
-| **Aloo Tikki** | 2 medium | 30 | Potato patty |
-| **Bread Pakora** | 1 piece | 22 | Deep fried |
-| **Paneer Pakora** | 3-4 pieces | 12 | Lower carb |
-| **Dhokla** | 3-4 pieces | 25 | Steamed, better |
-| **Khandvi** | 5-6 pieces | 15 | Gujarati |
-| **Khaman** | 3-4 pieces | 22 | Besan based |
-| **Pani Puri/Golgappa** | 6 pieces | 24 | With water |
-| **Bhel Puri** | 1 plate | 35 | Puffed rice mix |
-| **Sev Puri** | 4-5 pieces | 30 | With sev |
-| **Dahi Puri** | 4-5 pieces | 28 | With yogurt |
-| **Papdi Chaat** | 1 plate | 35 | |
-| **Aloo Chaat** | 1 plate | 40 | Potato based |
-| **Ragda Pattice** | 1 plate | 50 | High carb |
-| **Chole Bhature (1 bhatura)** | 1 serving | 80 | Very high! |
-| **Pav Bhaji** | 2 pav + bhaji | 65 | Popular street food |
-| **Vada Pav** | 1 piece | 45 | Mumbai special |
-| **Dabeli** | 1 piece | 40 | Gujarati |
-| **Misal Pav** | 1 serving | 55 | Maharashtrian |
-| **Dahi Vada** | 2 pieces | 25 | With yogurt |
-| **Mathri** | 3-4 pieces | 20 | Baked snack |
-| **Namak Pare** | 10-12 pieces | 18 | |
-| **Shakkar Para** | 5-6 pieces | 25 | Sweet |
-| **Murukku/Chakli** | 3-4 pieces | 20 | |
-| **Mixture/Chivda** | ¼ cup | 15 | |
-| **Boondi** | ¼ cup | 18 | |
-| **Sev** | ¼ cup | 15 | |
-
----
-
-### Sweets & Desserts
-
-**⚠️ Warning: Most Indian sweets are very high in sugar and carbs!**
-
-| Sweet | Portion | Carbs (g) | Notes |
-|-------|---------|-----------|-------|
-| **Gulab Jamun** | 1 piece | 25 | Deep fried + syrup |
-| **Rasgulla** | 1 piece | 20 | Syrup soaked |
-| **Rasmalai** | 1 piece | 25 | With cream |
-| **Kaju Katli** | 2 pieces (30g) | 18 | Cashew |
-| **Barfi (plain)** | 1 piece (30g) | 20 | |
-| **Besan Ladoo** | 1 medium | 22 | Gram flour |
-| **Motichoor Ladoo** | 1 piece | 25 | |
-| **Boondi Ladoo** | 1 piece | 28 | |
-| **Coconut Ladoo** | 1 piece | 15 | Lower carb |
-| **Jalebi** | 2 pieces | 40 | Very high sugar |
-| **Imarti** | 1 piece | 25 | |
-| **Gajar Halwa** | ½ katori | 35 | With milk/cream |
-| **Moong Dal Halwa** | ½ katori | 30 | Rich |
-| **Sooji Halwa** | ½ katori | 35 | Semolina |
-| **Badam Halwa** | ½ katori | 28 | Almond |
-| **Kheer (rice)** | ½ katori | 30 | Rice pudding |
-| **Seviyan Kheer** | ½ katori | 28 | Vermicelli |
-| **Phirni** | ½ katori | 25 | Ground rice |
-| **Shrikhand** | ½ katori | 25 | Sweetened yogurt |
-| **Basundi** | ½ katori | 22 | Thickened milk |
-| **Rabdi** | ½ katori | 25 | |
-| **Kulfi** | 1 piece | 20 | Indian ice cream |
-| **Peda** | 2 pieces | 22 | Milk sweet |
-| **Sandesh** | 2 pieces | 18 | Bengali |
-| **Mishti Doi** | ½ katori | 25 | Sweet yogurt |
-| **Payasam** | ½ katori | 30 | South Indian |
-| **Mysore Pak** | 1 piece | 25 | High fat too |
-| **Soan Papdi** | 2 pieces | 22 | Flaky sweet |
-| **Chikki (groundnut)** | 1 piece (25g) | 15 | Jaggery based |
-| **Gajak** | 1 piece | 18 | Sesame |
-| **Malpua** | 1 piece | 30 | Fried pancake |
-| **Ghevar** | 1 small | 35 | Rajasthani |
-
-### Sugar-Free Sweet Options
-*Better alternatives (still have carbs from base ingredients)*
-
-| Item | Portion | Carbs (g) | Notes |
-|------|---------|-----------|-------|
-| **Sugar-free Kheer** | ½ katori | 18 | Milk carbs remain |
-| **Sugar-free Barfi** | 1 piece | 12 | |
-| **Date-sweetened Ladoo** | 1 piece | 15 | Natural sugars |
-| **Stevia Kheer** | ½ katori | 15 | |
-
----
-
-### Beverages
-
-| Beverage | Portion | Carbs (g) | Notes |
-|----------|---------|-----------|-------|
-| **Chai (with sugar)** | 1 cup | 10 | 2 tsp sugar |
-| **Chai (without sugar)** | 1 cup | 4 | Milk carbs only |
-| **Black Tea/Coffee** | 1 cup | 0 | Zero carbs |
-| **Masala Chai** | 1 cup | 12 | With sugar |
-| **Coffee (with milk, sugar)** | 1 cup | 8 | |
-| **Filter Coffee** | 1 cup | 6 | South Indian |
-| **Lassi (sweet)** | 1 glass (250ml) | 30 | High sugar |
-| **Lassi (salted)** | 1 glass | 10 | Better choice |
-| **Chaas/Buttermilk** | 1 glass | 6 | Good for digestion |
-| **Nimbu Pani (with sugar)** | 1 glass | 20 | Lemonade |
-| **Nimbu Pani (without sugar)** | 1 glass | 2 | Best choice |
-| **Jaljeera** | 1 glass | 5 | Cumin drink |
-| **Aam Panna** | 1 glass | 25 | Raw mango drink |
-| **Thandai** | 1 glass | 28 | Festive drink |
-| **Badam Milk** | 1 glass | 22 | Almond milk (Indian) |
-| **Kesar Milk** | 1 glass | 18 | Saffron milk |
-| **Orange Juice** | 1 glass (200ml) | 22 | No added sugar |
-| **Apple Juice** | 1 glass | 28 | |
-| **Mango Juice** | 1 glass | 30 | |
-| **Mixed Fruit Juice** | 1 glass | 28 | |
-| **Sugarcane Juice** | 1 glass | 35 | Very high |
-| **Coconut Water** | 1 glass | 9 | Natural |
-| **Soft Drinks** | 1 can (330ml) | 35 | Avoid! |
-| **Diet Soft Drinks** | 1 can | 0 | Zero carbs |
-| **Roohafza** | 1 glass | 30 | Syrup based |
-| **Milkshake** | 1 glass | 40 | Ice cream based |
-| **Mango Lassi** | 1 glass | 35 | |
-| **Hot Chocolate** | 1 cup | 25 | |
-
----
-
-### Restaurant & Street Foods
-
-#### North Indian Restaurant
-
-| Dish | Portion | Carbs (g) | Tips |
-|------|---------|-----------|------|
-| **Dal Makhani + 2 Roti** | 1 serving | 60 | Skip one roti |
-| **Paneer Butter Masala + Rice** | 1 serving | 55 | Ask for half rice |
-| **Chole + 2 Bhature** | 1 serving | 110 | Have 1 bhatura |
-| **Rajma Chawal** | 1 plate | 70 | Restaurant portion |
-| **Kadhi Chawal** | 1 plate | 55 | |
-| **Butter Chicken + Naan** | 1 serving | 60 | Chicken is low carb |
-| **Tandoori Platter** | 1 serving | 5-10 | Great choice! |
-| **Shahi Paneer + Roti** | 1 serving | 45 | |
-| **Palak Paneer + 2 Roti** | 1 serving | 40 | Good option |
-| **Mixed Veg + 2 Roti** | 1 serving | 45 | |
-| **Thali (full)** | 1 plate | 120-150 | Share or take home |
-
-#### South Indian Restaurant
-
-| Dish | Portion | Carbs (g) | Tips |
-|------|---------|-----------|------|
-| **Masala Dosa + Sambar** | 1 serving | 55 | Large portion |
-| **Plain Dosa + Sambar** | 1 serving | 40 | Better choice |
-| **Idli (4) + Sambar** | 1 serving | 55 | |
-| **Idli (2) + Sambar** | 1 serving | 30 | Good portion |
-| **Medu Vada (2) + Sambar** | 1 serving | 35 | Deep fried |
-| **Rava Dosa** | 1 serving | 35 | Thinner |
-| **Uttapam** | 1 serving | 40 | |
-| **Mini Tiffin** | 1 set | 45 | Variety |
-| **Meals/Thali** | 1 plate | 100-130 | Full South Indian |
-| **Curd Rice** | 1 serving | 40 | Cooling |
-| **Lemon Rice** | 1 serving | 45 | |
-| **Bisi Bele Bath** | 1 serving | 55 | Karnataka special |
-| **Pongal** | 1 serving | 45 | |
-
-#### Chinese/Indo-Chinese
-
-| Dish | Portion | Carbs (g) | Tips |
-|------|---------|-----------|------|
-| **Veg Fried Rice** | 1 plate | 60 | Large portion |
-| **Chicken Fried Rice** | 1 plate | 55 | |
-| **Veg Noodles** | 1 plate | 55 | |
-| **Hakka Noodles** | 1 plate | 60 | |
-| **Manchurian (dry)** | 1 serving | 25 | Better choice |
-| **Manchurian (gravy)** | 1 serving | 35 | Cornstarch gravy |
-| **Chilli Paneer (dry)** | 1 serving | 15 | Low carb! |
-| **Chilli Chicken (dry)** | 1 serving | 12 | Good choice |
-| **Spring Roll** | 2 pieces | 25 | |
-| **Momos (steamed)** | 6 pieces | 30 | |
-| **Momos (fried)** | 6 pieces | 35 | |
-| **Sweet Corn Soup** | 1 bowl | 18 | |
-| **Hot & Sour Soup** | 1 bowl | 10 | |
-| **Manchow Soup** | 1 bowl | 15 | |
-
-#### Pizza & Fast Food
-
-| Item | Portion | Carbs (g) | Tips |
-|------|---------|-----------|------|
-| **Pizza (thin crust)** | 1 slice | 20 | |
-| **Pizza (regular crust)** | 1 slice | 28 | |
-| **Pizza (stuffed crust)** | 1 slice | 35 | Avoid |
-| **Burger** | 1 regular | 35 | Bun is main carb |
-| **French Fries** | Regular | 45 | |
-| **French Fries** | Small | 30 | |
-| **Wrap/Roll** | 1 piece | 35 | |
-| **Pasta (restaurant)** | 1 serving | 70-80 | Very high |
-| **Garlic Bread** | 2 pieces | 25 | |
-
----
-
-## Quick Reference Cards
-
-### 🍽️ Card 1: Building a Balanced Indian Plate
-
-```
-┌─────────────────────────────────────┐
-│     THE BALANCED INDIAN PLATE       │
-├─────────────────────────────────────┤
-│                                     │
-│    ┌───────────┬───────────┐       │
-│    │           │           │       │
-│    │  SABZI    │  PROTEIN  │       │
-│    │  (Free)   │  (Low)    │       │
-│    │  50%      │  25%      │       │
-│    │           │           │       │
-│    ├───────────┴───────────┤       │
-│    │                       │       │
-│    │     CARBS (Count!)    │       │
-│    │         25%           │       │
-│    │                       │       │
-│    └───────────────────────┘       │
-│                                     │
-│  SABZI: Palak, bhindi, lauki,      │
-│         tori, gobhi, beans         │
-│                                     │
-│  PROTEIN: Dal, paneer, chicken,    │
-│           fish, eggs, tofu         │
-│                                     │
-│  CARBS: 1 roti OR ½ cup rice       │
-│         (not both!)                │
-└─────────────────────────────────────┘
-```
-
-### 🌅 Card 2: Typical Day Carb Count
-
-**Target: 120g carbs/day (Moderate Control)**
-
-| Meal | Food | Carbs |
-|------|------|-------|
-| **Breakfast** | 2 Idli + Sambar + Chai (no sugar) | 30g |
-| **Mid-morning** | 1 Guava | 8g |
-| **Lunch** | 1 Roti + Dal + Sabzi + Salad | 40g |
-| **Evening** | Buttermilk + 10 Almonds | 8g |
-| **Dinner** | ½ cup Rice + Sambar + Sabzi | 32g |
-| **TOTAL** | | **118g** ✓ |
-
-### 🔄 Card 3: Smart Swaps
-
-| Instead of... | Try... | Save |
-|---------------|--------|------|
-| 1 Naan (45g) | 2 Phulka (30g) | 15g |
-| 1 cup Rice (40g) | 1 cup Cauliflower Rice (5g) | 35g |
-| Sweet Lassi (30g) | Chaas (6g) | 24g |
-| 2 Samosas (50g) | Paneer Tikka (5g) | 45g |
-| Gulab Jamun (25g) | Sugar-free Jelly (2g) | 23g |
-| White Rice (40g) | Brown Rice (35g) | 5g |
-| Potato Curry (25g) | Lauki Curry (5g) | 20g |
-| Chai with Sugar (10g) | Black Coffee (0g) | 10g |
-| Mango (25g) | Papaya (10g) | 15g |
-| Puri (30g) | Roti (18g) | 12g |
-
-### 📱 Card 4: Restaurant Survival Guide
-
-**Before You Go:**
-- Check menu online
-- Eat a small healthy snack
-- Decide your carb budget
-
-**At the Restaurant:**
-- Start with soup or salad
-- Ask for sauces/gravies on the side
-- Request half portion of rice/roti
-- Share dessert (or skip!)
-- Take leftovers home
-
-**Best Choices by Cuisine:**
-
-| Cuisine | Order This | Avoid This |
-|---------|------------|------------|
-| North Indian | Tandoori items, paneer tikka, dal + 1 roti | Naan, biryani, chole bhature |
-| South Indian | Idli (2), plain dosa, rasam | Masala dosa, payasam |
-| Chinese | Dry Manchurian, soup, chilli items | Fried rice, noodles |
-| Mughlai | Kebabs, tikka, raita | Biryani, korma with naan |
-
----
-
-## Tips for Eating Out
-
-### 1. Plan Ahead
-- Look at the menu online before going
-- Decide what you'll order in advance
-- Eat a small healthy snack before leaving
-
-### 2. Smart Ordering Strategies
-
-**Ask the waiter:**
-- "Can I get this without sugar?"
-- "Can you serve the rice on the side?"
-- "Can I substitute roti for naan?"
-- "Is this dish made with potato?"
-
-**Portion control:**
-- Share carb-heavy dishes
-- Ask for half portions
-- Take leftovers home
-- Order kids' size when available
-
-### 3. Navigate the Buffet
-
-**First round:** Salad + soup (no cream-based)
-**Second round:** Protein + vegetables
-**Third round:** Small portion of ONE carb
-**Skip:** Dessert counter or take ONE bite
-
-### 4. Hidden Carb Traps
-
-Watch out for carbs hiding in:
-- **Gravies:** Thickened with flour or cashew paste
-- **Marinades:** Sugar in tandoori items
-- **Chutneys:** Sweet mango, tamarind
-- **Raita:** Sometimes has sugar added
-- **Papad:** 5g carbs each!
-- **Pickles:** Some have sugar
-
-### 5. Celebrations & Festivals
-
-**Diwali Strategy:**
-- Have protein-rich breakfast
-- Choose 2-3 sweets to taste (small bites)
-- Drink lots of water
-- Walk after eating
-
-**Wedding Survival:**
-- Eat before you go
-- Focus on tandoori starters
-- One plate only, no refills
-- Avoid sweet drinks
-
----
-
-## Daily Carb Budgets
-
-### Determine Your Budget
-
-| Your Goal | Daily Carbs | What It Means |
-|-----------|-------------|---------------|
-| **Very Strict (Keto-ish)** | 50-80g | Major restriction, fastest results |
-| **Strict Control** | 80-100g | Good for reversing prediabetes |
-| **Moderate Control** | 100-130g | Sustainable long-term |
-| **Standard Diabetic** | 130-150g | ADA recommendations |
-| **Liberal** | 150-200g | With medication adjustment |
-
-### Distribute Through the Day
-
-**For 120g daily budget:**
-
-| Meal | Carbs | Example |
-|------|-------|---------|
-| Breakfast | 30g | Poha OR 2 idli |
-| Snack | 10g | 1 fruit |
-| Lunch | 35g | 1 roti + dal + sabzi |
-| Snack | 10g | Chaas + nuts |
-| Dinner | 35g | ½ rice + sambar + sabzi |
-| **Total** | **120g** | |
-
----
-
-## Quick Carb Math
-
-### The 15-15 Rule
-- 15g carbs = 1 carb serving
-- Most people: 3-4 servings per meal
-- Snacks: 1-2 servings
-
-### Common Portions = 15g Carbs
-
-- 1 small roti/chapati
-- ⅓ cup cooked rice
-- ½ cup cooked dal
-- 1 small fruit
-- ½ cup fruit juice
-- 1 cup milk
-
-### Reading Labels (Packaged Foods)
-
-Look for:
-1. **Serving Size** - How much is one serving?
-2. **Total Carbohydrates** - Not just sugar!
-3. **Fiber** - Subtract half from total carbs
-4. **Sugar** - Should be low
-
-**Net Carbs = Total Carbs - (Fiber ÷ 2)**
-
----
-
-## Your Action Plan
-
-### Week 1: Awareness
-- [ ] Track everything you eat for 3 days
-- [ ] Calculate your average daily carbs
-- [ ] Identify your biggest carb sources
-
-### Week 2: Small Changes
-- [ ] Cut portion of rice/roti by 25%
-- [ ] Add one extra serving of vegetables
-- [ ] Switch one sweet drink to water
-
-### Week 3: Build Habits
-- [ ] Use smaller plates for carbs
-- [ ] Eat protein and vegetables first
-- [ ] Wait 10 minutes before second helping
-
-### Week 4: Fine-tune
-- [ ] Review blood sugar patterns
-- [ ] Adjust carb budget if needed
-- [ ] Plan for restaurants and events
-
----
-
-## Summary: The Golden Rules
-
-1. **Know your budget** - Set a daily carb limit
-2. **Count everything** - Even small bites add up
-3. **Prioritize protein & vegetables** - Fill up on these first
-4. **Mind your portions** - Use visual guides
-5. **Read labels** - Check packaged foods
-6. **Plan ahead** - Especially for eating out
-7. **Stay consistent** - Same carbs daily = stable sugars
-8. **Don't deprive** - Enjoy favorites in small amounts
-9. **Track progress** - Monitor blood sugar response
-10. **Keep learning** - Every body is different
-
----
-
-## Need More Help?
-
-📧 **Email:** info@health.gheware.com
+📺 **YouTube:** youtube.com/@health_gheware
 🌐 **Website:** health.gheware.com
-📱 **Follow us** for daily tips and recipes
+📖 **Blog:** health.gheware.com/blog
+
+**More Free Guides:**
+- 7-Day Diabetes Meal Plan
+- Blood Sugar Tracking Journal
+- Diabetes-Friendly Recipe Book
 
 ---
 
-*Disclaimer: This guide is for educational purposes. Always consult your doctor or dietitian for personalized advice. Carb counts are approximate and may vary based on preparation methods.*
+## Medical Disclaimer
 
-**© 2025 Health Gheware | Your Partner in Diabetes Management**
+This guide is for **educational purposes only** and is not a substitute for professional medical advice.
+
+- Always consult your doctor or dietician before making dietary changes
+- Individual carb tolerance varies - test your blood sugar regularly
+- This guide provides approximate values - actual carbs may vary based on preparation method and portion size
+
+**© 2026 Health Gheware. All Rights Reserved.**
+
+*Eat Well, Live Better - The Indian Way* 🇮🇳

@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Free Carb Counting Pocket Guide for Indian Foods | Health Gheware"
-description: "Download your free pocket guide with carb counts for 100+ Indian foods. Perfect for diabetes management. Includes rice, rotis, dal, fruits, sweets & restaurant foods."
+description: "Download your free carb counting pocket guide with 150+ Indian foods. Quick reference for rice, roti, dal, sabzi, fruits, snacks & restaurant meals. Perfect for managing blood sugar!"
 permalink: /carb-guide/
 ---
 
 <style>
   .lead-magnet-hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #00cc66 0%, #009944 100%);
     color: white;
     padding: 60px 20px;
     text-align: center;
@@ -76,13 +76,13 @@ permalink: /carb-guide/
   
   .form-group input:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #00cc66;
   }
   
   .download-btn {
     width: 100%;
     padding: 18px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #00cc66 0%, #009944 100%);
     color: white;
     border: none;
     border-radius: 10px;
@@ -94,7 +94,7 @@ permalink: /carb-guide/
   
   .download-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 20px rgba(0, 204, 102, 0.4);
   }
   
   .privacy-note {
@@ -155,179 +155,160 @@ permalink: /carb-guide/
     color: #333;
   }
   
-  .preview-grid {
-    max-width: 900px;
+  .preview-items {
+    max-width: 800px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
   }
   
-  .preview-card {
+  .preview-item {
     background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   }
   
-  .preview-card h4 {
-    color: #667eea;
-    margin-bottom: 10px;
-    font-size: 1rem;
+  .preview-item .check {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #00cc66, #009944);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    flex-shrink: 0;
   }
   
-  .preview-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  .preview-item h4 {
+    color: #333;
+    margin-bottom: 5px;
   }
   
-  .preview-card li {
-    padding: 5px 0;
+  .preview-item p {
+    color: #666;
     font-size: 0.9rem;
-    color: #555;
-    border-bottom: 1px solid #f0f0f0;
-  }
-  
-  .preview-card li:last-child {
-    border-bottom: none;
+    margin: 0;
   }
   
   .testimonial-section {
     padding: 60px 20px;
-    max-width: 700px;
-    margin: 0 auto;
     text-align: center;
+    background: white;
   }
   
-  .testimonial-section h2 {
-    margin-bottom: 40px;
-    color: #333;
-  }
-  
-  .testimonial {
-    background: #fff;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-  }
-  
-  .testimonial p {
-    font-style: italic;
+  .testimonial-section blockquote {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2rem;
     color: #555;
-    margin-bottom: 15px;
-    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.8;
   }
   
-  .testimonial-author {
-    font-weight: 600;
-    color: #667eea;
+  .testimonial-section cite {
+    display: block;
+    margin-top: 20px;
+    color: #888;
+    font-style: normal;
   }
   
   .cta-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #00cc66 0%, #009944 100%);
     padding: 60px 20px;
     text-align: center;
+    color: white;
   }
   
   .cta-section h2 {
-    color: white;
     margin-bottom: 20px;
+    color: white;
   }
   
   .cta-section p {
-    opacity: 0.95;
-    margin-bottom: 30px;
     max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 30px;
+    opacity: 0.95;
   }
   
   .cta-btn {
     display: inline-block;
-    padding: 18px 40px;
     background: white;
-    color: #667eea;
-    text-decoration: none;
+    color: #00cc66;
+    padding: 15px 40px;
     border-radius: 30px;
     font-weight: 600;
-    font-size: 1.1rem;
+    text-decoration: none;
     transition: transform 0.2s;
   }
   
   .cta-btn:hover {
-    transform: scale(1.05);
+    transform: translateY(-2px);
   }
-  
-  .stats-row {
+
+  .required-star {
+    color: #e53e3e;
+  }
+
+  .food-categories {
     display: flex;
-    justify-content: center;
-    gap: 40px;
     flex-wrap: wrap;
-    margin-top: 30px;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
   }
-  
-  .stat-item {
-    text-align: center;
+
+  .food-tag {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 14px;
+    border-radius: 15px;
+    font-size: 0.85rem;
   }
-  
-  .stat-number {
-    font-size: 2.5rem;
-    font-weight: 700;
-  }
-  
-  .stat-label {
-    font-size: 0.9rem;
-    opacity: 0.9;
-  }
-  
+
   @media (max-width: 600px) {
     .lead-magnet-hero h1 {
       font-size: 1.8rem;
     }
     
     .download-section {
-      margin: -30px 15px 40px;
-      padding: 30px 20px;
+      margin: -20px 15px 30px;
+      padding: 25px;
     }
     
-    .stats-row {
-      gap: 20px;
-    }
-    
-    .stat-number {
-      font-size: 2rem;
+    .preview-item {
+      flex-direction: column;
+      text-align: center;
     }
   }
 </style>
 
 <div class="lead-magnet-hero">
-  <div class="hero-badge">📚 FREE DOWNLOAD</div>
-  <h1>🍚 Carb Counting Pocket Guide<br>for Indian Foods</h1>
-  <p>Master your blood sugar with accurate carb counts for 100+ traditional Indian dishes. From rice and rotis to sweets and restaurant foods.</p>
-  
-  <div class="stats-row">
-    <div class="stat-item">
-      <div class="stat-number">100+</div>
-      <div class="stat-label">Indian Foods</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">8</div>
-      <div class="stat-label">Categories</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">4</div>
-      <div class="stat-label">Quick Ref Cards</div>
-    </div>
+  <span class="hero-badge">📱 FREE POCKET GUIDE</span>
+  <h1>Carb Counting Pocket Guide for Indian Foods</h1>
+  <p>Instantly know the carbs in your favorite Indian foods. From rice and roti to restaurant meals - 150+ foods with exact portions and carb counts.</p>
+  <div class="food-categories">
+    <span class="food-tag">🍚 Rice & Grains</span>
+    <span class="food-tag">🫓 Rotis & Breads</span>
+    <span class="food-tag">🥘 Dal & Legumes</span>
+    <span class="food-tag">🥬 Sabzi</span>
+    <span class="food-tag">🍎 Fruits</span>
+    <span class="food-tag">🍿 Snacks</span>
+    <span class="food-tag">🍛 Restaurant</span>
   </div>
 </div>
 
 <div class="download-section">
-  <h2>📥 Get Your Free Guide</h2>
+  <h2>📥 Get Your Free Pocket Guide</h2>
   
-  <form id="lead-form" action="https://formspree.io/f/myzwrqbw" method="POST">
+  <form id="leadForm" action="https://hook.eu2.make.com/jl3kndp8y6gpyhm90lhwqrcdfofqx9j5" method="POST">
+    <input type="hidden" name="source" value="carb-guide">
+    <input type="hidden" name="lead_magnet" value="Carb Counting Pocket Guide for Indian Foods">
+    
     <div class="form-group">
       <label for="name">Your Name</label>
       <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -338,139 +319,155 @@ permalink: /carb-guide/
       <input type="email" id="email" name="email" placeholder="your@email.com" required>
     </div>
     
-    <input type="hidden" name="_subject" value="New Lead: Carb Counting Guide Download">
-    <input type="hidden" name="lead_magnet" value="carb-counting-guide">
-    <input type="hidden" name="_next" value="https://health.gheware.com/assets/pdfs/carb-counting-guide.pdf">
+    <div class="form-group">
+      <label for="whatsapp">WhatsApp Number <span class="required-star">*</span></label>
+      <input type="tel" id="whatsapp" name="whatsapp" placeholder="+91 98765 43210" required>
+    </div>
     
     <button type="submit" class="download-btn">
-      Download Free Guide →
+      📱 Download My Pocket Guide
     </button>
+    
+    <p class="privacy-note">🔒 We respect your privacy. Unsubscribe anytime.</p>
   </form>
-  
-  <p class="privacy-note">🔒 We respect your privacy. No spam, ever.</p>
 </div>
 
-<section class="features-section">
-  <h2>What's Inside This Guide?</h2>
+<div class="features-section">
+  <h2>What's Inside the Pocket Guide?</h2>
   
   <div class="feature-grid">
     <div class="feature-card">
-      <div class="feature-icon">📊</div>
-      <h3>100+ Indian Foods</h3>
-      <p>Comprehensive carb counts for rice, rotis, dals, sabzis, fruits, snacks, sweets, and more.</p>
+      <div class="feature-icon">🍚</div>
+      <h3>Rice & Grains</h3>
+      <p>White rice, brown rice, biryani, khichdi, idli, dosa, poha, upma and more - with exact katori portions.</p>
     </div>
     
     <div class="feature-card">
-      <div class="feature-icon">👁️</div>
-      <h3>Visual Portion Guide</h3>
-      <p>Learn to estimate portions using everyday objects like tennis balls, playing cards, and your fist.</p>
+      <div class="feature-icon">🫓</div>
+      <h3>Rotis & Breads</h3>
+      <p>Chapati, paratha, naan, kulcha, puri, bhatura - know exactly how many carbs in each piece.</p>
     </div>
     
     <div class="feature-card">
-      <div class="feature-icon">🍽️</div>
-      <h3>Restaurant Survival</h3>
-      <p>Smart strategies for eating out at North Indian, South Indian, Chinese restaurants and more.</p>
+      <div class="feature-icon">🥘</div>
+      <h3>Dal & Legumes</h3>
+      <p>Toor dal, chana, rajma, chole, sprouts - high protein options with carb counts.</p>
     </div>
     
     <div class="feature-card">
-      <div class="feature-icon">🔄</div>
-      <h3>Smart Swaps</h3>
-      <p>Easy substitutions that can save you 15-45g carbs per meal without sacrificing taste.</p>
+      <div class="feature-icon">🥬</div>
+      <h3>Sabzi & Vegetables</h3>
+      <p>Low-carb veggies to eat freely plus portion guidance for starchy ones like aloo and arbi.</p>
     </div>
     
     <div class="feature-card">
-      <div class="feature-icon">📱</div>
-      <h3>Quick Reference Cards</h3>
-      <p>Printable cards for balanced plate building, daily meal planning, and emergency reference.</p>
+      <div class="feature-icon">🍎</div>
+      <h3>Fruits</h3>
+      <p>Seasonal fruits, dried fruits - which are diabetes-friendly and which to limit.</p>
     </div>
     
     <div class="feature-card">
-      <div class="feature-icon">🎯</div>
-      <h3>Action Plan</h3>
-      <p>4-week step-by-step plan to build sustainable carb-counting habits.</p>
+      <div class="feature-icon">🍿</div>
+      <h3>Snacks & Street Food</h3>
+      <p>Samosa, kachori, pani puri, bhel - plus healthier alternatives with lower carbs.</p>
     </div>
   </div>
-</section>
+</div>
 
-<section class="preview-section">
-  <h2>📋 Sample Carb Counts from the Guide</h2>
+<div class="preview-section">
+  <h2>What You'll Learn</h2>
   
-  <div class="preview-grid">
-    <div class="preview-card">
-      <h4>🍚 Rice & Grains</h4>
-      <ul>
-        <li>White Rice (1 katori): 40g</li>
-        <li>Biryani (1 katori): 55g</li>
-        <li>Idli (2 pcs): 24g</li>
-        <li>Masala Dosa: 45g</li>
-        <li>Poha (1 katori): 32g</li>
-      </ul>
+  <div class="preview-items">
+    <div class="preview-item">
+      <div class="check">✓</div>
+      <div>
+        <h4>150+ Indian Foods Listed</h4>
+        <p>Complete carb counts for everyday foods, special occasion dishes, and restaurant favorites</p>
+      </div>
     </div>
     
-    <div class="preview-card">
-      <h4>🫓 Rotis & Breads</h4>
-      <ul>
-        <li>Chapati: 18g</li>
-        <li>Naan: 45g</li>
-        <li>Paratha: 30g</li>
-        <li>Aloo Paratha: 45g</li>
-        <li>Bhatura: 50g</li>
-      </ul>
+    <div class="preview-item">
+      <div class="check">✓</div>
+      <div>
+        <h4>Portion Sizes in Familiar Units</h4>
+        <p>Carbs listed per katori, piece, glass - units you actually use in daily cooking</p>
+      </div>
     </div>
     
-    <div class="preview-card">
-      <h4>🫘 Dal & Legumes</h4>
-      <ul>
-        <li>Toor Dal: 20g</li>
-        <li>Rajma: 28g</li>
-        <li>Chole: 30g</li>
-        <li>Dal Makhani: 25g</li>
-        <li>Sambar: 15g</li>
-      </ul>
+    <div class="preview-item">
+      <div class="check">✓</div>
+      <div>
+        <h4>Carb Servings Calculator</h4>
+        <p>Each food shows carb servings (1 serving = 15g) for easy meal planning</p>
+      </div>
     </div>
     
-    <div class="preview-card">
-      <h4>🍬 Sweets</h4>
-      <ul>
-        <li>Gulab Jamun: 25g</li>
-        <li>Kaju Katli (2 pcs): 18g</li>
-        <li>Jalebi (2 pcs): 40g</li>
-        <li>Gajar Halwa (½ katori): 35g</li>
-        <li>Rasmalai: 25g</li>
-      </ul>
+    <div class="preview-item">
+      <div class="check">✓</div>
+      <div>
+        <h4>Restaurant Smart Swaps</h4>
+        <p>Simple substitutions that save 30-60g carbs when eating out</p>
+      </div>
+    </div>
+    
+    <div class="preview-item">
+      <div class="check">✓</div>
+      <div>
+        <h4>Better Choices Highlighted</h4>
+        <p>Green-coded options in each category for diabetes-friendly eating</p>
+      </div>
+    </div>
+    
+    <div class="preview-item">
+      <div class="check">✓</div>
+      <div>
+        <h4>Quick Reference Card</h4>
+        <p>Daily carb targets, carb-free foods list, and hidden carb traps to avoid</p>
+      </div>
     </div>
   </div>
-</section>
+</div>
 
-<section class="testimonial-section">
-  <h2>💬 What Our Readers Say</h2>
-  
-  <div class="testimonial">
-    <p>"This guide changed how I eat Indian food. I finally understand why my sugar was spiking after certain meals. The restaurant tips are gold!"</p>
-    <div class="testimonial-author">— Priya M., Mumbai</div>
-  </div>
-  
-  <div class="testimonial">
-    <p>"As someone who loves South Indian food, knowing that 2 idlis are just 24g carbs while one masala dosa is 45g helped me make better choices."</p>
-    <div class="testimonial-author">— Venkat R., Chennai</div>
-  </div>
-  
-  <div class="testimonial">
-    <p>"The visual portion guide using common objects is brilliant. I no longer need to weigh everything - I just compare to a tennis ball!"</p>
-    <div class="testimonial-author">— Anil K., Delhi</div>
-  </div>
-</section>
+<div class="testimonial-section">
+  <blockquote>
+    "I used to guess carbs and my blood sugar was all over the place. This pocket guide changed everything! Now I check carbs before eating and my readings are so much better. I keep it on my phone for restaurant visits."
+  </blockquote>
+  <cite>— Suresh K., Delhi</cite>
+</div>
 
-<section class="cta-section">
-  <h2>Ready to Take Control of Your Carbs?</h2>
-  <p>Download your free pocket guide and start making informed food choices today.</p>
-  <a href="#lead-form" class="cta-btn">Get Free Guide Now →</a>
-</section>
+<div class="cta-section">
+  <h2>Stop Guessing, Start Counting!</h2>
+  <p>Carb counting is the #1 skill for managing blood sugar. Get your free pocket guide and take control of every meal.</p>
+  <a href="#leadForm" class="cta-btn">Get My Free Pocket Guide</a>
+</div>
 
 <script>
-  // Smooth scroll for CTA button
-  document.querySelector('.cta-btn').addEventListener('click', function(e) {
-    e.preventDefault();
-    document.querySelector('.download-section').scrollIntoView({ behavior: 'smooth' });
+document.getElementById('leadForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  const formData = new FormData(this);
+  const data = Object.fromEntries(formData.entries());
+  
+  // Show loading state
+  const btn = this.querySelector('.download-btn');
+  const originalText = btn.textContent;
+  btn.textContent = 'Sending...';
+  btn.disabled = true;
+  
+  fetch(this.action, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data)
+  })
+  .then(response => {
+    // Redirect to PDF download
+    window.location.href = '/assets/pdfs/Carb-Counting-Pocket-Guide.pdf';
+  })
+  .catch(error => {
+    // Still redirect to PDF on error (better UX)
+    window.location.href = '/assets/pdfs/Carb-Counting-Pocket-Guide.pdf';
   });
+});
 </script>
