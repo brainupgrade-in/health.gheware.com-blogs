@@ -1,0 +1,493 @@
+---
+layout: default
+title: "Free Download: 30 Diabetes-Friendly Indian Breakfast Recipes"
+description: "Download our free recipe book with 30 delicious Indian breakfast ideas for diabetics. Includes modified idli, dosa, poha, paratha, cheela recipes with nutrition info and meal prep tips."
+permalink: /breakfast-recipes/
+---
+
+<style>
+  .hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    opacity: 0.95;
+  }
+  
+  .recipe-preview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .recipe-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 4px solid #667eea;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+  
+  .recipe-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .recipe-card .category {
+    display: inline-block;
+    background: #f0f4ff;
+    color: #667eea;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card .gi-badge {
+    display: inline-block;
+    background: #d4edda;
+    color: #155724;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-left: 8px;
+  }
+  
+  .recipe-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .benefits-section {
+    background: #f8f9fa;
+    padding: 50px 20px;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .benefit-item {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .benefit-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .benefit-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .benefit-item p {
+    color: #666;
+  }
+  
+  .cta-section {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .download-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+  
+  .download-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .download-form input:focus {
+    border-color: #667eea;
+    outline: none;
+  }
+  
+  .download-form button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .download-form button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+  }
+  
+  .form-note {
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .what-inside {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .what-inside h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+  
+  .content-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .content-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 10px;
+  }
+  
+  .content-item .check {
+    color: #38ef7d;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    flex-shrink: 0;
+  }
+  
+  .content-item div h4 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .content-item div p {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  
+  .testimonial-section {
+    background: #667eea;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonial-section blockquote {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-style: italic;
+    line-height: 1.6;
+  }
+  
+  .testimonial-section cite {
+    display: block;
+    margin-top: 20px;
+    font-style: normal;
+    opacity: 0.9;
+  }
+  
+  .faq-section {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  
+  .faq-item h4 {
+    color: #333;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .faq-item p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 1.8rem;
+    }
+    
+    .hero-section p {
+      font-size: 1rem;
+    }
+    
+    .cta-section h2 {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <h1>🍳 30 Diabetes-Friendly Indian Breakfast Recipes</h1>
+  <p>Delicious traditional recipes modified for better blood sugar control. Start your day right without giving up on taste!</p>
+  <a href="#download" style="display: inline-block; background: white; color: #667eea; padding: 15px 30px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Download Free Recipe Book →</a>
+</section>
+
+<!-- Recipe Preview Cards -->
+<section class="recipe-preview">
+  <div class="recipe-card">
+    <span class="category">South Indian</span>
+    <span class="gi-badge">Low GI: 45</span>
+    <h3>Ragi Idli</h3>
+    <p>Finger millet idlis packed with calcium and fiber. A protein-rich alternative to regular rice idli.</p>
+  </div>
+  
+  <div class="recipe-card">
+    <span class="category">North Indian</span>
+    <span class="gi-badge">Low GI: 35</span>
+    <h3>Besan Cheela</h3>
+    <p>Gram flour pancakes loaded with vegetables. High protein, low glycemic - perfect for diabetics.</p>
+  </div>
+  
+  <div class="recipe-card">
+    <span class="category">Quick Option</span>
+    <span class="gi-badge">Low GI: 42</span>
+    <h3>Overnight Oats</h3>
+    <p>Indian spiced overnight oats with chia seeds and nuts. Zero-cook breakfast ready when you wake up.</p>
+  </div>
+  
+  <div class="recipe-card">
+    <span class="category">Weekend Special</span>
+    <span class="gi-badge">Low GI: 48</span>
+    <h3>Millet Pongal</h3>
+    <p>Classic South Indian comfort food made with millets instead of rice for better blood sugar control.</p>
+  </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits-section">
+  <div class="benefits-grid">
+    <div class="benefit-item">
+      <div class="benefit-icon">📊</div>
+      <h3>Low Glycemic Index</h3>
+      <p>All 30 recipes have a GI rating of Low to Medium, helping you maintain stable blood sugar levels.</p>
+    </div>
+    
+    <div class="benefit-item">
+      <div class="benefit-icon">🥗</div>
+      <h3>Nutrition Information</h3>
+      <p>Every recipe includes detailed calories, carbs, protein, fiber, and fat information per serving.</p>
+    </div>
+    
+    <div class="benefit-item">
+      <div class="benefit-icon">⏰</div>
+      <h3>Time-Saving Tips</h3>
+      <p>Meal prep guides, batch cooking tips, and quick assembly routines for busy mornings.</p>
+    </div>
+    
+    <div class="benefit-item">
+      <div class="benefit-icon">🇮🇳</div>
+      <h3>Authentic Flavors</h3>
+      <p>Traditional Indian recipes modified intelligently - same great taste with healthier ingredients.</p>
+    </div>
+  </div>
+</section>
+
+<!-- What's Inside Section -->
+<section class="what-inside">
+  <h2>📖 What's Inside This Recipe Book</h2>
+  
+  <div class="content-list">
+    <div class="content-item">
+      <span class="check">✓</span>
+      <div>
+        <h4>10 South Indian Recipes</h4>
+        <p>Ragi idli, millet dosa, oats uttapam, pesarattu, adai, and more</p>
+      </div>
+    </div>
+    
+    <div class="content-item">
+      <span class="check">✓</span>
+      <div>
+        <h4>10 North Indian Recipes</h4>
+        <p>Besan cheela, methi thepla, sattu paratha, vegetable poha, upma variations</p>
+      </div>
+    </div>
+    
+    <div class="content-item">
+      <span class="check">✓</span>
+      <div>
+        <h4>6 Quick Options (Under 10 min)</h4>
+        <p>Overnight oats, egg bhurji, smoothies, sprout salads for busy mornings</p>
+      </div>
+    </div>
+    
+    <div class="content-item">
+      <span class="check">✓</span>
+      <div>
+        <h4>4 Weekend Specials</h4>
+        <p>Vegetable dalia, handvo, millet pongal, stuffed cheela rolls</p>
+      </div>
+    </div>
+    
+    <div class="content-item">
+      <span class="check">✓</span>
+      <div>
+        <h4>Meal Prep Guide</h4>
+        <p>Sunday prep routine, freezer-friendly items, quick assembly tips</p>
+      </div>
+    </div>
+    
+    <div class="content-item">
+      <span class="check">✓</span>
+      <div>
+        <h4>Weekly Meal Planner</h4>
+        <p>7-day breakfast plan with shopping list included</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonial -->
+<section class="testimonial-section">
+  <blockquote>
+    "These recipes changed my morning routine completely. My fasting sugar has improved, and I actually look forward to breakfast now. The methi thepla and ragi idli are family favorites!"
+  </blockquote>
+  <cite>— Priya S., Managing Type 2 Diabetes for 5 years</cite>
+</section>
+
+<!-- Download CTA Section -->
+<section class="cta-section" id="download">
+  <h2>🎁 Download Your Free Recipe Book</h2>
+  <p style="max-width: 600px; margin: 0 auto 30px; opacity: 0.95;">Get instant access to all 30 recipes, nutrition information, meal prep tips, and weekly planner.</p>
+  
+  <div class="download-form">
+    <form action="https://formspree.io/f/xpwzgvkp" method="POST">
+      <input type="hidden" name="_subject" value="New Lead: Breakfast Recipes Download">
+      <input type="hidden" name="lead_source" value="breakfast-recipes-landing-page">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email Address" required>
+      <button type="submit">Download Free Recipe Book →</button>
+    </form>
+    <p class="form-note">🔒 We respect your privacy. No spam, ever. Unsubscribe anytime.</p>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+  
+  <div class="faq-item">
+    <h4>Are these recipes suitable for all diabetics?</h4>
+    <p>These recipes are designed to be lower glycemic and diabetes-friendly, but individual responses vary. Always monitor your blood sugar and consult your healthcare provider before making significant dietary changes.</p>
+  </div>
+  
+  <div class="faq-item">
+    <h4>Do I need special ingredients?</h4>
+    <p>Most ingredients are commonly available in Indian grocery stores. We've included a complete shopping list. Items like ragi flour, millets, and besan are increasingly available in regular supermarkets too.</p>
+  </div>
+  
+  <div class="faq-item">
+    <h4>How long do the recipes take to prepare?</h4>
+    <p>Quick options take 5-10 minutes. Regular recipes take 15-20 minutes. Some items like idli/dosa batter need overnight fermentation, but actual cooking is quick.</p>
+  </div>
+  
+  <div class="faq-item">
+    <h4>Can I meal prep these recipes?</h4>
+    <p>Absolutely! The guide includes detailed meal prep instructions, including what can be made ahead, freezer-friendly items, and a Sunday prep routine for the week.</p>
+  </div>
+  
+  <div class="faq-item">
+    <h4>Are these recipes vegetarian?</h4>
+    <p>Most recipes are vegetarian. We've included 1-2 egg-based options for those who eat eggs. All can be adapted to your dietary preferences.</p>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section style="background: #f8f9fa; padding: 40px 20px; text-align: center;">
+  <h3 style="color: #333; margin-bottom: 15px;">Ready to Transform Your Mornings?</h3>
+  <p style="color: #666; max-width: 500px; margin: 0 auto 20px;">Join thousands of diabetics who are enjoying delicious Indian breakfasts while managing their blood sugar.</p>
+  <a href="#download" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 30px; border-radius: 30px; text-decoration: none; font-weight: bold;">Get Your Free Copy Now →</a>
+</section>
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "30 Diabetes-Friendly Indian Breakfast Recipes",
+  "author": {
+    "@type": "Organization",
+    "name": "Health Gheware"
+  },
+  "description": "A comprehensive recipe book featuring 30 diabetes-friendly Indian breakfast ideas with nutrition information, GI ratings, and meal prep tips.",
+  "genre": "Cookbook",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Health Gheware",
+    "url": "https://health.gheware.com"
+  }
+}
+</script>
