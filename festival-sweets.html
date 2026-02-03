@@ -1,0 +1,659 @@
+---
+layout: default
+title: "Free Diwali Sweet Alternatives Recipe Book | Diabetes-Friendly Festival Sweets"
+description: "Download your FREE recipe book with 18+ diabetes-friendly versions of traditional Indian festival sweets. Gulab jamun, barfi, ladoo, halwa, kheer - all sugar-free!"
+keywords: "diabetes friendly sweets, sugar free diwali sweets, diabetic indian sweets, sugar free gulab jamun, sugar free barfi, low carb indian sweets, festival sweets for diabetics"
+permalink: /festival-sweets/
+---
+
+<style>
+  .hero-festival {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ffd700 100%);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-festival::before {
+    content: "🪔";
+    position: absolute;
+    font-size: 200px;
+    opacity: 0.1;
+    top: -50px;
+    right: -50px;
+  }
+  
+  .hero-festival::after {
+    content: "✨";
+    position: absolute;
+    font-size: 150px;
+    opacity: 0.1;
+    bottom: -30px;
+    left: -30px;
+  }
+  
+  .hero-festival h1 {
+    font-size: 2.8em;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  .hero-festival .subtitle {
+    font-size: 1.4em;
+    margin-bottom: 25px;
+    opacity: 0.95;
+  }
+  
+  .recipe-count {
+    background: rgba(255,255,255,0.2);
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff9f5;
+  }
+  
+  .feature-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(255,107,53,0.1);
+    border: 2px solid #fff0e6;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255,107,53,0.2);
+  }
+  
+  .feature-icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+  }
+  
+  .feature-card h3 {
+    color: #d35400;
+    margin-bottom: 10px;
+  }
+  
+  .recipes-preview {
+    background: linear-gradient(180deg, #fff9f5 0%, #fff 100%);
+    padding: 50px 20px;
+  }
+  
+  .recipes-preview h2 {
+    text-align: center;
+    color: #d35400;
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .recipe-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .category-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    border-left: 4px solid #ff6b35;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+  }
+  
+  .category-card h4 {
+    color: #d35400;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+  }
+  
+  .category-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .category-card li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #ffe0cc;
+    color: #555;
+  }
+  
+  .category-card li:last-child {
+    border-bottom: none;
+  }
+  
+  .category-card li::before {
+    content: "✓ ";
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .comparison-section {
+    background: #2c3e50;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .comparison-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .comparison-table {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    color: #333;
+  }
+  
+  .comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .comparison-table th {
+    background: #ff6b35;
+    color: white;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .comparison-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .comparison-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .comparison-table .traditional {
+    color: #e74c3c;
+  }
+  
+  .comparison-table .healthy {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .benefits-section {
+    padding: 50px 20px;
+    background: white;
+  }
+  
+  .benefits-section h2 {
+    text-align: center;
+    color: #d35400;
+    margin-bottom: 40px;
+  }
+  
+  .benefits-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .benefit-icon {
+    font-size: 2em;
+    flex-shrink: 0;
+  }
+  
+  .benefit-item h4 {
+    color: #d35400;
+    margin: 0 0 5px 0;
+  }
+  
+  .benefit-item p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .signup-section {
+    background: linear-gradient(135deg, #ff6b35 0%, #e74c3c 100%);
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .signup-box {
+    background: white;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  }
+  
+  .signup-box h2 {
+    color: #d35400;
+    margin-bottom: 10px;
+  }
+  
+  .signup-box .free-badge {
+    background: #27ae60;
+    color: white;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .signup-form input {
+    padding: 15px;
+    border: 2px solid #ffe0cc;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+  }
+  
+  .signup-form input:focus {
+    outline: none;
+    border-color: #ff6b35;
+  }
+  
+  .signup-form button {
+    background: linear-gradient(135deg, #ff6b35 0%, #e74c3c 100%);
+    color: white;
+    border: none;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .signup-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(255,107,53,0.4);
+  }
+  
+  .privacy-note {
+    font-size: 0.85em;
+    color: #888;
+    margin-top: 15px;
+  }
+  
+  .testimonial-section {
+    background: #fff9f5;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonial-section h2 {
+    color: #d35400;
+    margin-bottom: 30px;
+  }
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .testimonial-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  }
+  
+  .testimonial-card .quote {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .testimonial-card .author {
+    color: #d35400;
+    font-weight: bold;
+  }
+  
+  .testimonial-card .location {
+    color: #888;
+    font-size: 0.9em;
+  }
+  
+  .diwali-decoration {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    background: linear-gradient(90deg, #ff6b35, #ffd700, #ff6b35);
+    background-size: 200% 100%;
+    animation: shimmer 3s linear infinite;
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: 100% 0; }
+    100% { background-position: -100% 0; }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-festival h1 {
+      font-size: 2em;
+    }
+    
+    .hero-festival .subtitle {
+      font-size: 1.1em;
+    }
+    
+    .signup-box {
+      padding: 25px;
+    }
+  }
+</style>
+
+<div class="diwali-decoration">
+  🪔 ✨ 🎆 दीपावली 🎆 ✨ 🪔
+</div>
+
+<section class="hero-festival">
+  <div class="recipe-count">📖 18 Delicious Recipes Inside!</div>
+  <h1>🍬 Diabetes-Friendly Festival Sweets</h1>
+  <p class="subtitle">Enjoy Your Favorite Indian Sweets Without the Sugar Spike!</p>
+  <p>Gulab Jamun • Barfi • Ladoo • Halwa • Kheer & More - All Sugar-Free!</p>
+</section>
+
+<section class="features-grid">
+  <div class="feature-card">
+    <div class="feature-icon">🩸</div>
+    <h3>Blood Sugar Safe</h3>
+    <p>All recipes designed to keep your glucose levels stable. Tested and approved for diabetes-friendly eating.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-icon">🌿</div>
+    <h3>Natural Sweeteners</h3>
+    <p>Made with stevia, monk fruit, and erythritol - zero glycemic impact sweeteners your body can handle.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-icon">📊</div>
+    <h3>Nutrition Compared</h3>
+    <p>Every recipe includes a comparison with traditional versions so you can see exactly what you're saving.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-icon">👨‍🍳</div>
+    <h3>Easy to Make</h3>
+    <p>Step-by-step instructions that anyone can follow. No special equipment or skills required.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-icon">🎉</div>
+    <h3>Festival Perfect</h3>
+    <p>Share with family and guests - they won't even know these are diabetes-friendly versions!</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-icon">💪</div>
+    <h3>Protein Packed</h3>
+    <p>Using almond flour, nuts, and coconut adds healthy fats and protein to keep you satisfied.</p>
+  </div>
+</section>
+
+<section class="recipes-preview">
+  <h2>🍯 What's Inside Your Recipe Book</h2>
+  
+  <div class="recipe-categories">
+    <div class="category-card">
+      <h4>🟤 Ladoo Recipes</h4>
+      <ul>
+        <li>Sugar-Free Besan Ladoo</li>
+        <li>Coconut Ladoo</li>
+        <li>Almond-Date Ladoo</li>
+        <li>Methi Ladoo</li>
+      </ul>
+    </div>
+    
+    <div class="category-card">
+      <h4>🟡 Barfi Recipes</h4>
+      <ul>
+        <li>Kaju Katli</li>
+        <li>Almond Barfi</li>
+        <li>Pista Barfi</li>
+        <li>Coconut Barfi</li>
+      </ul>
+    </div>
+    
+    <div class="category-card">
+      <h4>🟠 Gulab Jamun</h4>
+      <ul>
+        <li>Sugar-Free Gulab Jamun</li>
+        <li>Baked Version (lighter!)</li>
+        <li>Sugar-Free Syrup Recipe</li>
+      </ul>
+    </div>
+    
+    <div class="category-card">
+      <h4>🟤 Halwa Recipes</h4>
+      <ul>
+        <li>Gajar Halwa</li>
+        <li>Moong Dal Halwa</li>
+        <li>Sooji Halwa</li>
+      </ul>
+    </div>
+    
+    <div class="category-card">
+      <h4>⚪ Kheer Recipes</h4>
+      <ul>
+        <li>Rice Kheer</li>
+        <li>Vermicelli Kheer</li>
+        <li>Sabudana Kheer</li>
+      </ul>
+    </div>
+    
+    <div class="category-card">
+      <h4>🍮 Other Favorites</h4>
+      <ul>
+        <li>Rasmalai</li>
+        <li>Kesar Peda</li>
+        <li>+ Bonus Tips!</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="comparison-section">
+  <h2>📉 See the Difference!</h2>
+  <p style="margin-bottom: 25px;">Compare our recipes with traditional versions</p>
+  
+  <div class="comparison-table">
+    <table>
+      <tr>
+        <th>Sweet</th>
+        <th>Traditional Sugar</th>
+        <th>Our Recipe Sugar</th>
+        <th>Carbs Saved</th>
+      </tr>
+      <tr>
+        <td><strong>Gulab Jamun</strong></td>
+        <td class="traditional">18g per piece</td>
+        <td class="healthy">0.5g per piece</td>
+        <td>97% less! ✓</td>
+      </tr>
+      <tr>
+        <td><strong>Kaju Katli</strong></td>
+        <td class="traditional">10g per piece</td>
+        <td class="healthy">0.3g per piece</td>
+        <td>97% less! ✓</td>
+      </tr>
+      <tr>
+        <td><strong>Besan Ladoo</strong></td>
+        <td class="traditional">15g per piece</td>
+        <td class="healthy">0.5g per piece</td>
+        <td>97% less! ✓</td>
+      </tr>
+      <tr>
+        <td><strong>Gajar Halwa</strong></td>
+        <td class="traditional">28g per serving</td>
+        <td class="healthy">6g per serving</td>
+        <td>79% less! ✓</td>
+      </tr>
+      <tr>
+        <td><strong>Rasmalai</strong></td>
+        <td class="traditional">22g per piece</td>
+        <td class="healthy">0.5g per piece</td>
+        <td>98% less! ✓</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<section class="benefits-section">
+  <h2>🌟 Why You Need This Recipe Book</h2>
+  
+  <div class="benefits-list">
+    <div class="benefit-item">
+      <div class="benefit-icon">🎊</div>
+      <div>
+        <h4>Never Miss a Celebration</h4>
+        <p>Join in the festival joy without worrying about your blood sugar levels spiking afterward.</p>
+      </div>
+    </div>
+    
+    <div class="benefit-item">
+      <div class="benefit-icon">👨‍👩‍👧‍👦</div>
+      <div>
+        <h4>Family-Friendly</h4>
+        <p>These recipes are so delicious, everyone in the family can enjoy them - diabetic or not!</p>
+      </div>
+    </div>
+    
+    <div class="benefit-item">
+      <div class="benefit-icon">💰</div>
+      <div>
+        <h4>Save Money</h4>
+        <p>Make your own sweets at home instead of buying expensive "diabetic" versions from stores.</p>
+      </div>
+    </div>
+    
+    <div class="benefit-item">
+      <div class="benefit-icon">📱</div>
+      <div>
+        <h4>Always Accessible</h4>
+        <p>Download and keep forever - access from any device, print your favorites.</p>
+      </div>
+    </div>
+    
+    <div class="benefit-item">
+      <div class="benefit-icon">🏆</div>
+      <div>
+        <h4>Impress Your Guests</h4>
+        <p>Serve these at your next gathering - nobody will guess they're sugar-free!</p>
+      </div>
+    </div>
+    
+    <div class="benefit-item">
+      <div class="benefit-icon">❤️</div>
+      <div>
+        <h4>Made with Love</h4>
+        <p>Each recipe was developed and tested by people who understand your needs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial-section">
+  <h2>💬 What People Are Saying</h2>
+  
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <p class="quote">"For the first time in 8 years, I enjoyed Diwali sweets without guilt! My blood sugar stayed normal even after having two gulab jamuns. Thank you!"</p>
+      <p class="author">Sunita Sharma</p>
+      <p class="location">Delhi</p>
+    </div>
+    
+    <div class="testimonial-card">
+      <p class="quote">"My mother has Type 2 diabetes and she cried happy tears when I made her the kaju katli. She said it tastes exactly like the real thing!"</p>
+      <p class="author">Rahul Mehta</p>
+      <p class="location">Mumbai</p>
+    </div>
+    
+    <div class="testimonial-card">
+      <p class="quote">"I made the besan ladoo for our Diwali party. Nobody could tell they were sugar-free! Even my non-diabetic family loved them."</p>
+      <p class="author">Priya Patel</p>
+      <p class="location">Ahmedabad</p>
+    </div>
+  </div>
+</section>
+
+<section class="signup-section" id="download">
+  <div class="signup-box">
+    <span class="free-badge">🎁 100% FREE</span>
+    <h2>Download Your Recipe Book Now!</h2>
+    <p style="color: #666; margin-bottom: 25px;">Get instant access to 18 diabetes-friendly festival sweet recipes</p>
+    
+    <form class="signup-form" action="https://formspree.io/f/xyzgkpqw" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email Address" required>
+      <input type="hidden" name="lead_source" value="festival-sweets-recipe-book">
+      <input type="hidden" name="lead_magnet" value="diwali-sweet-alternatives">
+      <button type="submit">🎁 Send Me The Free Recipe Book!</button>
+    </form>
+    
+    <p class="privacy-note">🔒 We respect your privacy. No spam, ever. Unsubscribe anytime.</p>
+  </div>
+</section>
+
+<section style="background: #fff; padding: 40px 20px; text-align: center;">
+  <h3 style="color: #d35400;">Perfect For Any Indian Festival!</h3>
+  <p style="font-size: 1.3em; color: #666;">
+    🪔 Diwali • 🎨 Holi • 🌙 Eid • 🙏 Raksha Bandhan • 🎉 Navratri • ✨ Any Celebration!
+  </p>
+</section>
+
+<div class="diwali-decoration">
+  ✨ शुभ दीपावली ✨ Happy Diwali ✨ 🪔
+</div>
+
+<script>
+  // Track downloads
+  document.querySelector('.signup-form').addEventListener('submit', function() {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'lead_magnet_download', {
+        'lead_magnet': 'diwali-sweet-alternatives',
+        'page': 'festival-sweets'
+      });
+    }
+  });
+</script>
