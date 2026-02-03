@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download your FREE 30-Day Blood Sugar Tracking Journal. Monitor glucose levels, identify patterns, and take control of your diabetes management.">
+    <meta name="keywords" content="blood sugar tracker, diabetes journal, glucose monitoring, diabetes management, free diabetes tracker">
+    <meta name="author" content="Health Gheware">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+    <link rel="icon" type="image/png" href="favicon.png?v=3">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="FREE 30-Day Blood Sugar Tracking Journal">
+    <meta property="og:description" content="Take control of your numbers with our printable diabetes tracking journal.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://health.gheware.com/blog/free-blood-sugar-journal.html">
+    <meta property="og:image" content="https://health.gheware.com/blog/assets/images/journal-og.png">
+
+    <title>FREE 30-Day Blood Sugar Journal | Health Gheware</title>
+
+    <!-- Google Analytics -->
+    <script src="js/analytics-loader.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/premium.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+        /* Landing Page Specific Styles */
+        .lp-hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a2a3a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lp-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(46, 204, 113, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(52, 152, 219, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .lp-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (max-width: 900px) {
+            .lp-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+        }
+
+        .lp-content h1 {
+            font-size: 2.6rem;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+
+        .lp-content h1 span {
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .lp-content p {
+            font-size: 1.2rem;
+            color: #8b949e;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .lp-benefits {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
+
+        .lp-benefits li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: #c9d1d9;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 900px) {
+            .lp-benefits li {
+                justify-content: center;
+            }
+        }
+
+        .lp-benefits li svg {
+            width: 24px;
+            height: 24px;
+            color: #2ECC71;
+            flex-shrink: 0;
+        }
+
+        .lp-stats {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .lp-stats {
+                justify-content: center;
+            }
+        }
+
+        .lp-stat {
+            text-align: center;
+        }
+
+        .lp-stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2ECC71;
+        }
+
+        .lp-stat-label {
+            font-size: 0.85rem;
+            color: #6e7681;
+        }
+
+        /* Form Card */
+        .lp-form-card {
+            background: rgba(22, 27, 34, 0.9);
+            border: 1px solid rgba(46, 204, 113, 0.2);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .lp-form-card h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .lp-form-card .subtitle {
+            color: #8b949e;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            color: #c9d1d9;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            color: #c9d1d9;
+            font-size: 1rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-group input:focus, .form-group select:focus {
+            outline: none;
+            border-color: #2ECC71;
+            box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.1);
+        }
+
+        .form-group input::placeholder {
+            color: #6e7681;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            border: none;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(46, 204, 113, 0.3);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .form-note {
+            text-align: center;
+            color: #6e7681;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+        }
+
+        /* Success State */
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        .success-message svg {
+            width: 64px;
+            height: 64px;
+            color: #2ECC71;
+            margin-bottom: 1rem;
+        }
+
+        .success-message h3 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .success-message p {
+            color: #8b949e;
+        }
+
+        #leadForm.hidden {
+            display: none;
+        }
+
+        /* What's Inside Section */
+        .lp-inside {
+            background: #0d1117;
+            padding: 4rem 2rem;
+        }
+
+        .lp-inside-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .lp-inside h2 {
+            color: #ffffff;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .inside-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .inside-item {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: left;
+        }
+
+        .inside-item h3 {
+            color: #2ECC71;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .inside-item p {
+            color: #8b949e;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        /* How It Works */
+        .lp-how {
+            background: #161b22;
+            padding: 4rem 2rem;
+        }
+
+        .lp-how-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .lp-how h2 {
+            color: #ffffff;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .steps-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .step-item {
+            text-align: center;
+        }
+
+        .step-number {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin: 0 auto 1rem;
+        }
+
+        .step-item h4 {
+            color: #ffffff;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .step-item p {
+            color: #8b949e;
+            font-size: 0.85rem;
+        }
+
+        /* Footer CTA */
+        .lp-footer-cta {
+            background: linear-gradient(135deg, #1a2a3a 0%, #0d1117 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .lp-footer-cta h2 {
+            color: #ffffff;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .lp-footer-cta p {
+            color: #8b949e;
+            margin-bottom: 2rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="lp-hero">
+        <div class="lp-container">
+            <!-- Left Content -->
+            <div class="lp-content">
+                <h1>Take Control of Your Numbers with Our <span>30-Day Blood Sugar Journal</span></h1>
+                <p>Stop guessing, start tracking. Our printable journal helps you identify patterns, understand triggers, and have better conversations with your doctor.</p>
+                
+                <ul class="lp-benefits">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        30 Days of Daily Tracking Pages
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Weekly Review & Pattern Analysis
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Indian Foods GI Reference Guide
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Doctor Visit Preparation Checklists
+                    </li>
+                </ul>
+
+                <div class="lp-stats">
+                    <div class="lp-stat">
+                        <div class="lp-stat-number">30</div>
+                        <div class="lp-stat-label">Days of Tracking</div>
+                    </div>
+                    <div class="lp-stat">
+                        <div class="lp-stat-number">4</div>
+                        <div class="lp-stat-label">Weekly Reviews</div>
+                    </div>
+                    <div class="lp-stat">
+                        <div class="lp-stat-number">50+</div>
+                        <div class="lp-stat-label">Indian Foods Listed</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Form -->
+            <div class="lp-form-card">
+                <h2>Get Your Free Journal</h2>
+                <p class="subtitle">Instant PDF download via email</p>
+
+                <form id="leadForm">
+                    <!-- Honeypot field -->
+                    <div style="position: absolute; left: -9999px;" aria-hidden="true">
+                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required 
+                               maxlength="100" pattern="[\w\s\.\-']{1,100}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required
+                               maxlength="254">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">WhatsApp Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="diabetes_type">Diabetes Type</label>
+                        <select id="diabetes_type" name="diabetes_type">
+                            <option value="">Select (optional)</option>
+                            <option value="type2">Type 2 Diabetes</option>
+                            <option value="type1">Type 1 Diabetes</option>
+                            <option value="prediabetes">Prediabetes</option>
+                            <option value="gestational">Gestational Diabetes</option>
+                            <option value="caregiver">Caregiver/Family Member</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        📊 Download Free Journal →
+                    </button>
+
+                    <p class="form-note">🔒 We respect your privacy. Unsubscribe anytime.</p>
+                </form>
+
+                <div class="success-message" id="successMessage">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <h3>Check Your Email! 📧</h3>
+                    <p>Your 30-Day Blood Sugar Journal is on its way. Print it out and start tracking today!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Inside -->
+    <section class="lp-inside">
+        <div class="lp-inside-container">
+            <h2>What's Inside Your Free Journal</h2>
+            <div class="inside-grid">
+                <div class="inside-item">
+                    <h3>📅 30 Daily Log Pages</h3>
+                    <p>Track fasting, post-meal readings, meals, activity, stress, and sleep — all in one place.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>📈 Weekly Reviews</h3>
+                    <p>4 weekly analysis pages to spot patterns, identify triggers, and celebrate wins.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>🍛 Indian Foods GI Guide</h3>
+                    <p>Quick reference for common Indian foods — dal, roti, rice, fruits — with GI ratings.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>💡 Lifestyle Tips</h3>
+                    <p>Before/during/after meal strategies that actually work for blood sugar control.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>🏥 Doctor Visit Prep</h3>
+                    <p>Questions to ask, data to share, and notes pages for your appointments.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>🚨 Emergency Reference</h3>
+                    <p>Quick guide for hypo and hyper symptoms with immediate action steps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="lp-how">
+        <div class="lp-how-container">
+            <h2>How It Works</h2>
+            <div class="steps-grid">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <h4>Download</h4>
+                    <p>Get instant access via email</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <h4>Print</h4>
+                    <p>Print at home or local shop</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <h4>Track Daily</h4>
+                    <p>5 minutes each day</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">4</div>
+                    <h4>See Patterns</h4>
+                    <p>Weekly reviews reveal insights</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="lp-footer-cta">
+        <h2>30 days of tracking can change how you manage diabetes.</h2>
+        <p>Join thousands of Indians who've discovered their patterns and taken control.</p>
+        <a href="#" class="cta-btn" onclick="document.querySelector('.lp-hero').scrollIntoView({behavior: 'smooth'}); return false;">
+            Get Your Free Journal →
+        </a>
+    </section>
+
+    <script>
+        // Sanitize input
+        function sanitizeInput(str) {
+            if (!str) return '';
+            return str.replace(/[<>'"&]/g, '').substring(0, 200).trim();
+        }
+        
+        // Validate email
+        function isValidEmail(email) {
+            const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            return re.test(email);
+        }
+        
+        // Form Submission Handler
+        document.getElementById('leadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const form = document.getElementById('leadForm');
+            const successMessage = document.getElementById('successMessage');
+            
+            // Honeypot check
+            const honeypot = document.getElementById('website').value;
+            if (honeypot) {
+                form.classList.add('hidden');
+                successMessage.classList.add('show');
+                return;
+            }
+            
+            // Get and sanitize inputs
+            const name = sanitizeInput(document.getElementById('name').value);
+            const email = sanitizeInput(document.getElementById('email').value).toLowerCase();
+            const phone = sanitizeInput(document.getElementById('phone').value);
+            const diabetesType = sanitizeInput(document.getElementById('diabetes_type').value);
+            
+            // Validate
+            if (!isValidEmail(email)) {
+                alert('Please enter a valid email address');
+                return;
+            }
+            
+            // Disable button
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            
+            const formData = {
+                name: name,
+                email: email,
+                phone: phone,
+                diabetes_type: diabetesType,
+                source: 'landing_page'
+            };
+            
+            try {
+                const response = await fetch('https://leads.gheware-ai.com/hg-lead-blood-sugar-journal', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+                
+                if (response.ok) {
+                    form.classList.add('hidden');
+                    successMessage.classList.add('show');
+                    
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'generate_lead', {
+                            'event_category': 'Lead Magnet',
+                            'event_label': 'Blood Sugar Journal'
+                        });
+                    }
+                } else {
+                    const data = await response.json().catch(() => ({}));
+                    throw new Error(data.error || 'Submission failed');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert(error.message || 'Something went wrong. Please try again.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = '📊 Download Free Journal →';
+            }
+        });
+    </script>
+</body>
+</html>
