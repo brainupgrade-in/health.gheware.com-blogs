@@ -1,450 +1,578 @@
----
-layout: default
-title: "Free Diabetes Medication Side Effects Guide | Quick Reference Card"
-description: "Download our free comprehensive guide covering side effects of Metformin, Glimepiride, SGLT2 inhibitors, GLP-1 medications, and insulin. Know what to expect and when to call your doctor."
-keywords: "diabetes medication side effects, metformin side effects India, glimepiride side effects, SGLT2 inhibitors, GLP-1 agonists, insulin side effects, diabetes drug interactions"
-permalink: /medication-guide/
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download your FREE Diabetes Medication Side Effects Quick Reference. Know common side effects, drug interactions, and when to call your doctor for metformin, insulin, SGLT2 inhibitors, GLP-1 agonists, and sulfonylureas.">
+    <meta name="keywords" content="diabetes medication side effects, metformin side effects, insulin side effects, SGLT2 inhibitors, GLP-1, diabetes drug interactions, medication guide">
+    <meta name="author" content="Health Gheware">
 
-<style>
-.lead-magnet-hero {
-  background: linear-gradient(135deg, #1a5f7a 0%, #2d8a6e 100%);
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-  border-radius: 0 0 30px 30px;
-}
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+    <link rel="icon" type="image/png" href="favicon.png?v=3">
 
-.lead-magnet-hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: white;
-}
+    <!-- Open Graph -->
+    <meta property="og:title" content="FREE Diabetes Medication Side Effects Quick Reference">
+    <meta property="og:description" content="Know what to expect from your diabetes medications. Side effects, interactions, and when to call your doctor.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://health.gheware.com/blog/medication-guide.html">
+    <meta property="og:image" content="https://health.gheware.com/blog/assets/images/medication-guide-og.png">
 
-.lead-magnet-hero p {
-  font-size: 1.2rem;
-  max-width: 700px;
-  margin: 0 auto 30px;
-  opacity: 0.95;
-}
+    <title>FREE Diabetes Medication Side Effects Guide | Health Gheware</title>
 
-.badge-free {
-  background: #ff6b35;
-  color: white;
-  padding: 8px 20px;
-  border-radius: 20px;
-  font-weight: bold;
-  display: inline-block;
-  margin-bottom: 20px;
-  animation: pulse 2s infinite;
-}
+    <!-- Google Analytics -->
+    <script src="js/analytics-loader.js"></script>
 
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-}
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/premium.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
-.content-section {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
+    <style>
+        /* Landing Page Specific Styles */
+        .lp-hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a2a3a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
 
-.benefits-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  margin: 40px 0;
-}
+        .lp-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(46, 204, 113, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(52, 152, 219, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
 
-.benefit-card {
-  background: #f8f9fa;
-  padding: 25px;
-  border-radius: 15px;
-  border-left: 4px solid #2d8a6e;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+        .lp-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
 
-.benefit-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
+        @media (max-width: 900px) {
+            .lp-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+        }
 
-.benefit-card h3 {
-  color: #1a5f7a;
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-}
+        .lp-content h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
 
-.benefit-card p {
-  color: #555;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
+        .lp-content h1 span {
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-.benefit-icon {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
+        .lp-content p {
+            font-size: 1.2rem;
+            color: #8b949e;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
 
-.medications-covered {
-  background: #fff;
-  border: 2px solid #e0e0e0;
-  border-radius: 15px;
-  padding: 30px;
-  margin: 40px 0;
-}
+        .lp-benefits {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
 
-.medications-covered h2 {
-  text-align: center;
-  color: #1a5f7a;
-  margin-bottom: 25px;
-}
+        .lp-benefits li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: #c9d1d9;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
 
-.med-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-}
+        @media (max-width: 900px) {
+            .lp-benefits li {
+                justify-content: center;
+            }
+        }
 
-.med-item {
-  display: flex;
-  align-items: center;
-  padding: 12px 15px;
-  background: #f0f7f4;
-  border-radius: 8px;
-}
+        .lp-benefits li svg {
+            width: 24px;
+            height: 24px;
+            color: #2ECC71;
+            flex-shrink: 0;
+        }
 
-.med-item::before {
-  content: "💊";
-  margin-right: 10px;
-  font-size: 1.2rem;
-}
+        .lp-stats {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
 
-.signup-form-container {
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
-  padding: 50px 20px;
-  border-radius: 20px;
-  margin: 40px 0;
-  text-align: center;
-}
+        @media (max-width: 900px) {
+            .lp-stats {
+                justify-content: center;
+            }
+        }
 
-.signup-form-container h2 {
-  color: #1a5f7a;
-  margin-bottom: 10px;
-}
+        .lp-stat {
+            text-align: center;
+        }
 
-.signup-form-container p {
-  color: #666;
-  margin-bottom: 30px;
-}
+        .lp-stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2ECC71;
+        }
 
-.signup-form {
-  max-width: 450px;
-  margin: 0 auto;
-}
+        .lp-stat-label {
+            font-size: 0.85rem;
+            color: #6e7681;
+        }
 
-.signup-form input {
-  width: 100%;
-  padding: 15px 20px;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  font-size: 1rem;
-  margin-bottom: 15px;
-  transition: border-color 0.3s ease;
-}
+        /* Form Card */
+        .lp-form-card {
+            background: rgba(22, 27, 34, 0.9);
+            border: 1px solid rgba(46, 204, 113, 0.2);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
 
-.signup-form input:focus {
-  outline: none;
-  border-color: #2d8a6e;
-}
+        .lp-form-card h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
 
-.signup-form button {
-  width: 100%;
-  padding: 15px 30px;
-  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+        .lp-form-card .subtitle {
+            color: #8b949e;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
 
-.signup-form button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 20px rgba(255, 107, 53, 0.4);
-}
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
 
-.trust-indicators {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 25px;
-  flex-wrap: wrap;
-}
+        .form-group label {
+            display: block;
+            color: #c9d1d9;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
 
-.trust-item {
-  display: flex;
-  align-items: center;
-  color: #666;
-  font-size: 0.9rem;
-}
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            color: #c9d1d9;
+            font-size: 1rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            box-sizing: border-box;
+        }
 
-.trust-item::before {
-  content: "✓";
-  color: #2d8a6e;
-  font-weight: bold;
-  margin-right: 8px;
-}
+        .form-group input:focus, .form-group select:focus {
+            outline: none;
+            border-color: #2ECC71;
+            box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.1);
+        }
 
-.testimonial-section {
-  background: #1a5f7a;
-  color: white;
-  padding: 50px 20px;
-  border-radius: 20px;
-  margin: 40px 0;
-  text-align: center;
-}
+        .form-group input::placeholder {
+            color: #6e7681;
+        }
 
-.testimonial-section h2 {
-  color: white;
-  margin-bottom: 30px;
-}
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            border: none;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
 
-.testimonial {
-  max-width: 600px;
-  margin: 0 auto;
-  font-style: italic;
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(46, 204, 113, 0.3);
+        }
 
-.testimonial-author {
-  margin-top: 20px;
-  font-style: normal;
-  opacity: 0.9;
-}
+        .submit-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
 
-.faq-section {
-  margin: 40px 0;
-}
+        .privacy-note {
+            text-align: center;
+            color: #6e7681;
+            font-size: 0.8rem;
+            margin-top: 1rem;
+        }
 
-.faq-section h2 {
-  text-align: center;
-  color: #1a5f7a;
-  margin-bottom: 30px;
-}
+        .privacy-note a {
+            color: #2ECC71;
+            text-decoration: none;
+        }
 
-.faq-item {
-  background: #f8f9fa;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 15px;
-}
+        /* Success State */
+        .success-message {
+            text-align: center;
+            padding: 2rem;
+        }
 
-.faq-item h3 {
-  color: #1a5f7a;
-  font-size: 1.05rem;
-  margin-bottom: 10px;
-}
+        .success-message svg {
+            width: 64px;
+            height: 64px;
+            color: #2ECC71;
+            margin-bottom: 1rem;
+        }
 
-.faq-item p {
-  color: #555;
-  line-height: 1.6;
-}
+        .success-message h3 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
 
-.cta-bottom {
-  text-align: center;
-  padding: 40px 20px;
-  background: #f0f7f4;
-  border-radius: 15px;
-  margin: 40px 0;
-}
+        .success-message p {
+            color: #8b949e;
+        }
 
-.cta-bottom h2 {
-  color: #1a5f7a;
-  margin-bottom: 20px;
-}
+        .download-btn {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            border-radius: 8px;
+            color: #ffffff;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
 
-.cta-button {
-  display: inline-block;
-  padding: 18px 40px;
-  background: linear-gradient(135deg, #2d8a6e 0%, #1a5f7a 100%);
-  color: white;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+        .download-btn:hover {
+            transform: translateY(-2px);
+        }
 
-.cta-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(45, 138, 110, 0.4);
-  color: white;
-  text-decoration: none;
-}
+        /* What's Inside Section */
+        .whats-inside {
+            background: #0d1117;
+            padding: 4rem 2rem;
+        }
 
-@media (max-width: 768px) {
-  .lead-magnet-hero h1 {
-    font-size: 1.8rem;
-  }
-  
-  .lead-magnet-hero p {
-    font-size: 1rem;
-  }
-  
-  .trust-indicators {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-}
-</style>
+        .whats-inside-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
 
-<div class="lead-magnet-hero">
-  <span class="badge-free">📥 FREE DOWNLOAD</span>
-  <h1>Diabetes Medication Side Effects<br>Quick Reference Guide</h1>
-  <p>Everything you need to know about your diabetes medications — side effects, drug interactions, warning signs, and when to call your doctor. Created specifically for patients in India.</p>
-</div>
+        .whats-inside h2 {
+            text-align: center;
+            color: #ffffff;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+        }
 
-<div class="content-section">
-  
-  <div class="benefits-grid">
-    <div class="benefit-card">
-      <div class="benefit-icon">📋</div>
-      <h3>Complete Side Effects List</h3>
-      <p>Know what to expect from each medication — common side effects, rare but serious ones, and how to manage them effectively.</p>
-    </div>
-    <div class="benefit-card">
-      <div class="benefit-icon">⚠️</div>
-      <h3>Drug Interaction Warnings</h3>
-      <p>Learn which medications, foods, and supplements can interact with your diabetes drugs and what to watch out for.</p>
-    </div>
-    <div class="benefit-card">
-      <div class="benefit-icon">🚨</div>
-      <h3>Emergency Warning Signs</h3>
-      <p>Know exactly when to contact your doctor immediately and when something can wait until your next appointment.</p>
-    </div>
-    <div class="benefit-card">
-      <div class="benefit-icon">💡</div>
-      <h3>Tips to Reduce Side Effects</h3>
-      <p>Practical, actionable advice to minimize side effects and make your medication experience more comfortable.</p>
-    </div>
-    <div class="benefit-card">
-      <div class="benefit-icon">❓</div>
-      <h3>Questions for Your Doctor</h3>
-      <p>22 essential questions to ask at your next appointment to get the most out of your consultation.</p>
-    </div>
-    <div class="benefit-card">
-      <div class="benefit-icon">🏥</div>
-      <h3>India-Specific Information</h3>
-      <p>Covers all popular diabetes medications available in India with their local brand names.</p>
-    </div>
-  </div>
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
 
-  <div class="medications-covered">
-    <h2>Medications Covered in This Guide</h2>
-    <div class="med-list">
-      <div class="med-item">Metformin (Glycomet, Glucophage)</div>
-      <div class="med-item">Glimepiride (Amaryl, Glimisave)</div>
-      <div class="med-item">Sitagliptin (Januvia, Zita)</div>
-      <div class="med-item">Vildagliptin (Galvus, Jalra)</div>
-      <div class="med-item">Dapagliflozin (Forxiga)</div>
-      <div class="med-item">Empagliflozin (Jardiance)</div>
-      <div class="med-item">Liraglutide (Victoza)</div>
-      <div class="med-item">Semaglutide (Ozempic, Rybelsus)</div>
-      <div class="med-item">Rapid-Acting Insulin</div>
-      <div class="med-item">Long-Acting Insulin (Lantus)</div>
-      <div class="med-item">Premixed Insulin</div>
-      <div class="med-item">Combination Medications</div>
-    </div>
-  </div>
+        .feature-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: border-color 0.2s;
+        }
 
-  <div class="signup-form-container" id="download">
-    <h2>Get Your Free Guide Now</h2>
-    <p>Enter your email and we'll send the complete guide to your inbox instantly.</p>
-    
-    <form class="signup-form" action="https://formspree.io/f/xwpkpzpq" method="POST">
-      <input type="hidden" name="_subject" value="New Lead: Diabetes Medication Guide Download">
-      <input type="hidden" name="lead_source" value="medication-guide-page">
-      <input type="hidden" name="lead_magnet" value="diabetes-medication-side-effects-guide">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email Address" required>
-      <input type="tel" name="phone" placeholder="Phone Number (Optional)">
-      <button type="submit">📥 Send Me the Free Guide</button>
-    </form>
-    
-    <div class="trust-indicators">
-      <span class="trust-item">No spam, ever</span>
-      <span class="trust-item">Instant delivery</span>
-      <span class="trust-item">Unsubscribe anytime</span>
-    </div>
-  </div>
+        .feature-card:hover {
+            border-color: #2ECC71;
+        }
 
-  <div class="testimonial-section">
-    <h2>Why This Guide Matters</h2>
-    <div class="testimonial">
-      "I was scared when my doctor prescribed a new diabetes medication. I didn't know what side effects to expect. This guide helped me understand what's normal and when I should be concerned. Now I feel more confident managing my diabetes."
-    </div>
-    <div class="testimonial-author">— A Health Gheware Reader</div>
-  </div>
+        .feature-card .icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
 
-  <div class="faq-section">
-    <h2>Frequently Asked Questions</h2>
-    
-    <div class="faq-item">
-      <h3>Is this guide really free?</h3>
-      <p>Yes, completely free! We believe everyone deserves access to clear, accurate health information. Just enter your email and we'll send it to you immediately.</p>
-    </div>
-    
-    <div class="faq-item">
-      <h3>Who created this guide?</h3>
-      <p>This guide was created by the Health Gheware team with input from healthcare professionals. It's based on the latest medical literature and guidelines relevant to patients in India.</p>
-    </div>
-    
-    <div class="faq-item">
-      <h3>Can I share this guide with family members?</h3>
-      <p>Absolutely! We encourage you to share this guide with family members who help manage your diabetes care. The more people who understand your medications, the safer you'll be.</p>
-    </div>
-    
-    <div class="faq-item">
-      <h3>Does this replace medical advice?</h3>
-      <p>No. This guide is for educational purposes and helps you have better conversations with your doctor. Always follow your healthcare provider's advice for your specific situation.</p>
-    </div>
-    
-    <div class="faq-item">
-      <h3>What format is the guide in?</h3>
-      <p>The guide is provided as a downloadable PDF that you can save on your phone, print out, or share with caregivers. It's designed to be a quick reference you can use anytime.</p>
-    </div>
-  </div>
+        .feature-card h3 {
+            color: #ffffff;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
 
-  <div class="cta-bottom">
-    <h2>Ready to Take Control of Your Diabetes Medications?</h2>
-    <p>Download your free guide now and never be confused about side effects again.</p>
-    <a href="#download" class="cta-button">📥 Get Your Free Guide</a>
-  </div>
+        .feature-card p {
+            color: #8b949e;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
 
-</div>
+        /* Footer */
+        .lp-footer {
+            background: #0d1117;
+            border-top: 1px solid #30363d;
+            padding: 2rem;
+            text-align: center;
+        }
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Diabetes Medication Side Effects Quick Reference Guide",
-  "description": "Comprehensive guide covering side effects of diabetes medications including Metformin, Glimepiride, SGLT2 inhibitors, GLP-1 agonists, and insulin types.",
-  "author": {
-    "@type": "Organization",
-    "name": "Health Gheware"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Health Gheware",
-    "url": "https://health.gheware.com"
-  },
-  "datePublished": "2025-02-03",
-  "dateModified": "2025-02-03"
-}
-</script>
+        .lp-footer a {
+            color: #2ECC71;
+            text-decoration: none;
+        }
+
+        .lp-footer p {
+            color: #6e7681;
+            margin: 0.5rem 0;
+        }
+
+        /* Hidden */
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="lp-hero">
+        <div class="lp-container">
+            <div class="lp-content">
+                <h1>Know Your <span>Diabetes Medications</span><br>Side Effects & Safety</h1>
+                <p>Stop worrying about medication side effects. Get our comprehensive quick reference guide covering metformin, insulin, SGLT2 inhibitors, GLP-1 agonists, and sulfonylureas.</p>
+                
+                <ul class="lp-benefits">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Common side effects for 5 major medication classes
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Drug interaction warnings you need to know
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        When to call your doctor immediately
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Pro tips to manage common side effects
+                    </li>
+                </ul>
+
+                <div class="lp-stats">
+                    <div class="lp-stat">
+                        <div class="lp-stat-number">5</div>
+                        <div class="lp-stat-label">Drug Classes</div>
+                    </div>
+                    <div class="lp-stat">
+                        <div class="lp-stat-number">50+</div>
+                        <div class="lp-stat-label">Side Effects Listed</div>
+                    </div>
+                    <div class="lp-stat">
+                        <div class="lp-stat-number">15+</div>
+                        <div class="lp-stat-label">Pages</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lp-form-card">
+                <div id="form-container">
+                    <h2>📋 Get Your Free Guide</h2>
+                    <p class="subtitle">Instant download. No spam, ever.</p>
+                    
+                    <form id="lead-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="whatsapp">WhatsApp Number *</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" placeholder="+91 98765 43210" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="medication">Current Medication (Optional)</label>
+                            <select id="medication" name="medication">
+                                <option value="">Select your primary medication</option>
+                                <option value="metformin">Metformin</option>
+                                <option value="sulfonylurea">Sulfonylurea (Glimepiride, Gliclazide)</option>
+                                <option value="sglt2">SGLT2 Inhibitor (Dapagliflozin, Empagliflozin)</option>
+                                <option value="glp1">GLP-1 (Ozempic, Trulicity)</option>
+                                <option value="insulin">Insulin</option>
+                                <option value="combination">Multiple Medications</option>
+                                <option value="none">Not on Medication Yet</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="submit-btn" id="submit-btn">
+                            Download Free Guide →
+                        </button>
+
+                        <p class="privacy-note">
+                            🔒 Your data is safe. Read our <a href="privacy.html">Privacy Policy</a>
+                        </p>
+                    </form>
+                </div>
+
+                <div id="success-container" class="success-message hidden">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="16 10 11 15 8 12"></polyline>
+                    </svg>
+                    <h3>You're all set! 🎉</h3>
+                    <p>Your guide is ready for download.</p>
+                    <a href="assets/pdfs/diabetes-medication-guide.pdf" download class="download-btn">
+                        📥 Download Your Guide
+                    </a>
+                    <p style="margin-top: 1rem; font-size: 0.9rem;">
+                        Check your email for more resources!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Inside Section -->
+    <section class="whats-inside">
+        <div class="whats-inside-container">
+            <h2>What's Inside Your Guide</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">💊</div>
+                    <h3>Metformin (Glycomet)</h3>
+                    <p>Most common side effects, lactic acidosis warning signs, and how to reduce stomach upset.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">⚡</div>
+                    <h3>Sulfonylureas</h3>
+                    <p>Hypoglycemia risks, weight gain management, and critical drug interactions to avoid.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">💧</div>
+                    <h3>SGLT2 Inhibitors</h3>
+                    <p>UTI prevention, ketoacidosis warning signs, and hydration tips for Jardiance/Forxiga users.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">💉</div>
+                    <h3>GLP-1 Agonists</h3>
+                    <p>Managing nausea, pancreatitis warnings, and tips for Ozempic/Trulicity users.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">🩺</div>
+                    <h3>Insulin Guide</h3>
+                    <p>Types of insulin, hypoglycemia management, injection site care, and storage tips.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">⚠️</div>
+                    <h3>When to Call Doctor</h3>
+                    <p>Clear guidance on which symptoms need immediate attention vs. routine follow-up.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="lp-footer">
+        <p>© 2026 <a href="https://health.gheware.com">Health Gheware</a> | Eat Well, Live Better - The Indian Way</p>
+        <p>
+            <a href="https://youtube.com/@health_gheware">YouTube</a> · 
+            <a href="/blog">Blog</a> · 
+            <a href="privacy.html">Privacy</a>
+        </p>
+        <p style="font-size: 0.75rem; margin-top: 1rem;">
+            ⚠️ This guide is for educational purposes only. Always consult your doctor before making any changes to your medication.
+        </p>
+    </footer>
+
+    <script>
+        const form = document.getElementById('lead-form');
+        const formContainer = document.getElementById('form-container');
+        const successContainer = document.getElementById('success-container');
+        const submitBtn = document.getElementById('submit-btn');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Processing...';
+
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                whatsapp: document.getElementById('whatsapp').value,
+                medication: document.getElementById('medication').value,
+                source: 'medication-guide',
+                timestamp: new Date().toISOString()
+            };
+
+            try {
+                // Send to webhook
+                await fetch('https://leads.gheware-ai.com/hg-lead-medication-guide', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+            } catch (err) {
+                console.log('Webhook delivery attempted');
+            }
+
+            // Show success and download
+            formContainer.classList.add('hidden');
+            successContainer.classList.remove('hidden');
+
+            // Track conversion
+            if (typeof gtag === 'function') {
+                gtag('event', 'lead_form_submit', {
+                    'event_category': 'Lead Magnet',
+                    'event_label': 'medication-guide'
+                });
+            }
+        });
+    </script>
+</body>
+</html>
