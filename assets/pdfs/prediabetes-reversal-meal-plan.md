@@ -1,461 +1,744 @@
 # 7-Day Pre-Diabetes Reversal Meal Plan
 
-**Your Action Plan to Bring Blood Sugar Back to Normal**
+## Your Complete Guide to Reversing Pre-Diabetes with Indian Foods
 
-*By Health Gheware | Eat Well, Live Better - The Indian Way*
+**By Health Gheware | Dr. Rajesh Gheware, MBBS, MD**
 
 ---
 
 ## What is Pre-Diabetes?
 
-Pre-diabetes means your blood sugar is higher than normal but not yet diabetes:
+Pre-diabetes is a warning sign—your blood sugar is higher than normal but not yet in the diabetic range. The good news? **Pre-diabetes is reversible** with the right diet and lifestyle changes.
+
+### Pre-Diabetes Blood Sugar Ranges:
 - **Fasting glucose:** 100-125 mg/dL
 - **HbA1c:** 5.7% - 6.4%
 - **Post-meal glucose:** 140-199 mg/dL
 
-**The Good News:** Pre-diabetes is **100% reversible** with the right food choices!
+**This meal plan is specifically designed to:**
+- ✅ Lower blood sugar naturally
+- ✅ Improve insulin sensitivity
+- ✅ Reduce belly fat (a key driver of insulin resistance)
+- ✅ Use familiar, affordable Indian foods
+- ✅ Be practical for busy Indian families
 
 ---
 
-## How This Plan Works
+## The Science Behind This Meal Plan
 
-This 7-day meal plan is specifically designed for **reversal**, not just management:
+### Key Principles for Reversing Pre-Diabetes:
 
-✅ **Low Glycemic Index (GI) foods** - Gentle on blood sugar  
-✅ **High fiber combinations** - Slows glucose absorption  
-✅ **Protein at every meal** - Prevents spikes  
-✅ **Strategic meal timing** - Optimizes insulin sensitivity  
-✅ **Indian ingredients** - Practical and familiar  
+1. **Low Glycemic Index (GI) Foods** — Prevent blood sugar spikes
+2. **High Fiber** — Slow down glucose absorption
+3. **Protein with Every Meal** — Stabilize blood sugar
+4. **Healthy Fats** — Improve insulin sensitivity
+5. **Portion Control** — Reduce overall glucose load
+6. **Meal Timing** — Eat within a 10-12 hour window
 
-**Key Differences from Regular Diabetes Plans:**
-- More aggressive carb reduction initially
-- Focus on insulin sensitivity improvement
-- Includes intermittent fasting elements (optional)
-- Emphasizes reversal-specific superfoods
+### Foods That REVERSE Pre-Diabetes:
+| Food Category | Best Choices |
+|---------------|--------------|
+| **Grains** | Brown rice, jowar, bajra, ragi, whole wheat |
+| **Proteins** | Dal, paneer, eggs, fish, chicken, sprouts |
+| **Vegetables** | Bitter gourd, methi, palak, lauki, bhindi |
+| **Fats** | Ghee (1-2 tsp), coconut oil, nuts, seeds |
+| **Spices** | Methi seeds, cinnamon, turmeric, jeera |
 
----
-
-## Reversal Superfoods to Stock Up
-
-| Food | Why It Helps Reversal |
-|------|----------------------|
-| **Methi (Fenugreek)** | Improves insulin sensitivity by 30% |
-| **Dalchini (Cinnamon)** | Mimics insulin action |
-| **Karela (Bitter Gourd)** | Contains plant insulin |
-| **Jamun (Indian Blackberry)** | Reduces glucose absorption |
-| **Apple Cider Vinegar** | Lowers fasting glucose by 4-6% |
-| **Barley (Jau)** | Lowest GI grain available |
-| **Chia Seeds** | Slows carb digestion |
-| **Walnuts/Almonds** | Improve insulin response |
+### Foods to AVOID or LIMIT:
+- ❌ White rice (replace with brown rice or millets)
+- ❌ Maida (white flour) products
+- ❌ Sugar and jaggery
+- ❌ Packaged fruit juices
+- ❌ Deep-fried foods
+- ❌ Potatoes (limit to 2-3 times per week)
 
 ---
 
-## Day 1: Reset Day
+## Your 7-Day Meal Plan
 
-### Early Morning (6:00 AM)
-- 1 glass warm water + 1 tsp methi seeds (soaked overnight)
-- 5 almonds + 2 walnuts
+### Daily Structure:
+- **Wake up:** 6:00-7:00 AM
+- **Breakfast:** 7:30-8:30 AM
+- **Mid-morning snack:** 10:30-11:00 AM
+- **Lunch:** 12:30-1:30 PM
+- **Evening snack:** 4:00-5:00 PM
+- **Dinner:** 7:00-8:00 PM (latest by 8 PM)
+- **Finish eating** at least 2-3 hours before bed
 
-### Breakfast (8:00 AM)
-**Moong Dal Chilla with Mint Chutney**
-- 2 moong dal chillas with paneer stuffing
-- 1 bowl mint-coriander chutney
-- 1 cup green tea
+---
 
-*Carbs: 22g | Fiber: 8g | Protein: 18g*
+## DAY 1 (Monday)
 
-### Mid-Morning (11:00 AM)
-- 1 small apple with 1 tbsp almond butter
-- OR 10-12 peanuts
+### 🌅 Morning Ritual (on waking)
+- 1 glass warm water with ½ lemon + ¼ tsp cinnamon
+- 1 tsp soaked methi seeds (soak overnight)
 
-### Lunch (1:00 PM)
-**Palak Paneer with Cauliflower Rice**
-- 1 bowl palak paneer (150g paneer)
-- 1 cup cauliflower rice (not regular rice!)
+### 🍳 Breakfast (7:30-8:30 AM)
+**Vegetable Poha with Sprouts**
+- 1 cup beaten rice (poha) with vegetables
+- ½ cup mixed sprouts (moong + chana)
+- 1 small bowl curd (100g)
+- Green tea or black coffee (no sugar)
+
+*Calories: ~350 | Carbs: 45g | Protein: 15g | Fiber: 8g*
+
+### 🥜 Mid-Morning Snack (10:30-11:00 AM)
+- 10-12 almonds (soaked overnight, peeled)
+- 1 small guava
+
+*Calories: ~120 | Carbs: 12g | Protein: 4g*
+
+### 🍛 Lunch (12:30-1:30 PM)
+**Jowar Roti with Palak Dal**
+- 2 jowar rotis (small)
+- 1 bowl palak dal (spinach lentils)
+- 1 bowl mixed vegetable sabzi (lauki/tori)
 - 1 small bowl cucumber raita
-- Green salad with lemon dressing
+- Small salad (cucumber, tomato, onion)
 
-*Carbs: 18g | Fiber: 9g | Protein: 24g*
+*Calories: ~450 | Carbs: 55g | Protein: 18g | Fiber: 12g*
 
-### Evening Snack (4:00 PM)
-- 1 cup roasted chana with masala
-- Green tea with dalchini
+### ☕ Evening Snack (4:00-5:00 PM)
+- 1 cup green tea
+- 1 small bowl roasted chana (30g)
 
-### Dinner (7:00 PM)
-**Grilled Fish/Paneer with Stir-Fry Vegetables**
-- 150g grilled fish OR paneer tikka
-- 1 cup mixed vegetable stir-fry (beans, capsicum, broccoli)
-- 1 small bowl dal (no rice)
+*Calories: ~100 | Carbs: 15g | Protein: 6g*
 
-*Carbs: 15g | Fiber: 7g | Protein: 28g*
+### 🌙 Dinner (7:00-8:00 PM)
+**Grilled Fish/Paneer with Vegetables**
+- Grilled fish (100g) OR paneer bhurji (80g)
+- 1 bowl sautéed vegetables (broccoli, beans, capsicum)
+- 1 multigrain roti
+- 1 small bowl dal
 
-### Before Bed (9:30 PM)
-- 1 cup warm turmeric milk (no sugar)
+*Calories: ~380 | Carbs: 30g | Protein: 25g | Fiber: 8g*
+
+**Day 1 Total: ~1,400 calories | Carbs: 157g | Protein: 68g | Fiber: 35g**
 
 ---
 
-## Day 2: Fiber Focus Day
+## DAY 2 (Tuesday)
 
-### Early Morning
-- Warm water + 1 tbsp apple cider vinegar
-- 5 soaked almonds
+### 🌅 Morning Ritual
+- 1 glass warm water with ½ lemon
+- 1 tsp soaked methi seeds
 
-### Breakfast (8:00 AM)
-**Vegetable Oats Upma**
-- 1 bowl oats upma with lots of vegetables
-- 1 boiled egg OR paneer cubes
-- 1 cup cinnamon tea
+### 🍳 Breakfast
+**Ragi Dosa with Coconut Chutney**
+- 2 ragi dosas (medium)
+- 2 tbsp coconut chutney
+- 1 bowl sambhar
+- Herbal tea
 
-*Carbs: 28g | Fiber: 10g | Protein: 15g*
+*Calories: ~320 | Carbs: 48g | Protein: 12g | Fiber: 6g*
 
-### Mid-Morning
-- 1 medium guava (low GI fruit)
-- 10 pistachios
+### 🥜 Mid-Morning Snack
+- 5-6 walnuts
+- 1 small apple
 
-### Lunch (1:00 PM)
-**Rajma Salad Bowl**
-- 1 cup rajma (kidney beans)
-- Mixed greens, tomato, onion, cucumber
-- Olive oil + lemon dressing
-- 1 small multigrain roti
+*Calories: ~150 | Carbs: 18g | Protein: 4g*
 
-*Carbs: 35g | Fiber: 14g | Protein: 16g*
+### 🍛 Lunch
+**Brown Rice with Rajma**
+- ½ cup brown rice
+- 1 bowl rajma (kidney beans)
+- 1 bowl bhindi sabzi (okra)
+- 1 small bowl curd
+- Salad with lemon dressing
 
-### Evening Snack
-- Sprout chaat with lemon and chaat masala
+*Calories: ~480 | Carbs: 62g | Protein: 20g | Fiber: 14g*
+
+### ☕ Evening Snack
+- 1 glass buttermilk with roasted jeera
+- 2 multigrain khakhra
+
+*Calories: ~110 | Carbs: 18g | Protein: 5g*
+
+### 🌙 Dinner
+**Methi Chicken/Tofu with Bajra Roti**
+- Methi chicken (100g) OR methi tofu (120g)
+- 2 bajra rotis (small)
+- 1 bowl tori ki sabzi
+- 1 small bowl moong dal
+
+*Calories: ~400 | Carbs: 38g | Protein: 28g | Fiber: 10g*
+
+**Day 2 Total: ~1,460 calories | Carbs: 184g | Protein: 69g | Fiber: 38g**
+
+---
+
+## DAY 3 (Wednesday)
+
+### 🌅 Morning Ritual
+- 1 glass warm water with ½ lemon + turmeric
+- 1 tsp soaked methi seeds
+
+### 🍳 Breakfast
+**Moong Dal Chilla with Mint Chutney**
+- 2 moong dal chillas
+- 2 tbsp mint-coriander chutney
+- 1 boiled egg OR 50g paneer
 - Green tea
 
-### Dinner (7:00 PM)
-**Tandoori Chicken/Soya with Salad**
-- 150g tandoori chicken OR soya chunks
-- Large mixed vegetable salad
-- 1 small bowl tomato soup
+*Calories: ~300 | Carbs: 28g | Protein: 22g | Fiber: 8g*
 
-*Carbs: 12g | Fiber: 6g | Protein: 32g*
-
----
-
-## Day 3: Protein Power Day
-
-### Early Morning
-- Methi water + mixed nuts (5 each: almond, walnut, cashew)
-
-### Breakfast (8:00 AM)
-**Paneer Bhurji with Multigrain Toast**
-- Paneer bhurji with vegetables (150g paneer)
-- 1 slice multigrain bread
-- 1 cup masala chai (no sugar)
-
-*Carbs: 20g | Fiber: 5g | Protein: 26g*
-
-### Mid-Morning
-- 1 cup buttermilk with roasted jeera
-- 1 small pear
-
-### Lunch (1:00 PM)
-**Chicken/Paneer Curry with Barley**
-- Chicken curry OR paneer makhani (light)
-- ½ cup cooked barley (instead of rice)
-- Cucumber + tomato salad
-- 1 small roti
-
-*Carbs: 30g | Fiber: 8g | Protein: 30g*
-
-### Evening Snack
-- Egg bhurji OR paneer cubes (50g)
-- Green tea with ginger
-
-### Dinner (7:00 PM)
-**Grilled Vegetables with Hummus**
-- Grilled zucchini, bell peppers, mushrooms
-- 4 tbsp homemade hummus
-- Clear vegetable soup
-
-*Carbs: 18g | Fiber: 8g | Protein: 12g*
-
----
-
-## Day 4: Low-Carb Indian Day
-
-### Early Morning
-- Warm water + cinnamon powder
-- 5 almonds
-
-### Breakfast (8:00 AM)
-**Besan Chilla with Green Chutney**
-- 2 besan chillas stuffed with onion-tomato
-- Mint chutney
-- 1 cup green tea
-
-*Carbs: 24g | Fiber: 6g | Protein: 16g*
-
-### Mid-Morning
-- ½ cup papaya
+### 🥜 Mid-Morning Snack
+- 1 small bowl papaya (100g)
 - 10 peanuts
 
-### Lunch (1:00 PM)
-**Lauki (Bottle Gourd) Kofta with Salad**
-- Lauki kofta in light gravy (baked, not fried)
-- Large salad bowl
-- 1 small jowar roti
+*Calories: ~100 | Carbs: 14g | Protein: 4g*
 
-*Carbs: 25g | Fiber: 9g | Protein: 14g*
+### 🍛 Lunch
+**Whole Wheat Roti with Chole**
+- 2 whole wheat rotis (small, no oil)
+- 1 bowl chole (chickpeas) - no aloo
+- 1 bowl lauki sabzi
+- Onion-tomato salad
+- 1 small bowl curd
 
-### Evening Snack
-- Makhana (fox nuts) roasted with ghee and salt
-- Cinnamon tea
+*Calories: ~470 | Carbs: 58g | Protein: 19g | Fiber: 15g*
 
-### Dinner (7:00 PM)
-**Egg Curry/Tofu with Cauliflower Mash**
-- 2 egg curry OR tofu curry
-- 1 cup cauliflower mash with garlic
-- Sautéed spinach
+### ☕ Evening Snack
+- 1 cup masala chai (with jaggery alternative)
+- 1 small bowl makhana (fox nuts)
 
-*Carbs: 14g | Fiber: 6g | Protein: 20g*
+*Calories: ~90 | Carbs: 12g | Protein: 3g*
+
+### 🌙 Dinner
+**Grilled Tandoori Vegetables with Dal**
+- Mixed grilled vegetables (paneer, capsicum, onion, mushroom)
+- 1 bowl masoor dal
+- 1 bajra roti
+- Small green salad
+
+*Calories: ~350 | Carbs: 35g | Protein: 18g | Fiber: 12g*
+
+**Day 3 Total: ~1,310 calories | Carbs: 147g | Protein: 66g | Fiber: 45g**
 
 ---
 
-## Day 5: Intermittent Day (Optional)
+## DAY 4 (Thursday)
 
-*Skip breakfast, eat between 12 PM - 8 PM*
+### 🌅 Morning Ritual
+- 1 glass warm water with apple cider vinegar (1 tbsp)
+- 1 tsp soaked methi seeds
 
-### Early Morning - Lunch (6 AM - 12 PM)
-- Only: Water, green tea, black coffee (no sugar/milk)
-- Methi water allowed
+### 🍳 Breakfast
+**Vegetable Upma with Sambar**
+- 1 cup vegetable upma (broken wheat/dalia)
+- 1 small bowl sambar
+- 1 boiled egg OR handful sprouts
+- Herbal tea
 
-### Lunch (12:00 PM) - Break Fast
-**Protein-Rich Thali**
-- 1 cup dal makhani (light)
-- Tandoori paneer/chicken (150g)
-- Cucumber raita
+*Calories: ~340 | Carbs: 42g | Protein: 16g | Fiber: 8g*
+
+### 🥜 Mid-Morning Snack
+- 1 small orange
+- 8-10 cashews
+
+*Calories: ~130 | Carbs: 15g | Protein: 3g*
+
+### 🍛 Lunch
+**Quinoa Khichdi with Kadhi**
+- 1 cup quinoa vegetable khichdi
+- 1 bowl kadhi (without pakoras)
+- 1 bowl karela sabzi (bitter gourd)
+- Mixed vegetable raita
+
+*Calories: ~440 | Carbs: 52g | Protein: 18g | Fiber: 10g*
+
+### ☕ Evening Snack
+- 1 glass coconut water
+- 1 small bowl sprouts chaat
+
+*Calories: ~100 | Carbs: 18g | Protein: 5g*
+
+### 🌙 Dinner
+**Fish Curry/Paneer Curry with Brown Rice**
+- Fish curry (100g) OR paneer makhani (80g, less cream)
+- ½ cup brown rice
+- 1 bowl sautéed greens (palak/methi)
+- Small salad
+
+*Calories: ~420 | Carbs: 38g | Protein: 26g | Fiber: 6g*
+
+**Day 4 Total: ~1,430 calories | Carbs: 165g | Protein: 68g | Fiber: 38g**
+
+---
+
+## DAY 5 (Friday)
+
+### 🌅 Morning Ritual
+- 1 glass warm water with ½ lemon
+- 1 tsp soaked methi seeds + ¼ tsp cinnamon
+
+### 🍳 Breakfast
+**Besan Chilla with Vegetables**
+- 2 besan chillas with onion, tomato
+- 2 tbsp green chutney
+- 1 small bowl curd
+- Black coffee/green tea
+
+*Calories: ~280 | Carbs: 26g | Protein: 16g | Fiber: 6g*
+
+### 🥜 Mid-Morning Snack
+- 1 small pear
+- 1 tbsp pumpkin seeds
+
+*Calories: ~110 | Carbs: 20g | Protein: 3g*
+
+### 🍛 Lunch
+**Millet (Bajra) Roti with Mixed Dal**
+- 2 bajra rotis
+- 1 bowl panchmel dal
+- 1 bowl aloo-methi (small portion aloo)
+- Kachumber salad
+- 1 small bowl curd
+
+*Calories: ~460 | Carbs: 58g | Protein: 18g | Fiber: 14g*
+
+### ☕ Evening Snack
+- 1 cup herbal tea
+- 2 multigrain biscuits (sugar-free)
+- 6-8 almonds
+
+*Calories: ~120 | Carbs: 14g | Protein: 4g*
+
+### 🌙 Dinner
+**Egg Curry/Mushroom Curry with Roti**
+- Egg curry (2 eggs) OR mushroom masala
 - 1 multigrain roti
-- Mixed salad
+- 1 bowl dal
+- Steamed vegetables
 
-*Carbs: 38g | Fiber: 10g | Protein: 35g*
+*Calories: ~380 | Carbs: 32g | Protein: 24g | Fiber: 8g*
 
-### Snack (3:30 PM)
-- 1 cup mixed sprouts salad
-- 10-12 almonds
-
-### Dinner (7:30 PM)
-**Fish/Paneer with Vegetable Soup**
-- Grilled fish/paneer tikka
-- Large bowl of clear vegetable soup
-- Sautéed greens (palak, methi)
-
-*Carbs: 12g | Fiber: 6g | Protein: 28g*
-
-*If intermittent fasting is difficult, eat normal breakfast from Day 1*
+**Day 5 Total: ~1,350 calories | Carbs: 150g | Protein: 65g | Fiber: 42g**
 
 ---
 
-## Day 6: Gut Health Day
+## DAY 6 (Saturday)
 
-### Early Morning
-- Warm water + ACV + 1 tsp honey
-- 5 soaked almonds
+### 🌅 Morning Ritual
+- 1 glass warm water with lemon + ginger
+- 1 tsp soaked methi seeds
 
-### Breakfast (8:00 AM)
-**Idli with Sambhar (Modified)**
-- 2 oats idli OR ragi idli
-- 1 bowl vegetable sambhar
-- Coconut chutney (2 tbsp)
+### 🍳 Breakfast
+**Idli with Sambar**
+- 3 rava idlis OR 2 regular idlis
+- 1 bowl sambar (loaded with vegetables)
+- 2 tbsp coconut chutney
+- Green tea
 
-*Carbs: 30g | Fiber: 8g | Protein: 12g*
+*Calories: ~300 | Carbs: 48g | Protein: 12g | Fiber: 6g*
 
-### Mid-Morning
-- 1 cup plain dahi with chia seeds
-- Few berries
+### 🥜 Mid-Morning Snack
+- 1 small bowl mixed berries/jamun (100g)
+- 5-6 walnuts
 
-### Lunch (1:00 PM)
-**Chole Salad Bowl**
-- 1 cup chole (chickpeas)
-- Lots of onion, tomato, cucumber
-- Chaat masala, lemon dressing
-- No roti/rice
+*Calories: ~120 | Carbs: 14g | Protein: 3g*
 
-*Carbs: 32g | Fiber: 12g | Protein: 14g*
+### 🍛 Lunch
+**Vegetable Biryani (Brown Rice)**
+- 1 cup vegetable biryani (brown rice)
+- 1 bowl raita
+- 1 bowl mirchi ka salan (light)
+- Green salad
 
-### Evening Snack
-- Fermented vegetable pickle (small portion)
-- Roasted chana
+*Calories: ~450 | Carbs: 58g | Protein: 14g | Fiber: 8g*
 
-### Dinner (7:00 PM)
-**Khichdi with Vegetables**
-- 1 small bowl moong dal khichdi
-- 1 cup mixed vegetable sabzi
-- Curd (50g)
+### ☕ Evening Snack
+- 1 glass lassi (unsweetened)
+- Handful of roasted chana
 
-*Carbs: 28g | Fiber: 6g | Protein: 14g*
+*Calories: ~140 | Carbs: 18g | Protein: 8g*
 
----
-
-## Day 7: Consolidation Day
-
-### Early Morning
-- Methi + cinnamon water
-- 5 walnuts
-
-### Breakfast (8:00 AM)
-**Vegetable Poha (Brown Rice)**
-- Brown rice poha with lots of vegetables
-- Peanuts, curry leaves
-- 1 cup green tea
-
-*Carbs: 32g | Fiber: 6g | Protein: 10g*
-
-### Mid-Morning
-- 1 orange
-- 10 almonds
-
-### Lunch (1:00 PM)
-**Mixed Dal with Roti**
-- 1 bowl mixed dal (moong, masoor, toor)
-- 1 jowar/bajra roti
-- Bhindi (okra) sabzi
+### 🌙 Dinner
+**Tandoori Chicken/Paneer Tikka**
+- Tandoori chicken (100g) OR paneer tikka (100g)
+- 1 bowl dal makhani (light)
+- 1 small whole wheat naan
 - Onion-cucumber salad
 
-*Carbs: 35g | Fiber: 10g | Protein: 16g*
+*Calories: ~420 | Carbs: 35g | Protein: 32g | Fiber: 6g*
 
-### Evening Snack
-- Sprout bhel
-- Masala chai (no sugar)
+**Day 6 Total: ~1,430 calories | Carbs: 173g | Protein: 69g | Fiber: 35g**
 
-### Dinner (7:00 PM)
-**Grilled Protein with Soup**
-- Grilled chicken/fish/paneer (150g)
-- Tomato-spinach soup
-- Steamed broccoli and beans
+---
 
-*Carbs: 10g | Fiber: 6g | Protein: 30g*
+## DAY 7 (Sunday)
+
+### 🌅 Morning Ritual
+- 1 glass warm water with ½ lemon + turmeric
+- 1 tsp soaked methi seeds
+
+### 🍳 Breakfast
+**Oats Cheela with Vegetables**
+- 2 oats vegetable cheelas
+- 2 tbsp tomato chutney
+- 1 glass buttermilk
+- Herbal tea
+
+*Calories: ~290 | Carbs: 38g | Protein: 14g | Fiber: 8g*
+
+### 🥜 Mid-Morning Snack
+- 1 small chickoo/sapota
+- 10 pistachios
+
+*Calories: ~130 | Carbs: 20g | Protein: 3g*
+
+### 🍛 Lunch
+**Special Sunday Thali**
+- 2 jowar/bajra rotis
+- 1 bowl dal fry
+- 1 bowl seasonal sabzi
+- 1 bowl raita
+- Small portion pulao (¼ cup)
+- Salad
+- 1 small bowl kheer (sugar-free, with dates)
+
+*Calories: ~520 | Carbs: 68g | Protein: 18g | Fiber: 12g*
+
+### ☕ Evening Snack
+- 1 cup green tea
+- 2 oats cookies (sugar-free)
+- Small fruit
+
+*Calories: ~110 | Carbs: 18g | Protein: 3g*
+
+### 🌙 Dinner
+**Light Soup & Salad Night**
+- 1 bowl vegetable soup (no cream)
+- 1 large mixed salad with paneer/chicken (150g)
+- 1 multigrain toast
+- Lemon-olive oil dressing
+
+*Calories: ~320 | Carbs: 28g | Protein: 22g | Fiber: 10g*
+
+**Day 7 Total: ~1,370 calories | Carbs: 172g | Protein: 60g | Fiber: 42g**
 
 ---
 
 ## Weekly Shopping List
 
-### Proteins
-- [ ] Paneer - 500g
-- [ ] Chicken/Fish - 500g (optional)
-- [ ] Eggs - 12
-- [ ] Tofu/Soya chunks - 200g
-- [ ] Moong dal - 500g
-- [ ] Masoor dal - 250g
-- [ ] Rajma - 250g
-- [ ] Chole - 250g
+### Grains & Flours (Buy Weekly)
+- [ ] Brown rice – 1 kg
+- [ ] Jowar flour – 500g
+- [ ] Bajra flour – 500g
+- [ ] Ragi flour – 500g
+- [ ] Whole wheat flour – 1 kg
+- [ ] Oats – 500g
+- [ ] Poha – 250g
+- [ ] Quinoa – 250g
+- [ ] Dalia (broken wheat) – 250g
 
-### Vegetables
-- [ ] Spinach (palak) - 2 bunches
-- [ ] Methi leaves - 1 bunch
-- [ ] Cauliflower - 2 medium
-- [ ] Broccoli - 1 medium
-- [ ] Lauki (bottle gourd) - 1
-- [ ] Capsicum - 4
-- [ ] Cucumber - 6
-- [ ] Tomatoes - 1 kg
-- [ ] Onions - 1 kg
-- [ ] Beans, bhindi - 250g each
+### Pulses & Legumes
+- [ ] Moong dal – 500g
+- [ ] Masoor dal – 500g
+- [ ] Chana dal – 250g
+- [ ] Toor dal – 500g
+- [ ] Rajma – 250g
+- [ ] Chole (chickpeas) – 250g
+- [ ] Moong sprouts – 200g
+- [ ] Besan (gram flour) – 250g
 
-### Grains & Flours
-- [ ] Besan - 250g
-- [ ] Oats - 500g
-- [ ] Barley (jau) - 250g
-- [ ] Brown rice poha - 250g
-- [ ] Multigrain atta - 500g
-- [ ] Jowar/Bajra flour - 250g
+### Vegetables (Buy 2x weekly)
+- [ ] Palak (spinach) – 500g
+- [ ] Methi (fenugreek) – 2 bunches
+- [ ] Lauki (bottle gourd) – 2
+- [ ] Tori (ridge gourd) – 4
+- [ ] Karela (bitter gourd) – 4
+- [ ] Bhindi (okra) – 250g
+- [ ] Capsicum – 4
+- [ ] Tomatoes – 1 kg
+- [ ] Onions – 1 kg
+- [ ] Cucumber – 4
+- [ ] Broccoli – 1 head
+- [ ] Beans – 250g
+- [ ] Mushrooms – 200g
+- [ ] Ginger – 100g
+- [ ] Garlic – 100g
+- [ ] Green chilies – 100g
+- [ ] Coriander – 2 bunches
+- [ ] Mint – 1 bunch
+
+### Fruits (Buy 2x weekly)
+- [ ] Guava – 4
+- [ ] Apple – 4
+- [ ] Orange – 4
+- [ ] Papaya – 1 small
+- [ ] Pear – 2
+- [ ] Jamun/berries – 200g (seasonal)
+- [ ] Lemons – 6
+
+### Dairy & Proteins
+- [ ] Curd – 1 kg
+- [ ] Paneer – 400g
+- [ ] Eggs – 12
+- [ ] Buttermilk – 1 liter
+- [ ] Fish (rohu/pomfret) – 500g
+- [ ] Chicken breast – 500g
+- [ ] Tofu – 200g (optional)
 
 ### Nuts & Seeds
-- [ ] Almonds - 200g
-- [ ] Walnuts - 100g
-- [ ] Chia seeds - 100g
-- [ ] Peanuts - 200g
-- [ ] Makhana - 100g
+- [ ] Almonds – 200g
+- [ ] Walnuts – 100g
+- [ ] Peanuts – 100g
+- [ ] Cashews – 50g
+- [ ] Pumpkin seeds – 50g
+- [ ] Flax seeds – 100g
+- [ ] Methi seeds – 100g
+- [ ] Makhana – 100g
+- [ ] Roasted chana – 200g
 
-### Dairy
-- [ ] Curd - 1 kg
-- [ ] Milk - 2 liters
-- [ ] Buttermilk - 1 liter
+### Oils & Spices
+- [ ] Cold-pressed mustard oil – 500ml
+- [ ] Coconut oil – 200ml
+- [ ] Ghee – 200g
+- [ ] Turmeric powder – 100g
+- [ ] Cinnamon sticks – 50g
+- [ ] Jeera (cumin) – 100g
+- [ ] Coriander powder – 100g
+- [ ] Garam masala – 50g
+- [ ] Red chili powder – 50g
 
-### Spices & Others
-- [ ] Methi seeds - 100g
-- [ ] Cinnamon (dalchini) - 50g
-- [ ] Apple cider vinegar - 1 bottle
-- [ ] Green tea - 1 pack
-- [ ] Olive oil - 500ml
+### Others
+- [ ] Green tea bags – 25
+- [ ] Apple cider vinegar – 1 bottle
+- [ ] Sugar-free sweetener (stevia) – optional
+- [ ] Multigrain khakhra – 1 pack
 
----
-
-## Reversal Tips for Success
-
-### Do This Daily:
-1. **Walk 30 minutes** after dinner
-2. **Drink 3L water** throughout the day
-3. **Sleep by 10 PM** - crucial for insulin sensitivity
-4. **Check fasting glucose** weekly to track progress
-
-### Avoid Completely:
-❌ White rice, maida, white bread  
-❌ Sugary drinks, packaged juices  
-❌ Deep-fried foods  
-❌ Potatoes, banana, mango (for now)  
-❌ Late-night eating after 8 PM  
-
-### Reversal Accelerators:
-🔥 Add 1 tsp methi to any meal  
-🔥 Drink cinnamon tea daily  
-🔥 Include bitter gourd twice a week  
-🔥 Try intermittent fasting 2x per week  
+**Estimated Weekly Cost: ₹2,000-2,500**
 
 ---
 
-## Track Your Progress
+## Meal Prep Tips
 
-| Week | Fasting Glucose | Weight | Notes |
-|------|-----------------|--------|-------|
-| Start | _____ mg/dL | _____ kg | |
-| Week 1 | _____ mg/dL | _____ kg | |
-| Week 2 | _____ mg/dL | _____ kg | |
-| Week 4 | _____ mg/dL | _____ kg | |
-| Week 8 | _____ mg/dL | _____ kg | |
+### Sunday Prep (1-2 hours)
+1. **Soak overnight:** Rajma, chole, methi seeds
+2. **Wash & chop:** All vegetables for the week
+3. **Cook grains:** Brown rice, quinoa (store in fridge)
+4. **Prepare batters:** Ragi dosa, moong dal chilla
+5. **Make chutneys:** Mint, coconut (last 4-5 days)
+6. **Roast:** Makhana, chana for snacks
+7. **Portion nuts:** Daily snack bags
 
-**Target:** Fasting glucose below 100 mg/dL
+### Wednesday Prep (30 minutes)
+1. Restock vegetables
+2. Make fresh chutneys
+3. Prepare next batch of sprouts
 
----
-
-## When to See Your Doctor
-
-✅ After 4 weeks on this plan  
-✅ If fasting glucose drops below 90 mg/dL  
-✅ If you experience dizziness or fatigue  
-✅ Before starting any supplements  
-
----
-
-## More Resources
-
-📺 **YouTube:** youtube.com/@health_gheware  
-- "How I Reversed Pre-Diabetes in 60 Days"
-- "Best Indian Foods for Blood Sugar"
-- "Methi for Diabetes - Complete Guide"
-
-📖 **Blog:** health.gheware.com/blog  
-- Detailed recipes with glycemic index
-- Success stories from India
-- Latest diabetes research
+### Daily Habits
+- **Night before:** Soak methi seeds, almonds
+- **Morning:** Prepare breakfast + pack lunch
+- **Evening:** Prep dinner ingredients
 
 ---
 
-## Medical Disclaimer
+## Blood Sugar Monitoring Guide
 
-⚠️ **Important:** This meal plan is for educational purposes only. It is not a substitute for professional medical advice.
+### When to Test (if you have a glucometer):
 
-- Consult your doctor before starting any new diet
-- Continue prescribed medications as directed
-- Monitor blood sugar regularly
-- Individual results may vary
+| Time | Target Range | What It Tells You |
+|------|--------------|-------------------|
+| Fasting (morning) | 80-100 mg/dL | Overnight glucose control |
+| 2 hours after breakfast | &lt;140 mg/dL | Breakfast impact |
+| 2 hours after lunch | &lt;140 mg/dL | Lunch impact |
+| Before bed | 100-120 mg/dL | Evening control |
+
+### Weekly Testing Schedule:
+- **Day 1:** Fasting + post-breakfast
+- **Day 3:** Fasting + post-lunch
+- **Day 5:** Fasting + post-dinner
+- **Day 7:** Fasting (track weekly progress)
+
+### Red Flags (Contact Doctor):
+- Fasting glucose consistently &gt;126 mg/dL
+- Post-meal glucose consistently &gt;180 mg/dL
+- Symptoms: excessive thirst, frequent urination, blurred vision
 
 ---
 
-**© 2026 Health Gheware**  
-*Eat Well, Live Better - The Indian Way*
+## Expected Results
 
-health.gheware.com | youtube.com/@health_gheware
+### Week 1-2
+- Reduced bloating and better digestion
+- More stable energy levels
+- Less post-meal fatigue
+- Beginning of sugar craving reduction
+
+### Week 3-4
+- Fasting glucose may drop 10-20 mg/dL
+- Clothes may feel looser (belly fat reduction)
+- Better sleep quality
+- Reduced afternoon slump
+
+### Month 2-3
+- Significant improvement in fasting glucose
+- Possible 2-4 kg weight loss
+- HbA1c may drop 0.3-0.5%
+- Improved cholesterol levels
+
+### Month 6+
+- Many people move from pre-diabetic to normal range
+- Sustained weight loss
+- New eating habits become natural
+- Reduced medication needs (consult doctor)
+
+---
+
+## Lifestyle Tips for Better Results
+
+### Exercise (150 min/week minimum)
+- **Morning walk:** 30 minutes daily (best for blood sugar)
+- **Post-meal walk:** 10-15 minutes after lunch/dinner
+- **Strength training:** 2-3 times per week
+- **Yoga:** Surya namaskar, pranayama
+
+### Sleep (7-8 hours)
+- Fixed sleep time (10-11 PM)
+- No screens 1 hour before bed
+- Dark, cool room
+
+### Stress Management
+- 10 minutes daily meditation
+- Deep breathing exercises
+- Limit news/social media
+
+### Hydration
+- 8-10 glasses water daily
+- Herbal teas (no sugar)
+- Limit tea/coffee to 2 cups
+
+---
+
+## Special Situations
+
+### Eating Out
+- Order tandoori items (grilled, not fried)
+- Ask for roti instead of naan
+- Choose dal + sabzi over rich gravies
+- Skip dessert or share one small portion
+- Eat salad first
+
+### Festivals & Celebrations
+- Eat a protein-rich snack before events
+- Choose 1-2 special items, small portions
+- Focus on savory over sweet
+- Resume normal eating next meal
+
+### Travel
+- Pack nuts, khakhra, roasted chana
+- Choose South Indian (idli/dosa) over North Indian
+- Carry methi seed powder
+- Stay hydrated
+
+---
+
+## Quick Reference Card
+
+### Daily Must-Dos:
+✅ Methi seeds on waking
+✅ Protein with every meal
+✅ 5+ servings vegetables
+✅ Finish dinner by 8 PM
+✅ 30 minutes physical activity
+✅ 8 glasses water
+
+### Weekly Must-Dos:
+✅ 2+ servings bitter gourd/karela
+✅ 3+ servings leafy greens
+✅ Fish 2 times (if non-veg)
+✅ Measure fasting glucose 2-3 times
+
+### Avoid:
+❌ White rice (daily)
+❌ Maida products
+❌ Sugar in any form
+❌ Fruit juice
+❌ Late-night eating
+❌ Skipping meals
+
+---
+
+## Recipes for Key Dishes
+
+### Methi Seeds Morning Drink
+**Ingredients:** 1 tsp methi seeds, 1 cup warm water
+**Method:** Soak seeds overnight. Drink water + chew seeds in morning.
+**Benefit:** Improves insulin sensitivity
+
+### Moong Dal Chilla
+**Ingredients:** 1 cup moong dal (soaked 4 hours), green chilies, ginger, salt
+**Method:** Grind dal to batter, add spices, make thin pancakes on non-stick pan.
+**Benefit:** High protein, low GI breakfast
+
+### Karela Sabzi (Less Bitter)
+**Ingredients:** 2 karela, 1 onion, tomato, turmeric, salt
+**Method:** Slice karela thin, rub with salt, wash after 30 min. Sauté with onion-tomato.
+**Benefit:** Naturally lowers blood sugar
+
+### Quinoa Khichdi
+**Ingredients:** ½ cup quinoa, ¼ cup moong dal, vegetables, cumin, turmeric
+**Method:** Pressure cook quinoa + dal + vegetables with spices. Add ghee tempering.
+**Benefit:** Complete protein, low GI
+
+---
+
+## FAQs
+
+**Q: Can I eat rice at all?**
+A: Yes, but switch to brown rice and limit to ½ cup per meal. Combine with dal and vegetables.
+
+**Q: Is fruit safe?**
+A: Yes, low-GI fruits like guava, apple, orange, papaya. Avoid mango, grapes, banana, chikoo in large quantities. Always eat whole fruit, never juice.
+
+**Q: Can I use jaggery instead of sugar?**
+A: Jaggery has similar impact on blood sugar. Use stevia or small amounts of dates for sweetening.
+
+**Q: How much ghee is okay?**
+A: 1-2 teaspoons per day is fine and actually helps with insulin sensitivity.
+
+**Q: What if I'm vegetarian?**
+A: This plan works great for vegetarians. Replace non-veg options with paneer, tofu, or extra dal.
+
+**Q: Can I drink alcohol?**
+A: Limit to 1-2 drinks per week. Avoid beer and sweet cocktails. Dry wine is better choice.
+
+---
+
+## Your 7-Day Challenge
+
+I challenge you to follow this meal plan strictly for 7 days and track:
+
+1. **Day 1:** Take "before" measurements (weight, waist, fasting glucose)
+2. **Days 2-6:** Follow the plan, note energy levels
+3. **Day 7:** Take "after" measurements
+
+**Share your results with us!**
+
+📧 Email: support@health.gheware.com
+📱 WhatsApp: [Join our community]
+
+---
+
+## Disclaimer
+
+This meal plan is for educational purposes and general guidance. It is not a substitute for professional medical advice. Please consult your doctor or registered dietitian before making significant dietary changes, especially if you are on medication for diabetes or other conditions.
+
+Individual results may vary based on factors including genetics, physical activity, stress levels, sleep quality, and adherence to the plan.
+
+---
+
+## About Health Gheware
+
+Health Gheware is dedicated to helping Indians prevent and reverse lifestyle diseases through evidence-based nutrition and lifestyle guidance. Our content is reviewed by qualified medical professionals.
+
+**Dr. Rajesh Gheware, MBBS, MD**
+Founder, Health Gheware
+
+---
+
+**© 2025 Health Gheware. All rights reserved.**
+
+*Download more free resources at: https://health.gheware.com*
