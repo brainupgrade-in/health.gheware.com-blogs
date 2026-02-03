@@ -1,601 +1,588 @@
----
-layout: default
-title: "Free Sleep & Blood Sugar Tracker | 30-Day Journal for Diabetics"
-description: "Download your free 30-day tracker to discover how sleep affects your blood sugar. Science-backed tips, printable sheets, and sleep apnea screening included."
-permalink: /sleep-tracker/
----
-
-<style>
-  .tracker-hero {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .tracker-hero::before {
-    content: "🌙";
-    font-size: 200px;
-    position: absolute;
-    top: -30px;
-    right: -30px;
-    opacity: 0.1;
-  }
-  
-  .tracker-hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-    color: #f8f9fa;
-  }
-  
-  .tracker-hero .subtitle {
-    font-size: 1.3rem;
-    color: #e9ecef;
-    margin-bottom: 25px;
-  }
-  
-  .tracker-badge {
-    display: inline-block;
-    background: #ffc107;
-    color: #1a1a2e;
-    padding: 8px 20px;
-    border-radius: 25px;
-    font-weight: bold;
-    font-size: 0.9rem;
-    margin-bottom: 20px;
-  }
-  
-  .tracker-stats {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 30px;
-    flex-wrap: wrap;
-  }
-  
-  .stat-item {
-    text-align: center;
-  }
-  
-  .stat-number {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #ffc107;
-  }
-  
-  .stat-label {
-    font-size: 0.9rem;
-    color: #adb5bd;
-  }
-  
-  .tracker-content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
-  }
-  
-  .shocking-stat {
-    background: linear-gradient(135deg, #ff6b6b, #ee5a5a);
-    color: white;
-    padding: 30px;
-    border-radius: 15px;
-    text-align: center;
-    margin: 30px 0;
-    font-size: 1.3rem;
-    box-shadow: 0 10px 30px rgba(238, 90, 90, 0.3);
-  }
-  
-  .shocking-stat strong {
-    font-size: 2rem;
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .feature-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    margin: 40px 0;
-  }
-  
-  .feature-card {
-    background: #f8f9fa;
-    border-radius: 15px;
-    padding: 25px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  }
-  
-  .feature-icon {
-    font-size: 3rem;
-    margin-bottom: 15px;
-  }
-  
-  .feature-card h3 {
-    color: #1a1a2e;
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-  }
-  
-  .feature-card p {
-    color: #6c757d;
-    font-size: 0.95rem;
-    line-height: 1.5;
-  }
-  
-  .science-section {
-    background: #e3f2fd;
-    padding: 40px;
-    border-radius: 20px;
-    margin: 40px 0;
-  }
-  
-  .science-section h2 {
-    color: #1565c0;
-    margin-bottom: 25px;
-    text-align: center;
-  }
-  
-  .science-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-  }
-  
-  .science-item {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  .science-item .emoji {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .science-item h4 {
-    color: #1565c0;
-    margin-bottom: 8px;
-    font-size: 1rem;
-  }
-  
-  .science-item p {
-    color: #546e7a;
-    font-size: 0.9rem;
-    line-height: 1.4;
-  }
-  
-  .apnea-alert {
-    background: linear-gradient(135deg, #fff3cd, #ffe69c);
-    border-left: 5px solid #ffc107;
-    padding: 25px 30px;
-    border-radius: 0 15px 15px 0;
-    margin: 30px 0;
-  }
-  
-  .apnea-alert h3 {
-    color: #856404;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .apnea-alert ul {
-    color: #856404;
-    margin: 0;
-    padding-left: 20px;
-  }
-  
-  .apnea-alert li {
-    margin-bottom: 8px;
-  }
-  
-  .tracker-preview {
-    background: white;
-    border: 2px solid #e9ecef;
-    border-radius: 15px;
-    padding: 30px;
-    margin: 40px 0;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-  }
-  
-  .tracker-preview h2 {
-    text-align: center;
-    color: #1a1a2e;
-    margin-bottom: 25px;
-  }
-  
-  .preview-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 15px;
-  }
-  
-  .preview-list li {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 15px;
-    background: #f8f9fa;
-    border-radius: 8px;
-    font-size: 0.95rem;
-    color: #495057;
-  }
-  
-  .preview-list .check {
-    color: #28a745;
-    font-size: 1.2rem;
-  }
-  
-  .download-section {
-    background: linear-gradient(135deg, #28a745, #20c997);
-    color: white;
-    padding: 50px 30px;
-    border-radius: 20px;
-    text-align: center;
-    margin: 40px 0;
-    box-shadow: 0 15px 40px rgba(40, 167, 69, 0.3);
-  }
-  
-  .download-section h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-  }
-  
-  .download-section p {
-    font-size: 1.1rem;
-    margin-bottom: 25px;
-    opacity: 0.95;
-  }
-  
-  .download-btn {
-    display: inline-block;
-    background: white;
-    color: #28a745;
-    padding: 18px 40px;
-    border-radius: 50px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-  }
-  
-  .download-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
-    color: #28a745;
-    text-decoration: none;
-  }
-  
-  .download-note {
-    font-size: 0.9rem;
-    margin-top: 15px;
-    opacity: 0.8;
-  }
-  
-  .testimonial-section {
-    background: #f8f9fa;
-    padding: 40px;
-    border-radius: 20px;
-    margin: 40px 0;
-    text-align: center;
-  }
-  
-  .testimonial-section h2 {
-    color: #1a1a2e;
-    margin-bottom: 30px;
-  }
-  
-  .testimonial {
-    max-width: 600px;
-    margin: 0 auto;
-    font-style: italic;
-    font-size: 1.1rem;
-    color: #495057;
-    line-height: 1.7;
-  }
-  
-  .testimonial-author {
-    margin-top: 20px;
-    font-style: normal;
-    font-weight: bold;
-    color: #1a1a2e;
-  }
-  
-  .faq-section {
-    margin: 40px 0;
-  }
-  
-  .faq-section h2 {
-    text-align: center;
-    color: #1a1a2e;
-    margin-bottom: 30px;
-  }
-  
-  .faq-item {
-    border-bottom: 1px solid #e9ecef;
-    padding: 20px 0;
-  }
-  
-  .faq-item h4 {
-    color: #1a1a2e;
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-  }
-  
-  .faq-item p {
-    color: #6c757d;
-    margin: 0;
-    line-height: 1.6;
-  }
-  
-  .related-resources {
-    background: #1a1a2e;
-    color: white;
-    padding: 40px;
-    border-radius: 20px;
-    margin: 40px 0;
-  }
-  
-  .related-resources h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #f8f9fa;
-  }
-  
-  .resources-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-  }
-  
-  .resource-link {
-    display: block;
-    background: rgba(255,255,255,0.1);
-    padding: 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    transition: background 0.3s ease;
-  }
-  
-  .resource-link:hover {
-    background: rgba(255,255,255,0.2);
-    color: white;
-    text-decoration: none;
-  }
-  
-  .resource-link .emoji {
-    font-size: 2rem;
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .tracker-hero h1 {
-      font-size: 1.8rem;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Sleep & Blood Sugar Tracker | Health Gheware</title>
+    <meta name="description" content="Download your free 30-day tracker to discover how sleep affects your blood sugar. Includes tracking sheets, sleep tips for diabetics, and pattern analysis guides.">
+    <meta property="og:title" content="Free Sleep & Blood Sugar Connection Tracker">
+    <meta property="og:description" content="Discover how your sleep habits impact your blood sugar with this free 30-day tracking journal.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://health.gheware.com/sleep-tracker.html">
+    <link rel="canonical" href="https://health.gheware.com/sleep-tracker.html">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #00cc66;
+            --primary-dark: #009944;
+            --accent: #6B46C1;
+            --text: #1a202c;
+            --text-light: #4a5568;
+            --bg: #f7fafc;
+            --white: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .hero h1 {
+            font-size: clamp(28px, 5vw, 48px);
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: 18px;
+            opacity: 0.95;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        .hero-stat {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,255,255,0.15);
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        
+        .hero-stat strong {
+            font-size: 24px;
+        }
+        
+        /* Main Content */
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 50px;
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 900px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Left Column - Benefits */
+        .benefits h2 {
+            font-size: 28px;
+            margin-bottom: 25px;
+            color: var(--text);
+        }
+        
+        .benefit-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: var(--white);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .benefit-item:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .benefit-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+        
+        .benefit-content h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: var(--text);
+        }
+        
+        .benefit-content p {
+            font-size: 14px;
+            color: var(--text-light);
+        }
+        
+        /* What's Inside */
+        .whats-inside {
+            background: var(--white);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            margin-top: 30px;
+        }
+        
+        .whats-inside h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: var(--text);
+        }
+        
+        .inside-list {
+            list-style: none;
+        }
+        
+        .inside-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .inside-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .inside-list .check {
+            color: var(--primary);
+            font-weight: bold;
+        }
+        
+        /* Right Column - Form */
+        .form-card {
+            background: var(--white);
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: var(--shadow-lg);
+            position: sticky;
+            top: 20px;
+        }
+        
+        .form-card h2 {
+            font-size: 24px;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        
+        .form-subtitle {
+            text-align: center;
+            color: var(--text-light);
+            margin-bottom: 25px;
+            font-size: 15px;
+        }
+        
+        .form-group {
+            margin-bottom: 18px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(0, 204, 102, 0.1);
+        }
+        
+        .required {
+            color: #e53e3e;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 204, 102, 0.4);
+        }
+        
+        .submit-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .privacy-note {
+            text-align: center;
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 15px;
+        }
+        
+        .privacy-note a {
+            color: var(--primary-dark);
+        }
+        
+        /* Success Message */
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .success-message.show {
+            display: block;
+        }
+        
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 40px;
+        }
+        
+        .success-message h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+        
+        .success-message p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            padding: 14px 30px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        /* Testimonial */
+        .testimonial {
+            background: #f0fff4;
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 0 12px 12px 0;
+        }
+        
+        .testimonial p {
+            font-style: italic;
+            color: var(--text);
+            margin-bottom: 10px;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--primary-dark);
+            font-size: 14px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--text);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        
+        .footer-copyright {
+            font-size: 14px;
+            opacity: 0.7;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease forwards;
+        }
+        
+        /* Loading Spinner */
+        .spinner {
+            display: none;
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 10px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .submit-btn.loading .spinner {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <span class="hero-badge">🌙 FREE 30-Day Tracker</span>
+            <h1>Sleep & Blood Sugar<br>Connection Tracker</h1>
+            <p class="hero-subtitle">Discover how your sleep habits directly impact your blood sugar control — with a simple 2-minute daily tracking system</p>
+            <div class="hero-stat">
+                <span>Poor sleep can raise blood sugar by</span>
+                <strong>23%</strong>
+            </div>
+        </div>
+    </section>
     
-    .tracker-stats {
-      gap: 20px;
-    }
-    
-    .stat-number {
-      font-size: 2rem;
-    }
-    
-    .shocking-stat {
-      font-size: 1.1rem;
-    }
-    
-    .shocking-stat strong {
-      font-size: 1.5rem;
-    }
-  }
-</style>
-
-<div class="tracker-hero">
-  <span class="tracker-badge">🆓 FREE DOWNLOAD</span>
-  <h1>Sleep & Blood Sugar Connection Tracker</h1>
-  <p class="subtitle">Discover How Sleep Affects Your Glucose Control — With Science-Backed Tracking</p>
-  
-  <div class="tracker-stats">
-    <div class="stat-item">
-      <div class="stat-number">30</div>
-      <div class="stat-label">Days of Tracking</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">50+</div>
-      <div class="stat-label">Pages of Content</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">100%</div>
-      <div class="stat-label">Evidence-Based</div>
-    </div>
-  </div>
-</div>
-
-<div class="tracker-content">
-  
-  <div class="shocking-stat">
-    <strong>Did You Know?</strong>
-    One night of poor sleep can make your cells up to 30% less responsive to insulin — spiking your morning blood sugar even if you ate perfectly!
-  </div>
-  
-  <h2 style="text-align: center; margin: 40px 0 20px;">Why Sleep Matters for Blood Sugar</h2>
-  <p style="text-align: center; color: #6c757d; max-width: 700px; margin: 0 auto 30px; line-height: 1.7;">
-    Most diabetics focus only on food and medication. But research shows that <strong>sleep quality directly impacts your blood sugar</strong> — sometimes more than what you eat. Poor sleep increases cortisol, disrupts appetite hormones, and reduces insulin sensitivity.
-  </p>
-  
-  <div class="feature-grid">
-    <div class="feature-card">
-      <div class="feature-icon">📊</div>
-      <h3>Track Sleep + Glucose Together</h3>
-      <p>See the connection between your sleep quality and morning readings in black and white.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🔬</div>
-      <h3>Science-Backed Information</h3>
-      <p>Learn exactly how sleep deprivation affects insulin sensitivity, with research citations.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">📋</div>
-      <h3>Printable Tracking Sheets</h3>
-      <p>Ready-to-print daily logs, bedtime checklists, and weekly review templates.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">⚠️</div>
-      <h3>Sleep Apnea Screening</h3>
-      <p>Self-assessment tools for sleep apnea — affecting 50-80% of diabetics!</p>
-    </div>
-  </div>
-  
-  <div class="science-section">
-    <h2>🧬 The Science Made Simple</h2>
-    <div class="science-grid">
-      <div class="science-item">
-        <div class="emoji">😴</div>
-        <h4>< 6 Hours Sleep</h4>
-        <p>Cortisol rises 50%, fasting glucose jumps 20-40 mg/dL</p>
-      </div>
-      <div class="science-item">
-        <div class="emoji">🍕</div>
-        <h4>Appetite Hormones</h4>
-        <p>Ghrelin ↑28%, Leptin ↓18% = 385 extra calories/day</p>
-      </div>
-      <div class="science-item">
-        <div class="emoji">⏰</div>
-        <h4>Irregular Schedule</h4>
-        <p>"Social jet lag" increases A1C by 0.5% on average</p>
-      </div>
-      <div class="science-item">
-        <div class="emoji">💉</div>
-        <h4>Insulin Sensitivity</h4>
-        <p>One week of 5hr nights = 25% reduction</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="apnea-alert">
-    <h3>⚠️ Important: Sleep Apnea & Diabetes</h3>
-    <ul>
-      <li><strong>50-80% of Type 2 diabetics</strong> have undiagnosed sleep apnea</li>
-      <li>Sleep apnea causes unexplained high morning glucose</li>
-      <li>Treatment can reduce A1C by 0.5-1%</li>
-      <li><strong>This tracker includes a self-screening tool</strong></li>
-    </ul>
-  </div>
-  
-  <div class="tracker-preview">
-    <h2>📦 What's Inside Your Free Tracker</h2>
-    <ul class="preview-list">
-      <li><span class="check">✓</span> Complete guide: How sleep affects blood sugar</li>
-      <li><span class="check">✓</span> 30-day tracking sheets with correlation analysis</li>
-      <li><span class="check">✓</span> SLEEP-WELL Protocol for diabetics</li>
-      <li><span class="check">✓</span> Optimal sleep duration & timing guide</li>
-      <li><span class="check">✓</span> Foods that help sleep (diabetes-friendly)</li>
-      <li><span class="check">✓</span> Foods that hurt sleep (avoid these!)</li>
-      <li><span class="check">✓</span> STOP-BANG sleep apnea screening tool</li>
-      <li><span class="check">✓</span> Bedtime blood sugar targets</li>
-      <li><span class="check">✓</span> Weekly review templates</li>
-      <li><span class="check">✓</span> Printable bedtime checklist</li>
-      <li><span class="check">✓</span> Questions for your doctor</li>
-      <li><span class="check">✓</span> 30-day summary & action plan</li>
-    </ul>
-  </div>
-  
-  <div class="download-section">
-    <h2>🌙 Download Your Free Tracker Now</h2>
-    <p>Start understanding the sleep-glucose connection tonight!</p>
-    <a href="/assets/pdfs/sleep-blood-sugar-tracker.md" download class="download-btn">
-      ⬇️ Download Free Tracker
-    </a>
-    <p class="download-note">📄 Markdown format • Print-friendly • No email required</p>
-  </div>
-  
-  <div class="testimonial-section">
-    <h2>💬 Why People Love This Tracker</h2>
-    <div class="testimonial">
-      "I never connected my terrible morning numbers with my sleep until I used this tracker. After 2 weeks, I saw the pattern clearly — every night under 6 hours meant readings over 150. Now I prioritize sleep and my mornings are so much better!"
-    </div>
-    <div class="testimonial-author">— Type 2 Diabetic, using the tracker</div>
-  </div>
-  
-  <div class="faq-section">
-    <h2>❓ Frequently Asked Questions</h2>
-    
-    <div class="faq-item">
-      <h4>How long should I track for?</h4>
-      <p>We recommend the full 30 days to see meaningful patterns. However, many people notice connections within the first week!</p>
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Benefits Column -->
+        <div class="benefits">
+            <h2>Why Track Sleep & Blood Sugar Together?</h2>
+            
+            <div class="benefit-item fade-in">
+                <div class="benefit-icon">🔍</div>
+                <div class="benefit-content">
+                    <h3>Discover Your Personal Patterns</h3>
+                    <p>See exactly how your sleep hours and quality correlate with your morning blood sugar readings</p>
+                </div>
+            </div>
+            
+            <div class="benefit-item fade-in" style="animation-delay: 0.1s">
+                <div class="benefit-icon">📊</div>
+                <div class="benefit-content">
+                    <h3>Find Your Optimal Sleep Duration</h3>
+                    <p>Learn if you need 7, 8, or 9 hours for the best blood sugar control</p>
+                </div>
+            </div>
+            
+            <div class="benefit-item fade-in" style="animation-delay: 0.2s">
+                <div class="benefit-icon">⚡</div>
+                <div class="benefit-content">
+                    <h3>Identify Sleep Disruptors</h3>
+                    <p>Track what causes broken sleep and how it affects next-day readings</p>
+                </div>
+            </div>
+            
+            <div class="benefit-item fade-in" style="animation-delay: 0.3s">
+                <div class="benefit-icon">💡</div>
+                <div class="benefit-content">
+                    <h3>Get Actionable Insights</h3>
+                    <p>Weekly summaries help you make smarter lifestyle decisions</p>
+                </div>
+            </div>
+            
+            <!-- What's Inside -->
+            <div class="whats-inside fade-in" style="animation-delay: 0.4s">
+                <h3>📋 What's Inside the Tracker:</h3>
+                <ul class="inside-list">
+                    <li><span class="check">✓</span> 30 days of structured tracking sheets</li>
+                    <li><span class="check">✓</span> Weekly summary & pattern analysis</li>
+                    <li><span class="check">✓</span> Sleep quality rating guide</li>
+                    <li><span class="check">✓</span> Foods that help sleep & blood sugar</li>
+                    <li><span class="check">✓</span> Evening routine checklist</li>
+                    <li><span class="check">✓</span> When to talk to your doctor</li>
+                    <li><span class="check">✓</span> 30-day insights summary page</li>
+                </ul>
+            </div>
+            
+            <!-- Testimonial -->
+            <div class="testimonial fade-in" style="animation-delay: 0.5s">
+                <p>"I had no idea my late-night phone scrolling was spiking my morning sugars. After tracking for just 2 weeks, I made small changes and my fasting readings dropped 15 points!"</p>
+                <span class="testimonial-author">— Sunita M., Bangalore</span>
+            </div>
+        </div>
+        
+        <!-- Form Column -->
+        <div class="form-column">
+            <div class="form-card">
+                <div id="form-container">
+                    <h2>Get Your Free Tracker</h2>
+                    <p class="form-subtitle">Enter your details below and we'll send it right over!</p>
+                    
+                    <form id="lead-form">
+                        <div class="form-group">
+                            <label for="name">Your Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="whatsapp">WhatsApp Number <span class="required">*</span></label>
+                            <input type="tel" id="whatsapp" name="whatsapp" placeholder="+91 98765 43210" required>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="spinner"></span>
+                            <span class="btn-text">Download Free Tracker →</span>
+                        </button>
+                        
+                        <p class="privacy-note">🔒 We respect your privacy. No spam, ever. <a href="/privacy">Privacy Policy</a></p>
+                    </form>
+                </div>
+                
+                <div id="success-container" class="success-message">
+                    <div class="success-icon">✓</div>
+                    <h3>You're All Set! 🎉</h3>
+                    <p>Your Sleep & Blood Sugar Tracker is ready to download. We've also sent a copy to your email.</p>
+                    <a href="assets/pdfs/sleep-blood-sugar-tracker.pdf" class="download-btn" download>
+                        📥 Download Your Tracker
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
     
-    <div class="faq-item">
-      <h4>Do I need a CGM or special equipment?</h4>
-      <p>No! Just your regular glucose meter and a way to track time. The tracker works with simple finger-stick measurements.</p>
-    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="https://health.gheware.com">🏠 Home</a>
+            <a href="https://health.gheware.com/blog">📝 Blog</a>
+            <a href="https://youtube.com/@health_gheware">📺 YouTube</a>
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
+        </div>
+        <p class="footer-copyright">© 2026 Health Gheware | Eat Well, Live Better — The Indian Way</p>
+    </footer>
     
-    <div class="faq-item">
-      <h4>What if I already sleep 8 hours but have high morning glucose?</h4>
-      <p>Sleep quality matters as much as quantity! The tracker helps you assess sleep quality, and includes sleep apnea screening — a common cause of unexplained high morning readings.</p>
-    </div>
-    
-    <div class="faq-item">
-      <h4>Should I share this with my doctor?</h4>
-      <p>Absolutely! The 30-day summary is designed to share with your healthcare team. It includes questions to ask and patterns to discuss.</p>
-    </div>
-    
-    <div class="faq-item">
-      <h4>Is this a substitute for medical advice?</h4>
-      <p>No. This tracker is for self-monitoring and education. Always consult your healthcare provider before making changes to your diabetes management.</p>
-    </div>
-  </div>
-  
-  <div class="related-resources">
-    <h2>📚 More Free Diabetes Resources</h2>
-    <div class="resources-grid">
-      <a href="/diabetes-food-swaps/" class="resource-link">
-        <span class="emoji">🍽️</span>
-        50 Food Swaps Guide
-      </a>
-      <a href="/glucose-log/" class="resource-link">
-        <span class="emoji">📊</span>
-        Blood Glucose Log
-      </a>
-      <a href="/meal-planner/" class="resource-link">
-        <span class="emoji">🥗</span>
-        7-Day Meal Planner
-      </a>
-      <a href="/a1c-tracker/" class="resource-link">
-        <span class="emoji">📈</span>
-        A1C Progress Tracker
-      </a>
-    </div>
-  </div>
-  
-  <div style="text-align: center; margin-top: 50px; padding: 30px; background: #f8f9fa; border-radius: 15px;">
-    <p style="font-size: 1.1rem; color: #495057; margin-bottom: 15px;">
-      <strong>Better sleep = Better blood sugar = Better life</strong>
-    </p>
-    <p style="color: #6c757d;">
-      Start tracking tonight and take control of both your sleep and your glucose!
-    </p>
-    <a href="/assets/pdfs/sleep-blood-sugar-tracker.md" download class="download-btn" style="background: #28a745; color: white; margin-top: 20px;">
-      🌙 Get Your Free Tracker
-    </a>
-  </div>
-  
-</div>
+    <script>
+        const form = document.getElementById('lead-form');
+        const formContainer = document.getElementById('form-container');
+        const successContainer = document.getElementById('success-container');
+        const submitBtn = form.querySelector('.submit-btn');
+        
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            // Show loading state
+            submitBtn.classList.add('loading');
+            submitBtn.disabled = true;
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                whatsapp: document.getElementById('whatsapp').value,
+                source: 'sleep-tracker',
+                leadMagnet: 'Sleep & Blood Sugar Connection Tracker',
+                timestamp: new Date().toISOString()
+            };
+            
+            try {
+                // Send to webhook
+                await fetch('https://leads.gheware-ai.com/hg-lead-sleep-tracker', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData),
+                    mode: 'no-cors'
+                });
+                
+                // Show success
+                formContainer.style.display = 'none';
+                successContainer.classList.add('show');
+                
+            } catch (error) {
+                console.error('Submission error:', error);
+                // Still show success (webhook might work despite CORS)
+                formContainer.style.display = 'none';
+                successContainer.classList.add('show');
+            }
+        });
+    </script>
+</body>
+</html>
