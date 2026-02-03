@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get your FREE 7-Day Pre-Diabetes Reversal Meal Plan. Science-backed Indian recipes to bring your blood sugar back to normal naturally.">
+    <meta name="keywords" content="prediabetes reversal, prediabetes meal plan, reverse prediabetes, indian diet for prediabetes, blood sugar reversal">
+    <meta name="author" content="Health Gheware">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+    <link rel="icon" type="image/png" href="favicon.png?v=3">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="FREE 7-Day Pre-Diabetes Reversal Meal Plan">
+    <meta property="og:description" content="Reverse your pre-diabetes naturally with Indian foods. Science-backed meal plan to bring blood sugar back to normal.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://health.gheware.com/blog/prediabetes-meal-plan.html">
+    <meta property="og:image" content="https://health.gheware.com/blog/assets/images/prediabetes-og.png">
+
+    <title>FREE 7-Day Pre-Diabetes Reversal Meal Plan | Health Gheware</title>
+
+    <!-- Google Analytics -->
+    <script src="js/analytics-loader.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/premium.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+        /* Landing Page Specific Styles */
+        .lp-hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a3a2a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lp-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(0, 255, 136, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(0, 200, 100, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .lp-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (max-width: 900px) {
+            .lp-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+        }
+
+        .lp-content h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+
+        .lp-content h1 span {
+            background: linear-gradient(135deg, #00ff88, #00cc66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .lp-content p {
+            font-size: 1.2rem;
+            color: #8b949e;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .lp-benefits {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
+
+        .lp-benefits li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: #c9d1d9;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 900px) {
+            .lp-benefits li {
+                justify-content: center;
+            }
+        }
+
+        .lp-benefits li svg {
+            width: 24px;
+            height: 24px;
+            color: #00ff88;
+            flex-shrink: 0;
+        }
+
+        .lp-trust {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #6e7681;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 900px) {
+            .lp-trust {
+                justify-content: center;
+            }
+        }
+
+        .lp-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a5a);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        /* Form Card */
+        .lp-form-card {
+            background: rgba(22, 27, 34, 0.9);
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .lp-form-card h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .lp-form-card .subtitle {
+            color: #8b949e;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            color: #c9d1d9;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            color: #c9d1d9;
+            font-size: 1rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-group input:focus, .form-group select:focus {
+            outline: none;
+            border-color: #00ff88;
+            box-shadow: 0 0 0 3px rgba(0, 255, 136, 0.1);
+        }
+
+        .form-group input::placeholder {
+            color: #6e7681;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #00ff88, #00cc66);
+            border: none;
+            border-radius: 8px;
+            color: #0d1117;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .form-note {
+            text-align: center;
+            color: #6e7681;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+        }
+
+        /* Success State */
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        .success-message svg {
+            width: 64px;
+            height: 64px;
+            color: #00ff88;
+            margin-bottom: 1rem;
+        }
+
+        .success-message h3 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .success-message p {
+            color: #8b949e;
+        }
+
+        #leadForm.hidden {
+            display: none;
+        }
+
+        /* What's Inside Section */
+        .lp-inside {
+            background: #0d1117;
+            padding: 4rem 2rem;
+        }
+
+        .lp-inside-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .lp-inside h2 {
+            color: #ffffff;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .inside-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .inside-item {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: left;
+        }
+
+        .inside-item h3 {
+            color: #00ff88;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .inside-item p {
+            color: #8b949e;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        /* Stats Section */
+        .lp-stats {
+            background: linear-gradient(135deg, #1a3a2a 0%, #0d1117 100%);
+            padding: 3rem 2rem;
+        }
+
+        .stats-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .stats-container {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: #00ff88;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-item p {
+            color: #8b949e;
+            font-size: 0.95rem;
+        }
+
+        /* Footer CTA */
+        .lp-footer-cta {
+            background: linear-gradient(135deg, #1a3a2a 0%, #0d1117 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .lp-footer-cta h2 {
+            color: #ffffff;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .lp-footer-cta p {
+            color: #8b949e;
+            margin-bottom: 2rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #00ff88, #00cc66);
+            color: #0d1117;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="lp-hero">
+        <div class="lp-container">
+            <!-- Left Content -->
+            <div class="lp-content">
+                <span class="lp-badge">🎯 Pre-Diabetes is 100% Reversible</span>
+                <h1>The 7-Day <span>Pre-Diabetes Reversal</span> Meal Plan</h1>
+                <p>Your doctor said you're pre-diabetic? Good news — you caught it in time. This Indian meal plan is designed specifically for <strong>reversal</strong>, not just management. Bring your blood sugar back to normal naturally.</p>
+                
+                <ul class="lp-benefits">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Designed for REVERSAL, Not Just Management
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        8 Insulin-Boosting Superfoods Included
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Low-Carb Indian Recipes That Taste Great
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Progress Tracker + Shopping List
+                    </li>
+                </ul>
+
+                <div class="lp-trust">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Pre-diabetes affects 136 million Indians. Take action now.
+                </div>
+            </div>
+
+            <!-- Right Form -->
+            <div class="lp-form-card">
+                <h2>Get Your FREE Reversal Plan</h2>
+                <p class="subtitle">Instant download via email</p>
+
+                <form id="leadForm">
+                    <!-- Honeypot field - hidden from real users, bots will fill it -->
+                    <div style="position: absolute; left: -9999px;" aria-hidden="true">
+                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required 
+                               maxlength="100" pattern="[\w\s\.\-']{1,100}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required
+                               maxlength="254" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">WhatsApp Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required
+                               pattern="[\+]?[0-9\s\-]{10,15}" title="Enter a valid phone number (10-15 digits)">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fasting_glucose">Your Fasting Glucose (optional)</label>
+                        <select id="fasting_glucose" name="fasting_glucose">
+                            <option value="">Select range</option>
+                            <option value="100-110">100-110 mg/dL (early pre-diabetes)</option>
+                            <option value="111-120">111-120 mg/dL (mid pre-diabetes)</option>
+                            <option value="121-125">121-125 mg/dL (high pre-diabetes)</option>
+                            <option value="unknown">Don't know / Not sure</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        Start My Reversal Journey →
+                    </button>
+
+                    <p class="form-note">🔒 We respect your privacy. Unsubscribe anytime.</p>
+                </form>
+
+                <div class="success-message" id="successMessage">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <h3>Your Reversal Plan is Coming! 📧</h3>
+                    <p>Check your email in the next few minutes. Let's bring those numbers back to normal!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="lp-stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3>58%</h3>
+                <p>of pre-diabetics can reverse to normal with diet changes</p>
+            </div>
+            <div class="stat-item">
+                <h3>30%</h3>
+                <p>insulin sensitivity improvement with methi (fenugreek)</p>
+            </div>
+            <div class="stat-item">
+                <h3>7 Days</h3>
+                <p>to start seeing fasting glucose improvements</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Inside -->
+    <section class="lp-inside">
+        <div class="lp-inside-container">
+            <h2>What's Inside Your Reversal Meal Plan</h2>
+            <div class="inside-grid">
+                <div class="inside-item">
+                    <h3>🎯 Reversal-Focused Meals</h3>
+                    <p>Not just "diabetic-friendly" — specifically designed to improve insulin sensitivity and lower fasting glucose.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>🌿 8 Superfoods for Reversal</h3>
+                    <p>Methi, dalchini, karela, jamun — Indian ingredients proven to help reverse pre-diabetes.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>📉 Low-GI Indian Recipes</h3>
+                    <p>Cauliflower rice, besan chilla, moong dal — foods that won't spike your blood sugar.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>⏰ Intermittent Fasting Guide</h3>
+                    <p>Optional 16:8 fasting protocol included — accelerates reversal for many people.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>📊 Progress Tracker</h3>
+                    <p>Track fasting glucose weekly. See your numbers improve over 8 weeks.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>🛒 Complete Shopping List</h3>
+                    <p>Everything you need organized by category. Print and shop!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="lp-footer-cta">
+        <h2>Pre-diabetes is your warning. Reversal is your opportunity.</h2>
+        <p>Most people don't get a second chance. You do. Start your reversal journey today.</p>
+        <a href="#" class="cta-btn" onclick="document.querySelector('.lp-hero').scrollIntoView({behavior: 'smooth'}); return false;">
+            Get Your Free Reversal Plan →
+        </a>
+    </section>
+
+    <script>
+        // Sanitize input to prevent XSS/injection
+        function sanitizeInput(str) {
+            if (!str) return '';
+            return str.replace(/[<>'"&]/g, '').substring(0, 200).trim();
+        }
+        
+        // Validate email format
+        function isValidEmail(email) {
+            const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            return re.test(email);
+        }
+        
+        // Validate phone (10-15 digits, optional + prefix)
+        function isValidPhone(phone) {
+            const cleaned = phone.replace(/[\s\-]/g, '');
+            const re = /^\+?[0-9]{10,15}$/;
+            return re.test(cleaned);
+        }
+        
+        // Form Submission Handler
+        document.getElementById('leadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const form = document.getElementById('leadForm');
+            const successMessage = document.getElementById('successMessage');
+            
+            // Honeypot check - if filled, it's a bot
+            const honeypot = document.getElementById('website').value;
+            if (honeypot) {
+                // Silently fail for bots
+                form.classList.add('hidden');
+                successMessage.classList.add('show');
+                return;
+            }
+            
+            // Get and sanitize inputs
+            const name = sanitizeInput(document.getElementById('name').value);
+            const email = sanitizeInput(document.getElementById('email').value).toLowerCase();
+            const phone = sanitizeInput(document.getElementById('phone').value);
+            const fastingGlucose = sanitizeInput(document.getElementById('fasting_glucose').value);
+            
+            // Validate email
+            if (!isValidEmail(email)) {
+                alert('Please enter a valid email address');
+                return;
+            }
+            
+            // Validate phone (now required)
+            if (!phone || !isValidPhone(phone)) {
+                alert('Please enter a valid WhatsApp number (10-15 digits)');
+                return;
+            }
+            
+            // Validate name (no special characters that could be injection)
+            if (name && !/^[\w\s\.\-']{1,100}$/u.test(name)) {
+                alert('Please enter a valid name');
+                return;
+            }
+            
+            // Disable button
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            
+            // Collect sanitized form data
+            const formData = {
+                name: name,
+                email: email,
+                phone: phone,
+                fasting_glucose: fastingGlucose,
+                lead_magnet: 'prediabetes-reversal-meal-plan',
+                source: 'landing_page'
+            };
+            
+            try {
+                // Send to webhook
+                const response = await fetch('https://leads.gheware-ai.com/hg-lead-prediabetes', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+                
+                if (response.ok) {
+                    // Show success
+                    form.classList.add('hidden');
+                    successMessage.classList.add('show');
+                    
+                    // Track conversion in GA
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'generate_lead', {
+                            'event_category': 'Lead Magnet',
+                            'event_label': 'Pre-Diabetes Reversal Meal Plan'
+                        });
+                    }
+                } else {
+                    const data = await response.json().catch(() => ({}));
+                    throw new Error(data.error || 'Submission failed');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert(error.message || 'Something went wrong. Please try again or email us at health@gheware.com');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Start My Reversal Journey →';
+            }
+        });
+    </script>
+</body>
+</html>
