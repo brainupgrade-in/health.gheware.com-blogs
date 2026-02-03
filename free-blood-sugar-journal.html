@@ -480,8 +480,9 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">WhatsApp Number (Optional)</label>
-                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+                        <label for="phone">WhatsApp Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required
+                               pattern="[\+]?[0-9\s\-]{10,15}" title="Enter a valid phone number (10-15 digits)">
                     </div>
 
                     <div class="form-group">
@@ -600,6 +601,13 @@
             return re.test(email);
         }
         
+        // Validate phone (10-15 digits, optional + prefix)
+        function isValidPhone(phone) {
+            const cleaned = phone.replace(/[\s\-]/g, '');
+            const re = /^\+?[0-9]{10,15}$/;
+            return re.test(cleaned);
+        }
+        
         // Form Submission Handler
         document.getElementById('leadForm').addEventListener('submit', async function(e) {
             e.preventDefault();
@@ -625,6 +633,11 @@
             // Validate
             if (!isValidEmail(email)) {
                 alert('Please enter a valid email address');
+                return;
+            }
+            
+            if (!phone || !isValidPhone(phone)) {
+                alert('Please enter a valid WhatsApp number (10-15 digits)');
                 return;
             }
             
