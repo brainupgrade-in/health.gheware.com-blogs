@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download your FREE Doctor Visit Preparation Checklist for diabetes. Never forget important questions, tests to request, or follow-up items again.">
+    <meta name="keywords" content="diabetes doctor visit, doctor appointment checklist, diabetes questions to ask, HbA1c test, diabetes management, healthcare preparation">
+    <meta name="author" content="Health Gheware">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+    <link rel="icon" type="image/png" href="favicon.png?v=3">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="FREE Doctor Visit Preparation Checklist for Diabetes">
+    <meta property="og:description" content="Make every appointment count with our comprehensive preparation checklist.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://health.gheware.com/blog/doctor-checklist.html">
+    <meta property="og:image" content="https://health.gheware.com/blog/assets/images/doctor-checklist-og.png">
+
+    <title>FREE Doctor Visit Checklist for Diabetes | Health Gheware</title>
+
+    <!-- Google Analytics -->
+    <script src="js/analytics-loader.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/premium.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+        /* Landing Page Specific Styles */
+        .lp-hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a2a3a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lp-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(46, 204, 113, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(52, 152, 219, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .lp-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (max-width: 900px) {
+            .lp-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+        }
+
+        .lp-content h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+
+        .lp-content h1 span {
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .lp-content p {
+            font-size: 1.15rem;
+            color: #8b949e;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .lp-benefits {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
+
+        .lp-benefits li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: #c9d1d9;
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 900px) {
+            .lp-benefits li {
+                justify-content: center;
+            }
+        }
+
+        .lp-benefits li svg {
+            width: 24px;
+            height: 24px;
+            color: #2ECC71;
+            flex-shrink: 0;
+        }
+
+        .lp-stats {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .lp-stats {
+                justify-content: center;
+            }
+        }
+
+        .lp-stat {
+            text-align: center;
+        }
+
+        .lp-stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2ECC71;
+        }
+
+        .lp-stat-label {
+            font-size: 0.85rem;
+            color: #6e7681;
+        }
+
+        /* Form Card */
+        .lp-form-card {
+            background: rgba(22, 27, 34, 0.9);
+            border: 1px solid rgba(46, 204, 113, 0.3);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .lp-form-card h2 {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .lp-form-card .subtitle {
+            color: #6e7681;
+            font-size: 0.95rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .lp-form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .lp-form-group label {
+            display: block;
+            color: #c9d1d9;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .lp-form-group input {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        .lp-form-group input:focus {
+            outline: none;
+            border-color: #2ECC71;
+        }
+
+        .lp-form-group input::placeholder {
+            color: #6e7681;
+        }
+
+        .lp-submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            border: none;
+            border-radius: 8px;
+            color: #0d1117;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 0.5rem;
+        }
+
+        .lp-submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(46, 204, 113, 0.3);
+        }
+
+        .lp-privacy {
+            color: #6e7681;
+            font-size: 0.8rem;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .lp-privacy a {
+            color: #2ECC71;
+            text-decoration: none;
+        }
+
+        /* Preview Section */
+        .lp-preview {
+            background: #161b22;
+            padding: 4rem 2rem;
+        }
+
+        .lp-preview-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .lp-preview h2 {
+            font-size: 2rem;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .lp-preview-subtitle {
+            color: #8b949e;
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+
+        .preview-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .preview-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+
+        .preview-item {
+            background: rgba(13, 17, 23, 0.8);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 1.75rem;
+            text-align: center;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .preview-item:hover {
+            transform: translateY(-5px);
+            border-color: rgba(46, 204, 113, 0.5);
+        }
+
+        .preview-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, rgba(46, 204, 113, 0.2), rgba(39, 174, 96, 0.1));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+        }
+
+        .preview-icon svg {
+            width: 28px;
+            height: 28px;
+            color: #2ECC71;
+        }
+
+        .preview-item h3 {
+            color: #ffffff;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .preview-item p {
+            color: #8b949e;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        /* What's Inside Section */
+        .lp-inside {
+            background: #0d1117;
+            padding: 4rem 2rem;
+        }
+
+        .lp-inside-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .lp-inside h2 {
+            font-size: 2rem;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .inside-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 700px) {
+            .inside-list {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .inside-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.25rem;
+            background: rgba(22, 27, 34, 0.5);
+            border-radius: 10px;
+            border: 1px solid #30363d;
+        }
+
+        .inside-item svg {
+            width: 24px;
+            height: 24px;
+            color: #2ECC71;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .inside-item-content h4 {
+            color: #ffffff;
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .inside-item-content p {
+            color: #8b949e;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        /* CTA Section */
+        .lp-cta {
+            background: linear-gradient(135deg, #1a2a3a 0%, #161b22 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .lp-cta h2 {
+            font-size: 2rem;
+            color: #ffffff;
+            margin-bottom: 1rem;
+        }
+
+        .lp-cta p {
+            color: #8b949e;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .lp-cta-btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            border-radius: 8px;
+            color: #0d1117;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .lp-cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(46, 204, 113, 0.3);
+        }
+
+        /* Footer */
+        .lp-footer {
+            background: #0d1117;
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid #30363d;
+        }
+
+        .lp-footer p {
+            color: #6e7681;
+            font-size: 0.9rem;
+        }
+
+        .lp-footer a {
+            color: #2ECC71;
+            text-decoration: none;
+        }
+
+        /* Success Message */
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        .success-message svg {
+            width: 64px;
+            height: 64px;
+            color: #2ECC71;
+            margin-bottom: 1rem;
+        }
+
+        .success-message h3 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .success-message p {
+            color: #8b949e;
+            font-size: 1rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.875rem 2rem;
+            background: linear-gradient(135deg, #2ECC71, #27AE60);
+            border-radius: 8px;
+            color: #0d1117;
+            font-weight: 700;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .lp-form.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="lp-hero">
+        <div class="lp-container">
+            <div class="lp-content">
+                <h1>Never Feel Unprepared for a <span>Doctor Visit</span> Again</h1>
+                <p>Download our comprehensive Doctor Visit Preparation Checklist — designed specifically for people with diabetes to make every appointment productive and effective.</p>
+
+                <ul class="lp-benefits">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        Pre-visit preparation checklist (tests, logs, symptoms)
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        30+ essential questions to ask your doctor
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        Complete list of tests to request (HbA1c, lipids, kidney function)
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        Printable quick reference card for appointments
+                    </li>
+                </ul>
+
+                <div class="lp-stats">
+                    <div class="lp-stat">
+                        <div class="lp-stat-number">50+</div>
+                        <div class="lp-stat-label">Checklist Items</div>
+                    </div>
+                    <div class="lp-stat">
+                        <div class="lp-stat-number">6</div>
+                        <div class="lp-stat-label">Sections</div>
+                    </div>
+                    <div class="lp-stat">
+                        <div class="lp-stat-number">FREE</div>
+                        <div class="lp-stat-label">Download</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lp-form-card">
+                <h2>Get Your FREE Checklist</h2>
+                <p class="subtitle">Instant download — no credit card required</p>
+
+                <form id="leadForm" class="lp-form">
+                    <div class="lp-form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="lp-form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit" class="lp-submit-btn">
+                        📋 Download Free Checklist
+                    </button>
+                    <p class="lp-privacy">
+                        🔒 We respect your privacy. Unsubscribe anytime.<br>
+                        <a href="privacy.html">Privacy Policy</a>
+                    </p>
+                </form>
+
+                <div id="successMessage" class="success-message">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <h3>Success! 🎉</h3>
+                    <p>Your checklist is ready to download.</p>
+                    <a href="assets/pdfs/doctor-visit-checklist.md" download class="download-btn">
+                        Download Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Inside Section -->
+    <section class="lp-preview">
+        <div class="lp-preview-container">
+            <h2>Make Every Appointment Count</h2>
+            <p class="lp-preview-subtitle">This checklist helps you prepare like a pro and communicate effectively with your healthcare team</p>
+
+            <div class="preview-grid">
+                <div class="preview-item">
+                    <div class="preview-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                        </svg>
+                    </div>
+                    <h3>Pre-Visit Preparation</h3>
+                    <p>Everything to gather before your appointment: health logs, medication lists, symptoms to document</p>
+                </div>
+
+                <div class="preview-item">
+                    <div class="preview-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3>Questions to Ask</h3>
+                    <p>30+ essential questions about medications, diet, complications, and treatment options</p>
+                </div>
+
+                <div class="preview-item">
+                    <div class="preview-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                        </svg>
+                    </div>
+                    <h3>Tests to Request</h3>
+                    <p>Know exactly which tests you need: HbA1c, lipid panel, kidney function, eye exams, and more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Contents -->
+    <section class="lp-inside">
+        <div class="lp-inside-container">
+            <h2>What's Inside Your Free Checklist</h2>
+
+            <div class="inside-list">
+                <div class="inside-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div class="inside-item-content">
+                        <h4>Health Logs to Bring</h4>
+                        <p>Blood sugar readings, BP log, food diary, exercise tracking, weight history</p>
+                    </div>
+                </div>
+
+                <div class="inside-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div class="inside-item-content">
+                        <h4>Medication Review Checklist</h4>
+                        <p>Track all medications, dosages, timing, refill needs, and side effects</p>
+                    </div>
+                </div>
+
+                <div class="inside-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div class="inside-item-content">
+                        <h4>Symptom Documentation Guide</h4>
+                        <p>How to track and describe symptoms for effective communication</p>
+                    </div>
+                </div>
+
+                <div class="inside-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div class="inside-item-content">
+                        <h4>Essential Test Reference</h4>
+                        <p>HbA1c, lipid panel, kidney function, urine tests — know what to request</p>
+                    </div>
+                </div>
+
+                <div class="inside-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div class="inside-item-content">
+                        <h4>Doctor Communication Tips</h4>
+                        <p>Phrases to use, how to ask for clarification, and be your own advocate</p>
+                    </div>
+                </div>
+
+                <div class="inside-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div class="inside-item-content">
+                        <h4>Follow-Up Action Items</h4>
+                        <p>Post-visit checklist to ensure nothing falls through the cracks</p>
+                    </div>
+                </div>
+
+                <div class="inside-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div class="inside-item-content">
+                        <h4>Appointment Schedule Tracker</h4>
+                        <p>Keep track of all your specialists and when you're due for visits</p>
+                    </div>
+                </div>
+
+                <div class="inside-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div class="inside-item-content">
+                        <h4>Printable Quick Reference Card</h4>
+                        <p>Cut out and carry to every appointment — your info at a glance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="lp-cta">
+        <h2>Ready to Take Control of Your Healthcare?</h2>
+        <p>Stop leaving appointments thinking "I forgot to ask about..."</p>
+        <a href="#" class="lp-cta-btn" onclick="document.querySelector('.lp-hero').scrollIntoView({behavior: 'smooth'}); return false;">
+            📋 Get Your Free Checklist Now
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="lp-footer">
+        <p>&copy; 2025 <a href="index.html">Health Gheware</a> | <a href="privacy.html">Privacy Policy</a> | <a href="about.html">About Us</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+
+            // Send to Google Contacts via webhook (if configured)
+            try {
+                // Log the lead (you can add webhook integration here)
+                console.log('New lead:', { name, email, source: 'doctor-checklist' });
+
+                // Show success message
+                document.querySelector('.lp-form').classList.add('hidden');
+                document.getElementById('successMessage').classList.add('show');
+
+                // Track conversion in GA4
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'generate_lead', {
+                        'event_category': 'Lead Magnet',
+                        'event_label': 'Doctor Visit Checklist',
+                        'value': 1
+                    });
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                // Still show success and allow download
+                document.querySelector('.lp-form').classList.add('hidden');
+                document.getElementById('successMessage').classList.add('show');
+            }
+        });
+    </script>
+</body>
+</html>
