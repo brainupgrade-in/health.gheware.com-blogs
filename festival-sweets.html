@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Diwali Sweet Alternatives Recipe Book | Diabetes-Friendly Festival Sweets</title>
-    <meta name="description" content="Download your FREE recipe book with 18+ diabetes-friendly versions of traditional Indian festival sweets. Gulab jamun, barfi, ladoo, halwa, kheer - all sugar-free!">
+    <meta name="description" content="Download your FREE recipe book with 12 diabetes-friendly versions of traditional Indian festival sweets. Gulab jamun, barfi, ladoo, halwa, kheer - all sugar-free!">
     <meta name="keywords" content="diabetes friendly sweets, sugar free diwali sweets, diabetic indian sweets, sugar free gulab jamun, sugar free barfi">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <script src="js/analytics-loader.js"></script>
@@ -389,7 +389,7 @@
 </div>
 
 <section class="hero-festival">
-  <div class="recipe-count">📖 18 Delicious Recipes Inside!</div>
+  <div class="recipe-count">📖 12 Delicious Recipes Inside!</div>
   <h1>🍬 Diabetes-Friendly Festival Sweets</h1>
   <p class="subtitle">Enjoy Your Favorite Indian Sweets Without the Sugar Spike!</p>
   <p>Gulab Jamun • Barfi • Ladoo • Halwa • Kheer & More - All Sugar-Free!</p>
@@ -623,18 +623,21 @@
   <div class="signup-box">
     <span class="free-badge">🎁 100% FREE</span>
     <h2>Download Your Recipe Book Now!</h2>
-    <p style="color: #666; margin-bottom: 25px;">Get instant access to 18 diabetes-friendly festival sweet recipes</p>
+    <p style="color: #666; margin-bottom: 25px;">Get instant access to 12 diabetes-friendly festival sweet recipes</p>
     
-    <form class="signup-form" action="https://formspree.io/f/xyzgkpqw" method="POST">
+    <form class="signup-form" id="leadForm">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email Address" required>
       <input type="tel" name="phone" placeholder="WhatsApp Number" required pattern="[0-9]{10}" style="margin-top:10px;">
-      <input type="hidden" name="lead_source" value="festival-sweets-recipe-book">
-      <input type="hidden" name="lead_magnet" value="diwali-sweet-alternatives">
-      <input type="hidden" name="pdf_url" value="https://health.gheware.com/blog/assets/pdfs/Diwali-Sweet-Alternatives-Recipe-Book.pdf">
-      <button type="submit">🎁 Send Me The Free Recipe Book!</button>
+      <button type="submit" id="submitBtn">🎁 Send Me The Free Recipe Book!</button>
     </form>
-    
+
+    <div id="successMessage" style="display: none; background: #d4edda; border: 1px solid #c3e6cb; padding: 20px; border-radius: 8px; text-align: center;">
+      <h3 style="color: #155724; margin-bottom: 10px;">🎉 Success!</h3>
+      <p style="color: #155724;">Your recipe book is ready!</p>
+      <a href="/assets/pdfs/Diwali-Sweet-Alternatives-Recipe-Book.pdf" download style="display: inline-block; background: #28a745; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; margin-top: 10px;">📥 Download Now</a>
+    </div>
+
     <p class="privacy-note">🔒 We respect your privacy. No spam, ever. Unsubscribe anytime.</p>
   </div>
 </section>
@@ -651,13 +654,48 @@
 </div>
 
 <script>
-  // Track downloads
-  document.querySelector('.signup-form').addEventListener('submit', function() {
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'lead_magnet_download', {
-        'lead_magnet': 'diwali-sweet-alternatives',
-        'page': 'festival-sweets'
+  document.getElementById('leadForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const submitBtn = document.getElementById('submitBtn');
+    const form = this;
+    const successMessage = document.getElementById('successMessage');
+
+    const formData = {
+      name: form.name.value,
+      email: form.email.value,
+      phone: form.phone.value,
+      source: 'festival-sweets-landing'
+    };
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    try {
+      const response = await fetch('https://leads.gheware-ai.com/hg-lead-festival-sweets', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
       });
+
+      if (response.ok) {
+        form.style.display = 'none';
+        successMessage.style.display = 'block';
+
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'generate_lead', {
+            'event_category': 'Lead Magnet',
+            'event_label': 'Festival Sweets Recipe Book'
+          });
+        }
+      } else {
+        throw new Error('Submission failed');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Something went wrong. Please try again.');
+      submitBtn.disabled = false;
+      submitBtn.textContent = '🎁 Send Me The Free Recipe Book!';
     }
   });
 </script>

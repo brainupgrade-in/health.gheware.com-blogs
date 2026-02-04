@@ -308,31 +308,34 @@
 <div class="download-section">
   <h2>📥 Get Your Free Pocket Guide</h2>
   
-  <form id="leadForm" action="https://hook.eu2.make.com/jl3kndp8y6gpyhm90lhwqrcdfofqx9j5" method="POST">
-    <input type="hidden" name="source" value="carb-guide">
-    <input type="hidden" name="lead_magnet" value="Carb Counting Pocket Guide for Indian Foods">
-    
+  <form id="leadForm">
     <div class="form-group">
       <label for="name">Your Name</label>
       <input type="text" id="name" name="name" placeholder="Enter your name" required>
     </div>
-    
+
     <div class="form-group">
       <label for="email">Email Address</label>
       <input type="email" id="email" name="email" placeholder="your@email.com" required>
     </div>
-    
+
     <div class="form-group">
       <label for="whatsapp">WhatsApp Number <span class="required-star">*</span></label>
       <input type="tel" id="whatsapp" name="whatsapp" placeholder="+91 98765 43210" required>
     </div>
-    
-    <button type="submit" class="download-btn">
+
+    <button type="submit" class="download-btn" id="submitBtn">
       📱 Download My Pocket Guide
     </button>
-    
+
     <p class="privacy-note">🔒 We respect your privacy. Unsubscribe anytime.</p>
   </form>
+
+  <div id="successMessage" style="display: none; background: #d4edda; border: 1px solid #c3e6cb; padding: 20px; border-radius: 8px; text-align: center;">
+    <h3 style="color: #155724; margin-bottom: 10px;">🎉 Success!</h3>
+    <p style="color: #155724;">Your pocket guide is ready!</p>
+    <a href="/assets/pdfs/Carb-Counting-Pocket-Guide.pdf" download style="display: inline-block; background: #28a745; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; margin-top: 10px;">📥 Download Now</a>
+  </div>
 </div>
 
 <div class="features-section">
@@ -445,32 +448,48 @@
 </div>
 
 <script>
-document.getElementById('leadForm').addEventListener('submit', function(e) {
+document.getElementById('leadForm').addEventListener('submit', async function(e) {
   e.preventDefault();
-  
-  const formData = new FormData(this);
-  const data = Object.fromEntries(formData.entries());
-  
-  // Show loading state
-  const btn = this.querySelector('.download-btn');
-  const originalText = btn.textContent;
-  btn.textContent = 'Sending...';
-  btn.disabled = true;
-  
-  fetch(this.action, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(data)
-  })
-  .then(response => {
-    // Redirect to PDF download
-    window.location.href = '/assets/pdfs/Carb-Counting-Pocket-Guide.pdf';
-  })
-  .catch(error => {
-    // Still redirect to PDF on error (better UX)
-    window.location.href = '/assets/pdfs/Carb-Counting-Pocket-Guide.pdf';
-  });
+
+  const form = this;
+  const submitBtn = document.getElementById('submitBtn');
+  const successMessage = document.getElementById('successMessage');
+
+  const formData = {
+    name: form.name.value,
+    email: form.email.value,
+    phone: form.whatsapp.value,
+    source: 'carb-guide-landing'
+  };
+
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Sending...';
+
+  try {
+    const response = await fetch('https://leads.gheware-ai.com/hg-lead-carb-guide', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    });
+
+    if (response.ok) {
+      form.style.display = 'none';
+      successMessage.style.display = 'block';
+
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'generate_lead', {
+          'event_category': 'Lead Magnet',
+          'event_label': 'Carb Counting Pocket Guide'
+        });
+      }
+    } else {
+      throw new Error('Submission failed');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    alert('Something went wrong. Please try again.');
+    submitBtn.disabled = false;
+    submitBtn.textContent = '📱 Download My Pocket Guide';
+  }
 });
 </script>

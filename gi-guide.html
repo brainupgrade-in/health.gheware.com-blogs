@@ -472,24 +472,20 @@
             submitBtn.textContent = 'Processing...';
             
             try {
-                // Send to webhook (Google Apps Script or your endpoint)
-                const webhookUrl = 'https://script.google.com/macros/s/AKfycbzQfVWO4vTcM7VLgSMWnj6F_cV3kLpJ9sGHqDNqkQnZ5T1R8kQH7mKpQS8N5j3dMxQH/exec';
-                
-                await fetch(webhookUrl, {
+                const response = await fetch('https://leads.gheware-ai.com/hg-lead-gi-guide', {
                     method: 'POST',
-                    mode: 'no-cors',
                     headers: {
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify(data)
                 });
-                
-                // Also try to add to Google Contacts via secondary webhook (optional)
-                // This would be handled by a separate backend service
-                
-                // Show success message
-                formContainer.classList.add('form-hidden');
-                successMessage.classList.add('show');
+
+                if (response.ok) {
+                    formContainer.classList.add('form-hidden');
+                    successMessage.classList.add('show');
+                } else {
+                    throw new Error('Submission failed');
+                }
                 
                 // Track conversion (if analytics installed)
                 if (typeof gtag !== 'undefined') {
