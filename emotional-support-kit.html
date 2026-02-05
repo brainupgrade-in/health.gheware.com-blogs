@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download your FREE Diabetes Emotional Support Kit. Overcome diabetes burnout, manage stress, build resilience, and find joy while living with diabetes.">
+    <meta name="keywords" content="diabetes burnout, diabetes stress, diabetes mental health, diabetes emotional support, diabetes anxiety, diabetes depression">
+    <meta name="author" content="Health Gheware">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+    <link rel="icon" type="image/png" href="favicon.png?v=3">
+
+    <meta property="og:title" content="FREE Diabetes Emotional Support Kit">
+    <meta property="og:description" content="Overcome diabetes burnout and find joy in your journey with our comprehensive emotional support toolkit.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://health.gheware.com/blog/emotional-support-kit.html">
+
+    <title>FREE Diabetes Emotional Support Kit | Health Gheware</title>
+
+    <script src="js/analytics-loader.js"></script>
+    <link rel="stylesheet" href="css/premium.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+        .lp-hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a1a2e 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .lp-hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(147, 112, 219, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(255, 182, 193, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        .lp-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        @media (max-width: 900px) {
+            .lp-container { grid-template-columns: 1fr; gap: 2rem; text-align: center; }
+        }
+        .lp-content h1 {
+            font-size: 2.6rem;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+        .lp-content h1 span {
+            background: linear-gradient(135deg, #9370DB, #DA70D6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .lp-content p {
+            font-size: 1.2rem;
+            color: #8b949e;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        .lp-benefits {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
+        .lp-benefits li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: #c9d1d9;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        @media (max-width: 900px) {
+            .lp-benefits li { justify-content: center; }
+        }
+        .lp-benefits li svg {
+            width: 24px;
+            height: 24px;
+            color: #9370DB;
+            flex-shrink: 0;
+        }
+        .lp-form-card {
+            background: rgba(22, 27, 34, 0.9);
+            border: 1px solid rgba(147, 112, 219, 0.2);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+        .lp-form-card h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        .lp-form-card .subtitle {
+            color: #8b949e;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+        .form-group label {
+            display: block;
+            color: #c9d1d9;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            color: #c9d1d9;
+            font-size: 1rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            box-sizing: border-box;
+        }
+        .form-group input:focus, .form-group select:focus {
+            outline: none;
+            border-color: #9370DB;
+            box-shadow: 0 0 0 3px rgba(147, 112, 219, 0.1);
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #9370DB, #8A2BE2);
+            border: none;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(147, 112, 219, 0.3);
+        }
+        .submit-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .form-note {
+            text-align: center;
+            color: #6e7681;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+        }
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+        .success-message.show { display: block; }
+        .success-message svg {
+            width: 64px;
+            height: 64px;
+            color: #9370DB;
+            margin-bottom: 1rem;
+        }
+        .success-message h3 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .success-message p { color: #8b949e; }
+        #leadForm.hidden { display: none; }
+        .lp-inside {
+            background: #0d1117;
+            padding: 4rem 2rem;
+        }
+        .lp-inside-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .lp-inside h2 {
+            color: #ffffff;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .inside-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .inside-item {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: left;
+        }
+        .inside-item h3 {
+            color: #9370DB;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        .inside-item p {
+            color: #8b949e;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        .lp-footer {
+            background: #161b22;
+            padding: 2rem;
+            text-align: center;
+            color: #6e7681;
+            font-size: 0.9rem;
+        }
+        .lp-footer a { color: #9370DB; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <section class="lp-hero">
+        <div class="lp-container">
+            <div class="lp-content">
+                <h1>💜 FREE <span>Diabetes Emotional Support</span> Kit</h1>
+                <p>Feeling overwhelmed by diabetes? You're not alone. Get our complete toolkit to overcome burnout, manage stress, and find joy in your journey.</p>
+                
+                <ul class="lp-benefits">
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Diabetes burnout recovery guide
+                    </li>
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Daily affirmations & journaling prompts
+                    </li>
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Stress management techniques
+                    </li>
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Building your support network
+                    </li>
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        When to seek professional help
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lp-form-card">
+                <h2>📥 Download Free Support Kit</h2>
+                <p class="subtitle">Join 2000+ warriors finding peace with diabetes</p>
+
+                <form id="leadForm">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone (WhatsApp)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="challenge">Biggest Challenge Right Now</label>
+                        <select id="challenge" name="challenge">
+                            <option value="">Select your challenge</option>
+                            <option value="burnout">Diabetes Burnout</option>
+                            <option value="anxiety">Anxiety about Numbers</option>
+                            <option value="motivation">Lack of Motivation</option>
+                            <option value="isolation">Feeling Alone</option>
+                            <option value="overwhelmed">Overwhelmed by Management</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="submit-btn">💜 Get My Support Kit →</button>
+                    
+                    <p class="form-note">🔒 Your feelings are valid. We're here to help.</p>
+                </form>
+
+                <div class="success-message" id="successMessage">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <h3>You've Got This! 💪</h3>
+                    <p>Your Emotional Support Kit is on its way. Check your inbox for tools to help you thrive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lp-inside">
+        <div class="lp-inside-container">
+            <h2>📖 What's Inside the Support Kit?</h2>
+            <div class="inside-grid">
+                <div class="inside-item">
+                    <h3>🔥 Burnout Recovery Plan</h3>
+                    <p>Step-by-step guide to recognize, address, and recover from diabetes burnout.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>📝 Journaling Prompts</h3>
+                    <p>30 days of prompts to process emotions, celebrate wins, and build resilience.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>🧘 Stress Relief Techniques</h3>
+                    <p>Quick 5-minute exercises for anxiety, anger, and overwhelming moments.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>💬 Communication Scripts</h3>
+                    <p>How to talk to family, friends, and coworkers about your diabetes needs.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>🎯 Goal Setting Framework</h3>
+                    <p>Set realistic, achievable goals that don't add to your stress.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>🆘 Crisis Resources</h3>
+                    <p>When and how to seek professional mental health support for diabetes distress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="lp-footer">
+        <p>© 2026 Health Gheware. For educational purposes only. If you're in crisis, please seek professional help.</p>
+        <p><a href="index.html">← Back to Blog</a> | <a href="https://health.gheware.com">Health Gheware App</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const form = this;
+            const submitBtn = form.querySelector('.submit-btn');
+            const successMessage = document.getElementById('successMessage');
+            
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value || '',
+                challenge: document.getElementById('challenge').value || '',
+                source: 'emotional_support_landing'
+            };
+            
+            try {
+                const response = await fetch('https://leads.gheware-ai.com/hg-lead-emotional-support', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+                
+                if (response.ok) {
+                    form.classList.add('hidden');
+                    successMessage.classList.add('show');
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'generate_lead', {
+                            'event_category': 'Lead Magnet',
+                            'event_label': 'Emotional Support Kit'
+                        });
+                    }
+                } else {
+                    throw new Error('Submission failed');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Something went wrong. Please try again.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = '💜 Get My Support Kit →';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download your FREE Gestational Diabetes Guide. Complete guide to managing blood sugar during pregnancy, safe foods, monitoring tips, and healthy baby delivery.">
+    <meta name="keywords" content="gestational diabetes, pregnancy diabetes, GDM guide, blood sugar pregnancy, gestational diabetes diet, pregnancy glucose">
+    <meta name="author" content="Health Gheware">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+    <link rel="icon" type="image/png" href="favicon.png?v=3">
+
+    <meta property="og:title" content="FREE Gestational Diabetes Guide">
+    <meta property="og:description" content="Everything you need to know about managing diabetes during pregnancy for a healthy baby.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://health.gheware.com/blog/gestational-diabetes-guide.html">
+
+    <title>FREE Gestational Diabetes Guide | Health Gheware</title>
+
+    <script src="js/analytics-loader.js"></script>
+    <link rel="stylesheet" href="css/premium.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+        .lp-hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #2a1a2e 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .lp-hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(219, 112, 147, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(255, 182, 193, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        .lp-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        @media (max-width: 900px) {
+            .lp-container { grid-template-columns: 1fr; gap: 2rem; text-align: center; }
+        }
+        .lp-content h1 {
+            font-size: 2.6rem;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+        .lp-content h1 span {
+            background: linear-gradient(135deg, #DB7093, #FFB6C1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .lp-content p {
+            font-size: 1.2rem;
+            color: #8b949e;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        .lp-benefits {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
+        .lp-benefits li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: #c9d1d9;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        @media (max-width: 900px) {
+            .lp-benefits li { justify-content: center; }
+        }
+        .lp-benefits li svg {
+            width: 24px;
+            height: 24px;
+            color: #DB7093;
+            flex-shrink: 0;
+        }
+        .lp-form-card {
+            background: rgba(22, 27, 34, 0.9);
+            border: 1px solid rgba(219, 112, 147, 0.2);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+        .lp-form-card h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        .lp-form-card .subtitle {
+            color: #8b949e;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+        .form-group label {
+            display: block;
+            color: #c9d1d9;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            color: #c9d1d9;
+            font-size: 1rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            box-sizing: border-box;
+        }
+        .form-group input:focus, .form-group select:focus {
+            outline: none;
+            border-color: #DB7093;
+            box-shadow: 0 0 0 3px rgba(219, 112, 147, 0.1);
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #DB7093, #C71585);
+            border: none;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(219, 112, 147, 0.3);
+        }
+        .submit-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .form-note {
+            text-align: center;
+            color: #6e7681;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+        }
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+        .success-message.show { display: block; }
+        .success-message svg {
+            width: 64px;
+            height: 64px;
+            color: #DB7093;
+            margin-bottom: 1rem;
+        }
+        .success-message h3 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .success-message p { color: #8b949e; }
+        #leadForm.hidden { display: none; }
+        .lp-inside {
+            background: #0d1117;
+            padding: 4rem 2rem;
+        }
+        .lp-inside-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .lp-inside h2 {
+            color: #ffffff;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .inside-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .inside-item {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: left;
+        }
+        .inside-item h3 {
+            color: #DB7093;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        .inside-item p {
+            color: #8b949e;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        .lp-footer {
+            background: #161b22;
+            padding: 2rem;
+            text-align: center;
+            color: #6e7681;
+            font-size: 0.9rem;
+        }
+        .lp-footer a { color: #DB7093; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <section class="lp-hero">
+        <div class="lp-container">
+            <div class="lp-content">
+                <h1>🤰 FREE <span>Gestational Diabetes</span> Complete Guide</h1>
+                <p>Managing blood sugar during pregnancy? Get our comprehensive guide with safe foods, monitoring schedules, and tips for a healthy delivery.</p>
+                
+                <ul class="lp-benefits">
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Week-by-week monitoring schedule
+                    </li>
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Safe Indian foods during pregnancy
+                    </li>
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Blood sugar targets for each trimester
+                    </li>
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Tips for healthy baby delivery
+                    </li>
+                    <li>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Post-delivery diabetes prevention
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lp-form-card">
+                <h2>📥 Download Free Guide</h2>
+                <p class="subtitle">Join 1000+ expecting mothers managing GDM</p>
+
+                <form id="leadForm">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone (WhatsApp)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="trimester">Current Trimester</label>
+                        <select id="trimester" name="trimester">
+                            <option value="">Select trimester</option>
+                            <option value="first">First Trimester (1-12 weeks)</option>
+                            <option value="second">Second Trimester (13-26 weeks)</option>
+                            <option value="third">Third Trimester (27-40 weeks)</option>
+                            <option value="planning">Planning Pregnancy</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="submit-btn">🤰 Download Free Guide →</button>
+                    
+                    <p class="form-note">🔒 We respect your privacy. Unsubscribe anytime.</p>
+                </form>
+
+                <div class="success-message" id="successMessage">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <h3>Check Your Email! 💕</h3>
+                    <p>Your Gestational Diabetes Guide is on its way. Check your inbox (and spam folder).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lp-inside">
+        <div class="lp-inside-container">
+            <h2>📖 What's Inside the Guide?</h2>
+            <div class="inside-grid">
+                <div class="inside-item">
+                    <h3>🎯 Blood Sugar Targets</h3>
+                    <p>Specific glucose targets for fasting, pre-meal, and post-meal readings during each trimester.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>🍛 Safe Indian Foods</h3>
+                    <p>Complete list of pregnancy-safe Indian foods with portion sizes and glycemic impact.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>📅 Monitoring Schedule</h3>
+                    <p>When to test, what to track, and how to share data with your doctor effectively.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>⚠️ Warning Signs</h3>
+                    <p>Know when to call your doctor immediately - symptoms that need urgent attention.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>💪 Exercise Guidelines</h3>
+                    <p>Safe exercises during pregnancy that help control blood sugar without risks.</p>
+                </div>
+                <div class="inside-item">
+                    <h3>👶 Delivery Preparation</h3>
+                    <p>What to expect during delivery and how to manage blood sugar in the hospital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="lp-footer">
+        <p>© 2026 Health Gheware. For educational purposes only. Always consult your doctor.</p>
+        <p><a href="index.html">← Back to Blog</a> | <a href="https://health.gheware.com">Health Gheware App</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const form = this;
+            const submitBtn = form.querySelector('.submit-btn');
+            const successMessage = document.getElementById('successMessage');
+            
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value || '',
+                trimester: document.getElementById('trimester').value || '',
+                source: 'gestational_diabetes_landing'
+            };
+            
+            try {
+                const response = await fetch('https://leads.gheware-ai.com/hg-lead-gestational-diabetes', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+                
+                if (response.ok) {
+                    form.classList.add('hidden');
+                    successMessage.classList.add('show');
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'generate_lead', {
+                            'event_category': 'Lead Magnet',
+                            'event_label': 'Gestational Diabetes Guide'
+                        });
+                    }
+                } else {
+                    throw new Error('Submission failed');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Something went wrong. Please try again.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = '🤰 Download Free Guide →';
+            }
+        });
+    </script>
+</body>
+</html>
