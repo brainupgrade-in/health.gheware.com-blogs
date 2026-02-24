@@ -1,6 +1,25 @@
 {
   "posts": [
     {
+      "id": 81,
+      "slug": "2026/02/best-indian-foods-lower-blood-sugar-naturally.html",
+      "title": "20 Best Indian Foods to Lower Blood Sugar Naturally (2026 Guide)",
+      "excerpt": "Discover 20 scientifically-proven Indian foods that lower blood sugar naturally. From methi seeds to bitter gourd, learn dosage, timing, and simple recipes for diabetes management.",
+      "category": "nutrition",
+      "categoryLabel": "🥗 Nutrition & Diet",
+      "date": "2026-02-24",
+      "readTime": "12 min read",
+      "author": "Rajesh Gheware",
+      "image": "assets/images/indian-foods-lower-blood-sugar-hero.jpg",
+      "tags": [
+        "indian foods diabetes",
+        "blood sugar control",
+        "methi diabetes",
+        "karela blood sugar",
+        "natural remedies"
+      ]
+    },
+    {
       "id": 80,
       "slug": "2026/02/diabetes-cure-research-2026-complete-guide.html",
       "title": "Diabetes Cure Research 2026: Latest Breakthroughs, Clinical Trials & Current Status",
@@ -1116,6 +1135,6 @@
       "name": "🏃 Fitness & Diabetes"
     }
   ],
-  "totalPosts": 80,
+  "totalPosts": 82,
   "postsPerPage": 12
 }
