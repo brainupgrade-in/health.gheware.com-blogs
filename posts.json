@@ -1,6 +1,19 @@
 {
   "posts": [
     {
+      "id": 80,
+      "slug": "2026/02/diabetes-cure-research-2026-complete-guide.html",
+      "title": "Diabetes Cure Research 2026: Latest Breakthroughs, Clinical Trials & Current Status",
+      "excerpt": "Complete guide to diabetes cure research in 2026. Covers stem cell therapy (VX-880), CRISPR gene editing, smart insulin, beta cell regeneration, Type 2 reversal breakthroughs, and what it means for Indians living with diabetes.",
+      "category": "research",
+      "categoryLabel": "🔬 Research",
+      "image": "assets/images/diabetes-cure-research-2026-hero.jpg",
+      "date": "February 24, 2026",
+      "readTime": "15 min read",
+      "featured": true,
+      "youtubeVideoId": ""
+    },
+    {
       "id": 79,
       "slug": "2026/01/glp1-pills-wegovy-pill-revolution.html",
       "title": "GLP-1 Pills: The Wegovy Pill Revolution for Weight Loss",

@@ -5,7 +5,7 @@
         <link>https://health.gheware.com/blog</link>
         <description>AI-powered insights for diabetes management, health tracking, and wellness. Learn about CGM data analysis, blood sugar control, nutrition, sleep, and more.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 09 Dec 2025 16:03:37 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 24 Feb 2026 03:30:00 +0000</lastBuildDate>
         <generator>Gheware Blog RSS Generator</generator>
         <ns0:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml" />
         <image>
@@ -13,6 +13,14 @@
             <title>Gheware Health Blog</title>
             <link>https://health.gheware.com/blog</link>
         </image>
+        <item>
+            <title>Diabetes Cure Research 2026: Latest Breakthroughs, Clinical Trials &amp; Current Status | Gheware</title>
+            <link>https://health.gheware.com/blog/posts/2026/02/diabetes-cure-research-2026-complete-guide.html</link>
+            <description>Complete guide to diabetes cure research in 2026. Covers stem cell therapy (VX-880), CRISPR gene editing, smart insulin, beta cell regeneration, Type 2 reversal breakthroughs, and what it means for Indians living with diabetes.</description>
+            <pubDate>Tue, 24 Feb 2026 03:30:00 +0000</pubDate>
+            <guid isPermaLink="true">https://health.gheware.com/blog/posts/2026/02/diabetes-cure-research-2026-complete-guide.html</guid>
+            <enclosure url="https://health.gheware.com/blog/assets/images/diabetes-cure-research-2026-hero.jpg" type="image/jpeg" length="0" />
+        </item>
         <item>
             <title>Type 2 Diabetes Medications: Complete Overview - DPP-4, Sulfonylureas, TZDs | Gheware</title>
             <link>https://health.gheware.com/blog/posts/2025/12/type-2-diabetes-medications-complete-overview.html</link>
