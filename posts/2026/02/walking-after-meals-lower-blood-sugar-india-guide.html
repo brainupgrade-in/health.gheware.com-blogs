@@ -110,7 +110,14 @@
 </script>
 
 <!-- Styles -->
-<link rel="stylesheet" href="../../../css/blog-post.css"/>
+<link as="style" href="../../../css/critical.css" rel="preload"/>
+<link href="../../../css/critical.css" rel="stylesheet"/>
+<link href="../../../css/blog.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="../../../css/responsive.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript>
+<link href="../../../css/blog.css" rel="stylesheet"/>
+<link href="../../../css/responsive.css" rel="stylesheet"/>
+</noscript>
 <style>
 /* Post-specific styles */
 .highlight-box {
@@ -199,23 +206,38 @@
 <!-- Header -->
 <div id="header-placeholder"></div>
 
-<main class="blog-post-container" itemscope itemtype="https://schema.org/Article">
+<main style="max-width: 800px; margin: 0 auto; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.8; color: #1e293b;" itemscope itemtype="https://schema.org/Article">
+
+<!-- Lead Magnet CTA -->
+<div style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); border: 2px solid #4caf50; padding: 20px; margin: 0 0 30px 0; border-radius: 12px; text-align: center;">
+<p style="font-size: 16px; margin: 0; color: #2e7d32;">🥗 <strong>FREE: 7-Day Indian Diabetic Meal Plan</strong> — Breakfast, lunch, dinner + snacks with exact portions and GI values. <a href="/blog/free-meal-plan.html" style="color: #1b5e20; font-weight: bold;">Download Now →</a></p>
+</div>
+
+<!-- Breadcrumbs -->
+<nav aria-label="breadcrumb" style="margin-bottom: 1.5rem; font-size: 0.875rem; color: #64748b;">
+<a href="../../../index.html" style="color: #2563eb; text-decoration: none;">Home</a> &gt;
+<a href="../../../index.html" style="color: #2563eb; text-decoration: none;">Blog</a> &gt;
+<span>Walking After Meals to Lower Blood Sugar</span>
+</nav>
 
 <!-- Hero Section -->
 <article class="blog-post">
-<div class="post-hero">
-    <div class="post-meta">
-        <span class="post-category">🏃 Exercise &amp; Activity</span>
-        <time datetime="2026-02-25">February 25, 2026</time>
-        <span class="read-time">📖 12 min read</span>
+<header>
+    <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px;">
+        <span style="background: #dcfce7; color: #166534; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">🏃 Exercise &amp; Activity</span>
+        <span style="background: #fef3c7; color: #92400e; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">Evidence-Based</span>
+        <span style="background: #fff7ed; color: #c2410c; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">🇮🇳 India Focus</span>
     </div>
-    <h1 itemprop="headline">Walking After Meals to Lower Blood Sugar: Complete Indian Guide (2026)</h1>
-    <p class="post-subtitle">How a simple 10-15 minute walk after meals can reduce blood sugar spikes by 30-50% — the easiest diabetes management habit you're not doing yet</p>
-</div>
+    <h1 style="font-size: 2.2rem; line-height: 1.2; margin-bottom: 16px; color: #0f172a;" itemprop="headline">Walking After Meals to Lower Blood Sugar: Complete Indian Guide (2026)</h1>
+    <p style="font-size: 1.1rem; color: #475569; margin-bottom: 8px;">How a simple 10-15 minute walk after meals can reduce blood sugar spikes by 30-50% — the easiest diabetes management habit you're not doing yet</p>
+    <div style="font-size: 0.875rem; color: #64748b; margin-bottom: 24px;">
+        <time datetime="2026-02-25">February 25, 2026</time> · 12 min read · By Rajesh Gheware
+    </div>
+</header>
 
 <!-- Table of Contents -->
-<nav class="toc" aria-label="Table of Contents">
-    <h3>📋 In This Article</h3>
+<nav aria-label="Table of Contents" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 32px;">
+    <h3 style="margin-top: 0;">📋 In This Article</h3>
     <ol>
         <li><a href="#why-walking-works">Why Walking After Meals Works for Blood Sugar</a></li>
         <li><a href="#science">The Science: What Research Says</a></li>
