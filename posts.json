@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": 85,
+      "title": "Intermittent Fasting for Diabetes: Is It Safe? Complete Indian Guide (2026)",
+      "slug": "intermittent-fasting-diabetes-india-guide",
+      "date": "2026-02-27",
+      "category": "Diet & Nutrition",
+      "excerpt": "Can intermittent fasting help manage Type 2 diabetes? Learn about 16:8, 5:2 fasting methods, Indian meal timing, medication safety, and what research says.",
+      "image": "assets/images/intermittent-fasting-diabetes-hero.jpg",
+      "url": "posts/2026/02/intermittent-fasting-diabetes-india-guide.html",
+      "readTime": "14 min",
+      "tags": [
+        "intermittent fasting",
+        "diabetes diet",
+        "blood sugar",
+        "Indian diet",
+        "fasting"
+      ]
+    },
+    {
       "id": 84,
       "slug": "2026/02/diabetes-me-kya-khana-chahiye-hindi-guide.html",
       "title": "डायबिटीज में क्या खाना चाहिए? पूरी जानकारी हिंदी में (2026)",
@@ -1172,6 +1190,6 @@
       "count": 1
     }
   ],
-  "totalPosts": 84,
+  "totalPosts": 85,
   "postsPerPage": 12
 }
