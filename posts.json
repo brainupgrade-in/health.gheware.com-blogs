@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "id": 86,
+      "title": "Is Horlicks Good for Diabetics? What CGM Data Really Shows (2026)",
+      "slug": "2026/03/is-horlicks-good-for-diabetics-cgm-data-india.html",
+      "date": "2026-03-02",
+      "category": "nutrition",
+      "categoryLabel": "🥗 Nutrition & Diet",
+      "excerpt": "Real CGM data reveals what Horlicks, Bournvita, and Boost do to your blood sugar. Complete guide comparing malt drinks with 7 diabetes-friendly Indian alternatives.",
+      "image": "assets/images/horlicks-diabetes-cgm-hero.jpg",
+      "url": "posts/2026/03/is-horlicks-good-for-diabetics-cgm-data-india.html",
+      "readTime": "12 min read",
+      "author": "Rajesh Gheware",
+      "featured": true,
+      "tags": [
+        "horlicks diabetes",
+        "CGM data",
+        "health drinks India",
+        "blood sugar spike",
+        "diabetes diet"
+      ]
+    },
+    {
       "id": 85,
       "title": "Intermittent Fasting for Diabetes: Is It Safe? Complete Indian Guide (2026)",
       "slug": "intermittent-fasting-diabetes-india-guide",
