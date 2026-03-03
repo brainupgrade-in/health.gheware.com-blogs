@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://health.gheware.com/blog/</loc>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/posts/2026/03/devices-that-alert-sudden-hypoglycemia-2026-india.html</loc>
@@ -542,19 +548,19 @@
   </url>
   <url>
     <loc>https://health.gheware.com/blog/about.html</loc>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/cgm-guide.html</loc>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/doctor-checklist.html</loc>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -1,12 +1,29 @@
 {
   "posts": [
     {
+      "id": 90,
+      "slug": "2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html",
+      "title": "How to Reduce HbA1c Naturally: Complete Indian Diet & Lifestyle Guide (2026)",
+      "excerpt": "Proven strategies to lower HbA1c naturally with Indian diet modifications, lifestyle changes, and CGM-guided monitoring. Practical meal plans, exercise routines, and a 30-day action plan for Indian diabetics.",
+      "date": "2026-03-03",
+      "author": "Rajesh Gheware",
+      "category": "Diabetes Management",
+      "tags": [
+        "HbA1c",
+        "Indian diet",
+        "diabetes management",
+        "CGM",
+        "natural remedies"
+      ],
+      "image": "assets/images/reduce-hba1c-naturally-india-hero.jpg"
+    },
+    {
       "id": 89,
       "title": "Devices That Alert for Sudden Hypoglycemia (2026): Complete India Guide",
       "slug": "2026/03/devices-that-alert-sudden-hypoglycemia-2026-india.html",
       "date": "2026-03-02",
       "category": "technology",
-      "categoryLabel": "🚨 Technology & Safety",
+      "categoryLabel": "\ud83d\udea8 Technology & Safety",
       "excerpt": "Complete guide to devices that alert you before dangerous low blood sugar episodes. Compares Dexcom G7, FreeStyle Libre 2/3, insulin pump systems, and smartwatches with India pricing.",
       "image": "assets/images/hypoglycemia-alert-devices-hero.jpg",
       "url": "posts/2026/03/devices-that-alert-sudden-hypoglycemia-2026-india.html",
@@ -29,8 +46,8 @@
       "slug": "2026/03/best-diabetes-management-apps-platforms-india-2026.html",
       "date": "2026-03-02",
       "category": "technology",
-      "categoryLabel": "📱 Technology & Reviews",
-      "excerpt": "Complete comparison of BeatO, Ultrahuman, Sugar.fit alternatives, and Health Gheware — features, pricing, pros and cons for Indian diabetics in 2026. Find the right diabetes management platform for your budget.",
+      "categoryLabel": "\ud83d\udcf1 Technology & Reviews",
+      "excerpt": "Complete comparison of BeatO, Ultrahuman, Sugar.fit alternatives, and Health Gheware \u2014 features, pricing, pros and cons for Indian diabetics in 2026. Find the right diabetes management platform for your budget.",
       "image": "assets/images/diabetes-apps-india-hero.jpg",
       "url": "posts/2026/03/best-diabetes-management-apps-platforms-india-2026.html",
       "readTime": "12 min read",
