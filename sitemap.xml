@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://health.gheware.com/blog/</loc>
-    <lastmod>2026-03-05</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-complete-guide-2026.html</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/posts/2026/03/is-rice-bad-for-diabetics-white-rice-brown-rice-india-guide.html</loc>
@@ -560,19 +566,19 @@
   </url>
   <url>
     <loc>https://health.gheware.com/blog/about.html</loc>
-    <lastmod>2026-03-05</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/cgm-guide.html</loc>
-    <lastmod>2026-03-05</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/doctor-checklist.html</loc>
-    <lastmod>2026-03-05</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
