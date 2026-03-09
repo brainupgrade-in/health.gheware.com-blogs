@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Diabetes Management Guide for India — Coming Soon | Health by Gheware</title>
+<meta name="description" content="Be the first to get our comprehensive Diabetes Management Guide written specifically for India. Sign up for early access + a free chapter.">
+<script src="/js/analytics-loader.js" defer></script>
+<script src="/js/lead-validation.js" defer></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#333;line-height:1.7}
+.hero{background:linear-gradient(135deg,#1b5e20,#43a047);color:#fff;padding:80px 20px;text-align:center}
+.hero h1{font-size:2.4rem;margin-bottom:16px;max-width:700px;margin-left:auto;margin-right:auto}
+.hero p{font-size:1.2rem;opacity:0.92;max-width:600px;margin:0 auto}
+.container{max-width:720px;margin:0 auto;padding:40px 20px}
+.section{margin-bottom:48px}
+.section h2{font-size:1.6rem;color:#1b5e20;margin-bottom:20px}
+.section ul{list-style:none;padding:0}
+.section ul li{padding:10px 0 10px 32px;position:relative;font-size:1.05rem}
+.section ul li:before{content:'✅';position:absolute;left:0}
+.form-box{background:#e8f5e9;border-radius:12px;padding:36px;text-align:center}
+.form-box h2{color:#1b5e20;margin-bottom:8px}
+.form-box .social-proof{color:#2e7d32;font-weight:600;margin-bottom:20px;font-size:0.95rem}
+.form-box input{width:100%;max-width:400px;padding:14px;margin:6px auto;display:block;border:1px solid #ccc;border-radius:6px;font-size:1rem}
+.form-box button{background:#2e7d32;color:#fff;border:none;padding:16px 40px;border-radius:6px;font-size:1.1rem;cursor:pointer;font-weight:600;margin-top:12px}
+.form-box button:hover{background:#1b5e20}
+#form-msg{margin-top:12px;font-size:0.95rem}
+.faq{margin-top:48px}
+.faq h2{font-size:1.6rem;color:#1b5e20;margin-bottom:20px}
+.faq-item{margin-bottom:20px}
+.faq-item h3{font-size:1.1rem;color:#333;margin-bottom:6px}
+.faq-item p{color:#555}
+footer{text-align:center;padding:32px;color:#777;font-size:0.9rem;border-top:1px solid #eee}
+@media(max-width:600px){.hero h1{font-size:1.7rem}.hero{padding:50px 16px}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<h1>📖 The Diabetes Management Guide for India</h1>
+<p>A comprehensive, evidence-based book written specifically for Indian diabetics — covering food, lifestyle, medications, and everything in between.</p>
+</div>
+
+<div class="container">
+
+<div class="section">
+<h2>What This Book Covers</h2>
+<ul>
+<li>Indian-specific diet plans: dal, roti, rice — what works and what doesn't</li>
+<li>Blood sugar management with desi foods, spices, and home remedies (evidence-based)</li>
+<li>Complete medication guide: Metformin, insulin, and newer drugs available in India</li>
+<li>Exercise routines designed for Indian lifestyles — yoga, walking, and more</li>
+<li>Managing diabetes during festivals, weddings, and travel</li>
+<li>CGM devices, glucometers, and health tech available in India (2025–26)</li>
+<li>Mental health & emotional support for living with diabetes</li>
+<li>Special chapters: Gestational diabetes, Type 1 in India, prediabetes reversal</li>
+</ul>
+</div>
+
+<div class="form-box">
+<h2>Be the First to Know</h2>
+<p class="social-proof">👥 Join 500+ readers already on the waitlist</p>
+<form id="prelaunch-form">
+<input type="text" name="full_name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<div style="position:absolute;left:-9999px"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
+<button type="submit">Get My Free Chapter →</button>
+</form>
+<p id="form-msg"></p>
+</div>
+
+<div class="faq">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-item">
+<h3>📅 When is it launching?</h3>
+<p>We're targeting Q3 2026. Sign up above to be notified the moment it's ready — plus get an exclusive free chapter before launch.</p>
+</div>
+<div class="faq-item">
+<h3>📱 What format will it be in?</h3>
+<p>The book will be available as a PDF ebook, Kindle edition, and paperback. Digital editions will be available first.</p>
+</div>
+<div class="faq-item">
+<h3>💰 How much will it cost?</h3>
+<p>We're keeping it affordable for Indian readers. Early subscribers will get a significant launch discount. The free chapter is yours to keep regardless.</p>
+</div>
+<div class="faq-item">
+<h3>🩺 Who is writing this?</h3>
+<p>The Health by Gheware team, in collaboration with diabetes educators and endocrinologists practicing in India. Every recommendation is evidence-based and India-specific.</p>
+</div>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Health by Gheware. All rights reserved.</p>
+</footer>
+
+<script>
+document.getElementById('prelaunch-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var form = this, msg = document.getElementById('form-msg');
+  if (typeof validateLeadForm === 'function') {
+    var check = validateLeadForm(form);
+    if (!check.valid) { msg.style.color = '#c62828'; msg.textContent = check.error; return; }
+  }
+  var data = new FormData(form), body = {};
+  data.forEach(function(v,k) { if (k !== 'website') body[k] = v; });
+  body.source = 'book-prelaunch-page';
+  fetch('https://leads.gheware-ai.com/hg-lead-book-prelaunch', {
+    method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(body)
+  }).then(function() {
+    msg.style.color = '#2e7d32'; msg.textContent = '✅ You\'re on the list! We\'ll send your free chapter soon.';
+    form.querySelector('button').disabled = true;
+  }).catch(function() {
+    msg.style.color = '#c62828'; msg.textContent = 'Something went wrong. Please try again.';
+  });
+});
+</script>
+</body>
+</html>
