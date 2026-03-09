@@ -7,6 +7,7 @@
     <meta name="description" content="Download your free doctor visit checklist. Know what questions to ask, tests to request, symptoms to report, and documents to bring. Make every appointment count!">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <script src="js/analytics-loader.js"></script>
+    <script src="js/lead-validation.js"></script>
 
 <style>
   .lead-magnet-hero {
@@ -404,12 +405,28 @@
 </div>
 
 <script>
+// Initialize validation (honeypot + timing)
+initLeadFormValidation('leadForm');
+
 document.getElementById('leadForm').addEventListener('submit', async function(e) {
   e.preventDefault();
 
   const form = this;
   const submitBtn = document.getElementById('submitBtn');
   const successMessage = document.getElementById('successMessage');
+
+  // Validate before submission
+  const validation = validateLeadForm(form);
+  if (!validation.valid) {
+    if (validation.error === '__honeypot__' || validation.error === '__toofast__') {
+      // Silently fake success for bots
+      form.style.display = 'none';
+      successMessage.style.display = 'block';
+      return;
+    }
+    alert(validation.error);
+    return;
+  }
 
   const formData = {
     name: form.name.value,

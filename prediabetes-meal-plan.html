@@ -22,6 +22,7 @@
 
     <!-- Google Analytics -->
     <script src="js/analytics-loader.js"></script>
+    <script src="js/lead-validation.js"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/premium.css">
@@ -561,8 +562,23 @@
         }
         
         // Form Submission Handler
-        document.getElementById('leadForm').addEventListener('submit', async function(e) {
+        initLeadFormValidation('leadForm');
+document.getElementById('leadForm').addEventListener('submit', async function(e) {
             e.preventDefault();
+
+  // Validate before submission
+  const validation = validateLeadForm(form || this);
+  if (!validation.valid) {
+    if (validation.error === '__honeypot__' || validation.error === '__toofast__') {
+      var sm = document.getElementById('successMessage');
+      if (sm) { (form || this).style.display = 'none'; sm.style.display = 'block'; }
+      return;
+    }
+    alert(validation.error);
+    return;
+  }
+
+
             
             const submitBtn = document.getElementById('submitBtn');
             const form = document.getElementById('leadForm');

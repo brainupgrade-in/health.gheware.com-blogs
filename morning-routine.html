@@ -7,6 +7,7 @@
     <meta name="description" content="Get your free printable morning routine checklist designed specifically for diabetics. Wake up right, control your blood sugar all day.">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <script src="js/analytics-loader.js"></script>
+    <script src="js/lead-validation.js"></script>
 
 <style>
 .lead-magnet-hero {
@@ -455,8 +456,23 @@
 </div>
 
 <script>
+initLeadFormValidation('leadForm');
 document.getElementById('leadForm').addEventListener('submit', async function(e) {
     e.preventDefault();
+
+  // Validate before submission
+  const validation = validateLeadForm(form || this);
+  if (!validation.valid) {
+    if (validation.error === '__honeypot__' || validation.error === '__toofast__') {
+      var sm = document.getElementById('successMessage');
+      if (sm) { (form || this).style.display = 'none'; sm.style.display = 'block'; }
+      return;
+    }
+    alert(validation.error);
+    return;
+  }
+
+
 
     const form = this;
     const submitBtn = document.getElementById('submitBtn');
