@@ -36,7 +36,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "15 Best Indian Breakfast for Diabetics: CGM-Tested Recipes That Won't Spike Blood Sugar (2026)",
   "description": "Evidence-based guide to the best Indian breakfast options for diabetics, with real CGM data showing blood sugar impact of each recipe.",
   "image": "https://health.gheware.com/blog/assets/images/indian-breakfast-diabetics-hero.jpg",
@@ -159,8 +159,20 @@ footer{text-align:center;padding:40px 20px;color:var(--text-secondary);font-size
 footer a{color:var(--primary);text-decoration:none}
 @media(max-width:600px){header h1{font-size:1.6rem}article{padding:20px;margin:15px 0}.meta{flex-direction:column;gap:8px}.recipe-card .recipe-meta{flex-direction:column;gap:6px}}
 </style>
+<!-- Critical CSS Preload -->
+<link as="style" href="../../../css/critical.css" rel="preload"/>
+<!-- CSS -->
+<link href="../../../css/critical.css" rel="stylesheet"/>
+<link href="../../../css/blog.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="../../../css/responsive.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript>
+<link href="../../../css/blog.css" rel="stylesheet"/>
+<link href="../../../css/responsive.css" rel="stylesheet"/>
+</noscript>
 </head>
 <body>
+<!-- Header Template -->
+<div id="header-placeholder"></div>
 <header>
 <div class="container">
 <h1>15 Best Indian Breakfast for Diabetics: CGM-Tested Recipes That Won't Spike Blood Sugar</h1>
@@ -623,12 +635,16 @@ Founder, Health Gheware. Building AI-powered diabetes management tools for India
 
 </article>
 
-<footer>
-<p>© 2026 <a href="https://health.gheware.com">Health Gheware</a> | <a href="../../../about.html">About</a> | <a href="../../../free-blood-sugar-journal.html">Free Tools</a></p>
-<p>Built with ❤️ for Indian diabetics</p>
-</footer>
+
 </div>
 
+
+<!-- Medical Disclaimer -->
+<div id="disclaimer-placeholder"></div>
+<!-- Footer Template -->
+<div id="footer-placeholder"></div>
+<!-- Template Loader -->
+<script defer="" src="../../../js/template-loader.js"></script>
 <script src="/js/exit-popup.js"></script>
 </body>
 </html>
