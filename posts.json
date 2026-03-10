@@ -1,6 +1,19 @@
 {
   "posts": [
     {
+      "id": 97,
+      "title": "Walking After Meals for Diabetes: How 10-Minute Post-Meal Walks Lower Blood Sugar (2026 India Guide)",
+      "url": "posts/2026/03/walking-after-meals-diabetes-post-meal-walk-blood-sugar-india-guide.html",
+      "date": "2026-03-10",
+      "category": "Lifestyle & Wellness",
+      "description": "Evidence-based guide on how walking after meals lowers blood sugar for diabetics in India. CGM data, optimal timing, Indian meal-specific tips, and a 7-day walking plan.",
+      "keywords": [
+        "walking after meals diabetes",
+        "post meal walk blood sugar",
+        "walking for diabetics India"
+      ]
+    },
+    {
       "title": "Diabetes and Summer Heat: How Temperature Affects Blood Sugar + Hydration Guide for India (2026)",
       "slug": "2026/03/diabetes-and-summer-heat-blood-sugar-hydration-guide-india.html",
       "date": "March 10, 2026",
@@ -1408,6 +1421,6 @@
       "count": 1
     }
   ],
-  "totalPosts": 96,
+  "totalPosts": 97,
   "postsPerPage": 12
 }
