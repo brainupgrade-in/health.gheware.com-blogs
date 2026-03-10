@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://health.gheware.com/blog/</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/03/diabetes-and-summer-heat-blood-sugar-hydration-guide-india.html</loc>
+    <lastmod>March 10, 2026</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/posts/2026/03/best-indian-breakfast-for-diabetics-recipes-that-wont-spike-blood-sugar.html</loc>
@@ -578,19 +584,19 @@
   </url>
   <url>
     <loc>https://health.gheware.com/blog/about.html</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/cgm-guide.html</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/doctor-checklist.html</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

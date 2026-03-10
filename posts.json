@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "title": "Diabetes and Summer Heat: How Temperature Affects Blood Sugar + Hydration Guide for India (2026)",
+      "slug": "2026/03/diabetes-and-summer-heat-blood-sugar-hydration-guide-india.html",
+      "date": "March 10, 2026",
+      "category": "Lifestyle & Wellness",
+      "excerpt": "Indian summers (35-47\u00b0C) create unique dangers for diabetics. Learn how heat changes insulin absorption, 10 best summer drinks for blood sugar, medication safety, and a complete summer diabetes checklist.",
+      "image": "assets/images/diabetes-summer-heat-india-hero.jpg",
+      "featured": true
+    },
+    {
       "title": "15 Best Indian Breakfast for Diabetics: CGM-Tested Recipes That Won't Spike Blood Sugar (2026)",
       "slug": "2026/03/best-indian-breakfast-for-diabetics-recipes-that-wont-spike-blood-sugar.html",
       "date": "March 9, 2026",
@@ -1399,6 +1408,6 @@
       "count": 1
     }
   ],
-  "totalPosts": 95,
+  "totalPosts": 96,
   "postsPerPage": 12
 }
