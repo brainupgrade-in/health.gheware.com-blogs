@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "title": "Yoga for Diabetes: 10 Best Asanas to Lower Blood Sugar Naturally (Indian Research 2026)",
+      "slug": "2026/03/yoga-for-diabetes-best-asanas-lower-blood-sugar-india.html",
+      "date": "March 11, 2026",
+      "category": "Exercise & Fitness",
+      "excerpt": "AIIMS research shows yoga reduces HbA1c by 0.5-1.0%. 10 best asanas with step-by-step instructions, blood sugar impact data, 3 pranayama techniques, and a free 20-minute daily routine for Indian diabetics.",
+      "image": "assets/images/yoga-diabetes-india-hero.jpg",
+      "featured": true
+    },
+    {
       "id": 97,
       "title": "Walking After Meals for Diabetes: How 10-Minute Post-Meal Walks Lower Blood Sugar (2026 India Guide)",
       "url": "posts/2026/03/walking-after-meals-diabetes-post-meal-walk-blood-sugar-india-guide.html",
@@ -11,7 +20,8 @@
         "walking after meals diabetes",
         "post meal walk blood sugar",
         "walking for diabetics India"
-      ]
+      ],
+      "slug": "posts/2026/03/walking-after-meals-diabetes-post-meal-walk-blood-sugar-india-guide.html"
     },
     {
       "title": "Diabetes and Summer Heat: How Temperature Affects Blood Sugar + Hydration Guide for India (2026)",
@@ -1421,6 +1431,6 @@
       "count": 1
     }
   ],
-  "totalPosts": 97,
+  "totalPosts": 98,
   "postsPerPage": 12
 }
