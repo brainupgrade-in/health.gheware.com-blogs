@@ -660,9 +660,9 @@ document.getElementById('leadForm').addEventListener('submit', async function(e)
     e.preventDefault();
 
   // Validate before submission
-  const validation = validateLeadForm(form || this);
+  const validation = validateAndSolveChallenge(form || this);
   if (!validation.valid) {
-    if (validation.error === '__honeypot__' || validation.error === '__toofast__') {
+    if (validation.error === '__honeypot__' || validation.error === '__toofast__' || validation.error === '__nointeraction__') {
       var sm = document.getElementById('successMessage');
       if (sm) { (form || this).style.display = 'none'; sm.style.display = 'block'; }
       return;

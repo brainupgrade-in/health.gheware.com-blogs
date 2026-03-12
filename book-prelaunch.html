@@ -97,11 +97,11 @@ footer{text-align:center;padding:32px;color:#777;font-size:0.9rem;border-top:1px
 </footer>
 
 <script>
-document.getElementById('prelaunch-form').addEventListener('submit', function(e) {
+document.getElementById('prelaunch-form').addEventListener('submit', async function(e) {
   e.preventDefault();
   var form = this, msg = document.getElementById('form-msg');
   if (typeof validateLeadForm === 'function') {
-    var check = validateLeadForm(form);
+    var check = validateAndSolveChallenge(form);
     if (!check.valid) { msg.style.color = '#c62828'; msg.textContent = check.error; return; }
   }
   var data = new FormData(form), body = {};

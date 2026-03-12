@@ -415,16 +415,20 @@ document.getElementById('leadForm').addEventListener('submit', async function(e)
   const submitBtn = document.getElementById('submitBtn');
   const successMessage = document.getElementById('successMessage');
 
-  // Validate before submission
-  const validation = validateLeadForm(form);
+  // Validate with PoW challenge
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Verifying...';
+  const validation = await validateAndSolveChallenge(form);
   if (!validation.valid) {
-    if (validation.error === '__honeypot__' || validation.error === '__toofast__') {
+    if (validation.error === '__honeypot__' || validation.error === '__toofast__' || validation.error === '__nointeraction__') {
       // Silently fake success for bots
       form.style.display = 'none';
       successMessage.style.display = 'block';
       return;
     }
     alert(validation.error);
+    submitBtn.disabled = false;
+    submitBtn.textContent = '📋 Get My Free Checklist';
     return;
   }
 
