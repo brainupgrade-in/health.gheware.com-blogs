@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Sugar Tracker — Health Gheware</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.5; max-width: 900px; margin: 0 auto; padding: 20px; }
+  .header { background: linear-gradient(135deg, #1565c0, #1e88e5); color: #fff; padding: 28px; border-radius: 12px; margin-bottom: 24px; text-align: center; }
+  .header h1 { font-size: 1.7rem; margin-bottom: 6px; }
+  .header p { opacity: 0.9; }
+  h2 { color: #1565c0; font-size: 1.2rem; margin: 24px 0 10px; border-bottom: 2px solid #bbdefb; padding-bottom: 4px; }
+  .range-guide { background: #e3f2fd; padding: 12px 16px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; }
+  .range-guide strong { color: #1565c0; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.85rem; }
+  th { background: #1565c0; color: #fff; padding: 8px 4px; text-align: center; font-size: 0.8rem; }
+  td { border: 1px solid #ccc; padding: 8px 4px; text-align: center; min-height: 28px; }
+  td.date-col { width: 80px; }
+  tr:nth-child(even) { background: #f5f5f5; }
+  .week-label { background: #e8f5e9; font-weight: 700; color: #2e7d32; text-align: left; padding-left: 10px; }
+  .section { break-inside: avoid; margin-bottom: 24px; }
+  .med-table td, .hba1c-table td { height: 32px; }
+  .notes-box { border: 1px solid #ccc; border-radius: 8px; padding: 16px; min-height: 120px; }
+  .notes-box p { color: #999; font-size: 0.85rem; }
+  .cta { text-align: center; margin: 28px 0; padding: 20px; background: #e3f2fd; border-radius: 12px; }
+  .cta a { display: inline-block; background: #1565c0; color: #fff; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 700; }
+  @media print {
+    body { padding: 0; font-size: 10pt; }
+    .header { border-radius: 0; }
+    .cta { display: none; }
+    table { page-break-inside: avoid; }
+    th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📊 Monthly Blood Sugar Tracker</h1>
+  <p>4-Week Log · Medications · HbA1c · Doctor Notes<br><strong>Health Gheware</strong></p>
+</div>
+
+<div class="range-guide">
+  <strong>Target Ranges (general):</strong> Fasting: 80–130 mg/dL · Post-meal (2h): &lt;180 mg/dL · Bedtime: 100–140 mg/dL<br>
+  ⚠️ Your doctor may set different targets. Always follow your prescribed ranges.
+</div>
+
+<p style="margin-bottom:6px;"><strong>Month: ______________ &nbsp; Year: __________</strong></p>
+
+<h2>📋 Week 1</h2>
+<table>
+<tr><th class="date-col">Date</th><th>Fasting</th><th>Post-Breakfast</th><th>Post-Lunch</th><th>Post-Dinner</th><th>Bedtime</th><th>Notes</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<h2>📋 Week 2</h2>
+<table>
+<tr><th class="date-col">Date</th><th>Fasting</th><th>Post-Breakfast</th><th>Post-Lunch</th><th>Post-Dinner</th><th>Bedtime</th><th>Notes</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<h2>📋 Week 3</h2>
+<table>
+<tr><th class="date-col">Date</th><th>Fasting</th><th>Post-Breakfast</th><th>Post-Lunch</th><th>Post-Dinner</th><th>Bedtime</th><th>Notes</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<h2>📋 Week 4</h2>
+<table>
+<tr><th class="date-col">Date</th><th>Fasting</th><th>Post-Breakfast</th><th>Post-Lunch</th><th>Post-Dinner</th><th>Bedtime</th><th>Notes</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<div class="section">
+<h2>💊 Medications List</h2>
+<table class="med-table">
+<tr><th>Medication Name</th><th>Dose</th><th>Timing</th><th>Prescribing Doctor</th></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</table>
+</div>
+
+<div class="section">
+<h2>🔬 HbA1c Tracking (Quarterly)</h2>
+<table class="hba1c-table">
+<tr><th>Date</th><th>HbA1c (%)</th><th>Lab Name</th><th>Doctor's Remarks</th></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</table>
+</div>
+
+<div class="section">
+<h2>🩺 Doctor Visit Notes</h2>
+<div class="notes-box">
+  <p>Date: __________ &nbsp; Doctor: ____________________</p><br>
+  <p>Notes / Changes: _____________________________________________</p><br><br>
+  <p>Date: __________ &nbsp; Doctor: ____________________</p><br>
+  <p>Notes / Changes: _____________________________________________</p><br><br>
+  <p>Date: __________ &nbsp; Doctor: ____________________</p><br>
+  <p>Notes / Changes: _____________________________________________</p>
+</div>
+</div>
+
+<div class="cta">
+  <p style="margin-bottom:12px;"><strong>Go digital — track everything automatically with Health Gheware</strong></p>
+  <a href="https://health.gheware.com">Open Health Gheware →</a>
+</div>
+
+<p style="text-align:center;color:#999;font-size:0.8rem;margin-top:20px;">© 2026 Health Gheware · health.gheware.com</p>
+
+</body>
+</html>

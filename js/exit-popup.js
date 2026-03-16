@@ -24,6 +24,12 @@
 
   document.body.insertAdjacentHTML('beforeend', popupHTML);
 
+  // Inject math CAPTCHA into exit popup form
+  var _epForm = document.getElementById('exit-popup-form');
+  if (_epForm && typeof injectMathChallenge === 'function') {
+    injectMathChallenge(_epForm);
+  }
+
   var overlay = document.getElementById('exit-popup-overlay');
   var shown = false;
 

@@ -197,9 +197,40 @@ function _isLikelyFakeName(name) {
   return false; // can't reliably detect without a dictionary; rely on other signals
 }
 
+// ─── Math CAPTCHA (stops bots using real emails) ───
+
+function injectMathChallenge(formElement) {
+  const a = Math.floor(Math.random() * 9) + 1;
+  const b = Math.floor(Math.random() * 9) + 1;
+  formElement._mathAnswer = a + b;
+
+  const wrapper = document.createElement('div');
+  wrapper.style.cssText = 'margin-bottom:12px;';
+  wrapper.innerHTML =
+    '<label style="display:block;font-size:0.95rem;margin-bottom:4px;font-weight:600;">🔒 Quick verify: What is ' + a + ' + ' + b + '?</label>' +
+    '<input type="number" id="_math_check" name="_math_check" required ' +
+    'style="width:100%;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:1rem;box-sizing:border-box;" ' +
+    'placeholder="Enter your answer">';
+
+  const btn = formElement.querySelector('button[type="submit"]');
+  if (btn) {
+    formElement.insertBefore(wrapper, btn);
+  } else {
+    formElement.appendChild(wrapper);
+  }
+}
+
 // ─── Main validation ───
 
 function validateLeadForm(formElement) {
+  // 0. Math CAPTCHA check
+  if (formElement._mathAnswer !== undefined) {
+    const mathInput = formElement.querySelector('#_math_check');
+    if (!mathInput || parseInt(mathInput.value, 10) !== formElement._mathAnswer) {
+      return { valid: false, error: 'Please solve the math question correctly.' };
+    }
+  }
+
   // 1. Honeypot check
   const hp1 = formElement.querySelector('#website_url');
   const hp2 = formElement.querySelector('#company_name');
@@ -277,5 +308,6 @@ function initLeadFormValidation(formId) {
   
   form._loadTime = Date.now();
   injectHoneypot(form);
+  injectMathChallenge(form);
   _startBehaviorTracking();
 }
