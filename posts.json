@@ -1,13 +1,40 @@
 {
   "posts": [
     {
+      "id": 103,
+      "title": "Metformin Side Effects: Complete Guide for Indian Diabetics (2026)",
+      "url": "posts/2026/03/metformin-side-effects-indian-diabetics-complete-guide.html",
+      "date": "2026-03-17",
+      "category": "Medication & Treatment",
+      "description": "Comprehensive guide to metformin side effects for Indian diabetics. Covers GI issues, vitamin B12 deficiency, lactic acidosis, Indian diet tips, ICMR guidelines, popular brands (Glycomet, Glucophage), and when to call your doctor.",
+      "keywords": [
+        "metformin side effects",
+        "metformin side effects India",
+        "Glycomet side effects",
+        "metformin B12 deficiency",
+        "metformin diarrhea",
+        "ICMR metformin guidelines",
+        "metformin Indian diet"
+      ],
+      "slug": "posts/2026/03/metformin-side-effects-indian-diabetics-complete-guide.html",
+      "image": "posts/2026/03/metformin-side-effects-indian-diabetics-hero.png",
+      "featured": true
+    },
+    {
       "id": 102,
       "title": "Intermittent Fasting for Diabetes: Is It Safe? Complete Indian Guide (2026)",
       "url": "posts/2026/03/intermittent-fasting-diabetes-safe-indian-guide.html",
       "date": "2026-03-12",
       "category": "Diet & Nutrition",
       "description": "Is intermittent fasting safe for diabetics? Evidence-based guide covering 16:8, 5:2, and 14:10 methods for Type 2 diabetes. ICMR guidelines, medication adjustments, 7-day Indian IF meal plan, Ramadan fasting tips, and CGM data.",
-      "keywords": ["intermittent fasting diabetes", "IF diabetes safe India", "16:8 fasting blood sugar", "fasting HbA1c", "Ramadan fasting diabetes", "intermittent fasting metformin"],
+      "keywords": [
+        "intermittent fasting diabetes",
+        "IF diabetes safe India",
+        "16:8 fasting blood sugar",
+        "fasting HbA1c",
+        "Ramadan fasting diabetes",
+        "intermittent fasting metformin"
+      ],
       "slug": "posts/2026/03/intermittent-fasting-diabetes-safe-indian-guide.html"
     },
     {
@@ -17,7 +44,13 @@
       "date": "2026-03-12",
       "category": "Diabetes Complications",
       "description": "Complete guide on diabetes and kidney disease for Indians. Early warning signs, creatinine and eGFR tests, Indian diet tips, kidney-protective medications, and when to see a nephrologist. World Kidney Day 2026.",
-      "keywords": ["diabetes kidney disease India", "diabetic nephropathy prevention", "creatinine levels diabetes", "eGFR diabetes", "world kidney day 2026"],
+      "keywords": [
+        "diabetes kidney disease India",
+        "diabetic nephropathy prevention",
+        "creatinine levels diabetes",
+        "eGFR diabetes",
+        "world kidney day 2026"
+      ],
       "slug": "posts/2026/03/diabetes-kidney-disease-diabetic-nephropathy-prevention-india-guide.html"
     },
     {
@@ -27,7 +60,7 @@
       "category": "Exercise & Fitness",
       "excerpt": "AIIMS research shows yoga reduces HbA1c by 0.5-1.0%. 10 best asanas with step-by-step instructions, blood sugar impact data, 3 pranayama techniques, and a free 20-minute daily routine for Indian diabetics.",
       "image": "assets/images/yoga-diabetes-india-hero.jpg",
-      "featured": true
+      "featured": false
     },
     {
       "id": 97,
