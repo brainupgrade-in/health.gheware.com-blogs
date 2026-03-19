@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "title": "Pre-Diabetes in India: Signs, Prevention & How to Reverse It with Indian Diet (2026 Guide)",
+      "url": "posts/2026/03/prediabetes-india-signs-prevention-reversal-indian-diet-guide.html",
+      "date": "2026-03-19",
+      "category": "Prevention & Awareness",
+      "description": "13 crore Indians are pre-diabetic and most don't know. Learn the warning signs, ICMR criteria, and a proven Indian diet plan to reverse pre-diabetes before it becomes Type 2.",
+      "image": "posts/2026/03/prediabetes-india-signs-prevention-reversal-guide-hero.png",
+      "tags": [
+        "pre-diabetes",
+        "prediabetes",
+        "prevention",
+        "Indian diet",
+        "reversal",
+        "ICMR",
+        "millets",
+        "lifestyle"
+      ]
+    },
+    {
       "id": 103,
       "title": "Metformin Side Effects: Complete Guide for Indian Diabetics (2026)",
       "url": "posts/2026/03/metformin-side-effects-indian-diabetics-complete-guide.html",
@@ -1484,6 +1502,6 @@
       "count": 1
     }
   ],
-  "totalPosts": 98,
+  "totalPosts": 102,
   "postsPerPage": 12
 }
