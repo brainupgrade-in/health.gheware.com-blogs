@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "title": "Diabetic Retinopathy in India: Complete Guide to Diabetes Eye Care & Prevention (2026)",
+      "url": "posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide.html",
+      "date": "2026-03-26",
+      "category": "Complications & Prevention",
+      "description": "Diabetic retinopathy is the leading cause of preventable blindness in Indian diabetics. Learn the stages, symptoms, screening options, treatment costs, and prevention strategies.",
+      "keywords": "diabetic retinopathy India, diabetes eye problems, diabetic eye screening, diabetes blindness prevention",
+      "image": "posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide-hero.png"
+    },
+    {
       "id": 116,
       "title": "Ultra-Processed Foods & Diabetes in India: The Hidden Blood Sugar Killer in Your Kitchen (2026 Guide)",
       "url": "posts/2026/03/ultra-processed-foods-diabetes-india-upf-blood-sugar-hidden-danger-guide.html",
@@ -2876,6 +2885,6 @@
     "Technology & AI",
     "Testing & Diagnosis"
   ],
-  "totalPosts": 115,
+  "totalPosts": 117,
   "postsPerPage": 12
 }
