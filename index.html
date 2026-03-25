@@ -760,7 +760,7 @@
                             <span class="related-label">Related</span>
                             <div class="related-links">
                                 ${relatedPosts.map(rp => `
-                                    <a href="posts/${rp.slug}" class="related-link" title="${rp.title}">
+                                    <a href="${rp.slug}" class="related-link" title="${rp.title}">
                                         <span class="related-emoji">${this.getCategoryEmoji(rp.category)}</span>
                                         ${rp.title.split(':')[0].substring(0, 25)}${rp.title.length > 25 ? '...' : ''}
                                     </a>
@@ -778,7 +778,7 @@
                     <article class="blog-card" style="animation: fadeIn 0.3s ease ${index * 0.05}s forwards; opacity: 0;">
                         ${skillBadgeHTML}
                         ${updateIndicatorHTML}
-                        <a href="posts/${post.slug}" class="blog-card-image-link">
+                        <a href="${post.slug}" class="blog-card-image-link">
                             <img src="${post.image}"
                                  alt="${post.title}"
                                  class="blog-card-image"
@@ -790,7 +790,7 @@
                         </div>
                         <div class="blog-card-content">
                             <h2 class="blog-card-title">
-                                <a href="posts/${post.slug}">${post.title}</a>
+                                <a href="${post.slug}">${post.title}</a>
                             </h2>
                             <p class="blog-card-excerpt">${post.excerpt}</p>
                             ${relatedHTML}
@@ -801,7 +801,7 @@
                             <span class="blog-card-read-time">${post.readTime}</span>
                         </div>
                         <div class="card-cta-section">
-                            <a href="posts/${post.slug}" class="continue-reading-btn">
+                            <a href="${post.slug}" class="continue-reading-btn">
                                 <span>Continue Reading</span>
                                 <span class="arrow">&#8594;</span>
                             </a>
@@ -967,7 +967,7 @@
                 const popularPosts = [...featuredPosts, ...recentPosts].slice(0, 5);
 
                 const popularHTML = popularPosts.map((post, index) => `
-                    <a href="posts/${post.slug}" class="popular-item">
+                    <a href="${post.slug}" class="popular-item">
                         <span class="popular-rank">${index + 1}</span>
                         <span class="popular-title">${post.title}</span>
                         <span class="popular-views">${post.readTime}</span>
@@ -1121,7 +1121,7 @@
 
                 resultsContainer.innerHTML = filteredPosts.map(post => `
                     <article class="filtered-post-card">
-                        <a href="posts/${post.slug}" class="filtered-post-link">
+                        <a href="${post.slug}" class="filtered-post-link">
                             <img src="${post.image}" alt="${post.title}" loading="lazy">
                             <div class="filtered-post-content">
                                 <span class="filtered-post-category">${post.categoryLabel}</span>
@@ -1193,7 +1193,7 @@
                             </div>
                             <div class="trending-content">
                                 <h3>
-                                    <a href="posts/${post.slug}">${post.title}</a>
+                                    <a href="${post.slug}">${post.title}</a>
                                 </h3>
                                 <div class="trending-stats">
                                     <span class="trend-views">&#128065; ${stats.baseViews.toLocaleString()} views (+${stats.weeklyGain} this week)</span>
