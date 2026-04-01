@@ -1,31 +1,6 @@
 {
   "posts": [
     {
-      "title": "Millets for Diabetes: How Ragi, Bajra & Jowar Control Blood Sugar in India (2026 Guide)",
-      "url": "posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html",
-      "slug": "posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html",
-      "date": "2026-03-31",
-      "category": "diet-nutrition",
-      "description": "Complete guide on millets for diabetes in India. Ragi, bajra, jowar, foxtail millet — GI scores, ICMR blood sugar data, recipes, and which millets are safest for Type 1 and Type 2 diabetics.",
-      "keywords": [
-        "millets for diabetes India",
-        "ragi for diabetics",
-        "bajra blood sugar",
-        "jowar for diabetes",
-        "millet glycemic index India",
-        "best millets for type 2 diabetes",
-        "ragi roti for diabetics",
-        "finger millet blood sugar",
-        "foxtail millet diabetes",
-        "sorghum diabetes India 2026"
-      ],
-      "image": "posts/2026/03/millets-for-diabetes-hero.png",
-      "featured": false,
-      "categoryLabel": "Diet & Nutrition",
-      "excerpt": "ICMR-backed data on India's ancient grains — ragi, bajra, jowar and foxtail millet GI scores, HbA1c improvements of 0.5–1.4%, safe portion sizes, and 4 easy diabetes-friendly recipes.",
-      "readTime": "9 min read"
-    },
-    {
       "title": "Summer Heat & Diabetes: Complete Guide to Managing Blood Sugar in Indian Summers (2026)",
       "url": "posts/2026/03/summer-heat-diabetes-blood-sugar-management-india-guide-2026.html",
       "date": "2026-03-27",
@@ -2903,6 +2878,39 @@
       "categoryLabel": "Diabetes Management",
       "excerpt": "Real success story: Deepti improved Time in Range from 58% to 74% in 8 weeks using multi-data health tracking. See the exact strategies, timeline, and data...",
       "readTime": "8 min read"
+    },
+    {
+      "title": "Navratri Fasting with Diabetes: Safe Diet Guide for Indian Diabetics (2026)",
+      "url": "posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html",
+      "date": "2026-04-01",
+      "category": "Seasonal Care",
+      "description": "Can diabetics fast during Navratri? Yes — safely. Complete guide covering vrat foods (kuttu, rajgira, makhana), blood sugar monitoring, medication adjustments, what to eat/avoid, and when to break the fast for Type 1 and Type 2 diabetics.",
+      "keywords": "navratri fasting diabetes, can diabetics fast navratri, diabetes navratri diet, navratri vrat blood sugar, navratri kuttu atta diabetes, makhana diabetes, sabudana diabetes"
+    },
+    {
+      "title": "Millets for Diabetes: How Ragi, Bajra & Jowar Control Blood Sugar in India (2026 Guide)",
+      "url": "posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html",
+      "slug": "posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html",
+      "date": "2026-03-31",
+      "category": "diet-nutrition",
+      "description": "Complete guide on millets for diabetes in India. Ragi, bajra, jowar, foxtail millet — GI scores, ICMR blood sugar data, recipes, and which millets are safest for Type 1 and Type 2 diabetics.",
+      "keywords": [
+        "millets for diabetes India",
+        "ragi for diabetics",
+        "bajra blood sugar",
+        "jowar for diabetes",
+        "millet glycemic index India",
+        "best millets for type 2 diabetes",
+        "ragi roti for diabetics",
+        "finger millet blood sugar",
+        "foxtail millet diabetes",
+        "sorghum diabetes India 2026"
+      ],
+      "image": "posts/2026/03/millets-for-diabetes-hero.png",
+      "featured": false,
+      "categoryLabel": "Diet & Nutrition",
+      "excerpt": "ICMR-backed data on India's ancient grains — ragi, bajra, jowar and foxtail millet GI scores, HbA1c improvements of 0.5–1.4%, safe portion sizes, and 4 easy diabetes-friendly recipes.",
+      "readTime": "9 min read"
     }
   ],
   "categories": [
@@ -2918,6 +2926,6 @@
     "Technology & AI",
     "Testing & Diagnosis"
   ],
-  "totalPosts": 118,
+  "totalPosts": 120,
   "postsPerPage": 12
 }
