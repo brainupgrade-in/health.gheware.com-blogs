@@ -7,7 +7,7 @@
       "date": "2026-04-03",
       "category": "Blood Sugar Management",
       "description": "HbA1c test explained for Indian diabetics: normal range, prediabetes vs diabetes levels, what A1c 6.5, 7, 8, 9 means, lab costs, and 10 proven strategies to lower your HbA1c fast.",
-      "url": "https://health.gheware.com/blog/posts/2026/04/hba1c-test-india-normal-range-how-to-lower-fast-guide-2026.html",
+      "url": "posts/2026/04/hba1c-test-india-normal-range-how-to-lower-fast-guide-2026.html",
       "path": "posts/2026/04/hba1c-test-india-normal-range-how-to-lower-fast-guide-2026.html",
       "tags": [
         "HbA1c",
@@ -15,7 +15,30 @@
         "India",
         "diabetes management",
         "glycated haemoglobin"
-      ]
+      ],
+      "excerpt": "HbA1c test explained for Indian diabetics: normal range, prediabetes vs diabetes levels, what A1c 6.5, 7, 8, 9 means, lab costs, and 10 proven strategies to lower your HbA1c fast.",
+      "categoryLabel": "Blood Sugar Management",
+      "readTime": "11 min read",
+      "keywords": [],
+      "image": "https://health.gheware.com/blog/assets/images/hba1c-test-india-normal-range-guide-hero.jpg",
+      "featured": false
+    },
+    {
+      "title": "Diabetic Foot Care in India: Warning Signs, Neuropathy & Complete Prevention Guide (2026)",
+      "url": "posts/2026/04/diabetic-foot-care-neuropathy-prevention-india-guide-2026.html",
+      "slug": "posts/2026/04/diabetic-foot-care-neuropathy-prevention-india-guide-2026.html",
+      "date": "2026-04-02",
+      "category": "complications-care",
+      "description": "India has the world's highest rate of diabetic foot amputations. Learn early warning signs of diabetic neuropathy, daily foot care routine, best footwear for Indian conditions, and how to prevent diabetic foot ulcers — complete 2026 guide.",
+      "keywords": "diabetic foot care India, diabetic neuropathy India, diabetic foot ulcer prevention, feet numbness diabetes, best footwear diabetics India, diabetic peripheral neuropathy",
+      "path": "posts/2026/04/diabetic-foot-care-neuropathy-prevention-india-guide-2026.html",
+      "excerpt": "India has the world's highest rate of diabetic foot amputations. Learn early warning signs of diabetic neuropathy, daily foot care routine, best footwear for Indian conditions, and how to prevent diabetic foot ulcers — complete 2026 guide.",
+      "categoryLabel": "Complications Care",
+      "readTime": "11 min read",
+      "tags": [],
+      "image": "https://health.gheware.com/blog/assets/images/diabetic-foot-care-india-hero.jpg",
+      "featured": false,
+      "id": 132
     },
     {
       "id": 123,
@@ -24,7 +47,7 @@
       "slug": "posts/2026/04/glp1-safety-warning-india-dcgi-2026-what-diabetics-must-know.html",
       "date": "2026-04-02",
       "category": "medicines-treatments",
-      "description": "India's DCGI issued a major GLP-1 crackdown in March\u2013April 2026. What every Indian diabetic must know about Ozempic, semaglutide generics, serious side effects, new prescription rules, and why lifestyle management remains safer.",
+      "description": "India's DCGI issued a major GLP-1 crackdown in March–April 2026. What every Indian diabetic must know about Ozempic, semaglutide generics, serious side effects, new prescription rules, and why lifestyle management remains safer.",
       "keywords": [
         "GLP-1 drugs India safety warning",
         "Ozempic India regulation 2026",
@@ -35,17 +58,77 @@
       ],
       "featured": true,
       "categoryLabel": "Medicines & Treatments",
-      "excerpt": "India's DCGI cracked down hard on Ozempic and semaglutide generics in 2026. Prescription-only, specialist-only, serious side effects \u2014 here's what every Indian diabetic needs to know before taking GLP-1 drugs.",
-      "readTime": "9 min read"
+      "excerpt": "India's DCGI cracked down hard on Ozempic and semaglutide generics in 2026. Prescription-only, specialist-only, serious side effects — here's what every Indian diabetic needs to know before taking GLP-1 drugs.",
+      "readTime": "9 min read",
+      "path": "posts/2026/04/glp1-safety-warning-india-dcgi-2026-what-diabetics-must-know.html",
+      "tags": [],
+      "image": "https://health.gheware.com/blog/assets/images/glp1-safety-warning-india-2026-hero.jpg"
     },
     {
-      "title": "Diabetic Foot Care in India: Warning Signs, Neuropathy & Complete Prevention Guide (2026)",
-      "url": "posts/2026/04/diabetic-foot-care-neuropathy-prevention-india-guide-2026.html",
-      "slug": "posts/2026/04/diabetic-foot-care-neuropathy-prevention-india-guide-2026.html",
-      "date": "2026-04-02",
-      "category": "complications-care",
-      "description": "India has the world's highest rate of diabetic foot amputations. Learn early warning signs of diabetic neuropathy, daily foot care routine, best footwear for Indian conditions, and how to prevent diabetic foot ulcers \u2014 complete 2026 guide.",
-      "keywords": "diabetic foot care India, diabetic neuropathy India, diabetic foot ulcer prevention, feet numbness diabetes, best footwear diabetics India, diabetic peripheral neuropathy"
+      "title": "Navratri Fasting with Diabetes: Safe Diet Guide for Indian Diabetics (2026)",
+      "url": "posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html",
+      "date": "2026-04-01",
+      "category": "Seasonal Care",
+      "description": "Can diabetics fast during Navratri? Yes — safely. Complete guide covering vrat foods (kuttu, rajgira, makhana), blood sugar monitoring, medication adjustments, what to eat/avoid, and when to break the fast for Type 1 and Type 2 diabetics.",
+      "keywords": "navratri fasting diabetes, can diabetics fast navratri, diabetes navratri diet, navratri vrat blood sugar, navratri kuttu atta diabetes, makhana diabetes, sabudana diabetes",
+      "slug": "posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html",
+      "path": "posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html",
+      "excerpt": "Can diabetics fast during Navratri? Yes — safely. Complete guide covering vrat foods (kuttu, rajgira, makhana), blood sugar monitoring, medication adjustments, what to eat/avoid, and when to break the fast for Type 1 and Type 2 diabetics.",
+      "categoryLabel": "Seasonal Care",
+      "readTime": "10 min read",
+      "tags": [],
+      "image": "https://health.gheware.com/blog/assets/images/navratri-fasting-diabetes-india-hero.jpg",
+      "featured": false,
+      "id": 134
+    },
+    {
+      "title": "GLP-1 Drugs for Diabetes & Weight Loss in India: Complete Guide 2026 (Ozempic, Mounjaro, Rybelsus)",
+      "url": "posts/2026/04/glp1-drugs-diabetes-weight-loss-india-complete-guide-2026.html",
+      "date": "2026-04-01",
+      "category": "Medications",
+      "description": "Complete guide to GLP-1 receptor agonists for Indian diabetics — Ozempic, Mounjaro, Rybelsus, Indian prices, side effects, who qualifies, and GLP-1 programs in India 2026.",
+      "keywords": "GLP-1 drugs India 2026, Ozempic India, Mounjaro India, semaglutide India, tirzepatide India, GLP-1 weight loss India, Rybelsus India price, GLP-1 side effects India",
+      "slug": "posts/2026/04/glp1-drugs-diabetes-weight-loss-india-complete-guide-2026.html",
+      "path": "posts/2026/04/glp1-drugs-diabetes-weight-loss-india-complete-guide-2026.html",
+      "excerpt": "Complete guide to GLP-1 receptor agonists for Indian diabetics — Ozempic, Mounjaro, Rybelsus, Indian prices, side effects, who qualifies, and GLP-1 programs in India 2026.",
+      "categoryLabel": "Medications",
+      "readTime": "9 min read",
+      "tags": [],
+      "image": "https://health.gheware.com/blog/assets/images/glp1-drugs-india-diabetes-guide-hero.jpg",
+      "featured": false,
+      "id": 133
+    },
+    {
+      "title": "Can Diabetics Eat Mangoes? India's Complete Summer Guide (2026)",
+      "slug": "posts/2026/04/can-diabetics-eat-mangoes-india-summer-guide.html",
+      "path": "posts/2026/04/can-diabetics-eat-mangoes-india-summer-guide.html",
+      "url": "posts/2026/04/can-diabetics-eat-mangoes-india-summer-guide.html",
+      "date": "2026-04-01",
+      "category": "Diet & Nutrition",
+      "categoryLabel": "Diet & Nutrition",
+      "description": "Can diabetics eat mangoes? Yes — but portion and timing matter. Discover the glycemic index of 8 Indian mango varieties, safe portion sizes, best time to eat, and how to enjoy mangoes this summer without spiking blood sugar.",
+      "excerpt": "Can diabetics eat mangoes? Yes — but portion and timing matter. Discover the glycemic index of 8 Indian mango varieties, safe portion sizes, best time to eat, and how to enjoy mangoes this summer without spiking blood sugar.",
+      "keywords": [
+        "diabetics eat mangoes",
+        "mango diabetes India",
+        "mango blood sugar",
+        "mango glycemic index",
+        "can diabetics eat alphonso mango",
+        "mango type 2 diabetes",
+        "safe mango portion diabetes",
+        "mango HbA1c",
+        "kesar mango diabetes",
+        "summer fruits diabetes India",
+        "aam aur diabetes",
+        "mango glucose spike"
+      ],
+      "tags": [
+        "mango diabetes"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/can-diabetics-eat-mangoes-india-hero.jpg",
+      "readTime": "8 min read",
+      "featured": false,
+      "id": 131
     },
     {
       "title": "Millets for Diabetes: How Ragi, Bajra & Jowar Control Blood Sugar in India (2026 Guide)",
@@ -53,7 +136,7 @@
       "slug": "posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html",
       "date": "2026-03-31",
       "category": "diet-nutrition",
-      "description": "Complete guide on millets for diabetes in India. Ragi, bajra, jowar, foxtail millet \u2014 GI scores, ICMR blood sugar data, recipes, and which millets are safest for Type 1 and Type 2 diabetics.",
+      "description": "Complete guide on millets for diabetes in India. Ragi, bajra, jowar, foxtail millet — GI scores, ICMR blood sugar data, recipes, and which millets are safest for Type 1 and Type 2 diabetics.",
       "keywords": [
         "millets for diabetes India",
         "ragi for diabetics",
@@ -69,16 +152,87 @@
       "image": "posts/2026/03/millets-for-diabetes-hero.png",
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
-      "excerpt": "ICMR-backed data on India's ancient grains \u2014 ragi, bajra, jowar and foxtail millet GI scores, HbA1c improvements of 0.5\u20131.4%, safe portion sizes, and 4 easy diabetes-friendly recipes.",
-      "readTime": "9 min read"
+      "excerpt": "ICMR-backed data on India's ancient grains — ragi, bajra, jowar and foxtail millet GI scores, HbA1c improvements of 0.5–1.4%, safe portion sizes, and 4 easy diabetes-friendly recipes.",
+      "readTime": "9 min read",
+      "path": "posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html",
+      "tags": [],
+      "id": 129
+    },
+    {
+      "title": "Fasting Blood Sugar vs HbA1c: Which Test Matters More?",
+      "slug": "posts/2026/03/fasting-blood-sugar-vs-hba1c-which-test-matters-india.html",
+      "path": "posts/2026/03/fasting-blood-sugar-vs-hba1c-which-test-matters-india.html",
+      "url": "posts/2026/03/fasting-blood-sugar-vs-hba1c-which-test-matters-india.html",
+      "date": "2026-03-31",
+      "category": "Understanding Diabetes",
+      "categoryLabel": "Understanding Diabetes",
+      "description": "Confused about fasting blood sugar vs HbA1c? This plain-language guide explains what each test measures, normal ranges for Indians, which one your doctor actually cares about, and how often you need both. No medical jargon.",
+      "excerpt": "Confused about fasting blood sugar vs HbA1c? This plain-language guide explains what each test measures, normal ranges for Indians, which one your doctor actually cares about, and how often you need both. No medical jargon.",
+      "keywords": [
+        "fasting blood sugar vs HbA1c India",
+        "HbA1c normal range India",
+        "fasting glucose test diabetes",
+        "what is HbA1c",
+        "blood sugar test types India",
+        "HbA1c vs fasting glucose which is better",
+        "diabetes blood test India",
+        "HbA1c 6.5 meaning",
+        "fasting sugar 100 normal India",
+        "diabetes monitoring India 2026"
+      ],
+      "tags": [
+        "HbA1c fasting blood sugar India"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/hba1c-vs-fasting-blood-sugar-india-hero.jpg",
+      "readTime": "7 min read",
+      "featured": false,
+      "id": 128
+    },
+    {
+      "title": "Best Diabetes Reversal Clinics in India 2026: What to Look For",
+      "slug": "posts/2026/03/best-diabetes-reversal-clinics-india-2026.html",
+      "path": "posts/2026/03/best-diabetes-reversal-clinics-india-2026.html",
+      "url": "posts/2026/03/best-diabetes-reversal-clinics-india-2026.html",
+      "date": "2026-03-31",
+      "category": "Treatment & Management",
+      "categoryLabel": "Treatment & Management",
+      "description": "Thinking about a diabetes reversal clinic? Here's an honest guide to what these programs offer, what questions to ask, cost ranges in INR, and how to evaluate real results — including free alternatives like AI-powered diet coaching at health.gheware.com.",
+      "excerpt": "Thinking about a diabetes reversal clinic? Here's an honest guide to what these programs offer, what questions to ask, cost ranges in INR, and how to evaluate real results — including free alternatives like AI-powered diet coaching at health.gheware.com.",
+      "keywords": [
+        "diabetes reversal clinic India",
+        "diabetes reversal program India 2026",
+        "best diabetes clinic India",
+        "diabetes reversal cost India",
+        "type 2 diabetes reversal India",
+        "diabetes reversal program near me",
+        "diabetes treatment clinic India",
+        "diabetes management program India",
+        "how to reverse diabetes India"
+      ],
+      "tags": [
+        "diabetes reversal India"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/diabetes-reversal-clinic-india-hero.jpg",
+      "readTime": "7 min read",
+      "featured": false,
+      "id": 125
     },
     {
       "title": "Summer Heat & Diabetes: Complete Guide to Managing Blood Sugar in Indian Summers (2026)",
       "url": "posts/2026/03/summer-heat-diabetes-blood-sugar-management-india-guide-2026.html",
       "date": "2026-03-27",
       "category": "Seasonal Care",
-      "description": "How does summer heat affect blood sugar? Complete guide for Indian diabetics \u2014 hydration, insulin storage, diet tips, exercise timing, heat stroke prevention, and cooling foods that stabilize glucose.",
-      "keywords": "summer heat diabetes, blood sugar summer India, diabetes management summer, insulin storage summer India, hydration diabetes, summer diet diabetics India"
+      "description": "How does summer heat affect blood sugar? Complete guide for Indian diabetics — hydration, insulin storage, diet tips, exercise timing, heat stroke prevention, and cooling foods that stabilize glucose.",
+      "keywords": "summer heat diabetes, blood sugar summer India, diabetes management summer, insulin storage summer India, hydration diabetes, summer diet diabetics India",
+      "slug": "posts/2026/03/summer-heat-diabetes-blood-sugar-management-india-guide-2026.html",
+      "path": "posts/2026/03/summer-heat-diabetes-blood-sugar-management-india-guide-2026.html",
+      "excerpt": "How does summer heat affect blood sugar? Complete guide for Indian diabetics — hydration, insulin storage, diet tips, exercise timing, heat stroke prevention, and cooling foods that stabilize glucose.",
+      "categoryLabel": "Seasonal Care",
+      "readTime": "16 min read",
+      "tags": [],
+      "image": "https://health.gheware.com/blog/assets/images/summer-heat-diabetes-india-hero.jpg",
+      "featured": false,
+      "id": 130
     },
     {
       "title": "Diabetic Retinopathy in India: Complete Guide to Diabetes Eye Care & Prevention (2026)",
@@ -87,7 +241,15 @@
       "category": "Complications & Prevention",
       "description": "Diabetic retinopathy is the leading cause of preventable blindness in Indian diabetics. Learn the stages, symptoms, screening options, treatment costs, and prevention strategies.",
       "keywords": "diabetic retinopathy India, diabetes eye problems, diabetic eye screening, diabetes blindness prevention",
-      "image": "posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide-hero.png"
+      "image": "posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide-hero.png",
+      "slug": "posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide.html",
+      "path": "posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide.html",
+      "excerpt": "Diabetic retinopathy is the leading cause of preventable blindness in Indian diabetics. Learn the stages, symptoms, screening options, treatment costs, and prevention strategies.",
+      "categoryLabel": "Complications & Prevention",
+      "readTime": "18 min read",
+      "tags": [],
+      "featured": false,
+      "id": 127
     },
     {
       "id": 116,
@@ -114,7 +276,9 @@
       "featured": true,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Ultra-processed foods are silently fueling India's diabetes epidemic. Learn which common Indian kitchen staples are UPFs, how they spike blood sugar,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/ultra-processed-foods-diabetes-india-upf-blood-sugar-hidden-danger-guide.html",
+      "tags": []
     },
     {
       "id": 115,
@@ -140,16 +304,18 @@
       "featured": true,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Which dry fruits and nuts are safe for diabetics? Complete Indian guide with glycemic index values, portion sizes, and blood sugar impact for almonds,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/best-dry-fruits-nuts-for-diabetics-india-complete-guide-2026.html",
+      "tags": []
     },
     {
       "id": 114,
-      "title": "Can Diabetics Eat Mangoes? Complete Indian Guide \u2014 Varieties, Portions & Blood Sugar Impact (2026)",
+      "title": "Can Diabetics Eat Mangoes? Complete Indian Guide — Varieties, Portions & Blood Sugar Impact (2026)",
       "url": "posts/2026/03/can-diabetics-eat-mangoes-india-complete-guide.html",
       "slug": "posts/2026/03/can-diabetics-eat-mangoes-india-complete-guide.html",
       "date": "2026-03-24",
       "category": "nutrition-lifestyle",
-      "description": "Can diabetics eat mangoes? YES \u2014 new 2025 research proves Indian mango varieties (Alphonso, Kesar, Langda) actually improve insulin sensitivity. Complete guide with GI values for 8 Indian varieties, safe portions, best timing, pairing tricks, and a mango season meal plan for diabetics.",
+      "description": "Can diabetics eat mangoes? YES — new 2025 research proves Indian mango varieties (Alphonso, Kesar, Langda) actually improve insulin sensitivity. Complete guide with GI values for 8 Indian varieties, safe portions, best timing, pairing tricks, and a mango season meal plan for diabetics.",
       "keywords": [
         "can diabetics eat mango",
         "mango diabetes India",
@@ -165,17 +331,19 @@
       "image": "posts/2026/03/can-diabetics-eat-mangoes-india-complete-guide-hero.png",
       "featured": true,
       "categoryLabel": "Diet & Nutrition",
-      "excerpt": "Can diabetics eat mangoes? YES \u2014 new 2025 research proves Indian mango varieties (Alphonso, Kesar, Langda) actually improve insulin sensitivity. Complete...",
-      "readTime": "8 min read"
+      "excerpt": "Can diabetics eat mangoes? YES — new 2025 research proves Indian mango varieties (Alphonso, Kesar, Langda) actually improve insulin sensitivity. Complete...",
+      "readTime": "8 min read",
+      "path": "posts/2026/03/can-diabetics-eat-mangoes-india-complete-guide.html",
+      "tags": []
     },
     {
       "id": 113,
-      "title": "Generic Semaglutide (Ozempic) in India 2026: Complete Price Comparison \u2014 Every Brand, Every Price",
+      "title": "Generic Semaglutide (Ozempic) in India 2026: Complete Price Comparison — Every Brand, Every Price",
       "url": "posts/2026/03/generic-semaglutide-ozempic-india-2026-price-comparison-brands-guide.html",
       "slug": "posts/2026/03/generic-semaglutide-ozempic-india-2026-price-comparison-brands-guide.html",
       "date": "2026-03-24",
       "category": "medications",
-      "description": "Complete guide to generic semaglutide in India after March 2026 patent expiry. Compare all brands \u2014 Natco SEMANAT (\u20b91,290/mo), Dr. Reddy's Obeda (\u20b94,200/mo), Glenmark Glipiq (\u20b9325/week), Sun Pharma, Zydus, Lupin, Alkem \u2014 with prices, formats, and what diabetics need to know.",
+      "description": "Complete guide to generic semaglutide in India after March 2026 patent expiry. Compare all brands — Natco SEMANAT (₹1,290/mo), Dr. Reddy's Obeda (₹4,200/mo), Glenmark Glipiq (₹325/week), Sun Pharma, Zydus, Lupin, Alkem — with prices, formats, and what diabetics need to know.",
       "keywords": [
         "generic semaglutide India 2026",
         "Ozempic generic India price",
@@ -191,17 +359,19 @@
       "image": "posts/2026/03/generic-semaglutide-ozempic-india-2026-price-comparison-brands-guide-hero.png",
       "featured": false,
       "categoryLabel": "Medication & Treatment",
-      "excerpt": "Complete guide to generic semaglutide in India after March 2026 patent expiry. Compare all brands \u2014 Natco SEMANAT (\u20b91,290/mo), Dr. Reddy's Obeda...",
-      "readTime": "8 min read"
+      "excerpt": "Complete guide to generic semaglutide in India after March 2026 patent expiry. Compare all brands — Natco SEMANAT (₹1,290/mo), Dr. Reddy's Obeda...",
+      "readTime": "8 min read",
+      "path": "posts/2026/03/generic-semaglutide-ozempic-india-2026-price-comparison-brands-guide.html",
+      "tags": []
     },
     {
       "id": 112,
-      "title": "HbA1c Test in India 2026: Complete Guide \u2014 Normal Range, Cost, How to Lower It Naturally",
+      "title": "HbA1c Test in India 2026: Complete Guide — Normal Range, Cost, How to Lower It Naturally",
       "url": "posts/2026/03/hba1c-test-india-complete-guide-normal-range-cost-how-to-lower.html",
       "slug": "posts/2026/03/hba1c-test-india-complete-guide-normal-range-cost-how-to-lower.html",
       "date": "2026-03-24",
       "category": "diagnosis",
-      "description": "Everything you need to know about the HbA1c test in India \u2014 normal range (below 5.7%), prediabetes &amp; diabetes cutoffs, test costs at Thyrocare, Dr Lal PathLabs &amp; SRL (\u20b9199\u2013\u20b9880), how to prepare, and 10 proven Indian diet &amp; lifestyle strategies to lower your HbA1c naturally.",
+      "description": "Everything you need to know about the HbA1c test in India — normal range (below 5.7%), prediabetes &amp; diabetes cutoffs, test costs at Thyrocare, Dr Lal PathLabs &amp; SRL (₹199–₹880), how to prepare, and 10 proven Indian diet &amp; lifestyle strategies to lower your HbA1c naturally.",
       "keywords": [
         "HbA1c test India",
         "HbA1c normal range",
@@ -217,8 +387,10 @@
       "image": "posts/2026/03/hba1c-test-india-complete-guide-normal-range-cost-how-to-lower-hero.png",
       "featured": true,
       "categoryLabel": "Testing & Diagnosis",
-      "excerpt": "Everything you need to know about the HbA1c test in India \u2014 normal range (below 5.7%), prediabetes &amp; diabetes cutoffs, test costs at Thyrocare, Dr Lal...",
-      "readTime": "8 min read"
+      "excerpt": "Everything you need to know about the HbA1c test in India — normal range (below 5.7%), prediabetes &amp; diabetes cutoffs, test costs at Thyrocare, Dr Lal...",
+      "readTime": "8 min read",
+      "path": "posts/2026/03/hba1c-test-india-complete-guide-normal-range-cost-how-to-lower.html",
+      "tags": []
     },
     {
       "id": 111,
@@ -227,7 +399,7 @@
       "slug": "posts/2026/03/why-indians-getting-type-2-diabetes-before-30-causes-prevention-guide.html",
       "date": "2026-03-24",
       "category": "awareness",
-      "description": "India is seeing a surge of Type 2 diabetes in people under 30. Over 101 million Indians are diabetic and diagnoses now start at age 25. Understand why \u2014 genetics, diet, sedentary lifestyle, stress \u2014 and a practical prevention action plan for young Indians in 2026.",
+      "description": "India is seeing a surge of Type 2 diabetes in people under 30. Over 101 million Indians are diabetic and diagnoses now start at age 25. Understand why — genetics, diet, sedentary lifestyle, stress — and a practical prevention action plan for young Indians in 2026.",
       "keywords": [
         "diabetes in young Indians",
         "type 2 diabetes before 30 India",
@@ -243,17 +415,19 @@
       "image": "posts/2026/03/why-indians-getting-type-2-diabetes-before-30-causes-prevention-guide-hero.png",
       "featured": true,
       "categoryLabel": "Prevention & Awareness",
-      "excerpt": "India is seeing a surge of Type 2 diabetes in people under 30. Over 101 million Indians are diabetic and diagnoses now start at age 25. Understand why \u2014...",
-      "readTime": "8 min read"
+      "excerpt": "India is seeing a surge of Type 2 diabetes in people under 30. Over 101 million Indians are diabetic and diagnoses now start at age 25. Understand why —...",
+      "readTime": "8 min read",
+      "path": "posts/2026/03/why-indians-getting-type-2-diabetes-before-30-causes-prevention-guide.html",
+      "tags": []
     },
     {
       "id": 110,
-      "title": "Tirzepatide (Mounjaro/Yurpeak) in India: Complete Guide \u2014 Price, Dosage & Semaglutide Comparison (2026)",
+      "title": "Tirzepatide (Mounjaro/Yurpeak) in India: Complete Guide — Price, Dosage & Semaglutide Comparison (2026)",
       "url": "posts/2026/03/tirzepatide-mounjaro-yurpeak-india-diabetes-weight-loss-guide.html",
       "slug": "posts/2026/03/tirzepatide-mounjaro-yurpeak-india-diabetes-weight-loss-guide.html",
       "date": "2026-03-23",
       "category": "medications",
-      "description": "Complete guide to tirzepatide (Mounjaro &amp; Yurpeak) in India for 2026. Covers prices (\u20b913,125-25,781/month), dosage, side effects, how it compares to semaglutide (Ozempic), and whether Indian diabetics should consider switching. Dual GIP/GLP-1 therapy explained.",
+      "description": "Complete guide to tirzepatide (Mounjaro &amp; Yurpeak) in India for 2026. Covers prices (₹13,125-25,781/month), dosage, side effects, how it compares to semaglutide (Ozempic), and whether Indian diabetics should consider switching. Dual GIP/GLP-1 therapy explained.",
       "keywords": [
         "tirzepatide India",
         "Mounjaro India",
@@ -269,8 +443,10 @@
       "image": "posts/2026/03/tirzepatide-mounjaro-yurpeak-india-diabetes-weight-loss-guide-hero.png",
       "featured": true,
       "categoryLabel": "Medication & Treatment",
-      "excerpt": "Complete guide to tirzepatide (Mounjaro &amp; Yurpeak) in India for 2026. Covers prices (\u20b913,125-25,781/month), dosage, side effects, how it compares to...",
-      "readTime": "8 min read"
+      "excerpt": "Complete guide to tirzepatide (Mounjaro &amp; Yurpeak) in India for 2026. Covers prices (₹13,125-25,781/month), dosage, side effects, how it compares to...",
+      "readTime": "8 min read",
+      "path": "posts/2026/03/tirzepatide-mounjaro-yurpeak-india-diabetes-weight-loss-guide.html",
+      "tags": []
     },
     {
       "id": 109,
@@ -296,7 +472,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Complete guide to the best fruits for diabetics in India with glycemic index values. Learn which Indian fruits are safe, how much to eat, best timing, and...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/best-fruits-for-diabetics-india-glycemic-index-guide.html",
+      "tags": []
     },
     {
       "id": 108,
@@ -305,7 +483,7 @@
       "slug": "posts/2026/03/ozempic-semaglutide-generics-india-diabetics-guide.html",
       "date": "2026-03-19",
       "category": "medications",
-      "description": "Complete guide to Ozempic and semaglutide generics now available in India after patent expiry March 2026. Covers all Indian generic brands, prices (\u20b93,000-4,000/month vs \u20b911,000), dosage, side effects, who should take it, and what Indian diabetics need to know. Updated March 2026.",
+      "description": "Complete guide to Ozempic and semaglutide generics now available in India after patent expiry March 2026. Covers all Indian generic brands, prices (₹3,000-4,000/month vs ₹11,000), dosage, side effects, who should take it, and what Indian diabetics need to know. Updated March 2026.",
       "keywords": [
         "Ozempic India",
         "semaglutide generic India",
@@ -322,7 +500,9 @@
       "featured": false,
       "categoryLabel": "Medication & Treatment",
       "excerpt": "Complete guide to Ozempic and semaglutide generics now available in India after patent expiry March 2026. Covers all Indian generic brands, prices...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/ozempic-semaglutide-generics-india-diabetics-guide.html",
+      "tags": []
     },
     {
       "id": 107,
@@ -348,7 +528,9 @@
       "featured": false,
       "categoryLabel": "Prevention & Awareness",
       "excerpt": "13 crore Indians are pre-diabetic and most don't know it. Learn the warning signs of pre-diabetes, ICMR diagnostic criteria, and a proven Indian diet and...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/prediabetes-india-signs-prevention-reversal-indian-diet-guide.html",
+      "tags": []
     },
     {
       "id": 106,
@@ -374,7 +556,9 @@
       "featured": false,
       "categoryLabel": "Exercise & Fitness",
       "excerpt": "Complete guide to weight training for Indian diabetics. Learn how resistance exercise lowers blood sugar, best exercises for beginners, gym vs home...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/weight-training-diabetes-india-beginners-guide-2026.html",
+      "tags": []
     },
     {
       "id": 105,
@@ -400,7 +584,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Complete guide to the best dals and lentils for Indian diabetics. GI comparison of moong, chana, masoor, toor, urad, rajma, lobhia & kulthi dal. ICMR...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/best-dals-lentils-for-diabetics-india-complete-guide-2026.html",
+      "tags": []
     },
     {
       "id": 104,
@@ -426,11 +612,13 @@
       "featured": false,
       "categoryLabel": "Medication & Treatment",
       "excerpt": "Comprehensive guide to metformin side effects for Indian diabetics. Covers common side effects like diarrhea, nausea, vitamin B12 deficiency, lactic...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/metformin-side-effects-indian-diabetics-complete-guide.html",
+      "tags": []
     },
     {
       "id": 103,
-      "title": "Diabetes and Thyroid: The Hidden Connection \u2014 Symptoms, Diet & Management Guide for India (2026)",
+      "title": "Diabetes and Thyroid: The Hidden Connection — Symptoms, Diet & Management Guide for India (2026)",
       "url": "posts/2026/03/diabetes-and-thyroid-connection-symptoms-diet-india-guide.html",
       "slug": "posts/2026/03/diabetes-and-thyroid-connection-symptoms-diet-india-guide.html",
       "date": "2026-03-15",
@@ -452,7 +640,9 @@
       "featured": false,
       "categoryLabel": "Complications",
       "excerpt": "Complete guide to diabetes and thyroid connection for Indians. Learn how hypothyroidism and hyperthyroidism affect blood sugar, which foods to eat and...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/diabetes-and-thyroid-connection-symptoms-diet-india-guide.html",
+      "tags": []
     },
     {
       "id": 102,
@@ -478,7 +668,9 @@
       "featured": false,
       "categoryLabel": "Complications",
       "excerpt": "Complete evidence-based guide on diabetes and kidney disease for Indians. Learn how high blood sugar damages kidneys, early warning signs, creatinine and...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/diabetes-kidney-disease-diabetic-nephropathy-prevention-india-guide.html",
+      "tags": []
     },
     {
       "id": 101,
@@ -504,7 +696,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Is intermittent fasting safe for diabetics? Evidence-based guide covering 16:8, 5:2 fasting methods for Type 2 diabetes. Includes ICMR recommendations,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/intermittent-fasting-diabetes-safe-indian-guide.html",
+      "tags": []
     },
     {
       "id": 100,
@@ -530,7 +724,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Which cooking oil is best for diabetics in India? Complete ranking of mustard oil, coconut oil, olive oil, ghee, groundnut oil, sesame oil, rice bran oil...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/best-cooking-oils-for-diabetics-india-complete-guide-2026.html",
+      "tags": []
     },
     {
       "id": 99,
@@ -556,7 +752,9 @@
       "featured": false,
       "categoryLabel": "Exercise & Fitness",
       "excerpt": "Can yoga help control diabetes? 10 evidence-backed yoga asanas that lower blood sugar by 15-30 mg/dL. Includes Surya Namaskar, Mandukasana, Dhanurasana,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/yoga-for-diabetes-best-asanas-lower-blood-sugar-india.html",
+      "tags": []
     },
     {
       "id": 98,
@@ -582,7 +780,9 @@
       "featured": false,
       "categoryLabel": "Sleep & Lifestyle",
       "excerpt": "How does summer heat affect blood sugar in diabetics? Complete guide on heat-induced hypoglycemia, insulin storage in Indian summers, best hydration drinks...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/diabetes-and-summer-heat-blood-sugar-hydration-guide-india.html",
+      "tags": []
     },
     {
       "id": 97,
@@ -608,7 +808,9 @@
       "featured": false,
       "categoryLabel": "Sleep & Lifestyle",
       "excerpt": "Evidence-based guide on how walking after meals lowers blood sugar for diabetics in India. CGM data, optimal timing, duration, Indian meal-specific tips,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/walking-after-meals-diabetes-post-meal-walk-blood-sugar-india-guide.html",
+      "tags": []
     },
     {
       "id": 96,
@@ -634,7 +836,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Best Indian breakfast options for diabetics with real CGM data. 15 low-GI recipes including moong dal chilla, ragi dosa, besan cheela, oats idli, and more....",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/best-indian-breakfast-for-diabetics-recipes-that-wont-spike-blood-sugar.html",
+      "tags": []
     },
     {
       "id": 95,
@@ -660,7 +864,9 @@
       "featured": false,
       "categoryLabel": "Sleep & Lifestyle",
       "excerpt": "How does sleep affect blood sugar and diabetes? Evidence-based guide on sleep deprivation, insulin resistance, ideal sleep hours, sleep apnea risk, CGM data...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/sleep-and-diabetes-how-sleep-affects-blood-sugar-india-guide.html",
+      "tags": []
     },
     {
       "id": 94,
@@ -685,11 +891,13 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Which fruits can diabetics eat in India? Complete guide to the 10 best low-GI fruits (guava, jamun, amla, apple, papaya), fruits to avoid, GI chart, CGM...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/best-fruits-for-diabetics-india-complete-guide-2026.html",
+      "tags": []
     },
     {
       "id": 93,
-      "title": "Is Rice Bad for Diabetics? White Rice vs Brown Rice \u2014 Complete Indian Guide (2026)",
+      "title": "Is Rice Bad for Diabetics? White Rice vs Brown Rice — Complete Indian Guide (2026)",
       "url": "posts/2026/03/is-rice-bad-for-diabetics-white-rice-brown-rice-india-guide.html",
       "slug": "posts/2026/03/is-rice-bad-for-diabetics-white-rice-brown-rice-india-guide.html",
       "date": "2026-03-06",
@@ -711,7 +919,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Is rice bad for diabetics? Complete evidence-based guide comparing white rice, brown rice, and millet rice for Indian diabetics. Includes CGM data, glycemic...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/is-rice-bad-for-diabetics-white-rice-brown-rice-india-guide.html",
+      "tags": []
     },
     {
       "id": 92,
@@ -720,7 +930,7 @@
       "slug": "posts/2026/03/best-millets-for-diabetics-india-guide-2026.html",
       "date": "2026-03-04",
       "category": "nutrition-lifestyle",
-      "description": "Comprehensive guide to the best millets for diabetics in India \u2014 ragi, jowar, bajra, foxtail millet (kangni), kodo, barnyard, and little millet. Includes GI values, Indian recipes, CGM data insights, comparison table, and ICMR guidelines for millet-based diabetes management.",
+      "description": "Comprehensive guide to the best millets for diabetics in India — ragi, jowar, bajra, foxtail millet (kangni), kodo, barnyard, and little millet. Includes GI values, Indian recipes, CGM data insights, comparison table, and ICMR guidelines for millet-based diabetes management.",
       "keywords": [
         "best millet for diabetics",
         "millets for diabetes India",
@@ -736,8 +946,10 @@
       "image": "posts/2026/03/can-diabetics-eat-mangoes-india-complete-guide-hero.png",
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
-      "excerpt": "Comprehensive guide to the best millets for diabetics in India \u2014 ragi, jowar, bajra, foxtail millet (kangni), kodo, barnyard, and little millet. Includes GI...",
-      "readTime": "8 min read"
+      "excerpt": "Comprehensive guide to the best millets for diabetics in India — ragi, jowar, bajra, foxtail millet (kangni), kodo, barnyard, and little millet. Includes GI...",
+      "readTime": "8 min read",
+      "path": "posts/2026/03/best-millets-for-diabetics-india-guide-2026.html",
+      "tags": []
     },
     {
       "id": 91,
@@ -746,7 +958,7 @@
       "slug": "posts/2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html",
       "date": "2026-03-03",
       "category": "diabetes-management",
-      "description": "Proven strategies to lower HbA1c naturally with Indian diet modifications, lifestyle changes, and CGM-guided monitoring. From dal-roti swaps to walking routines \u2014 a practical guide for Indian diabetics to bring HbA1c below 7% without extreme diets.",
+      "description": "Proven strategies to lower HbA1c naturally with Indian diet modifications, lifestyle changes, and CGM-guided monitoring. From dal-roti swaps to walking routines — a practical guide for Indian diabetics to bring HbA1c below 7% without extreme diets.",
       "keywords": [
         "how to reduce hba1c naturally",
         "reduce hba1c Indian diet",
@@ -763,7 +975,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Proven strategies to lower HbA1c naturally with Indian diet modifications, lifestyle changes, and CGM-guided monitoring. From dal-roti swaps to walking...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html",
+      "tags": []
     },
     {
       "id": 90,
@@ -772,7 +986,7 @@
       "slug": "posts/2026/03/best-diabetes-management-apps-platforms-india-2026.html",
       "date": "2026-03-02",
       "category": "ai-health-tech",
-      "description": "Looking for the best diabetes management app in India? We compare BeatO, Ultrahuman, Sugar.fit alternatives, FreeStyle Libre, and Health Gheware \u2014 features, pricing, pros and cons for Indian diabetics in 2026.",
+      "description": "Looking for the best diabetes management app in India? We compare BeatO, Ultrahuman, Sugar.fit alternatives, FreeStyle Libre, and Health Gheware — features, pricing, pros and cons for Indian diabetics in 2026.",
       "keywords": [
         "best diabetes app India",
         "diabetes management platform India 2026",
@@ -788,8 +1002,10 @@
       "image": "posts/2026/03/best-diabetes-management-apps-platforms-india-2026-hero.png",
       "featured": false,
       "categoryLabel": "Technology & AI",
-      "excerpt": "Looking for the best diabetes management app in India? We compare BeatO, Ultrahuman, Sugar.fit alternatives, FreeStyle Libre, and Health Gheware \u2014 features,...",
-      "readTime": "8 min read"
+      "excerpt": "Looking for the best diabetes management app in India? We compare BeatO, Ultrahuman, Sugar.fit alternatives, FreeStyle Libre, and Health Gheware — features,...",
+      "readTime": "8 min read",
+      "path": "posts/2026/03/best-diabetes-management-apps-platforms-india-2026.html",
+      "tags": []
     },
     {
       "id": 89,
@@ -798,7 +1014,7 @@
       "slug": "posts/2026/03/cgm-vs-glucometer-which-is-better-indian-diabetics.html",
       "date": "2026-03-02",
       "category": "ai-health-tech",
-      "description": "CGM or glucometer \u2014 which should Indian diabetics choose? We compare cost, accuracy, convenience, and real-world CGM data to help you decide. Includes BeatO, FreeStyle Libre, and Dexcom options available in India.",
+      "description": "CGM or glucometer — which should Indian diabetics choose? We compare cost, accuracy, convenience, and real-world CGM data to help you decide. Includes BeatO, FreeStyle Libre, and Dexcom options available in India.",
       "keywords": [
         "CGM vs glucometer",
         "continuous glucose monitor India",
@@ -814,8 +1030,10 @@
       "image": "posts/2026/03/cgm-vs-glucometer-which-is-better-indian-diabetics-hero.png",
       "featured": false,
       "categoryLabel": "Technology & AI",
-      "excerpt": "CGM or glucometer \u2014 which should Indian diabetics choose? We compare cost, accuracy, convenience, and real-world CGM data to help you decide. Includes...",
-      "readTime": "8 min read"
+      "excerpt": "CGM or glucometer — which should Indian diabetics choose? We compare cost, accuracy, convenience, and real-world CGM data to help you decide. Includes...",
+      "readTime": "8 min read",
+      "path": "posts/2026/03/cgm-vs-glucometer-which-is-better-indian-diabetics.html",
+      "tags": []
     },
     {
       "id": 88,
@@ -841,7 +1059,9 @@
       "featured": false,
       "categoryLabel": "Technology & AI",
       "excerpt": "Complete guide to devices that alert you before dangerous low blood sugar episodes. Compares Dexcom G7, FreeStyle Libre 2/3, Medtronic Guardian,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/devices-that-alert-sudden-hypoglycemia-2026-india.html",
+      "tags": []
     },
     {
       "id": 87,
@@ -867,7 +1087,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Is Horlicks safe for diabetics? We analyze real CGM (Continuous Glucose Monitor) data to reveal what Horlicks, Boost, Bournvita and other Indian health...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/03/is-horlicks-good-for-diabetics-cgm-data-india.html",
+      "tags": []
     },
     {
       "id": 86,
@@ -893,7 +1115,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Can intermittent fasting help manage Type 2 diabetes? Learn about 16:8, 5:2 fasting methods, Indian meal timing, safety precautions, and what research says....",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/02/intermittent-fasting-diabetes-india-guide.html",
+      "tags": []
     },
     {
       "id": 85,
@@ -919,32 +1143,36 @@
       "featured": false,
       "categoryLabel": "Medication & Treatment",
       "excerpt": "Complete guide to metformin side effects, how to manage them, and evidence-based natural alternatives for Indian diabetics. Learn about berberine,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/02/metformin-side-effects-natural-alternatives-india-guide.html",
+      "tags": []
     },
     {
       "id": 84,
-      "title": "\u0921\u093e\u092f\u092c\u093f\u091f\u0940\u091c \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0916\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f? \u092a\u0942\u0930\u0940 \u091c\u093e\u0928\u0915\u093e\u0930\u0940 \u0939\u093f\u0902\u0926\u0940 \u092e\u0947\u0902 (2026) | Gheware",
+      "title": "डायबिटीज में क्या खाना चाहिए? पूरी जानकारी हिंदी में (2026) | Gheware",
       "url": "posts/2026/02/diabetes-me-kya-khana-chahiye-hindi-guide.html",
       "slug": "posts/2026/02/diabetes-me-kya-khana-chahiye-hindi-guide.html",
       "date": "2026-02-25",
       "category": "nutrition-lifestyle",
-      "description": "\u0921\u093e\u092f\u092c\u093f\u091f\u0940\u091c (\u0936\u0941\u0917\u0930) \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0916\u093e\u090f\u0902 \u0914\u0930 \u0915\u094d\u092f\u093e \u0928 \u0916\u093e\u090f\u0902 \u2014 \u092a\u0942\u0930\u0940 \u0932\u093f\u0938\u094d\u091f \u0939\u093f\u0902\u0926\u0940 \u092e\u0947\u0902\u0964 \u0938\u0941\u092c\u0939 \u0915\u093e \u0928\u093e\u0936\u094d\u0924\u093e, \u0926\u094b\u092a\u0939\u0930 \u0915\u093e \u0916\u093e\u0928\u093e, \u0930\u093e\u0924 \u0915\u093e \u0916\u093e\u0928\u093e, \u0914\u0930 \u0938\u094d\u0928\u0948\u0915\u094d\u0938\u0964 Indian diabetic diet plan with GI values\u0964 \u092e\u0947\u0925\u0940, \u0915\u0930\u0947\u0932\u093e, \u091c\u093e\u092e\u0941\u0928, \u0926\u093e\u0932\u091a\u0940\u0928\u0940 \u0914\u0930 20+ foods \u091c\u094b \u0936\u0941\u0917\u0930 \u0915\u092e \u0915\u0930\u0924\u0947 \u0939\u0948\u0902\u0964",
+      "description": "डायबिटीज (शुगर) में क्या खाएं और क्या न खाएं — पूरी लिस्ट हिंदी में। सुबह का नाश्ता, दोपहर का खाना, रात का खाना, और स्नैक्स। Indian diabetic diet plan with GI values। मेथी, करेला, जामुन, दालचीनी और 20+ foods जो शुगर कम करते हैं।",
       "keywords": [
-        "\u0921\u093e\u092f\u092c\u093f\u091f\u0940\u091c \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0916\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f",
-        "\u0936\u0941\u0917\u0930 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0916\u093e\u090f\u0902",
+        "डायबिटीज में क्या खाना चाहिए",
+        "शुगर में क्या खाएं",
         "diabetes me kya khana chahiye",
         "sugar kam karne ke upay",
         "diabetic diet hindi",
         "sugar me kya khaye",
         "diabetes diet plan hindi",
-        "\u0936\u0941\u0917\u0930 \u092e\u0947\u0902 \u092a\u0930\u0939\u0947\u091c",
-        "\u0921\u093e\u092f\u092c\u093f\u091f\u0940\u091c \u0921\u093e\u0907\u091f \u092a\u094d\u0932\u093e\u0928"
+        "शुगर में परहेज",
+        "डायबिटीज डाइट प्लान"
       ],
       "image": "assets/images/blog-page-hero.png",
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
-      "excerpt": "\u0921\u093e\u092f\u092c\u093f\u091f\u0940\u091c (\u0936\u0941\u0917\u0930) \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0916\u093e\u090f\u0902 \u0914\u0930 \u0915\u094d\u092f\u093e \u0928 \u0916\u093e\u090f\u0902 \u2014 \u092a\u0942\u0930\u0940 \u0932\u093f\u0938\u094d\u091f \u0939\u093f\u0902\u0926\u0940 \u092e\u0947\u0902\u0964 \u0938\u0941\u092c\u0939 \u0915\u093e \u0928\u093e\u0936\u094d\u0924\u093e, \u0926\u094b\u092a\u0939\u0930 \u0915\u093e \u0916\u093e\u0928\u093e, \u0930\u093e\u0924 \u0915\u093e \u0916\u093e\u0928\u093e, \u0914\u0930 \u0938\u094d\u0928\u0948\u0915\u094d\u0938\u0964 Indian diabetic diet plan with...",
-      "readTime": "8 min read"
+      "excerpt": "डायबिटीज (शुगर) में क्या खाएं और क्या न खाएं — पूरी लिस्ट हिंदी में। सुबह का नाश्ता, दोपहर का खाना, रात का खाना, और स्नैक्स। Indian diabetic diet plan with...",
+      "readTime": "8 min read",
+      "path": "posts/2026/02/diabetes-me-kya-khana-chahiye-hindi-guide.html",
+      "tags": []
     },
     {
       "id": 83,
@@ -970,7 +1198,9 @@
       "featured": false,
       "categoryLabel": "Exercise & Fitness",
       "excerpt": "Discover how walking after meals can reduce blood sugar spikes by 30-50%. Learn the best timing, duration, and tips for post-meal walks tailored for Indian...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide.html",
+      "tags": []
     },
     {
       "id": 82,
@@ -979,7 +1209,7 @@
       "slug": "posts/2026/02/best-indian-foods-lower-blood-sugar-naturally.html",
       "date": "2026-02-24",
       "category": "nutrition-lifestyle",
-      "description": "Jamun seed powder, cinnamon, curry leaves &amp; fenugreek mixture recipe \u2014 plus 17 more Indian foods proven to lower blood sugar. CGM-tested results.",
+      "description": "Jamun seed powder, cinnamon, curry leaves &amp; fenugreek mixture recipe — plus 17 more Indian foods proven to lower blood sugar. CGM-tested results.",
       "keywords": [
         "Indian foods lower blood sugar",
         "best foods for diabetes India",
@@ -995,8 +1225,10 @@
       "image": "posts/2026/02/best-indian-foods-lower-blood-sugar-naturally-hero.png",
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
-      "excerpt": "Jamun seed powder, cinnamon, curry leaves &amp; fenugreek mixture recipe \u2014 plus 17 more Indian foods proven to lower blood sugar. CGM-tested results.",
-      "readTime": "8 min read"
+      "excerpt": "Jamun seed powder, cinnamon, curry leaves &amp; fenugreek mixture recipe — plus 17 more Indian foods proven to lower blood sugar. CGM-tested results.",
+      "readTime": "8 min read",
+      "path": "posts/2026/02/best-indian-foods-lower-blood-sugar-naturally.html",
+      "tags": []
     },
     {
       "id": 81,
@@ -1005,7 +1237,7 @@
       "slug": "posts/2026/02/diabetes-cure-research-2026-complete-guide.html",
       "date": "2026-02-24",
       "category": "research",
-      "description": "What's the current status of diabetes cure research in 2026? Stem cells, CRISPR gene editing, smart insulin \u2014 which breakthroughs are actually close? Honest analysis.",
+      "description": "What's the current status of diabetes cure research in 2026? Stem cells, CRISPR gene editing, smart insulin — which breakthroughs are actually close? Honest analysis.",
       "keywords": [
         "diabetes cure research 2026",
         "diabetes cure breakthrough 2026",
@@ -1021,8 +1253,10 @@
       "image": "posts/2026/02/diabetes-cure-research-2026-complete-guide-hero.png",
       "featured": false,
       "categoryLabel": "Research",
-      "excerpt": "What's the current status of diabetes cure research in 2026? Stem cells, CRISPR gene editing, smart insulin \u2014 which breakthroughs are actually close? Honest...",
-      "readTime": "8 min read"
+      "excerpt": "What's the current status of diabetes cure research in 2026? Stem cells, CRISPR gene editing, smart insulin — which breakthroughs are actually close? Honest...",
+      "readTime": "8 min read",
+      "path": "posts/2026/02/diabetes-cure-research-2026-complete-guide.html",
+      "tags": []
     },
     {
       "id": 80,
@@ -1046,7 +1280,9 @@
       "featured": false,
       "categoryLabel": "Medication & Treatment",
       "excerpt": "Oral Wegovy is the first FDA-approved GLP-1 pill for weight loss. Learn about 14-16% weight loss results, $149-$299 pricing, pill vs injection comparison,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/01/glp1-pills-wegovy-pill-revolution.html",
+      "tags": []
     },
     {
       "id": 79,
@@ -1070,7 +1306,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Discover the coffee paradox: caffeine can spike blood sugar 8-10% short-term, yet 3-4 cups daily reduces diabetes risk by 25%. Learn timing, genetics, and...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/01/coffee-blood-sugar-what-3-cups-really-does.html",
+      "tags": []
     },
     {
       "id": 78,
@@ -1093,7 +1331,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "8 Ayurvedic herbs, yoga, and Panchakarma for diabetes. 65% reduced meds in studies. Safe with metformin under supervision.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/01/how-ayurveda-treats-type-2-diabetes.html",
+      "tags": []
     },
     {
       "id": 77,
@@ -1117,7 +1357,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Discover how stress and cortisol can spike your blood sugar by 20-50 mg/dL without eating. Learn evidence-based techniques like MBSR that lower HbA1c by 0.84%.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2026/01/stress-cortisol-blood-sugar-saboteur.html",
+      "tags": []
     },
     {
       "id": 76,
@@ -1143,7 +1385,9 @@
       "featured": false,
       "categoryLabel": "Complications",
       "excerpt": "Diabetes worsens sciatica through nerve damage &amp; inflammation. 7 treatments that work, exercises to avoid &amp; when to see a specialist. 2026 guide.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/sciatica-diabetes-connection-complete-guide.html",
+      "tags": []
     },
     {
       "id": 75,
@@ -1166,7 +1410,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Complete guide on alcohol and diabetes. Learn how drinking affects blood sugar, delayed hypoglycemia risks, ADA drinking guidelines and 10 safety tips.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/alcohol-diabetes-drinking-guide.html",
+      "tags": []
     },
     {
       "id": 74,
@@ -1190,7 +1436,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Beta cells produce insulin in your pancreas. Learn how they work, why 40-50% are lost by T2D diagnosis, and the latest 2024 research on regeneration.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/beta-cells-insulin-factories-diabetes-guide.html",
+      "tags": []
     },
     {
       "id": 73,
@@ -1213,7 +1461,9 @@
       "featured": false,
       "categoryLabel": "Medication & Treatment",
       "excerpt": "Can you stop diabetes medication? DiRECT trial shows 26% maintain remission at 5 years. Learn safe discontinuation, relapse risks, and type 1 vs type 2.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/can-you-stop-diabetes-medication-truth-lifelong-treatment.html",
+      "tags": []
     },
     {
       "id": 72,
@@ -1237,7 +1487,9 @@
       "featured": false,
       "categoryLabel": "Mental Health",
       "excerpt": "79% experience diabetes burnout. Learn symptoms, causes, and recovery strategies. ADA-recommended mental health support.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/diabetes-burnout-managing-emotional-toll-guide.html",
+      "tags": []
     },
     {
       "id": 71,
@@ -1246,7 +1498,7 @@
       "slug": "posts/2025/12/diabetes-diagnosis-complete-testing-guide.html",
       "date": "2025-12-09",
       "category": "diagnosis",
-      "description": "ADA 2025 diabetes diagnostic criteria: HbA1c \u22656.5%, fasting glucose \u2265126 mg/dL, OGTT \u2265200 mg/dL. Complete guide to autoantibody testing and T1D staging.",
+      "description": "ADA 2025 diabetes diagnostic criteria: HbA1c ≥6.5%, fasting glucose ≥126 mg/dL, OGTT ≥200 mg/dL. Complete guide to autoantibody testing and T1D staging.",
       "keywords": [
         "diabetes diagnosis",
         "HbA1c test",
@@ -1261,8 +1513,10 @@
       "image": "posts/2026/02/diabetes-cure-research-2026-complete-guide-hero.png",
       "featured": false,
       "categoryLabel": "Testing & Diagnosis",
-      "excerpt": "ADA 2025 diabetes diagnostic criteria: HbA1c \u22656.5%, fasting glucose \u2265126 mg/dL, OGTT \u2265200 mg/dL. Complete guide to autoantibody testing and T1D staging.",
-      "readTime": "8 min read"
+      "excerpt": "ADA 2025 diabetes diagnostic criteria: HbA1c ≥6.5%, fasting glucose ≥126 mg/dL, OGTT ≥200 mg/dL. Complete guide to autoantibody testing and T1D staging.",
+      "readTime": "8 min read",
+      "path": "posts/2025/12/diabetes-diagnosis-complete-testing-guide.html",
+      "tags": []
     },
     {
       "id": 70,
@@ -1271,7 +1525,7 @@
       "slug": "posts/2025/12/diabetes-emergencies-hhs-hyperglycemic-crisis-guide.html",
       "date": "2025-12-09",
       "category": "complications",
-      "description": "Blood sugar over 400? Learn 7 warning signs that mean ER NOW. HHS is 10x deadlier than DKA \u2014 know what to check before it&#39;s too late.",
+      "description": "Blood sugar over 400? Learn 7 warning signs that mean ER NOW. HHS is 10x deadlier than DKA — know what to check before it&#39;s too late.",
       "keywords": [
         "diabetes emergency",
         "hyperosmolar hyperglycemic state",
@@ -1286,8 +1540,10 @@
       "image": "assets/images/diabetes-emergencies-hhs-hero.jpg",
       "featured": false,
       "categoryLabel": "Complications",
-      "excerpt": "Blood sugar over 400? Learn 7 warning signs that mean ER NOW. HHS is 10x deadlier than DKA \u2014 know what to check before it&#39;s too late.",
-      "readTime": "8 min read"
+      "excerpt": "Blood sugar over 400? Learn 7 warning signs that mean ER NOW. HHS is 10x deadlier than DKA — know what to check before it&#39;s too late.",
+      "readTime": "8 min read",
+      "path": "posts/2025/12/diabetes-emergencies-hhs-hyperglycemic-crisis-guide.html",
+      "tags": []
     },
     {
       "id": 69,
@@ -1310,11 +1566,13 @@
       "featured": false,
       "categoryLabel": "Complications",
       "excerpt": "People with diabetes have 2-4x higher cardiovascular risk. Learn how blood sugar control protects your heart, ADA 2025 guidelines, and medications that save...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/diabetes-heart-disease-cardiovascular-guide.html",
+      "tags": []
     },
     {
       "id": 68,
-      "title": "Diabetes Statistics 2025-2026: 589 Million Cases, 101M in India \u2014 Full Data | Gheware",
+      "title": "Diabetes Statistics 2025-2026: 589 Million Cases, 101M in India — Full Data | Gheware",
       "url": "posts/2025/12/diabetes-statistics-global-impact-2025.html",
       "slug": "posts/2025/12/diabetes-statistics-global-impact-2025.html",
       "date": "2025-12-09",
@@ -1334,7 +1592,9 @@
       "featured": false,
       "categoryLabel": "Prevention & Awareness",
       "excerpt": "Latest diabetes statistics 2025-2026: 589M adults globally, 101M in India (world's diabetes capital), 38M in USA. Country-wise data, IDF atlas numbers, cost...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/diabetes-statistics-global-impact-2025.html",
+      "tags": []
     },
     {
       "id": 67,
@@ -1358,7 +1618,9 @@
       "featured": false,
       "categoryLabel": "Complications",
       "excerpt": "Learn about diabetic kidney disease affecting 20-40% of diabetics. Understand early warning signs, CKD stages, and ADA 2025 prevention strategies.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/diabetic-nephropathy-kidney-disease-guide.html",
+      "tags": []
     },
     {
       "id": 66,
@@ -1367,7 +1629,7 @@
       "slug": "posts/2025/12/future-diabetes-treatment-cures-horizon.html",
       "date": "2025-12-09",
       "category": "research",
-      "description": "Current status of diabetes cure research in 2026. Vertex stem cells, CRISPR &amp; teplizumab \u2014 which are closest to approval? Updated March 2026.",
+      "description": "Current status of diabetes cure research in 2026. Vertex stem cells, CRISPR &amp; teplizumab — which are closest to approval? Updated March 2026.",
       "keywords": [
         "diabetes cure",
         "stem cell diabetes",
@@ -1382,8 +1644,10 @@
       "image": "posts/2025/12/future-diabetes-treatment-cures-horizon-hero.png",
       "featured": false,
       "categoryLabel": "Research",
-      "excerpt": "Current status of diabetes cure research in 2026. Vertex stem cells, CRISPR &amp; teplizumab \u2014 which are closest to approval? Updated March 2026.",
-      "readTime": "8 min read"
+      "excerpt": "Current status of diabetes cure research in 2026. Vertex stem cells, CRISPR &amp; teplizumab — which are closest to approval? Updated March 2026.",
+      "readTime": "8 min read",
+      "path": "posts/2025/12/future-diabetes-treatment-cures-horizon.html",
+      "tags": []
     },
     {
       "id": 65,
@@ -1406,7 +1670,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Complete guide to glycemic index (GI) and glycemic load (GL). Learn how to choose low-GI foods, reduce blood sugar spikes, and manage diabetes effectively.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/glycemic-index-food-choices-guide.html",
+      "tags": []
     },
     {
       "id": 64,
@@ -1415,7 +1681,7 @@
       "slug": "posts/2025/12/insulin-pumps-how-they-work-complete-guide.html",
       "date": "2025-12-09",
       "category": "ai-health-tech",
-      "description": "Complete guide to insulin pumps for diabetes. Compare Medtronic 780G, Omnipod 5, Tandem Mobi. Learn how pumps improve HbA1c by 0.4-0.5%, costs in India (\u20b91.5-6 lakh), and who should consider pump therapy.",
+      "description": "Complete guide to insulin pumps for diabetes. Compare Medtronic 780G, Omnipod 5, Tandem Mobi. Learn how pumps improve HbA1c by 0.4-0.5%, costs in India (₹1.5-6 lakh), and who should consider pump therapy.",
       "keywords": [
         "insulin pump",
         "insulin pump therapy",
@@ -1431,7 +1697,9 @@
       "featured": false,
       "categoryLabel": "Technology & AI",
       "excerpt": "Complete guide to insulin pumps for diabetes. Compare Medtronic 780G, Omnipod 5, Tandem Mobi. Learn how pumps improve HbA1c by 0.4-0.5%, costs in India...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/insulin-pumps-how-they-work-complete-guide.html",
+      "tags": []
     },
     {
       "id": 63,
@@ -1457,7 +1725,9 @@
       "featured": false,
       "categoryLabel": "Medication & Treatment",
       "excerpt": "Insulin therapy guide: ADA 2025 injection techniques, site rotation to prevent lipohypertrophy, dosing basics, smart pens (InPen, NovoPen 6, Tempo).",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/insulin-therapy-complete-guide.html",
+      "tags": []
     },
     {
       "id": 62,
@@ -1481,7 +1751,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Metabolic syndrome guide: 5 diagnostic criteria, 5x diabetes risk, 2x cardiovascular risk. IDF 2024 thresholds and prevention strategies.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/metabolic-syndrome-diabetes-risk-guide.html",
+      "tags": []
     },
     {
       "id": 61,
@@ -1506,7 +1778,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Rare diabetes types: LADA (2-12% of adults), MODY (1-5% genetic), Type 3c, drug-induced, CFRD, and post-transplant diabetes. ADA 2024 diagnosis criteria.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/rare-secondary-diabetes-types-lada-mody-guide.html",
+      "tags": []
     },
     {
       "id": 60,
@@ -1530,7 +1804,9 @@
       "featured": false,
       "categoryLabel": "Medication & Treatment",
       "excerpt": "SGLT2 inhibitors reduce heart failure hospitalizations by 30-35% and slow kidney disease progression. Learn how empagliflozin, dapagliflozin work and who...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/sglt2-inhibitors-diabetes-heart-kidney-protection.html",
+      "tags": []
     },
     {
       "id": 59,
@@ -1556,7 +1832,9 @@
       "featured": false,
       "categoryLabel": "Medication & Treatment",
       "excerpt": "Complete guide to Type 2 diabetes oral medications: DPP-4 inhibitors, sulfonylureas, TZDs. ADA 2025 guidelines, efficacy, side effects, and when to use.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/type-2-diabetes-medications-complete-overview.html",
+      "tags": []
     },
     {
       "id": 58,
@@ -1580,7 +1858,9 @@
       "featured": false,
       "categoryLabel": "Complications",
       "excerpt": "Diabetes increases stroke risk 2-4x and PAD 5x. Learn about peripheral arterial disease, diabetic foot ulcers (6.3% global prevalence), amputation prevention.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/vascular-complications-diabetes-stroke-pad-foot-care.html",
+      "tags": []
     },
     {
       "id": 57,
@@ -1604,7 +1884,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Learn about the 3 Ps of diabetes - polyuria, polydipsia, and polyphagia. Understand these warning signs that 57% of undiagnosed diabetics in India miss....",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/3-ps-diabetes-warning-signs-symptoms.html",
+      "tags": []
     },
     {
       "id": 56,
@@ -1629,7 +1911,9 @@
       "featured": false,
       "categoryLabel": "Technology & AI",
       "excerpt": "Medtronic 780G vs Omnipod 5 vs Tandem Control-IQ ranked by Time in Range. India prices, insurance coverage &amp; which patients qualify in 2026.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/artificial-pancreas-closed-loop-systems-guide.html",
+      "tags": []
     },
     {
       "id": 55,
@@ -1653,7 +1937,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Master carb counting for diabetes management. Learn step-by-step carbohydrate estimation, Indian food carb values, insulin-to-carb ratios, and how accurate...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/carb-counting-101-guide.html",
+      "tags": []
     },
     {
       "id": 54,
@@ -1677,7 +1963,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Prevent Type 2 diabetes with proven strategies. Learn how the DPP study achieved 58% risk reduction through lifestyle changes. Discover the 7% weight loss...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/diabetes-prevention-evidence-based-guide.html",
+      "tags": []
     },
     {
       "id": 53,
@@ -1703,7 +1991,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Complete guide to diabetic neuropathy: types, symptoms, causes, diagnosis, treatment options, and prevention strategies for diabetes-related nerve damage.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/diabetic-neuropathy-nerve-damage-guide.html",
+      "tags": []
     },
     {
       "id": 52,
@@ -1729,7 +2019,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Complete guide to diabetic retinopathy: understand the stages, symptoms, risk factors, screening, treatment options, and prevention strategies to protect...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/diabetic-retinopathy-vision-protection-guide.html",
+      "tags": []
     },
     {
       "id": 51,
@@ -1738,7 +2030,7 @@
       "slug": "posts/2025/12/fasting-blood-sugar-test-preparation-results-guide.html",
       "date": "2025-12-08",
       "category": "diabetes-management",
-      "description": "Fasting blood sugar test guide: ADA 2025 thresholds (&lt;100 normal, 100-125 prediabetes, \u2265126 diabetes mg/dL), prep tips, factors affecting results.",
+      "description": "Fasting blood sugar test guide: ADA 2025 thresholds (&lt;100 normal, 100-125 prediabetes, ≥126 diabetes mg/dL), prep tips, factors affecting results.",
       "keywords": [
         "fasting blood sugar",
         "fasting glucose test",
@@ -1752,8 +2044,10 @@
       "image": "posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide-hero.png",
       "featured": false,
       "categoryLabel": "Diabetes Management",
-      "excerpt": "Fasting blood sugar test guide: ADA 2025 thresholds (&lt;100 normal, 100-125 prediabetes, \u2265126 diabetes mg/dL), prep tips, factors affecting results.",
-      "readTime": "8 min read"
+      "excerpt": "Fasting blood sugar test guide: ADA 2025 thresholds (&lt;100 normal, 100-125 prediabetes, ≥126 diabetes mg/dL), prep tips, factors affecting results.",
+      "readTime": "8 min read",
+      "path": "posts/2025/12/fasting-blood-sugar-test-preparation-results-guide.html",
+      "tags": []
     },
     {
       "id": 50,
@@ -1779,7 +2073,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Complete guide to GLP-1 receptor agonists including Ozempic, Wegovy, Mounjaro, and Trulicity: how they work for diabetes and weight loss, side effects,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/glp1-ozempic-diabetes-weight-loss-guide.html",
+      "tags": []
     },
     {
       "id": 49,
@@ -1804,7 +2100,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Understand hyperglycemia (high blood sugar): causes, symptoms, and when to seek emergency care. Learn ADA 2025 thresholds (&gt;180 mg/dL), DKA vs HHS...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/hyperglycemia-causes-symptoms-guide.html",
+      "tags": []
     },
     {
       "id": 48,
@@ -1829,7 +2127,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Complete guide to hypoglycemia (low blood sugar): ADA 2025 levels (&lt;70 mg/dL), symptoms, the 15-15 Rule treatment, glucagon emergencies, and prevention....",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/hypoglycemia-causes-symptoms-treatment-guide.html",
+      "tags": []
     },
     {
       "id": 47,
@@ -1855,7 +2155,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Every insulin type in one chart: rapid, long-acting, premixed &amp; biosimilars. Onset, peak, duration + Indian brand names &amp; MRP. Free downloadable PDF.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/insulin-types-complete-guide.html",
+      "tags": []
     },
     {
       "id": 46,
@@ -1879,7 +2181,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Complete guide to low-carb and ketogenic diets for diabetes. Learn how keto can reduce HbA1c by 0.8-1.45%, ADA 2025 guidelines, risks, meal plans, and how...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/low-carb-keto-diabetes-guide.html",
+      "tags": []
     },
     {
       "id": 45,
@@ -1905,7 +2209,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Complete guide to metformin for Type 2 diabetes: how it works, dosing, side effects, benefits beyond blood sugar, and tips for managing common issues like...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/metformin-diabetes-medication-guide.html",
+      "tags": []
     },
     {
       "id": 44,
@@ -1914,7 +2220,7 @@
       "slug": "posts/2025/12/oral-glucose-tolerance-test-ogtt-guide.html",
       "date": "2025-12-08",
       "category": "diabetes-management",
-      "description": "Complete OGTT guide: ADA 2025 thresholds (140-199 prediabetes, \u2265200 diabetes mg/dL), preparation, procedure, gestational diabetes screening, result interpretation.",
+      "description": "Complete OGTT guide: ADA 2025 thresholds (140-199 prediabetes, ≥200 diabetes mg/dL), preparation, procedure, gestational diabetes screening, result interpretation.",
       "keywords": [
         "oral glucose tolerance test",
         "OGTT",
@@ -1928,8 +2234,10 @@
       "image": "assets/images/blog-page-hero.png",
       "featured": false,
       "categoryLabel": "Diabetes Management",
-      "excerpt": "Complete OGTT guide: ADA 2025 thresholds (140-199 prediabetes, \u2265200 diabetes mg/dL), preparation, procedure, gestational diabetes screening, result...",
-      "readTime": "8 min read"
+      "excerpt": "Complete OGTT guide: ADA 2025 thresholds (140-199 prediabetes, ≥200 diabetes mg/dL), preparation, procedure, gestational diabetes screening, result...",
+      "readTime": "8 min read",
+      "path": "posts/2025/12/oral-glucose-tolerance-test-ogtt-guide.html",
+      "tags": []
     },
     {
       "id": 43,
@@ -1955,7 +2263,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Complete guide to diabetic ketoacidosis (DKA): recognize warning signs, understand causes, learn emergency response, and prevent this life-threatening...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/dka-diabetic-ketoacidosis-emergency-guide.html",
+      "tags": []
     },
     {
       "id": 42,
@@ -1980,7 +2290,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Complete guide to gestational diabetes: understand causes, risk factors, diagnosis (OGTT), blood sugar targets during pregnancy, management strategies, and...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/gestational-diabetes-pregnancy-guide.html",
+      "tags": []
     },
     {
       "id": 41,
@@ -2006,7 +2318,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Understand HbA1c (A1C) testing: normal ranges, diabetes diagnosis thresholds, how it's calculated, limitations, and why Time in Range complements A1C for...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/hba1c-complete-guide-a1c-meaning.html",
+      "tags": []
     },
     {
       "id": 40,
@@ -2015,7 +2329,7 @@
       "slug": "posts/2025/12/type-1-diabetes-causes-autoimmunity-living.html",
       "date": "2025-12-07",
       "category": "diabetes-management",
-      "description": "Complete guide to Type 1 diabetes\u2014understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin therapy and data-driven care.",
+      "description": "Complete guide to Type 1 diabetes—understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin therapy and data-driven care.",
       "keywords": [
         "type 1 diabetes",
         "T1D",
@@ -2031,8 +2345,10 @@
       "image": "posts/2026/03/why-indians-getting-type-2-diabetes-before-30-causes-prevention-guide-hero.png",
       "featured": false,
       "categoryLabel": "Diabetes Management",
-      "excerpt": "Complete guide to Type 1 diabetes\u2014understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin...",
-      "readTime": "8 min read"
+      "excerpt": "Complete guide to Type 1 diabetes—understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin...",
+      "readTime": "8 min read",
+      "path": "posts/2025/12/type-1-diabetes-causes-autoimmunity-living.html",
+      "tags": []
     },
     {
       "id": 39,
@@ -2058,16 +2374,18 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Comprehensive guide to Type 2 diabetes: understand insulin resistance, progression stages, treatment options, and evidence-based reversal strategies. Learn...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/type-2-diabetes-insulin-resistance-reversal.html",
+      "tags": []
     },
     {
       "id": 38,
-      "title": "Insulin Resistance: The Hidden Truth Behind Type 2 Diabetes (2026 Guide) | My Health Gheware\u2122",
+      "title": "Insulin Resistance: The Hidden Truth Behind Type 2 Diabetes (2026 Guide) | My Health Gheware™",
       "url": "posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html",
       "slug": "posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html",
       "date": "2025-12-06",
       "category": "diabetes-management",
-      "description": "Understand insulin resistance\u2014the hidden driver behind Type 2 diabetes. Learn causes, symptoms, diagnosis tests, and 7 evidence-based strategies to reverse it naturally.",
+      "description": "Understand insulin resistance—the hidden driver behind Type 2 diabetes. Learn causes, symptoms, diagnosis tests, and 7 evidence-based strategies to reverse it naturally.",
       "keywords": [
         "insulin resistance",
         "type 2 diabetes cause",
@@ -2082,8 +2400,10 @@
       "image": "posts/2026/03/why-indians-getting-type-2-diabetes-before-30-causes-prevention-guide-hero.png",
       "featured": false,
       "categoryLabel": "Diabetes Management",
-      "excerpt": "Understand insulin resistance\u2014the hidden driver behind Type 2 diabetes. Learn causes, symptoms, diagnosis tests, and 7 evidence-based strategies to reverse...",
-      "readTime": "8 min read"
+      "excerpt": "Understand insulin resistance—the hidden driver behind Type 2 diabetes. Learn causes, symptoms, diagnosis tests, and 7 evidence-based strategies to reverse...",
+      "readTime": "8 min read",
+      "path": "posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html",
+      "tags": []
     },
     {
       "id": 37,
@@ -2108,7 +2428,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Learn what prediabetes is, how to recognize the warning signs, and proven strategies to reverse it. Discover how lifestyle changes can prevent Type 2...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/12/prediabetes-prevent-type-2-diabetes.html",
+      "tags": []
     },
     {
       "id": 36,
@@ -2130,7 +2452,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Your CGM shows WHAT is happening, but not WHY. Discover the 5 gaps in CGM apps and how AI-powered multi-data correlation provides personalized insights in...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/why-cgm-app-isnt-enough.html",
+      "tags": []
     },
     {
       "id": 35,
@@ -2152,11 +2476,13 @@
       "featured": false,
       "categoryLabel": "Exercise & Fitness",
       "excerpt": "Top 7 exercises for diabetes reversal that lower blood sugar in 30 minutes: walking (-30%), cycling (-25%), yoga (-20%). Free 7-day plan for Indian...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/best-exercises-blood-sugar-control.html",
+      "tags": []
     },
     {
       "id": 34,
-      "title": "Stop Struggling: 7 Proven Ways to Improve Time in Range (2026) | My Health Gheware\u2122",
+      "title": "Stop Struggling: 7 Proven Ways to Improve Time in Range (2026) | My Health Gheware™",
       "url": "posts/2025/11/7-ways-improve-time-in-range.html",
       "slug": "posts/2025/11/7-ways-improve-time-in-range.html",
       "date": "2025-11-20",
@@ -2175,7 +2501,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Struggling to improve Time in Range? Get 7 data-backed strategies with specific impact numbers and timelines. Learn meal timing, exercise tactics, sleep...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/7-ways-improve-time-in-range.html",
+      "tags": []
     },
     {
       "id": 33,
@@ -2199,7 +2527,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Complete beginner's guide to diabetes management. Learn Type 1 vs Type 2 differences, blood sugar basics, key metrics (TIR, HbA1c), lifestyle factors, and...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/diabetes-101-complete-beginners-guide.html",
+      "tags": []
     },
     {
       "id": 32,
@@ -2222,7 +2552,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Download &amp; install My Health Gheware Android app. Step-by-step APK installation guide. Uses Google Health Connect for sleep &amp; activity data.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/install-health-gheware-android-app.html",
+      "tags": []
     },
     {
       "id": 31,
@@ -2245,7 +2577,9 @@
       "featured": false,
       "categoryLabel": "Sleep & Lifestyle",
       "excerpt": "Poor sleep can raise fasting glucose by 10-30 mg/dL. Learn how sleep affects blood sugar, 5 proven sleep habits for better glucose control, and how to track...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/how-sleep-affects-blood-sugar.html",
+      "tags": []
     },
     {
       "id": 30,
@@ -2270,7 +2604,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Time in Range (TIR) is the most important diabetes metric. Learn what TIR is, why it matters more than HbA1c, target percentages, and 7 proven ways to...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/what-is-time-in-range-diabetes.html",
+      "tags": []
     },
     {
       "id": 29,
@@ -2294,7 +2630,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Discover the CGM data analysis secrets endocrinologists use: AGP reports, pattern recognition, and statistical tricks that reveal why your glucose spikes.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/advanced-cgm-data-analysis-techniques.html",
+      "tags": []
     },
     {
       "id": 28,
@@ -2317,7 +2655,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Create a sustainable diabetes management routine with proven daily habits. Includes morning rituals, meal planning, exercise schedule, and evening protocols...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/building-complete-diabetes-management-routine.html",
+      "tags": []
     },
     {
       "id": 27,
@@ -2340,7 +2680,9 @@
       "featured": false,
       "categoryLabel": "Technology & AI",
       "excerpt": "Honest assessment of AI diabetes management: when AI helps, when it doesn't, and who actually benefits. No hype, just facts about AI-powered glucose analysis.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/do-you-need-ai-for-diabetes-management.html",
+      "tags": []
     },
     {
       "id": 26,
@@ -2362,7 +2704,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Honest comparison of free and paid diabetes management tools. When free tools work, when paid tools are worth it, ROI analysis, and decision framework for...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/free-vs-paid-diabetes-management-tools.html",
+      "tags": []
     },
     {
       "id": 25,
@@ -2386,7 +2730,9 @@
       "featured": false,
       "categoryLabel": "Technology & AI",
       "excerpt": "Discover how AI, predictive analytics, continuous monitoring, and precision medicine are revolutionizing diabetes care. The future is personalized,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/future-personalized-diabetes-care.html",
+      "tags": []
     },
     {
       "id": 24,
@@ -2408,7 +2754,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Comprehensive comparison of My Health Gheware and traditional CGM apps like Dexcom G7, Freestyle Libre. Features, pricing, AI insights, and which tool is...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/health-gheware-vs-traditional-cgm-apps.html",
+      "tags": []
     },
     {
       "id": 23,
@@ -2433,7 +2781,9 @@
       "featured": false,
       "categoryLabel": "Technology & AI",
       "excerpt": "How endocrinologists, diabetes educators, and primary care doctors save 15 minutes per patient using AI-powered multi-data correlation. Includes workflow...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/healthcare-professionals-save-time-ai-analysis.html",
+      "tags": []
     },
     {
       "id": 22,
@@ -2455,7 +2805,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Discover what research says about intermittent fasting for diabetes management. Learn which IF protocols improve blood sugar, which don't, and how to track...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/intermittent-fasting-blood-sugar-data.html",
+      "tags": []
     },
     {
       "id": 21,
@@ -2479,7 +2831,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Discover how nutrition, sleep quality, and physical activity interact to affect blood sugar control. Learn the science behind multi-factor glucose impact...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/nutrition-sleep-activity-glucose-impact.html",
+      "tags": []
     },
     {
       "id": 20,
@@ -2500,7 +2854,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Learn how to share health data with your doctor effectively. Present CGM glucose data, sleep patterns, and activity logs for better care. Email-ready report...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/share-health-data-doctor-effectively.html",
+      "tags": []
     },
     {
       "id": 19,
@@ -2524,7 +2880,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Get answers to the top 10 questions about My Health Gheware: pricing, data privacy, AI accuracy, CGM compatibility, free credits, and how it compares to...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/top-10-questions-health-gheware.html",
+      "tags": []
     },
     {
       "id": 18,
@@ -2548,7 +2906,9 @@
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
       "excerpt": "Discover 10 science-backed foods that naturally stabilize blood sugar. Includes glycemic index data, portion sizes, and meal timing tips for diabetes...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/10-foods-stabilize-blood-sugar-naturally.html",
+      "tags": []
     },
     {
       "id": 17,
@@ -2571,7 +2931,9 @@
       "featured": false,
       "categoryLabel": "Sleep & Lifestyle",
       "excerpt": "Discover 5 scientifically proven sleep habits that can improve blood sugar control by 12-20%. Learn optimal sleep duration, timing, temperature, and more...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/5-sleep-habits-improve-blood-sugar.html",
+      "tags": []
     },
     {
       "id": 16,
@@ -2595,7 +2957,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Learn glycemic variability (CV) and why it matters. CV predicts complications better than A1C. Master glucose stability with AI-powered tracking today.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/glycemic-variability-cv-explained.html",
+      "tags": []
     },
     {
       "id": 15,
@@ -2604,7 +2968,7 @@
       "slug": "posts/2025/11/how-ai-analyzes-health-data.html",
       "date": "2025-11-09",
       "category": "ai-health-tech",
-      "description": "How AI detects hidden patterns in your CGM glucose data, sleep, and activity \u2014 catching diabetes risks your doctor might miss. Free tool with 500 credits.",
+      "description": "How AI detects hidden patterns in your CGM glucose data, sleep, and activity — catching diabetes risks your doctor might miss. Free tool with 500 credits.",
       "keywords": [
         "AI health analysis",
         "machine learning diabetes",
@@ -2618,8 +2982,10 @@
       "image": "assets/images/blog-page-hero.png",
       "featured": false,
       "categoryLabel": "Technology & AI",
-      "excerpt": "How AI detects hidden patterns in your CGM glucose data, sleep, and activity \u2014 catching diabetes risks your doctor might miss. Free tool with 500 credits.",
-      "readTime": "8 min read"
+      "excerpt": "How AI detects hidden patterns in your CGM glucose data, sleep, and activity — catching diabetes risks your doctor might miss. Free tool with 500 credits.",
+      "readTime": "8 min read",
+      "path": "posts/2025/11/how-ai-analyzes-health-data.html",
+      "tags": []
     },
     {
       "id": 14,
@@ -2643,7 +3009,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Step-by-step: import glucose data from LibreView, Dexcom Clarity, Google Fit &amp; Strava in 60 seconds. Free guide with screenshots for each app.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/how-to-import-glucose-data-60-seconds.html",
+      "tags": []
     },
     {
       "id": 13,
@@ -2667,7 +3035,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Learn to read glucose data like a doctor with this CGM analysis guide. Master TIR, CV, GMI metrics, identify 7 hidden patterns, and use the SOAP framework...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/how-to-read-glucose-data-like-doctor.html",
+      "tags": []
     },
     {
       "id": 12,
@@ -2691,7 +3061,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Master pattern recognition in CGM data. Learn how to identify 7 critical glucose patterns that reveal what's working and what's not in your diabetes...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/how-to-spot-patterns-glucose-data.html",
+      "tags": []
     },
     {
       "id": 11,
@@ -2700,7 +3072,7 @@
       "slug": "posts/2025/11/meal-timing-glucose-control.html",
       "date": "2025-11-09",
       "category": "nutrition-lifestyle",
-      "description": "When you eat matters as much as what you eat. Meal timing strategies that cut glucose spikes 40-60 mg/dL \u2014 breakfast, lunch &amp; dinner timing guide.",
+      "description": "When you eat matters as much as what you eat. Meal timing strategies that cut glucose spikes 40-60 mg/dL — breakfast, lunch &amp; dinner timing guide.",
       "keywords": [
         "meal timing diabetes",
         "when to eat for blood sugar",
@@ -2713,8 +3085,10 @@
       "image": "assets/images/meal-timing-glucose-hero.jpg",
       "featured": false,
       "categoryLabel": "Diet & Nutrition",
-      "excerpt": "When you eat matters as much as what you eat. Meal timing strategies that cut glucose spikes 40-60 mg/dL \u2014 breakfast, lunch &amp; dinner timing guide.",
-      "readTime": "8 min read"
+      "excerpt": "When you eat matters as much as what you eat. Meal timing strategies that cut glucose spikes 40-60 mg/dL — breakfast, lunch &amp; dinner timing guide.",
+      "readTime": "8 min read",
+      "path": "posts/2025/11/meal-timing-glucose-control.html",
+      "tags": []
     },
     {
       "id": 10,
@@ -2737,7 +3111,9 @@
       "featured": false,
       "categoryLabel": "Exercise & Fitness",
       "excerpt": "Should diabetics exercise morning or evening? CGM data shows one timing cuts blood sugar 25% more. See the ideal weekly schedule for type 1 &amp; 2.",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/morning-evening-exercise-blood-sugar.html",
+      "tags": []
     },
     {
       "id": 9,
@@ -2761,7 +3137,9 @@
       "featured": false,
       "categoryLabel": "Technology & AI",
       "excerpt": "Discover how tracking glucose + sleep + activity + food together reveals hidden patterns that single-metric tracking misses. Learn why multi-data...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/power-of-multi-data-health-tracking.html",
+      "tags": []
     },
     {
       "id": 8,
@@ -2784,7 +3162,9 @@
       "featured": false,
       "categoryLabel": "Exercise & Fitness",
       "excerpt": "Learn how to prevent dangerous low blood sugar during exercise with 8 proven strategies. Includes pre-workout glucose targets, carb timing, and emergency...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/prevent-hypoglycemia-during-workouts.html",
+      "tags": []
     },
     {
       "id": 7,
@@ -2806,7 +3186,9 @@
       "featured": false,
       "categoryLabel": "Sleep & Lifestyle",
       "excerpt": "Discover the hidden sleep-glucose connection most doctors miss. Learn how 6 vs 8 hours of sleep affects your blood sugar by 40+ mg/dL. AI-powered...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/sleep-glucose-correlations.html",
+      "tags": []
     },
     {
       "id": 6,
@@ -2815,7 +3197,7 @@
       "slug": "posts/2025/11/sleep-tracking-google-fit-integration-guide.html",
       "date": "2025-11-09",
       "category": "diabetes-management",
-      "description": "Best smartwatches for Google Fit sleep tracking. Poor sleep spikes blood sugar 30% \u2014 set up tracking, spot patterns &amp; fix 3 habits that wreck glucose.",
+      "description": "Best smartwatches for Google Fit sleep tracking. Poor sleep spikes blood sugar 30% — set up tracking, spot patterns &amp; fix 3 habits that wreck glucose.",
       "keywords": [
         "Google Fit sleep tracking",
         "sleep tracking diabetes",
@@ -2829,8 +3211,10 @@
       "image": "assets/images/google-fit-sleep-tracking-hero.jpg",
       "featured": false,
       "categoryLabel": "Diabetes Management",
-      "excerpt": "Best smartwatches for Google Fit sleep tracking. Poor sleep spikes blood sugar 30% \u2014 set up tracking, spot patterns &amp; fix 3 habits that wreck glucose.",
-      "readTime": "8 min read"
+      "excerpt": "Best smartwatches for Google Fit sleep tracking. Poor sleep spikes blood sugar 30% — set up tracking, spot patterns &amp; fix 3 habits that wreck glucose.",
+      "readTime": "8 min read",
+      "path": "posts/2025/11/sleep-tracking-google-fit-integration-guide.html",
+      "tags": []
     },
     {
       "id": 5,
@@ -2854,7 +3238,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Top CGM devices &amp; smartwatches that alert you (and family) during sudden hypoglycemia. Includes alert fatigue fixes &amp; India pricing for FreeStyle...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/smart-glucose-alerts-guide.html",
+      "tags": []
     },
     {
       "id": 4,
@@ -2877,7 +3263,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Learn how to track and analyze how different activities affect your blood sugar. Complete guide to activity-glucose correlation, data collection methods,...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/tracking-activity-impact-glucose.html",
+      "tags": []
     },
     {
       "id": 3,
@@ -2900,7 +3288,9 @@
       "featured": false,
       "categoryLabel": "Sleep & Lifestyle",
       "excerpt": "Poor sleep increases insulin resistance by 30%, raises fasting glucose 20-40 mg/dL, and destroys time in range. Learn why sleep deprivation sabotages...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/why-poor-sleep-sabotages-diabetes-control.html",
+      "tags": []
     },
     {
       "id": 2,
@@ -2925,7 +3315,9 @@
       "featured": false,
       "categoryLabel": "Technology & AI",
       "excerpt": "Discover why AI diabetes management is revolutionizing blood sugar control. Health Gheware correlates glucose, sleep, and activity data for personalized...",
-      "readTime": "8 min read"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/introducing-my-health-gheware.html",
+      "tags": []
     },
     {
       "id": 1,
@@ -2949,23 +3341,9 @@
       "featured": false,
       "categoryLabel": "Diabetes Management",
       "excerpt": "Real success story: Deepti improved Time in Range from 58% to 74% in 8 weeks using multi-data health tracking. See the exact strategies, timeline, and data...",
-      "readTime": "8 min read"
-    },
-    {
-      "title": "Navratri Fasting with Diabetes: Safe Diet Guide for Indian Diabetics (2026)",
-      "url": "posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html",
-      "date": "2026-04-01",
-      "category": "Seasonal Care",
-      "description": "Can diabetics fast during Navratri? Yes \u2014 safely. Complete guide covering vrat foods (kuttu, rajgira, makhana), blood sugar monitoring, medication adjustments, what to eat/avoid, and when to break the fast for Type 1 and Type 2 diabetics.",
-      "keywords": "navratri fasting diabetes, can diabetics fast navratri, diabetes navratri diet, navratri vrat blood sugar, navratri kuttu atta diabetes, makhana diabetes, sabudana diabetes"
-    },
-    {
-      "title": "GLP-1 Drugs for Diabetes & Weight Loss in India: Complete Guide 2026 (Ozempic, Mounjaro, Rybelsus)",
-      "url": "posts/2026/04/glp1-drugs-diabetes-weight-loss-india-complete-guide-2026.html",
-      "date": "2026-04-01",
-      "category": "Medications",
-      "description": "Complete guide to GLP-1 receptor agonists for Indian diabetics \u2014 Ozempic, Mounjaro, Rybelsus, Indian prices, side effects, who qualifies, and GLP-1 programs in India 2026.",
-      "keywords": "GLP-1 drugs India 2026, Ozempic India, Mounjaro India, semaglutide India, tirzepatide India, GLP-1 weight loss India, Rybelsus India price, GLP-1 side effects India"
+      "readTime": "8 min read",
+      "path": "posts/2025/11/from-58-to-74-tir-success-story.html",
+      "tags": []
     }
   ]
 }
