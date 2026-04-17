@@ -21,47 +21,13 @@ echo "=========================================="
 echo "📝 BLOG PUBLISH PIPELINE"
 echo "=========================================="
 
-# ─── STEP 1: Update sitemap from posts.json ──────────────────────────────────
+# ─── STEP 1: Regenerate posts.json + sitemap.xml + feed.xml from disk ─────────
+# The HTML files in posts/ are the source of truth. This rebuilds every index
+# so posts.json can never drift from what is actually on disk. See
+# scripts/regenerate_indexes.py for the logic (category taxonomy lives there).
 echo ""
-echo "1️⃣  Updating sitemap.xml..."
-$PYTHON << 'PYEOF'
-import json
-with open('posts.json') as f:
-    posts = json.load(f)['posts']
-
-BASE = "https://health.gheware.com/blog"
-from datetime import date
-today = date.today().isoformat()
-
-lines = ['<?xml version="1.0" encoding="UTF-8"?>',
-         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-         '  <url>',
-         f'    <loc>{BASE}/</loc>',
-         f'    <lastmod>{today}</lastmod>',
-         '    <changefreq>daily</changefreq>',
-         '    <priority>1.0</priority>',
-         '  </url>']
-for p in posts:
-    lines.extend([
-        '  <url>',
-        f'    <loc>{BASE}/posts/{p["slug"]}</loc>',
-        f'    <lastmod>{p["date"]}</lastmod>',
-        '    <changefreq>monthly</changefreq>',
-        '    <priority>0.8</priority>',
-        '  </url>'])
-for page in ['about.html', 'cgm-guide.html', 'doctor-checklist.html']:
-    lines.extend([
-        '  <url>',
-        f'    <loc>{BASE}/{page}</loc>',
-        f'    <lastmod>{today}</lastmod>',
-        '    <changefreq>monthly</changefreq>',
-        '    <priority>0.7</priority>',
-        '  </url>'])
-lines.append('</urlset>')
-with open('sitemap.xml', 'w') as f:
-    f.write('\n'.join(lines))
-print(f"   ✅ Sitemap updated with {len(posts)} posts")
-PYEOF
+echo "1️⃣  Regenerating posts.json + sitemap.xml + feed.xml from disk..."
+$PYTHON scripts/regenerate_indexes.py
 
 # ─── STEP 2: Git commit & push ───────────────────────────────────────────────
 echo ""

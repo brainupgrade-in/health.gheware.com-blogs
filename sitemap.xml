@@ -595,25 +595,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://health.gheware.com/blog/posts/2025/11/advanced-cgm-data-analysis-techniques.html</loc>
-    <lastmod>2025-11-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://health.gheware.com/blog/posts/2025/11/building-complete-diabetes-management-routine.html</loc>
-    <lastmod>2025-11-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://health.gheware.com/blog/posts/2025/11/do-you-need-ai-for-diabetes-management.html</loc>
-    <lastmod>2025-11-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://health.gheware.com/blog/posts/2025/11/free-vs-paid-diabetes-management-tools.html</loc>
     <lastmod>2025-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -626,12 +608,6 @@
   </url>
   <url>
     <loc>https://health.gheware.com/blog/posts/2025/11/health-gheware-vs-traditional-cgm-apps.html</loc>
-    <lastmod>2025-11-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://health.gheware.com/blog/posts/2025/11/healthcare-professionals-save-time-ai-analysis.html</loc>
     <lastmod>2025-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -757,8 +733,32 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://health.gheware.com/blog/posts/2025/11/free-vs-paid-diabetes-management-tools.html</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://health.gheware.com/blog/posts/2025/11/introducing-my-health-gheware.html</loc>
     <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2025/11/do-you-need-ai-for-diabetes-management.html</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2025/11/healthcare-professionals-save-time-ai-analysis.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2025/11/advanced-cgm-data-analysis-techniques.html</loc>
+    <lastmod>2025-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

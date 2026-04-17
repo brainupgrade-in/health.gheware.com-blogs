@@ -1,970 +1,461 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-  <title>Health Gheware Blog</title>
-  <link>https://health.gheware.com/blog/</link>
-  <description>AI-powered diabetes management insights, glucose tracking, and nutrition tips for India</description>
-  <language>en-in</language>
-  <lastBuildDate>Wed, 25 Mar 2026 08:00:00 +0000</lastBuildDate>
-  <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-      <item>
-      <title>Diabetic Retinopathy in India: Complete Guide to Diabetes Eye Care &amp; Prevention (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide.html</link>
-      <description>Diabetic retinopathy is the leading cause of preventable blindness in Indian diabetics. Learn the stages, symptoms, screening options, treatment costs, and prevention strategies.</description>
-      <pubDate>Thu, 26 Mar 2026 03:30:00 +0530</pubDate>
-      <guid>https://health.gheware.com/blog/posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide.html</guid>
-      <category>Complications &amp; Prevention</category>
+  <channel>
+    <title>Health Gheware — Diabetes Management for Indians</title>
+    <link>https://health.gheware.com/blog/</link>
+    <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
+    <language>en-IN</language>
+    <lastBuildDate>Fri, 17 Apr 2026 12:18:23 +0000</lastBuildDate>
+    <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>HbA1c Test India: Normal Range &amp; How to Lower It Fast (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/04/hba1c-test-india-normal-range-how-to-lower-fast-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/04/hba1c-test-india-normal-range-how-to-lower-fast-guide-2026.html</guid>
+      <description>HbA1c test explained for Indian diabetics: normal range, prediabetes vs diabetes levels, what A1c 6.5, 7, 8, 9 means, lab costs, and 10 proven strategies to lower your HbA1c fast — with Indian diet and lifestyle tips.</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-    <title>Ultra-Processed Foods &amp; Diabetes in India: The Hidden Blood Sugar Killer in Your Kitchen (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/ultra-processed-foods-diabetes-india-upf-blood-sugar-hidden-danger-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/ultra-processed-foods-diabetes-india-upf-blood-sugar-hidden-danger-guide.html</guid>
-    <description>Ultra-processed foods are silently fueling India's diabetes epidemic. Learn which common Indian kitchen staples are UPFs, how they spike blood sugar, India's 2026 Sugar Surcharge, metabolic warning labels, and 12 smart swaps to traditional Indian foods.</description>
-    <pubDate>Tue, 25 Mar 2026 00:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Best Dry Fruits &amp; Nuts for Diabetics in India: Complete Guide with GI Values (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/best-dry-fruits-nuts-for-diabetics-india-complete-guide-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/best-dry-fruits-nuts-for-diabetics-india-complete-guide-2026.html</guid>
-    <description>Which dry fruits and nuts are safe for diabetics? Complete Indian guide with glycemic index values, portion sizes, and blood sugar impact for almonds, walnuts, pistachios, cashews, dates, makhana, and more. Research-backed advice for Type 1 and Type 2 diabetics.</description>
-    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Diet &amp; Nutrition</category>
-  </item>
-  <item>
-    <title>Can Diabetics Eat Mangoes? Complete Indian Guide — Varieties, Portions &amp; Blood Sugar Impact (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/can-diabetics-eat-mangoes-india-complete-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/can-diabetics-eat-mangoes-india-complete-guide.html</guid>
-    <description>Can diabetics eat mangoes? YES — new 2025 research proves Indian mango varieties (Alphonso, Kesar, Langda) actually improve insulin sensitivity. Complete guide with GI values for 8 Indian varieties, safe portions, best timing, pairing tricks, and a mango season meal plan for diabetics.</description>
-    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Diet &amp; Nutrition</category>
-  </item>
-  <item>
-    <title>Generic Semaglutide (Ozempic) in India 2026: Complete Price Comparison — Every Brand, Every Price</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/generic-semaglutide-ozempic-india-2026-price-comparison-brands-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/generic-semaglutide-ozempic-india-2026-price-comparison-brands-guide.html</guid>
-    <description>Complete guide to generic semaglutide in India after March 2026 patent expiry. Compare all brands — Natco SEMANAT (₹1,290/mo), Dr. Reddy's Obeda (₹4,200/mo), Glenmark Glipiq (₹325/week), Sun Pharma, Zydus, Lupin, Alkem — with prices, formats, and what diabetics need to know.</description>
-    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Medication &amp; Treatment</category>
-  </item>
-  <item>
-    <title>HbA1c Test in India 2026: Complete Guide — Normal Range, Cost, How to Lower It Naturally</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/hba1c-test-india-complete-guide-normal-range-cost-how-to-lower.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/hba1c-test-india-complete-guide-normal-range-cost-how-to-lower.html</guid>
-    <description>Everything you need to know about the HbA1c test in India — normal range (below 5.7%), prediabetes &amp;amp; diabetes cutoffs, test costs at Thyrocare, Dr Lal PathLabs &amp;amp; SRL (₹199–₹880), how to prepare, and 10 proven Indian diet &amp;amp; lifestyle strategies to lower your HbA1c naturally.</description>
-    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Diabetes Testing &amp; Monitoring</category>
-  </item>
-  <item>
-    <title>Why Indians Are Getting Type 2 Diabetes Before 30: Causes, Risk Factors &amp; Prevention (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/why-indians-getting-type-2-diabetes-before-30-causes-prevention-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/why-indians-getting-type-2-diabetes-before-30-causes-prevention-guide.html</guid>
-    <description>India is seeing a surge of Type 2 diabetes in people under 30. Over 101 million Indians are diabetic and diagnoses now start at age 25. Understand why — genetics, diet, sedentary lifestyle, stress — and a practical prevention action plan for young Indians in 2026.</description>
-    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Prevention &amp; Awareness</category>
-  </item>
-  <item>
-    <title>Tirzepatide (Mounjaro/Yurpeak) in India: Complete Guide — Price, Dosage &amp; Semaglutide Comparison (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/tirzepatide-mounjaro-yurpeak-india-diabetes-weight-loss-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/tirzepatide-mounjaro-yurpeak-india-diabetes-weight-loss-guide.html</guid>
-    <description>Complete guide to tirzepatide (Mounjaro &amp;amp; Yurpeak) in India for 2026. Covers prices (₹13,125-25,781/month), dosage, side effects, how it compares to semaglutide (Ozempic), and whether Indian diabetics should consider switching. Dual GIP/GLP-1 therapy explained.</description>
-    <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Medication &amp; Treatment</category>
-  </item>
-  <item>
-    <title>Best Fruits for Diabetics in India: Complete Glycemic Index Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-glycemic-index-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-glycemic-index-guide.html</guid>
-    <description>Complete guide to the best fruits for diabetics in India with glycemic index values. Learn which Indian fruits are safe, how much to eat, best timing, and which fruits to avoid. Covers mango, guava, jamun, amla, papaya, banana, and more. ICMR-backed recommendations for 2026.</description>
-    <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Diet &amp; Nutrition</category>
-  </item>
-  <item>
-    <title>Ozempic &amp; Semaglutide Generics in India: Complete Guide for Diabetics (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/ozempic-semaglutide-generics-india-diabetics-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/ozempic-semaglutide-generics-india-diabetics-guide.html</guid>
-    <description>Complete guide to Ozempic and semaglutide generics now available in India after patent expiry March 2026. Covers all Indian generic brands, prices (₹3,000-4,000/month vs ₹11,000), dosage, side effects, who should take it, and what Indian diabetics need to know. Updated March 2026.</description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Medication &amp; Treatment</category>
-  </item>
-  <item>
-    <title>Pre-Diabetes in India: Signs, Prevention &amp;amp; How to Reverse It with Indian Diet (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/prediabetes-india-signs-prevention-reversal-indian-diet-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/prediabetes-india-signs-prevention-reversal-indian-diet-guide.html</guid>
-    <description>13 crore Indians are pre-diabetic and most don't know it. Learn the warning signs of pre-diabetes, ICMR diagnostic criteria, and a proven Indian diet and lifestyle plan to reverse pre-diabetes naturally. Includes 7-day meal plan, exercise guide, and when to see a doctor.</description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Prevention &amp; Awareness</category>
-  </item>
-  <item>
-    <title>Weight Training for Diabetics: Complete Indian Beginner's Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/weight-training-diabetes-india-beginners-guide-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/weight-training-diabetes-india-beginners-guide-2026.html</guid>
-    <description>Complete guide to weight training for Indian diabetics. Learn how resistance exercise lowers blood sugar, best exercises for beginners, gym vs home workouts, safety precautions, Indian diet for muscle building with diabetes, and ICMR exercise guidelines. Updated 2026.</description>
-    <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Exercise &amp; Lifestyle</category>
-  </item>
-  <item>
-    <title>Best Dals &amp; Lentils for Diabetics: Complete Indian Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/best-dals-lentils-for-diabetics-india-complete-guide-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/best-dals-lentils-for-diabetics-india-complete-guide-2026.html</guid>
-    <description>Complete guide to the best dals and lentils for Indian diabetics. GI comparison of moong, chana, masoor, toor, urad, rajma, lobhia &amp; kulthi dal. ICMR recommendations, diabetes-friendly dal recipes, cooking methods to lower GI, and real CGM data on blood sugar response. Updated for 2026.</description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Nutrition &amp; Diet</category>
-  </item>
-  <item>
-    <title>Metformin Side Effects: Complete Guide for Indian Diabetics (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/metformin-side-effects-indian-diabetics-complete-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/metformin-side-effects-indian-diabetics-complete-guide.html</guid>
-    <description>Comprehensive guide to metformin side effects for Indian diabetics. Covers common side effects like diarrhea, nausea, vitamin B12 deficiency, lactic acidosis risk, when to call your doctor, Indian diet tips to reduce side effects, and ICMR guidelines on metformin dosing. Updated for 2026.</description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Medication &amp; Treatment</category>
-  </item>
-  <item>
-    <title>Diabetes and Thyroid: The Hidden Connection — Symptoms, Diet &amp; Management Guide for India (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/diabetes-and-thyroid-connection-symptoms-diet-india-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/diabetes-and-thyroid-connection-symptoms-diet-india-guide.html</guid>
-    <description>Complete guide to diabetes and thyroid connection for Indians. Learn how hypothyroidism and hyperthyroidism affect blood sugar, which foods to eat and avoid, thyroid tests every diabetic needs, and how to manage both conditions together in India.</description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Comorbidities</category>
-  </item>
-  <item>
-    <title>Diabetes and Kidney Disease: How to Prevent Diabetic Nephropathy (2026 India Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/diabetes-kidney-disease-diabetic-nephropathy-prevention-india-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/diabetes-kidney-disease-diabetic-nephropathy-prevention-india-guide.html</guid>
-    <description>Complete evidence-based guide on diabetes and kidney disease for Indians. Learn how high blood sugar damages kidneys, early warning signs, creatinine and eGFR tests, Indian diet tips to protect kidneys, and when to see a nephrologist. Updated for World Kidney Day 2026.</description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Diabetes Complications</category>
-  </item>
-  <item>
-    <title>Intermittent Fasting for Diabetes: Is It Safe? Complete Indian Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/intermittent-fasting-diabetes-safe-indian-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/intermittent-fasting-diabetes-safe-indian-guide.html</guid>
-    <description>Is intermittent fasting safe for diabetics? Evidence-based guide covering 16:8, 5:2 fasting methods for Type 2 diabetes. Includes ICMR recommendations, Indian meal timing strategies, medication adjustments, hypoglycemia prevention, Ramadan fasting tips, and a free 7-day IF meal plan for Indian diabe</description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Diet &amp; Nutrition</category>
-  </item>
-  <item>
-    <title>Best Cooking Oils for Diabetics in India: Complete Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/best-cooking-oils-for-diabetics-india-complete-guide-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/best-cooking-oils-for-diabetics-india-complete-guide-2026.html</guid>
-    <description>Which cooking oil is best for diabetics in India? Complete ranking of mustard oil, coconut oil, olive oil, ghee, groundnut oil, sesame oil, rice bran oil for blood sugar control. Smoke points, omega ratios, prices, and region-wise guide for Indian diabetics.</description>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Diet &amp; Nutrition</category>
-  </item>
-  <item>
-    <title>Yoga for Diabetes: 10 Best Asanas to Lower Blood Sugar Naturally (Indian Research 2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/yoga-for-diabetes-best-asanas-lower-blood-sugar-india.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/yoga-for-diabetes-best-asanas-lower-blood-sugar-india.html</guid>
-    <description>Can yoga help control diabetes? 10 evidence-backed yoga asanas that lower blood sugar by 15-30 mg/dL. Includes Surya Namaskar, Mandukasana, Dhanurasana, Pranayama techniques, AIIMS and ICMR research data, step-by-step instructions for Indian diabetics, and a free 20-minute daily yoga routine for Typ</description>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Exercise &amp; Fitness</category>
-  </item>
-  <item>
-    <title>Diabetes and Summer Heat: How Temperature Affects Blood Sugar + Hydration Guide for India (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/diabetes-and-summer-heat-blood-sugar-hydration-guide-india.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/diabetes-and-summer-heat-blood-sugar-hydration-guide-india.html</guid>
-    <description>How does summer heat affect blood sugar in diabetics? Complete guide on heat-induced hypoglycemia, insulin storage in Indian summers, best hydration drinks for diabetics, electrolyte balance, CGM patterns in hot weather, and practical tips for Indian diabetics to stay safe from March to June.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Lifestyle &amp; Wellness</category>
-  </item>
-  <item>
-    <title>Walking After Meals for Diabetes: How 10-Minute Post-Meal Walks Lower Blood Sugar (2026 India Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/walking-after-meals-diabetes-post-meal-walk-blood-sugar-india-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/walking-after-meals-diabetes-post-meal-walk-blood-sugar-india-guide.html</guid>
-    <description>Evidence-based guide on how walking after meals lowers blood sugar for diabetics in India. CGM data, optimal timing, duration, Indian meal-specific tips, monsoon and summer alternatives, and a 7-day walking plan for Type 2 diabetes management.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Lifestyle &amp; Wellness</category>
-  </item>
-  <item>
-    <title>15 Best Indian Breakfast for Diabetics: CGM-Tested Recipes That Won't Spike Blood Sugar (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/best-indian-breakfast-for-diabetics-recipes-that-wont-spike-blood-sugar.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/best-indian-breakfast-for-diabetics-recipes-that-wont-spike-blood-sugar.html</guid>
-    <description>Best Indian breakfast options for diabetics with real CGM data. 15 low-GI recipes including moong dal chilla, ragi dosa, besan cheela, oats idli, and more. Each recipe shows glycemic impact, prep time, and blood sugar response for Type 2 diabetes management in India.</description>
-    <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Diet &amp; Nutrition</category>
-  </item>
-  <item>
-    <title>How Sleep Affects Blood Sugar: Complete Guide for Indian Diabetics (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/sleep-and-diabetes-how-sleep-affects-blood-sugar-india-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/sleep-and-diabetes-how-sleep-affects-blood-sugar-india-guide.html</guid>
-    <description>How does sleep affect blood sugar and diabetes? Evidence-based guide on sleep deprivation, insulin resistance, ideal sleep hours, sleep apnea risk, CGM data during sleep, and practical tips for Indian diabetics to improve sleep quality and lower HbA1c.</description>
-    <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-    <category>lifestyle</category>
-  </item>
-  <item>
-    <title>Best Fruits for Diabetics in India: Complete Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-complete-guide-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-complete-guide-2026.html</guid>
-    <description>Which fruits can diabetics eat in India? Complete guide to the 10 best low-GI fruits (guava, jamun, amla, apple, papaya), fruits to avoid, GI chart, CGM data, portion guide, seasonal calendar, and 5 myths busted.</description>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-    <category>nutrition</category>
-  </item>
-  <item>
-    <title>Is Rice Bad for Diabetics? White Rice vs Brown Rice — Complete Indian Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/is-rice-bad-for-diabetics-white-rice-brown-rice-india-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/is-rice-bad-for-diabetics-white-rice-brown-rice-india-guide.html</guid>
-    <description>Is rice bad for diabetics? Complete evidence-based guide comparing white rice, brown rice, and millet rice for Indian diabetics. Includes CGM data, glycemic index values, portion sizes, best rice varieties (hand-pounded, red rice, black rice), cooking hacks to lower GI, and South Indian vs North Ind</description>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Nutrition &amp; Diet</category>
-  </item>
-  <item>
-    <title>Best Millets for Diabetics: Complete Indian Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/best-millets-for-diabetics-india-guide-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/best-millets-for-diabetics-india-guide-2026.html</guid>
-    <description>Comprehensive guide to the best millets for diabetics in India — ragi, jowar, bajra, foxtail millet (kangni), kodo, barnyard, and little millet. Includes GI values, Indian recipes, CGM data insights, comparison table, and ICMR guidelines for millet-based diabetes management.</description>
-    <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
-    <category>nutrition</category>
-  </item>
-  <item>
-    <title>How to Reduce HbA1c Naturally: Complete Indian Diet &amp;amp; Lifestyle Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html</guid>
-    <description>Proven strategies to lower HbA1c naturally with Indian diet modifications, lifestyle changes, and CGM-guided monitoring. From dal-roti swaps to walking routines — a practical guide for Indian diabetics to bring HbA1c below 7% without extreme diets.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-    <category>Diabetes Management</category>
-  </item>
-  <item>
-    <title>Best Diabetes Management Apps &amp; Platforms in India (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/best-diabetes-management-apps-platforms-india-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/best-diabetes-management-apps-platforms-india-2026.html</guid>
-    <description>Looking for the best diabetes management app in India? We compare BeatO, Ultrahuman, Sugar.fit alternatives, FreeStyle Libre, and Health Gheware — features, pricing, pros and cons for Indian diabetics in 2026.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-    <category>technology</category>
-  </item>
-  <item>
-    <title>CGM vs Glucometer: Which Is Better for Indian Diabetics? (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/cgm-vs-glucometer-which-is-better-indian-diabetics.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/cgm-vs-glucometer-which-is-better-indian-diabetics.html</guid>
-    <description>CGM or glucometer — which should Indian diabetics choose? We compare cost, accuracy, convenience, and real-world CGM data to help you decide. Includes BeatO, FreeStyle Libre, and Dexcom options available in India.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-    <category>technology</category>
-  </item>
-  <item>
-    <title>Devices That Alert for Sudden Hypoglycemia (2026): Complete India Guide</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/devices-that-alert-sudden-hypoglycemia-2026-india.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/devices-that-alert-sudden-hypoglycemia-2026-india.html</guid>
-    <description>Complete guide to devices that alert you before dangerous low blood sugar episodes. Compares Dexcom G7, FreeStyle Libre 2/3, Medtronic Guardian, smartwatches, and budget options available in India with pricing in rupees.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-    <category>technology</category>
-  </item>
-  <item>
-    <title>Is Horlicks Good for Diabetics? What CGM Data Really Shows (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/is-horlicks-good-for-diabetics-cgm-data-india.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/is-horlicks-good-for-diabetics-cgm-data-india.html</guid>
-    <description>Is Horlicks safe for diabetics? We analyze real CGM (Continuous Glucose Monitor) data to reveal what Horlicks, Boost, Bournvita and other Indian health drinks do to your blood sugar. Evidence-based guide for Indian diabetics.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-    <category>nutrition</category>
-  </item>
-  <item>
-    <title>Intermittent Fasting for Diabetes: Is It Safe? Complete Indian Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/02/intermittent-fasting-diabetes-india-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/02/intermittent-fasting-diabetes-india-guide.html</guid>
-    <description>Can intermittent fasting help manage Type 2 diabetes? Learn about 16:8, 5:2 fasting methods, Indian meal timing, safety precautions, and what research says. Evidence-based guide for Indian diabetics.</description>
-    <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-    <category>Diet &amp; Nutrition</category>
-  </item>
-  <item>
-    <title>Metformin Side Effects &amp;amp; Natural Alternatives: Complete Indian Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/02/metformin-side-effects-natural-alternatives-india-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/02/metformin-side-effects-natural-alternatives-india-guide.html</guid>
-    <description>Complete guide to metformin side effects, how to manage them, and evidence-based natural alternatives for Indian diabetics. Learn about berberine, fenugreek, cinnamon, and lifestyle changes that complement or reduce medication dependency.</description>
-    <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-    <category>Medication &amp;amp; Treatment</category>
-  </item>
-  <item>
-    <title>डायबिटीज में क्या खाना चाहिए? पूरी जानकारी हिंदी में (2026) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2026/02/diabetes-me-kya-khana-chahiye-hindi-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/02/diabetes-me-kya-khana-chahiye-hindi-guide.html</guid>
-    <description>डायबिटीज (शुगर) में क्या खाएं और क्या न खाएं — पूरी लिस्ट हिंदी में। सुबह का नाश्ता, दोपहर का खाना, रात का खाना, और स्नैक्स। Indian diabetic diet plan with GI values। मेथी, करेला, जामुन, दालचीनी और 20+ foods जो शुगर कम करते हैं।</description>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-    <category>nutrition</category>
-  </item>
-  <item>
-    <title>Walking After Meals to Lower Blood Sugar: Complete Indian Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide.html</guid>
-    <description>Discover how walking after meals can reduce blood sugar spikes by 30-50%. Learn the best timing, duration, and tips for post-meal walks tailored for Indian diabetics. Backed by science.</description>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-    <category>exercise-activity</category>
-  </item>
-  <item>
-    <title>Jamun, Methi &amp; Cinnamon Mix for Blood Sugar: Recipe + 17 More</title>
-    <link>https://health.gheware.com/blog/posts/2026/02/best-indian-foods-lower-blood-sugar-naturally.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/02/best-indian-foods-lower-blood-sugar-naturally.html</guid>
-    <description>Jamun seed powder, cinnamon, curry leaves &amp;amp; fenugreek mixture recipe — plus 17 more Indian foods proven to lower blood sugar. CGM-tested results.</description>
-    <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
-    <category>nutrition</category>
-  </item>
-  <item>
-    <title>Current Status of Diabetes Cure 2026: Breakthroughs, Trials &amp; What's Real</title>
-    <link>https://health.gheware.com/blog/posts/2026/02/diabetes-cure-research-2026-complete-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/02/diabetes-cure-research-2026-complete-guide.html</guid>
-    <description>What's the current status of diabetes cure research in 2026? Stem cells, CRISPR gene editing, smart insulin — which breakthroughs are actually close? Honest analysis.</description>
-    <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
-    <category>Research</category>
-  </item>
-  <item>
-    <title>GLP-1 Pills: The Wegovy Pill Revolution for Weight Loss | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2026/01/glp1-pills-wegovy-pill-revolution.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/01/glp1-pills-wegovy-pill-revolution.html</guid>
-    <description>Oral Wegovy is the first FDA-approved GLP-1 pill for weight loss. Learn about 14-16% weight loss results, $149-$299 pricing, pill vs injection comparison, and who qualifies.</description>
-    <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-    <category>Medications</category>
-  </item>
-  <item>
-    <title>Stop Fasting Coffee: The Truth About Blood Sugar (2026) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2026/01/coffee-blood-sugar-what-3-cups-really-does.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/01/coffee-blood-sugar-what-3-cups-really-does.html</guid>
-    <description>Discover the coffee paradox: caffeine can spike blood sugar 8-10% short-term, yet 3-4 cups daily reduces diabetes risk by 25%. Learn timing, genetics, and how to optimize your coffee habit.</description>
-    <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-    <category>nutrition-lifestyle</category>
-  </item>
-  <item>
-    <title>The Truth About Ayurveda for Type 2 Diabetes (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/01/how-ayurveda-treats-type-2-diabetes.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/01/how-ayurveda-treats-type-2-diabetes.html</guid>
-    <description>8 Ayurvedic herbs, yoga, and Panchakarma for diabetes. 65% reduced meds in studies. Safe with metformin under supervision.</description>
-    <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Stress &amp;amp; Cortisol: The Hidden Blood Sugar Saboteur (2026 Guide) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2026/01/stress-cortisol-blood-sugar-saboteur.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/01/stress-cortisol-blood-sugar-saboteur.html</guid>
-    <description>Discover how stress and cortisol can spike your blood sugar by 20-50 mg/dL without eating. Learn evidence-based techniques like MBSR that lower HbA1c by 0.84%.</description>
-    <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Sciatica &amp; Diabetes: Why Diabetics Get Worse Back Pain</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/sciatica-diabetes-connection-complete-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/sciatica-diabetes-connection-complete-guide.html</guid>
-    <description>Diabetes worsens sciatica through nerve damage &amp;amp; inflammation. 7 treatments that work, exercises to avoid &amp;amp; when to see a specialist. 2026 guide.</description>
-    <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
-    <category>complications</category>
-  </item>
-  <item>
-    <title>Warning: Alcohol and Diabetes - Why Your Next Drink Could Crash Your Blood Sugar | My Health Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/alcohol-diabetes-drinking-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/alcohol-diabetes-drinking-guide.html</guid>
-    <description>Complete guide on alcohol and diabetes. Learn how drinking affects blood sugar, delayed hypoglycemia risks, ADA drinking guidelines and 10 safety tips.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>nutrition-lifestyle</category>
-  </item>
-  <item>
-    <title>Why Your Beta Cells Are Dying: The Hidden Truth About Diabetes (2026 Research) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/beta-cells-insulin-factories-diabetes-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/beta-cells-insulin-factories-diabetes-guide.html</guid>
-    <description>Beta cells produce insulin in your pancreas. Learn how they work, why 40-50% are lost by T2D diagnosis, and the latest 2024 research on regeneration.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Can You Stop Diabetes Medication? The Truth About Lifelong Treatment | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/can-you-stop-diabetes-medication-truth-lifelong-treatment.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/can-you-stop-diabetes-medication-truth-lifelong-treatment.html</guid>
-    <description>Can you stop diabetes medication? DiRECT trial shows 26% maintain remission at 5 years. Learn safe discontinuation, relapse risks, and type 1 vs type 2.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Medications</category>
-  </item>
-  <item>
-    <title>Why Diabetes Burnout Hits 79% of Us (And How to Recover)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/diabetes-burnout-managing-emotional-toll-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/diabetes-burnout-managing-emotional-toll-guide.html</guid>
-    <description>79% experience diabetes burnout. Learn symptoms, causes, and recovery strategies. ADA-recommended mental health support.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Mental Health</category>
-  </item>
-  <item>
-    <title>Why Your Doctor Might Miss Your Diabetes Diagnosis (2026 Testing Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/diabetes-diagnosis-complete-testing-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/diabetes-diagnosis-complete-testing-guide.html</guid>
-    <description>ADA 2025 diabetes diagnostic criteria: HbA1c ≥6.5%, fasting glucose ≥126 mg/dL, OGTT ≥200 mg/dL. Complete guide to autoantibody testing and T1D staging.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Diagnosis</category>
-  </item>
-  <item>
-    <title>When to Go to ER for High Blood Sugar: 7 Warning Signs</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/diabetes-emergencies-hhs-hyperglycemic-crisis-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/diabetes-emergencies-hhs-hyperglycemic-crisis-guide.html</guid>
-    <description>Blood sugar over 400? Learn 7 warning signs that mean ER NOW. HHS is 10x deadlier than DKA — know what to check before it&amp;#39;s too late.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>emergencies</category>
-  </item>
-  <item>
-    <title>Warning: Diabetes Doubles Your Heart Attack Risk (2026 Prevention Guide) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/diabetes-heart-disease-cardiovascular-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/diabetes-heart-disease-cardiovascular-guide.html</guid>
-    <description>People with diabetes have 2-4x higher cardiovascular risk. Learn how blood sugar control protects your heart, ADA 2025 guidelines, and medications that save lives.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Complications</category>
-  </item>
-  <item>
-    <title>Diabetes Statistics 2025-2026: 589 Million Cases, 101M in India — Full Data | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/diabetes-statistics-global-impact-2025.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/diabetes-statistics-global-impact-2025.html</guid>
-    <description>Latest diabetes statistics 2025-2026: 589M adults globally, 101M in India (world's diabetes capital), 38M in USA. Country-wise data, IDF atlas numbers, cost analysis, and trends. Updated February 2026.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>awareness</category>
-  </item>
-  <item>
-    <title>Why 40% of Diabetics Lose Their Kidneys (And How to Stop It) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/diabetic-nephropathy-kidney-disease-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/diabetic-nephropathy-kidney-disease-guide.html</guid>
-    <description>Learn about diabetic kidney disease affecting 20-40% of diabetics. Understand early warning signs, CKD stages, and ADA 2025 prevention strategies.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Complications</category>
-  </item>
-  <item>
-    <title>Current Status of Diabetes Cure 2026: What's Actually Working</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/future-diabetes-treatment-cures-horizon.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/future-diabetes-treatment-cures-horizon.html</guid>
-    <description>Current status of diabetes cure research in 2026. Vertex stem cells, CRISPR &amp;amp; teplizumab — which are closest to approval? Updated March 2026.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>research</category>
-  </item>
-  <item>
-    <title>Stop Blood Sugar Spikes: The Glycemic Index Secret Your Doctor Never Explained | My Health Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/glycemic-index-food-choices-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/glycemic-index-food-choices-guide.html</guid>
-    <description>Complete guide to glycemic index (GI) and glycemic load (GL). Learn how to choose low-GI foods, reduce blood sugar spikes, and manage diabetes effectively.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>nutrition-lifestyle</category>
-  </item>
-  <item>
-    <title>Why Your Endocrinologist Wants You on an Insulin Pump (2026 Guide) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/insulin-pumps-how-they-work-complete-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/insulin-pumps-how-they-work-complete-guide.html</guid>
-    <description>Complete guide to insulin pumps for diabetes. Compare Medtronic 780G, Omnipod 5, Tandem Mobi. Learn how pumps improve HbA1c by 0.4-0.5%, costs in India (₹1.5-6 lakh), and who should consider pump therapy.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>technology</category>
-  </item>
-  <item>
-    <title>Why Your Insulin Therapy Isn't Working: The Hidden Injection Mistakes (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/insulin-therapy-complete-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/insulin-therapy-complete-guide.html</guid>
-    <description>Insulin therapy guide: ADA 2025 injection techniques, site rotation to prevent lipohypertrophy, dosing basics, smart pens (InPen, NovoPen 6, Tempo).</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>medications</category>
-  </item>
-  <item>
-    <title>Warning: These 5 Hidden Signs Predict Diabetes Years in Advance (2026) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/metabolic-syndrome-diabetes-risk-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/metabolic-syndrome-diabetes-risk-guide.html</guid>
-    <description>Metabolic syndrome guide: 5 diagnostic criteria, 5x diabetes risk, 2x cardiovascular risk. IDF 2024 thresholds and prevention strategies.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Hidden Diabetes Types: Why LADA and MODY Are Often Misdiagnosed (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/rare-secondary-diabetes-types-lada-mody-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/rare-secondary-diabetes-types-lada-mody-guide.html</guid>
-    <description>Rare diabetes types: LADA (2-12% of adults), MODY (1-5% genetic), Type 3c, drug-induced, CFRD, and post-transplant diabetes. ADA 2024 diagnosis criteria.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Why SGLT2 Inhibitors Are the Secret Weapon for Diabetes Heart and Kidney Protection (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/sglt2-inhibitors-diabetes-heart-kidney-protection.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/sglt2-inhibitors-diabetes-heart-kidney-protection.html</guid>
-    <description>SGLT2 inhibitors reduce heart failure hospitalizations by 30-35% and slow kidney disease progression. Learn how empagliflozin, dapagliflozin work and who should take them.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Medications</category>
-  </item>
-  <item>
-    <title>Stop Taking the Wrong Diabetes Pill: Type 2 Medications Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/type-2-diabetes-medications-complete-overview.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/type-2-diabetes-medications-complete-overview.html</guid>
-    <description>Complete guide to Type 2 diabetes oral medications: DPP-4 inhibitors, sulfonylureas, TZDs. ADA 2025 guidelines, efficacy, side effects, and when to use.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Medications</category>
-  </item>
-  <item>
-    <title>Stop Diabetes Vascular Complications: Stroke, PAD &amp;amp; Foot Care Guide (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/vascular-complications-diabetes-stroke-pad-foot-care.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/vascular-complications-diabetes-stroke-pad-foot-care.html</guid>
-    <description>Diabetes increases stroke risk 2-4x and PAD 5x. Learn about peripheral arterial disease, diabetic foot ulcers (6.3% global prevalence), amputation prevention.</description>
-    <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    <category>complications</category>
-  </item>
-  <item>
-    <title>Stop Ignoring These 3 Diabetes Warning Signs (The 3 Ps) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/3-ps-diabetes-warning-signs-symptoms.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/3-ps-diabetes-warning-signs-symptoms.html</guid>
-    <description>Learn about the 3 Ps of diabetes - polyuria, polydipsia, and polyphagia. Understand these warning signs that 57% of undiagnosed diabetics in India miss. Early detection saves lives.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Artificial Pancreas 2026: 5 Best Closed-Loop Systems Ranked</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/artificial-pancreas-closed-loop-systems-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/artificial-pancreas-closed-loop-systems-guide.html</guid>
-    <description>Medtronic 780G vs Omnipod 5 vs Tandem Control-IQ ranked by Time in Range. India prices, insurance coverage &amp;amp; which patients qualify in 2026.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>ai-health-tech</category>
-  </item>
-  <item>
-    <title>Carb Counting 101: The Essential Skill for Blood Sugar Control | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/carb-counting-101-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/carb-counting-101-guide.html</guid>
-    <description>Master carb counting for diabetes management. Learn step-by-step carbohydrate estimation, Indian food carb values, insulin-to-carb ratios, and how accurate carb counting can reduce HbA1c by 0.21%.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>nutrition-lifestyle</category>
-  </item>
-  <item>
-    <title>Stop Type 2 Diabetes: 58% Prevention Success (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/diabetes-prevention-evidence-based-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/diabetes-prevention-evidence-based-guide.html</guid>
-    <description>Prevent Type 2 diabetes with proven strategies. Learn how the DPP study achieved 58% risk reduction through lifestyle changes. Discover the 7% weight loss target, 150 min exercise goal, and India-specific prevention tips.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>Stop Diabetic Neuropathy: The Hidden Nerve Damage Warning Signs (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/diabetic-neuropathy-nerve-damage-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/diabetic-neuropathy-nerve-damage-guide.html</guid>
-    <description>Complete guide to diabetic neuropathy: types, symptoms, causes, diagnosis, treatment options, and prevention strategies for diabetes-related nerve damage.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>Stop Diabetic Retinopathy: The Vision-Saving Guide Your Doctor Should Share (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/diabetic-retinopathy-vision-protection-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/diabetic-retinopathy-vision-protection-guide.html</guid>
-    <description>Complete guide to diabetic retinopathy: understand the stages, symptoms, risk factors, screening, treatment options, and prevention strategies to protect your vision.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>The Truth About Your Fasting Blood Sugar Test (What Results Actually Mean) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/fasting-blood-sugar-test-preparation-results-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/fasting-blood-sugar-test-preparation-results-guide.html</guid>
-    <description>Fasting blood sugar test guide: ADA 2025 thresholds (&amp;lt;100 normal, 100-125 prediabetes, ≥126 diabetes mg/dL), prep tips, factors affecting results.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>GLP-1 Medications: From Ozempic to Weight Loss and Diabetes Control | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/glp1-ozempic-diabetes-weight-loss-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/glp1-ozempic-diabetes-weight-loss-guide.html</guid>
-    <description>Complete guide to GLP-1 receptor agonists including Ozempic, Wegovy, Mounjaro, and Trulicity: how they work for diabetes and weight loss, side effects, costs, and who should use them.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>Warning: Hyperglycemia Symptoms You Should Never Ignore (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/hyperglycemia-causes-symptoms-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/hyperglycemia-causes-symptoms-guide.html</guid>
-    <description>Understand hyperglycemia (high blood sugar): causes, symptoms, and when to seek emergency care. Learn ADA 2025 thresholds (&amp;gt;180 mg/dL), DKA vs HHS emergencies, and prevention strategies.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Stop Low Blood Sugar Emergencies: Hypoglycemia Treatment That Works | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/hypoglycemia-causes-symptoms-treatment-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/hypoglycemia-causes-symptoms-treatment-guide.html</guid>
-    <description>Complete guide to hypoglycemia (low blood sugar): ADA 2025 levels (&amp;lt;70 mg/dL), symptoms, the 15-15 Rule treatment, glucagon emergencies, and prevention. Essential for diabetes management.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>All Insulin Types Compared: Chart With Indian Prices (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/insulin-types-complete-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/insulin-types-complete-guide.html</guid>
-    <description>Every insulin type in one chart: rapid, long-acting, premixed &amp;amp; biosimilars. Onset, peak, duration + Indian brand names &amp;amp; MRP. Free downloadable PDF.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>The Truth About Keto for Diabetes: What Your Doctor Won't Tell You | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/low-carb-keto-diabetes-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/low-carb-keto-diabetes-guide.html</guid>
-    <description>Complete guide to low-carb and ketogenic diets for diabetes. Learn how keto can reduce HbA1c by 0.8-1.45%, ADA 2025 guidelines, risks, meal plans, and how to start safely.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>nutrition-lifestyle</category>
-  </item>
-  <item>
-    <title>Why Metformin Is Still the #1 Diabetes Medication (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/metformin-diabetes-medication-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/metformin-diabetes-medication-guide.html</guid>
-    <description>Complete guide to metformin for Type 2 diabetes: how it works, dosing, side effects, benefits beyond blood sugar, and tips for managing common issues like GI upset.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>The OGTT Truth: Why This Glucose Test Catches What Others Miss | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/oral-glucose-tolerance-test-ogtt-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/oral-glucose-tolerance-test-ogtt-guide.html</guid>
-    <description>Complete OGTT guide: ADA 2025 thresholds (140-199 prediabetes, ≥200 diabetes mg/dL), preparation, procedure, gestational diabetes screening, result interpretation.</description>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>Warning: DKA Can Kill in 24 Hours - Diabetic Ketoacidosis Signs (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/dka-diabetic-ketoacidosis-emergency-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/dka-diabetic-ketoacidosis-emergency-guide.html</guid>
-    <description>Complete guide to diabetic ketoacidosis (DKA): recognize warning signs, understand causes, learn emergency response, and prevent this life-threatening diabetes complication.</description>
-    <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>Gestational Diabetes in Pregnancy: The Truth About Protecting Your Baby (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/gestational-diabetes-pregnancy-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/gestational-diabetes-pregnancy-guide.html</guid>
-    <description>Complete guide to gestational diabetes: understand causes, risk factors, diagnosis (OGTT), blood sugar targets during pregnancy, management strategies, and protecting your baby's health.</description>
-    <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>The Hidden Truth About HbA1c: What Your A1C Really Means (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/hba1c-complete-guide-a1c-meaning.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/hba1c-complete-guide-a1c-meaning.html</guid>
-    <description>Understand HbA1c (A1C) testing: normal ranges, diabetes diagnosis thresholds, how it's calculated, limitations, and why Time in Range complements A1C for complete diabetes management.</description>
-    <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>The Truth About Type 1 Diabetes: Why Your Body Attacks Itself (2026 Guide) | My Health Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/type-1-diabetes-causes-autoimmunity-living.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/type-1-diabetes-causes-autoimmunity-living.html</guid>
-    <description>Complete guide to Type 1 diabetes—understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin therapy and data-driven care.</description>
-    <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Type 2 Diabetes: The Truth About Insulin Resistance and Reversal (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/type-2-diabetes-insulin-resistance-reversal.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/type-2-diabetes-insulin-resistance-reversal.html</guid>
-    <description>Comprehensive guide to Type 2 diabetes: understand insulin resistance, progression stages, treatment options, and evidence-based reversal strategies. Learn how lifestyle changes and data tracking can transform your diabetes management.</description>
-    <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Insulin Resistance: The Hidden Truth Behind Type 2 Diabetes (2026 Guide) | My Health Gheware™</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html</guid>
-    <description>Understand insulin resistance—the hidden driver behind Type 2 diabetes. Learn causes, symptoms, diagnosis tests, and 7 evidence-based strategies to reverse it naturally.</description>
-    <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Warning: Prediabetes Is Your Last Chance to Prevent Type 2 Diabetes (2026) | My Health Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/12/prediabetes-prevent-type-2-diabetes.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/12/prediabetes-prevent-type-2-diabetes.html</guid>
-    <description>Learn what prediabetes is, how to recognize the warning signs, and proven strategies to reverse it. Discover how lifestyle changes can prevent Type 2 diabetes progression.</description>
-    <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Stop Trusting Your CGM App Blindly: The Hidden Gaps in Diabetes Management (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/why-cgm-app-isnt-enough.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/why-cgm-app-isnt-enough.html</guid>
-    <description>Your CGM shows WHAT is happening, but not WHY. Discover the 5 gaps in CGM apps and how AI-powered multi-data correlation provides personalized insights in 10 minutes.</description>
-    <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Diabetes Management</category>
-  </item>
-  <item>
-    <title>Top 7 Exercises for Diabetes Reversal: Lower Blood Sugar Fast (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/best-exercises-blood-sugar-control.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/best-exercises-blood-sugar-control.html</guid>
-    <description>Top 7 exercises for diabetes reversal that lower blood sugar in 30 minutes: walking (-30%), cycling (-25%), yoga (-20%). Free 7-day plan for Indian diabetics with exact timing.</description>
-    <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-    <category>fitness-diabetes</category>
-  </item>
-  <item>
-    <title>Stop Struggling: 7 Proven Ways to Improve Time in Range (2026) | My Health Gheware™</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/7-ways-improve-time-in-range.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/7-ways-improve-time-in-range.html</guid>
-    <description>Struggling to improve Time in Range? Get 7 data-backed strategies with specific impact numbers and timelines. Learn meal timing, exercise tactics, sleep optimization, and more to boost TIR by 15-25% in 8-12 weeks.</description>
-    <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Diabetes Management</category>
-  </item>
-  <item>
-    <title>The Hidden Truth About Diabetes Management: Your Complete 2026 Guide | My Health Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/diabetes-101-complete-beginners-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/diabetes-101-complete-beginners-guide.html</guid>
-    <description>Complete beginner's guide to diabetes management. Learn Type 1 vs Type 2 differences, blood sugar basics, key metrics (TIR, HbA1c), lifestyle factors, and how AI simplifies tracking for better glucose control.</description>
-    <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Stop Waiting for Play Store: Install Health Gheware Android App Now (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/install-health-gheware-android-app.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/install-health-gheware-android-app.html</guid>
-    <description>Download &amp;amp; install My Health Gheware Android app. Step-by-step APK installation guide. Uses Google Health Connect for sleep &amp;amp; activity data.</description>
-    <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>Why Poor Sleep Destroys Your Blood Sugar Control (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/how-sleep-affects-blood-sugar.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/how-sleep-affects-blood-sugar.html</guid>
-    <description>Poor sleep can raise fasting glucose by 10-30 mg/dL. Learn how sleep affects blood sugar, 5 proven sleep habits for better glucose control, and how to track your sleep-glucose correlation automatically.</description>
-    <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-    <category>sleep-health</category>
-  </item>
-  <item>
-    <title>Why Time in Range is the Hidden Secret to Diabetes Control (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/what-is-time-in-range-diabetes.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/what-is-time-in-range-diabetes.html</guid>
-    <description>Time in Range (TIR) is the most important diabetes metric. Learn what TIR is, why it matters more than HbA1c, target percentages, and 7 proven ways to improve your glucose control.</description>
-    <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>Stop Guessing: CGM Data Analysis Secrets Your Doctor Uses (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/advanced-cgm-data-analysis-techniques.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/advanced-cgm-data-analysis-techniques.html</guid>
-    <description>Discover the CGM data analysis secrets endocrinologists use: AGP reports, pattern recognition, and statistical tricks that reveal why your glucose spikes.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>health-education</category>
-  </item>
-  <item>
-    <title>Why Your Diabetes Management Routine Fails (And How to Fix It)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/building-complete-diabetes-management-routine.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/building-complete-diabetes-management-routine.html</guid>
-    <description>Create a sustainable diabetes management routine with proven daily habits. Includes morning rituals, meal planning, exercise schedule, and evening protocols for optimal blood sugar control.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Diabetes Management</category>
-  </item>
-  <item>
-    <title>Do You Need AI for Diabetes Management? (Honest Answer 2025)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/do-you-need-ai-for-diabetes-management.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/do-you-need-ai-for-diabetes-management.html</guid>
-    <description>Honest assessment of AI diabetes management: when AI helps, when it doesn't, and who actually benefits. No hype, just facts about AI-powered glucose analysis.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>ai-health-tech</category>
-  </item>
-  <item>
-    <title>Free vs Paid Diabetes Management Tools: What You Need to Know (2025)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/free-vs-paid-diabetes-management-tools.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/free-vs-paid-diabetes-management-tools.html</guid>
-    <description>Honest comparison of free and paid diabetes management tools. When free tools work, when paid tools are worth it, ROI analysis, and decision framework for choosing the right option.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Why Your Personalized Diabetes Care Is Stuck in the Past (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/future-personalized-diabetes-care.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/future-personalized-diabetes-care.html</guid>
-    <description>Discover how AI, predictive analytics, continuous monitoring, and precision medicine are revolutionizing diabetes care. The future is personalized, proactive, and powered by your unique health data.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>ai-health-tech</category>
-  </item>
-  <item>
-    <title>My Health Gheware vs Traditional CGM Apps: Complete Comparison 2026</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/health-gheware-vs-traditional-cgm-apps.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/health-gheware-vs-traditional-cgm-apps.html</guid>
-    <description>Comprehensive comparison of My Health Gheware and traditional CGM apps like Dexcom G7, Freestyle Libre. Features, pricing, AI insights, and which tool is right for you.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Diabetes Management</category>
-  </item>
-  <item>
-    <title>Stop Wasting Time: How Healthcare AI Saves 15 Minutes Per Diabetes Patient (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/healthcare-professionals-save-time-ai-analysis.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/healthcare-professionals-save-time-ai-analysis.html</guid>
-    <description>How endocrinologists, diabetes educators, and primary care doctors save 15 minutes per patient using AI-powered multi-data correlation. Includes workflow integration, clinical benefits, and ROI analysis.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>ai-health-tech</category>
-  </item>
-  <item>
-    <title>The Truth About Intermittent Fasting and Blood Sugar (2026 Guide) | My Health Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/intermittent-fasting-blood-sugar-data.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/intermittent-fasting-blood-sugar-data.html</guid>
-    <description>Discover what research says about intermittent fasting for diabetes management. Learn which IF protocols improve blood sugar, which don't, and how to track your results safely with AI.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>nutrition-lifestyle</category>
-  </item>
-  <item>
-    <title>Why Your Blood Sugar Ignores Your Perfect Diet (The 3-Pillar Secret) | My Health Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/nutrition-sleep-activity-glucose-impact.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/nutrition-sleep-activity-glucose-impact.html</guid>
-    <description>Discover how nutrition, sleep quality, and physical activity interact to affect blood sugar control. Learn the science behind multi-factor glucose impact and optimize all three pillars for better diabetes management.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>nutrition-lifestyle</category>
-  </item>
-  <item>
-    <title>Stop Wasting Doctor Visits: How to Share Health Data That Gets Results (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/share-health-data-doctor-effectively.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/share-health-data-doctor-effectively.html</guid>
-    <description>Learn how to share health data with your doctor effectively. Present CGM glucose data, sleep patterns, and activity logs for better care. Email-ready report templates included.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Stop Wondering: Your Health Gheware FAQ Questions Answered (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/top-10-questions-health-gheware.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/top-10-questions-health-gheware.html</guid>
-    <description>Get answers to the top 10 questions about My Health Gheware: pricing, data privacy, AI accuracy, CGM compatibility, free credits, and how it compares to other diabetes apps. Everything you need to know before signing up.</description>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Stop Blood Sugar Spikes: 10 Foods That Stabilize Blood Sugar (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/10-foods-stabilize-blood-sugar-naturally.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/10-foods-stabilize-blood-sugar-naturally.html</guid>
-    <description>Discover 10 science-backed foods that naturally stabilize blood sugar. Includes glycemic index data, portion sizes, and meal timing tips for diabetes management.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>nutrition-lifestyle</category>
-  </item>
-  <item>
-    <title>5 Sleep Habits That Improve Blood Sugar (Backed by Data)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/5-sleep-habits-improve-blood-sugar.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/5-sleep-habits-improve-blood-sugar.html</guid>
-    <description>Discover 5 scientifically proven sleep habits that can improve blood sugar control by 12-20%. Learn optimal sleep duration, timing, temperature, and more for better diabetes management.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>sleep-health</category>
-  </item>
-  <item>
-    <title>Why Your "Perfect" A1C Could Be Hiding Dangerous Blood Sugar Swings</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/glycemic-variability-cv-explained.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/glycemic-variability-cv-explained.html</guid>
-    <description>Learn glycemic variability (CV) and why it matters. CV predicts complications better than A1C. Master glucose stability with AI-powered tracking today.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Diabetes Management</category>
-  </item>
-  <item>
-    <title>How AI Analyzes Your Blood Sugar Data: Diabetes Insights You're Missing (2026) | Gheware</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/how-ai-analyzes-health-data.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/how-ai-analyzes-health-data.html</guid>
-    <description>How AI detects hidden patterns in your CGM glucose data, sleep, and activity — catching diabetes risks your doctor might miss. Free tool with 500 credits.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>ai-health-tech</category>
-  </item>
-  <item>
-    <title>Import CGM Data Fast: LibreView, Dexcom &amp; Google Fit Guide</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/how-to-import-glucose-data-60-seconds.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/how-to-import-glucose-data-60-seconds.html</guid>
-    <description>Step-by-step: import glucose data from LibreView, Dexcom Clarity, Google Fit &amp;amp; Strava in 60 seconds. Free guide with screenshots for each app.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>The Secret to Read Glucose Data Like a Doctor (2026 CGM Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/how-to-read-glucose-data-like-doctor.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/how-to-read-glucose-data-like-doctor.html</guid>
-    <description>Learn to read glucose data like a doctor with this CGM analysis guide. Master TIR, CV, GMI metrics, identify 7 hidden patterns, and use the SOAP framework doctors use.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>The Hidden Glucose Data Patterns Your CGM Reveals (But You're Missing)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/how-to-spot-patterns-glucose-data.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/how-to-spot-patterns-glucose-data.html</guid>
-    <description>Master pattern recognition in CGM data. Learn how to identify 7 critical glucose patterns that reveal what's working and what's not in your diabetes management. AI-powered insights included.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Diabetes Management</category>
-  </item>
-  <item>
-    <title>Best Meal Timing for Blood Sugar: When to Eat (With Data)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/meal-timing-glucose-control.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/meal-timing-glucose-control.html</guid>
-    <description>When you eat matters as much as what you eat. Meal timing strategies that cut glucose spikes 40-60 mg/dL — breakfast, lunch &amp;amp; dinner timing guide.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>nutrition-lifestyle</category>
-  </item>
-  <item>
-    <title>Best Time to Exercise With Diabetes: Morning or Evening?</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/morning-evening-exercise-blood-sugar.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/morning-evening-exercise-blood-sugar.html</guid>
-    <description>Should diabetics exercise morning or evening? CGM data shows one timing cuts blood sugar 25% more. See the ideal weekly schedule for type 1 &amp;amp; 2.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>fitness-diabetes</category>
-  </item>
-  <item>
-    <title>Why Single-Metric Tracking Fails: The Multi-Data Health Revolution (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/power-of-multi-data-health-tracking.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/power-of-multi-data-health-tracking.html</guid>
-    <description>Discover how tracking glucose + sleep + activity + food together reveals hidden patterns that single-metric tracking misses. Learn why multi-data correlation is the future of diabetes management.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>ai-health-tech</category>
-  </item>
-  <item>
-    <title>Stop Exercise Hypos: Prevent Hypoglycemia During Workouts (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/prevent-hypoglycemia-during-workouts.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/prevent-hypoglycemia-during-workouts.html</guid>
-    <description>Learn how to prevent dangerous low blood sugar during exercise with 8 proven strategies. Includes pre-workout glucose targets, carb timing, and emergency protocols for safe workouts.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>fitness-diabetes</category>
-  </item>
-  <item>
-    <title>The Hidden Sleep-Glucose Connection Your Doctor Never Explained (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/sleep-glucose-correlations.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/sleep-glucose-correlations.html</guid>
-    <description>Discover the hidden sleep-glucose connection most doctors miss. Learn how 6 vs 8 hours of sleep affects your blood sugar by 40+ mg/dL. AI-powered correlation analysis.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>sleep-health</category>
-  </item>
-  <item>
-    <title>Google Fit Sleep Tracking: Best Smartwatches &amp; Diabetes Tips</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/sleep-tracking-google-fit-integration-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/sleep-tracking-google-fit-integration-guide.html</guid>
-    <description>Best smartwatches for Google Fit sleep tracking. Poor sleep spikes blood sugar 30% — set up tracking, spot patterns &amp;amp; fix 3 habits that wreck glucose.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>tutorials</category>
-  </item>
-  <item>
-    <title>Best Hypoglycemia Alert Devices 2026: Never Miss a Dangerous Low</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/smart-glucose-alerts-guide.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/smart-glucose-alerts-guide.html</guid>
-    <description>Top CGM devices &amp;amp; smartwatches that alert you (and family) during sudden hypoglycemia. Includes alert fatigue fixes &amp;amp; India pricing for FreeStyle Libre, Dexcom G7.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Diabetes Management</category>
-  </item>
-  <item>
-    <title>Stop Guessing: Track Activity and Glucose to Fix Your Blood Sugar</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/tracking-activity-impact-glucose.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/tracking-activity-impact-glucose.html</guid>
-    <description>Learn how to track and analyze how different activities affect your blood sugar. Complete guide to activity-glucose correlation, data collection methods, pattern recognition, and optimization strategies.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>Health Education</category>
-  </item>
-  <item>
-    <title>Why Poor Sleep Sabotages Diabetes Control (The Science Explained)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/why-poor-sleep-sabotages-diabetes-control.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/why-poor-sleep-sabotages-diabetes-control.html</guid>
-    <description>Poor sleep increases insulin resistance by 30%, raises fasting glucose 20-40 mg/dL, and destroys time in range. Learn why sleep deprivation sabotages diabetes control and what to do about it.</description>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    <category>sleep-health</category>
-  </item>
-  <item>
-    <title>Why AI Diabetes Management Changes Everything (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/introducing-my-health-gheware.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/introducing-my-health-gheware.html</guid>
-    <description>Discover why AI diabetes management is revolutionizing blood sugar control. Health Gheware correlates glucose, sleep, and activity data for personalized insights. Start free with Rs500 balance.</description>
-    <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-    <category>ai-health-tech</category>
-  </item>
-  <item>
-    <title>The Secret Behind 58% to 74% TIR: How Deepti Transformed Her Diabetes Control</title>
-    <link>https://health.gheware.com/blog/posts/2025/11/from-58-to-74-tir-success-story.html</link>
-    <guid>https://health.gheware.com/blog/posts/2025/11/from-58-to-74-tir-success-story.html</guid>
-    <description>Real success story: Deepti improved Time in Range from 58% to 74% in 8 weeks using multi-data health tracking. See the exact strategies, timeline, and data that transformed her diabetes management.</description>
-    <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
-    <category>Diabetes Management</category>
-  </item>
-  <item>
-    <title>Millets for Diabetes: How Ragi, Bajra &amp; Jowar Control Blood Sugar in India (2026 Guide)</title>
-    <link>https://health.gheware.com/blog/posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html</guid>
-    <description>Complete guide on millets for diabetes in India. Ragi, bajra, jowar, foxtail millet — GI scores, ICMR blood sugar data, recipes, and which millets are safest for Type 1 and Type 2 diabetics.</description>
-    <pubDate>Mon, 31 Mar 2026 04:00:00 +0000</pubDate>
-    <category>Diet &amp; Nutrition</category>
-  </item>
-  <item>
-    <title>Navratri Fasting with Diabetes: Safe Diet Guide for Indian Diabetics (2026)</title>
-    <link>https://health.gheware.com/blog/posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html</guid>
-    <description>Can diabetics fast during Navratri? Yes — safely. Complete guide covering kuttu, rajgira, makhana, sabudana risks, blood sugar monitoring targets, medication adjustments, and when to break the fast.</description>
-    <pubDate>Wed, 01 Apr 2026 03:30:00 +0000</pubDate>
-    <category>Seasonal Care</category>
-  </item>
-  <item>
-    <title>GLP-1 Drugs for Diabetes &amp; Weight Loss in India: Complete Guide 2026</title>
-    <link>https://health.gheware.com/blog/posts/2026/04/glp1-drugs-diabetes-weight-loss-india-complete-guide-2026.html</link>
-    <guid>https://health.gheware.com/blog/posts/2026/04/glp1-drugs-diabetes-weight-loss-india-complete-guide-2026.html</guid>
-    <description>Complete guide to GLP-1 drugs for Indian diabetics — Ozempic, Mounjaro, Rybelsus, Indian prices, side effects, who qualifies, and GLP-1 programs in India 2026.</description>
-    <pubDate>Wed, 01 Apr 2026 09:30:00 +0000</pubDate>
-    <category>Medications</category>
-  </item>
-</channel>
+      <title>Diabetic Foot Care India: Complete 2026 Guide — Neuropathy, Ulcers &amp; Prevention</title>
+      <link>https://health.gheware.com/blog/posts/2026/04/diabetic-foot-care-neuropathy-prevention-india-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/04/diabetic-foot-care-neuropathy-prevention-india-guide-2026.html</guid>
+      <description>India has the world's highest rate of diabetic foot amputations. Learn the early warning signs of diabetic neuropathy, daily foot care routine, best footwear, and how to prevent diabetic foot ulcers — a complete guide for Indian diabetics in 2026.</description>
+      <category>Complications</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GLP-1 Safety Warning India 2026: What Diabetics Must Know</title>
+      <link>https://health.gheware.com/blog/posts/2026/04/glp1-safety-warning-india-dcgi-2026-what-diabetics-must-know.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/04/glp1-safety-warning-india-dcgi-2026-what-diabetics-must-know.html</guid>
+      <description>India's DCGI has issued a major GLP-1 safety crackdown in March–April 2026. Here's what every Indian diabetic must know about Ozempic, semaglutide generics, serious side effects, and why lifestyle management remains the safest long-term strategy.</description>
+      <category>Medication &amp; Treatment</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navratri Fasting with Diabetes: Safe Diet Guide for Indian Diabetics (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html</guid>
+      <description>Can diabetics fast during Navratri? Yes — with the right approach. Complete guide covering safe foods, blood sugar monitoring, meal timing, what to avoid, and how to prevent hypoglycemia during Navratri vrat for Type 1 and Type 2 diabetics.</description>
+      <category>Seasonal Care</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GLP-1 Drugs for Diabetes &amp; Weight Loss in India: Complete Guide 2026</title>
+      <link>https://health.gheware.com/blog/posts/2026/04/glp1-drugs-diabetes-weight-loss-india-complete-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/04/glp1-drugs-diabetes-weight-loss-india-complete-guide-2026.html</guid>
+      <description>Complete guide to GLP-1 receptor agonists for Indian diabetics in 2026 — how they work, Ozempic vs Mounjaro vs Rybelsus, Indian prices, side effects, who qualifies, and whether the new GLP-1 programs like Sugar.fit are worth it.</description>
+      <category>Medication &amp; Treatment</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can Diabetics Eat Mangoes? India's Complete Summer Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/04/can-diabetics-eat-mangoes-india-summer-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/04/can-diabetics-eat-mangoes-india-summer-guide.html</guid>
+      <description>Can diabetics eat mangoes? Yes — but portion and timing matter. Discover the glycemic index of 8 Indian mango varieties, safe portion sizes, best time to eat, and how to enjoy mangoes this summer without spiking blood sugar.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Millets for Diabetes: Ragi, Bajra &amp; Jowar Blood Sugar Guide (2026 India)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html</guid>
+      <description>Complete guide on millets for diabetes in India. Ragi, bajra, jowar, foxtail millet — GI scores, blood sugar data, recipes, and which millets are safest for Type 1 and Type 2 diabetics. Backed by ICMR and Indian research 2026.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fasting Blood Sugar vs HbA1c: Which Test Matters More?</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/fasting-blood-sugar-vs-hba1c-which-test-matters-india.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/fasting-blood-sugar-vs-hba1c-which-test-matters-india.html</guid>
+      <description>Confused about fasting blood sugar vs HbA1c? This plain-language guide explains what each test measures, normal ranges for Indians, which one your doctor actually cares about, and how often you need both. No medical jargon.</description>
+      <category>Prevention &amp; Awareness</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Diabetes Reversal Clinics in India 2026: What to Look For</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/best-diabetes-reversal-clinics-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/best-diabetes-reversal-clinics-india-2026.html</guid>
+      <description>Thinking about a diabetes reversal clinic? Here's an honest guide to what these programs offer, what questions to ask, cost ranges in INR, and how to evaluate real results — including free alternatives like AI-powered diet coaching at health.gheware.com.</description>
+      <category>Treatment &amp; Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Summer Heat &amp; Diabetes: Complete Guide to Managing Blood Sugar in Indian Summers (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/summer-heat-diabetes-blood-sugar-management-india-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/summer-heat-diabetes-blood-sugar-management-india-guide-2026.html</guid>
+      <description>How does summer heat affect blood sugar? Complete guide for Indian diabetics — hydration, insulin storage, diet tips, exercise timing, heat stroke prevention, medication adjustments, and cooling foods that stabilize glucose. Expert-backed tips for managing diabetes in 40°C+ Indian summers.</description>
+      <category>Seasonal Care</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Diabetic Retinopathy in India: Complete Guide to Diabetes Eye Care &amp; Prevention (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide.html</guid>
+      <description>Diabetic retinopathy is the leading cause of preventable blindness in Indian diabetics. Learn the stages, symptoms, screening options, treatment costs, and prevention strategies to protect your vision. Comprehensive 2026 guide for Indian patients.</description>
+      <category>Complications</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultra-Processed Foods &amp; Diabetes in India: The Hidden Blood Sugar Killer in Your Kitchen (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/ultra-processed-foods-diabetes-india-upf-blood-sugar-hidden-danger-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/ultra-processed-foods-diabetes-india-upf-blood-sugar-hidden-danger-guide.html</guid>
+      <description>Ultra-processed foods (UPF) are silently fueling India's diabetes epidemic. 90 million Indians are diabetic — and packaged foods are a major driver. Learn which common Indian kitchen staples are UPFs, how they spike blood sugar, and what India's 2026 Sugar Surcharge and metabolic warning labels mean for you.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Dry Fruits &amp; Nuts for Diabetics in India: Complete Guide with GI Values (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/best-dry-fruits-nuts-for-diabetics-india-complete-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/best-dry-fruits-nuts-for-diabetics-india-complete-guide-2026.html</guid>
+      <description>Which dry fruits and nuts are safe for diabetics? Complete Indian guide with glycemic index values, portion sizes, and blood sugar impact for almonds, walnuts, pistachios, cashews, dates, makhana, and more. Research-backed advice for Type 1 and Type 2 diabetics.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can Diabetics Eat Mangoes? Complete Indian Guide — Varieties, Portions &amp; Blood Sugar (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/can-diabetics-eat-mangoes-india-complete-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/can-diabetics-eat-mangoes-india-complete-guide.html</guid>
+      <description>Can diabetics eat mangoes? YES — new 2025 research proves Indian mango varieties (Alphonso, Kesar, Langda) actually improve insulin sensitivity. Complete guide with GI values for 8 Indian varieties, safe portions, best timing, pairing tricks, and a mango season meal plan for diabetics.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generic Semaglutide (Ozempic) in India 2026: Complete Price Comparison — Every Brand, Every Price</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/generic-semaglutide-ozempic-india-2026-price-comparison-brands-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/generic-semaglutide-ozempic-india-2026-price-comparison-brands-guide.html</guid>
+      <description>Complete guide to generic semaglutide in India after March 2026 patent expiry. Compare all brands — Natco SEMANAT (₹1,290/mo), Dr. Reddy's Obeda (₹4,200/mo), Glenmark Glipiq (₹325/week), Sun Pharma, Zydus, Lupin, Alkem — with prices, formats, and what diabetics need to know.</description>
+      <category>Medication &amp; Treatment</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HbA1c Test in India 2026: Complete Guide — Normal Range, Cost &amp; How to Lower It</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/hba1c-test-india-complete-guide-normal-range-cost-how-to-lower.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/hba1c-test-india-complete-guide-normal-range-cost-how-to-lower.html</guid>
+      <description>Everything you need to know about the HbA1c test in India — normal range (below 5.7%), prediabetes &amp; diabetes cutoffs, test costs at Thyrocare, Dr Lal PathLabs &amp; SRL (₹199–₹880), how to prepare, and 10 proven Indian diet &amp; lifestyle strategies to lower your HbA1c naturally.</description>
+      <category>Testing &amp; Diagnosis</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Indians Are Getting Type 2 Diabetes Before 30: Causes, Risk Factors &amp; Prevention (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/why-indians-getting-type-2-diabetes-before-30-causes-prevention-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/why-indians-getting-type-2-diabetes-before-30-causes-prevention-guide.html</guid>
+      <description>India is seeing a surge of Type 2 diabetes in people under 30. Over 101 million Indians are diabetic and diagnoses now start at age 25. Understand why — genetics, diet, sedentary lifestyle, stress — and a practical prevention action plan for young Indians in 2026.</description>
+      <category>Prevention &amp; Awareness</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tirzepatide (Mounjaro/Yurpeak) in India: Complete Guide — Price, Dosage &amp; Semaglutide Comparison (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/tirzepatide-mounjaro-yurpeak-india-diabetes-weight-loss-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/tirzepatide-mounjaro-yurpeak-india-diabetes-weight-loss-guide.html</guid>
+      <description>Complete guide to tirzepatide (Mounjaro &amp; Yurpeak) in India for 2026. Covers prices (₹13,125-25,781/month), dosage, side effects, how it compares to semaglutide (Ozempic), and whether Indian diabetics should consider switching. Dual GIP/GLP-1 therapy explained.</description>
+      <category>Medication &amp; Treatment</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Fruits for Diabetics in India: Complete Glycemic Index Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-glycemic-index-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-glycemic-index-guide.html</guid>
+      <description>Complete guide to the best fruits for diabetics in India with glycemic index values. Learn which Indian fruits are safe, how much to eat, best timing, and which fruits to avoid. Covers mango, guava, jamun, amla, papaya, banana, and more. ICMR-backed recommendations for 2026.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ozempic &amp; Semaglutide Generics in India: Complete Guide for Diabetics (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/ozempic-semaglutide-generics-india-diabetics-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/ozempic-semaglutide-generics-india-diabetics-guide.html</guid>
+      <description>Complete guide to Ozempic and semaglutide generics now available in India after patent expiry March 2026. Covers all Indian generic brands, prices (₹3,000-4,000/month vs ₹11,000), dosage, side effects, who should take it, and what Indian diabetics need to know. Updated March 2026.</description>
+      <category>Medication &amp; Treatment</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pre-Diabetes in India: Signs, Prevention &amp; How to Reverse It with Indian Diet (2026 Guide)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/prediabetes-india-signs-prevention-reversal-indian-diet-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/prediabetes-india-signs-prevention-reversal-indian-diet-guide.html</guid>
+      <description>13 crore Indians are pre-diabetic and most don't know it. Learn the warning signs of pre-diabetes, ICMR diagnostic criteria, and a proven Indian diet and lifestyle plan to reverse pre-diabetes naturally. Includes 7-day meal plan, exercise guide, and when to see a doctor.</description>
+      <category>Prevention &amp; Awareness</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weight Training for Diabetics: Complete Indian Beginner's Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/weight-training-diabetes-india-beginners-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/weight-training-diabetes-india-beginners-guide-2026.html</guid>
+      <description>Complete guide to weight training for Indian diabetics. Learn how resistance exercise lowers blood sugar, best exercises for beginners, gym vs home workouts, safety precautions, Indian diet for muscle building with diabetes, and ICMR exercise guidelines. Updated 2026.</description>
+      <category>Exercise &amp; Fitness</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Dals &amp; Lentils for Diabetics: Complete Indian Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/best-dals-lentils-for-diabetics-india-complete-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/best-dals-lentils-for-diabetics-india-complete-guide-2026.html</guid>
+      <description>Complete guide to the best dals and lentils for Indian diabetics. GI comparison of moong, chana, masoor, toor, urad, rajma, lobhia &amp; kulthi dal. ICMR recommendations, diabetes-friendly dal recipes, cooking methods to lower GI, and real CGM data on blood sugar response. Updated for 2026.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Metformin Side Effects: Complete Guide for Indian Diabetics (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/metformin-side-effects-indian-diabetics-complete-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/metformin-side-effects-indian-diabetics-complete-guide.html</guid>
+      <description>Comprehensive guide to metformin side effects for Indian diabetics. Covers common side effects like diarrhea, nausea, vitamin B12 deficiency, lactic acidosis risk, when to call your doctor, Indian diet tips to reduce side effects, and ICMR guidelines on metformin dosing. Updated for 2026.</description>
+      <category>Medication &amp; Treatment</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Diabetes and Thyroid: The Hidden Connection — Complete India Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/diabetes-and-thyroid-connection-symptoms-diet-india-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/diabetes-and-thyroid-connection-symptoms-diet-india-guide.html</guid>
+      <description>Complete guide to diabetes and thyroid connection for Indians. Learn how hypothyroidism and hyperthyroidism affect blood sugar, which foods to eat and avoid, thyroid tests every diabetic needs, and how to manage both conditions together in India.</description>
+      <category>Complications</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Diabetes and Kidney Disease: How to Prevent Diabetic Nephropathy (2026 India Guide)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/diabetes-kidney-disease-diabetic-nephropathy-prevention-india-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/diabetes-kidney-disease-diabetic-nephropathy-prevention-india-guide.html</guid>
+      <description>Complete evidence-based guide on diabetes and kidney disease for Indians. Learn how high blood sugar damages kidneys, early warning signs, creatinine and eGFR tests, Indian diet tips to protect kidneys, and when to see a nephrologist. Updated for World Kidney Day 2026.</description>
+      <category>Complications</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intermittent Fasting for Diabetes: Is It Safe? Complete Indian Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/intermittent-fasting-diabetes-safe-indian-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/intermittent-fasting-diabetes-safe-indian-guide.html</guid>
+      <description>Is intermittent fasting safe for diabetics? Evidence-based guide covering 16:8, 5:2 fasting methods for Type 2 diabetes. Includes ICMR recommendations, Indian meal timing strategies, medication adjustments, hypoglycemia prevention, Ramadan fasting tips, and a free 7-day IF meal plan for Indian diabetics.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Cooking Oils for Diabetics in India: Complete Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/best-cooking-oils-for-diabetics-india-complete-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/best-cooking-oils-for-diabetics-india-complete-guide-2026.html</guid>
+      <description>Which cooking oil is best for diabetics in India? Complete ranking of mustard oil, coconut oil, olive oil, ghee, groundnut oil, sesame oil, rice bran oil for blood sugar control. Smoke points, omega ratios, prices, and region-wise guide for Indian diabetics.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yoga for Diabetes: 10 Best Asanas to Lower Blood Sugar (Indian Research 2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/yoga-for-diabetes-best-asanas-lower-blood-sugar-india.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/yoga-for-diabetes-best-asanas-lower-blood-sugar-india.html</guid>
+      <description>Can yoga help control diabetes? 10 evidence-backed yoga asanas that lower blood sugar by 15-30 mg/dL. Includes Surya Namaskar, Mandukasana, Dhanurasana, Pranayama techniques, AIIMS and ICMR research data, step-by-step instructions for Indian diabetics, and a free 20-minute daily yoga routine for Type 2 diabetes management.</description>
+      <category>Exercise &amp; Fitness</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Diabetes and Summer Heat: How Temperature Affects Blood Sugar (India Guide 2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/diabetes-and-summer-heat-blood-sugar-hydration-guide-india.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/diabetes-and-summer-heat-blood-sugar-hydration-guide-india.html</guid>
+      <description>How does summer heat affect blood sugar in diabetics? Complete guide on heat-induced hypoglycemia, insulin storage in Indian summers, best hydration drinks for diabetics, electrolyte balance, CGM patterns in hot weather, and practical tips for Indian diabetics to stay safe from March to June.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Walking After Meals for Diabetes: How 10-Minute Walks Lower Blood Sugar (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/walking-after-meals-diabetes-post-meal-walk-blood-sugar-india-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/walking-after-meals-diabetes-post-meal-walk-blood-sugar-india-guide.html</guid>
+      <description>Evidence-based guide on how walking after meals lowers blood sugar for diabetics in India. CGM data, optimal timing, duration, Indian meal-specific tips, monsoon and summer alternatives, and a 7-day walking plan for Type 2 diabetes management.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>15 Best Indian Breakfast for Diabetics (CGM Data) — Low Sugar Recipes 2026</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/best-indian-breakfast-for-diabetics-recipes-that-wont-spike-blood-sugar.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/best-indian-breakfast-for-diabetics-recipes-that-wont-spike-blood-sugar.html</guid>
+      <description>15 Indian diabetic breakfasts with real CGM data — moong chilla, ragi dosa, besan cheela. See blood sugar impact &amp; download free PDF meal plan.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Sleep Affects Blood Sugar: Complete Guide for Indian Diabetics (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/sleep-and-diabetes-how-sleep-affects-blood-sugar-india-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/sleep-and-diabetes-how-sleep-affects-blood-sugar-india-guide.html</guid>
+      <description>How does sleep affect blood sugar and diabetes? Evidence-based guide on sleep deprivation, insulin resistance, ideal sleep hours, sleep apnea risk, CGM data during sleep, and practical tips for Indian diabetics to improve sleep quality and lower HbA1c.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Fruits for Diabetics in India: Complete Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-complete-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-complete-guide-2026.html</guid>
+      <description>Which fruits can diabetics eat in India? Complete guide to the 10 best low-GI fruits (guava, jamun, amla, apple, papaya), fruits to avoid, GI chart, CGM data, portion guide, seasonal calendar, and 5 myths busted.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is Rice Bad for Diabetics? White Rice vs Brown Rice — Complete Indian Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/is-rice-bad-for-diabetics-white-rice-brown-rice-india-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/is-rice-bad-for-diabetics-white-rice-brown-rice-india-guide.html</guid>
+      <description>Is rice bad for diabetics? Complete evidence-based guide comparing white rice, brown rice, and millet rice for Indian diabetics. Includes CGM data, glycemic index values, portion sizes, best rice varieties (hand-pounded, red rice, black rice), cooking hacks to lower GI, and South Indian vs North Indian meal strategies.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Millets for Diabetics: Complete Indian Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/best-millets-for-diabetics-india-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/best-millets-for-diabetics-india-guide-2026.html</guid>
+      <description>Comprehensive guide to the best millets for diabetics in India — ragi, jowar, bajra, foxtail millet (kangni), kodo, barnyard, and little millet. Includes GI values, Indian recipes, CGM data insights, comparison table, and ICMR guidelines for millet-based diabetes management.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Reduce HbA1c Naturally: Complete Indian Diet &amp; Lifestyle Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html</guid>
+      <description>Proven strategies to lower HbA1c naturally with Indian diet modifications, lifestyle changes, and CGM-guided monitoring. From dal-roti swaps to walking routines — a practical guide for Indian diabetics to bring HbA1c below 7% without extreme diets.</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Diabetes Management Apps &amp; Platforms in India (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/best-diabetes-management-apps-platforms-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/best-diabetes-management-apps-platforms-india-2026.html</guid>
+      <description>Looking for the best diabetes management app in India? We compare BeatO, Ultrahuman, Sugar.fit alternatives, FreeStyle Libre, and Health Gheware — features, pricing, pros and cons for Indian diabetics in 2026.</description>
+      <category>Technology &amp; AI</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CGM vs Glucometer: Which Is Better for Indian Diabetics? (2026 Guide)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/cgm-vs-glucometer-which-is-better-indian-diabetics.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/cgm-vs-glucometer-which-is-better-indian-diabetics.html</guid>
+      <description>CGM or glucometer — which should Indian diabetics choose? We compare cost, accuracy, convenience, and real-world CGM data to help you decide. Includes BeatO, FreeStyle Libre, and Dexcom options available in India.</description>
+      <category>Technology &amp; AI</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Devices That Alert for Sudden Hypoglycemia (2026): Complete India Guide</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/devices-that-alert-sudden-hypoglycemia-2026-india.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/devices-that-alert-sudden-hypoglycemia-2026-india.html</guid>
+      <description>Complete guide to devices that alert you before dangerous low blood sugar episodes. Compares Dexcom G7, FreeStyle Libre 2/3, Medtronic Guardian, smartwatches, and budget options available in India with pricing in rupees.</description>
+      <category>Technology &amp; AI</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is Horlicks Good for Diabetics? What CGM Data Really Shows (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/03/is-horlicks-good-for-diabetics-cgm-data-india.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/03/is-horlicks-good-for-diabetics-cgm-data-india.html</guid>
+      <description>Is Horlicks safe for diabetics? We analyze real CGM (Continuous Glucose Monitor) data to reveal what Horlicks, Boost, Bournvita and other Indian health drinks do to your blood sugar. Evidence-based guide for Indian diabetics.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intermittent Fasting for Diabetes: Is It Safe? Complete Indian Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/02/intermittent-fasting-diabetes-india-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/02/intermittent-fasting-diabetes-india-guide.html</guid>
+      <description>Can intermittent fasting help manage Type 2 diabetes? Learn about 16:8, 5:2 fasting methods, Indian meal timing, safety precautions, and what research says. Evidence-based guide for Indian diabetics.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Metformin Side Effects &amp; Natural Alternatives: Complete Indian Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/02/metformin-side-effects-natural-alternatives-india-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/02/metformin-side-effects-natural-alternatives-india-guide.html</guid>
+      <description>Complete guide to metformin side effects, how to manage them, and evidence-based natural alternatives for Indian diabetics. Learn about berberine, fenugreek, cinnamon, and lifestyle changes that complement or reduce medication dependency.</description>
+      <category>Medication &amp; Treatment</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>डायबिटीज में क्या खाना चाहिए? पूरी जानकारी हिंदी में (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/02/diabetes-me-kya-khana-chahiye-hindi-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/02/diabetes-me-kya-khana-chahiye-hindi-guide.html</guid>
+      <description>डायबिटीज (शुगर) में क्या खाएं और क्या न खाएं — पूरी लिस्ट हिंदी में। सुबह का नाश्ता, दोपहर का खाना, रात का खाना, और स्नैक्स। Indian diabetic diet plan with GI values। मेथी, करेला, जामुन, दालचीनी और 20+ foods जो शुगर कम करते हैं।</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Walking After Meals to Lower Blood Sugar: Complete Indian Guide (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide.html</guid>
+      <description>Discover how walking after meals can reduce blood sugar spikes by 30-50%. Learn the best timing, duration, and tips for post-meal walks tailored for Indian diabetics. Backed by science.</description>
+      <category>Exercise &amp; Fitness</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jamun, Methi &amp; Cinnamon Mix for Blood Sugar: Recipe + 17 More</title>
+      <link>https://health.gheware.com/blog/posts/2026/02/best-indian-foods-lower-blood-sugar-naturally.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/02/best-indian-foods-lower-blood-sugar-naturally.html</guid>
+      <description>Jamun seed powder, cinnamon, curry leaves &amp; fenugreek mixture recipe — plus 17 more Indian foods proven to lower blood sugar. CGM-tested results.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Diabetes Cure Research 2026: Latest Breakthroughs &amp; Current Status</title>
+      <link>https://health.gheware.com/blog/posts/2026/02/diabetes-cure-research-2026-complete-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/02/diabetes-cure-research-2026-complete-guide.html</guid>
+      <description>What's the current status of diabetes cure research in 2026? Stem cells, CRISPR gene editing, smart insulin — which breakthroughs are actually close? Honest analysis.</description>
+      <category>Research</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GLP-1 Pills: The Wegovy Pill Revolution for Weight Loss in 2026</title>
+      <link>https://health.gheware.com/blog/posts/2026/01/glp1-pills-wegovy-pill-revolution.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/01/glp1-pills-wegovy-pill-revolution.html</guid>
+      <description>Oral Wegovy is the first FDA-approved GLP-1 pill for weight loss. Learn about 14-16% weight loss results, $149-$299 pricing, pill vs injection comparison, and who qualifies.</description>
+      <category>Medication &amp; Treatment</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stop Fasting Coffee: The Truth About Blood Sugar (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/01/coffee-blood-sugar-what-3-cups-really-does.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/01/coffee-blood-sugar-what-3-cups-really-does.html</guid>
+      <description>Discover the coffee paradox: caffeine can spike blood sugar 8-10% short-term, yet 3-4 cups daily reduces diabetes risk by 25%. Learn timing, genetics, and how to optimize your coffee habit.</description>
+      <category>Diet &amp; Nutrition</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Truth About Ayurveda for Type 2 Diabetes (2026)</title>
+      <link>https://health.gheware.com/blog/posts/2026/01/how-ayurveda-treats-type-2-diabetes.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/01/how-ayurveda-treats-type-2-diabetes.html</guid>
+      <description>8 Ayurvedic herbs, yoga, and Panchakarma for diabetes. 65% reduced meds in studies. Safe with metformin under supervision.</description>
+      <category>Health Education</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
 </rss>
