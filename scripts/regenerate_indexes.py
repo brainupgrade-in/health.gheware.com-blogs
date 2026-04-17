@@ -320,7 +320,17 @@ def main():
     SITEMAP_PATH.write_text("\n".join(sm), encoding="utf-8")
 
     # Write feed.xml (RSS 2.0) — newest 50 posts
-    now = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+    # lastBuildDate uses the newest post's date (not wall-clock time) so that
+    # running the regenerator twice on the same tree is a no-op. The CI drift
+    # check relies on determinism.
+    if entries:
+        try:
+            dt = datetime.strptime(entries[0]["date"], "%Y-%m-%d")
+            now = dt.strftime("%a, %d %b %Y 00:00:00 +0000")
+        except ValueError:
+            now = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+    else:
+        now = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     feed = ['<?xml version="1.0" encoding="UTF-8"?>',
             '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
             "  <channel>",
