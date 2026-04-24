@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Complete Indian Diabetes Handbook — Front Matter</title>
+    <link rel="stylesheet" href="../styles/book-common.css">
+    <style>
+        /* Page-specific overrides */
+        .glow-text {
+            text-shadow: 0 0 40px rgba(212, 168, 83, 0.3), 0 0 80px rgba(212, 168, 83, 0.15);
+        }
+
+        .subtle-pattern {
+            background-image:
+                radial-gradient(circle at 20% 30%, rgba(212, 168, 83, 0.06) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(212, 168, 83, 0.04) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.02) 0%, transparent 70%);
+        }
+
+        .mandala-bg {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            border: 1px solid rgba(212, 168, 83, 0.08);
+            opacity: 0.5;
+        }
+
+        .mandala-bg::before {
+            content: '';
+            position: absolute;
+            inset: 40px;
+            border-radius: 50%;
+            border: 1px solid rgba(212, 168, 83, 0.06);
+        }
+
+        .mandala-bg::after {
+            content: '';
+            position: absolute;
+            inset: 80px;
+            border-radius: 50%;
+            border: 1px solid rgba(212, 168, 83, 0.04);
+        }
+
+        .toc-item {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 7px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .toc-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            color: #d4a853;
+            min-width: 32px;
+        }
+
+        .toc-title {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.85);
+            flex-grow: 1;
+        }
+
+        .toc-dots {
+            flex-grow: 1;
+            border-bottom: 1px dotted rgba(255, 255, 255, 0.15);
+            margin: 0 8px;
+            min-width: 30px;
+        }
+
+        .toc-page {
+            font-size: 14px;
+            color: rgba(212, 168, 83, 0.7);
+            min-width: 24px;
+            text-align: right;
+        }
+
+        .part-header {
+            font-family: 'Playfair Display', serif;
+            font-size: 13px;
+            font-weight: 600;
+            color: #d4a853;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 12px 0 4px 0;
+            margin-top: 8px;
+        }
+
+        .stat-box {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #d4a853;
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ============================================ -->
+    <!-- PAGE 1: Half Title Page                      -->
+    <!-- ============================================ -->
+    <div class="page bg-gradient-dark subtle-pattern flex flex-col items-center justify-center text-center"
+        style="padding: 80px;">
+        <div class="mandala-bg" style="top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+
+        <div style="position: relative; z-index: 1;">
+            <div class="divider-gold" style="margin: 0 auto 40px;"></div>
+
+            <h1 class="serif gold-gradient glow-text" style="font-size: 52px; font-weight: 700; line-height: 1.2;">
+                The Complete Indian<br>Diabetes Handbook
+            </h1>
+
+            <div class="divider-gold" style="margin: 40px auto 0;"></div>
+        </div>
+
+        <div class="corner-ornament corner-tl"></div>
+        <div class="corner-ornament corner-tr"></div>
+        <div class="corner-ornament corner-bl"></div>
+        <div class="corner-ornament corner-br"></div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- PAGE 2: Full Title Page                      -->
+    <!-- ============================================ -->
+    <div class="page bg-gradient-teal subtle-pattern flex flex-col items-center justify-center text-center"
+        style="padding: 60px 100px;">
+        <div class="mandala-bg" style="top: -100px; right: -150px;"></div>
+        <div class="mandala-bg" style="bottom: -100px; left: -150px;"></div>
+
+        <div style="position: relative; z-index: 1;">
+            <!-- Decorative top -->
+            <div
+                style="font-size: 14px; text-transform: uppercase; letter-spacing: 6px; color: rgba(212, 168, 83, 0.6); margin-bottom: 16px;">
+                Health Gheware Presents
+            </div>
+
+            <div class="divider-gold-long" style="margin: 0 auto 32px;"></div>
+
+            <h1 class="serif gold-gradient glow-text"
+                style="font-size: 58px; font-weight: 800; line-height: 1.15; margin-bottom: 20px;">
+                The Complete Indian<br>Diabetes Handbook
+            </h1>
+
+            <p class="serif"
+                style="font-size: 22px; color: rgba(255, 255, 255, 0.7); max-width: 800px; margin: 0 auto 36px; line-height: 1.5; font-style: italic;">
+                Your A-to-Z Guide to Managing Blood Sugar the Indian Way
+            </p>
+
+            <div class="divider-gold-long" style="margin: 0 auto 36px;"></div>
+
+            <!-- Stats row -->
+            <div class="flex justify-center" style="gap: 60px; margin-bottom: 40px;">
+                <div class="stat-box">
+                    <div class="stat-number">13</div>
+                    <div class="stat-label">Chapters</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Recipes</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Pages</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Indian</div>
+                </div>
+            </div>
+
+            <!-- Author -->
+            <div
+                style="font-size: 11px; text-transform: uppercase; letter-spacing: 4px; color: rgba(255, 255, 255, 0.4); margin-bottom: 8px;">
+                Written By
+            </div>
+            <div class="serif" style="font-size: 26px; color: rgba(255, 255, 255, 0.9);">
+                Dr. Rajesh Gheware
+            </div>
+            <div style="font-size: 14px; color: rgba(255, 255, 255, 0.5); margin-top: 4px;">
+                Founder, Health Gheware | health.gheware.com
+            </div>
+        </div>
+
+        <div class="corner-ornament corner-tl"></div>
+        <div class="corner-ornament corner-tr"></div>
+        <div class="corner-ornament corner-bl"></div>
+        <div class="corner-ornament corner-br"></div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- PAGE 3: Copyright Page                       -->
+    <!-- ============================================ -->
+    <div class="page bg-gradient-dark subtle-pattern flex flex-col" style="padding: 80px 200px;">
+        <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center;">
+
+            <h2 class="serif gold" style="font-size: 20px; margin-bottom: 40px; letter-spacing: 2px;">LEGAL NOTICE</h2>
+
+            <div style="font-size: 14px; color: rgba(255, 255, 255, 0.65); line-height: 2;">
+                <p style="margin-bottom: 16px;">
+                    <strong style="color: rgba(255, 255, 255, 0.85);">The Complete Indian Diabetes Handbook</strong><br>
+                    Your A-to-Z Guide to Managing Blood Sugar the Indian Way
+                </p>
+
+                <p style="margin-bottom: 16px;">
+                    © 2026 Health Gheware. All rights reserved.
+                </p>
+
+                <p style="margin-bottom: 16px;">
+                    No part of this publication may be reproduced, distributed, or transmitted in any form or by any
+                    means, including photocopying, recording, or other electronic or mechanical methods, without the
+                    prior written permission of the publisher, except in the case of brief quotations embodied in
+                    critical reviews and certain other non-commercial uses permitted by copyright law.
+                </p>
+
+                <p style="margin-bottom: 16px;">
+                    <strong style="color: #d4a853;">Medical Disclaimer:</strong> This book is for educational and
+                    informational purposes only. It is not intended as a substitute for professional medical advice,
+                    diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider
+                    with any questions you may have regarding a medical condition. Never disregard professional medical
+                    advice or delay in seeking it because of something you have read in this book.
+                </p>
+
+                <p style="margin-bottom: 16px;">
+                    The author and publisher assume no responsibility for errors, inaccuracies, omissions, or any other
+                    inconsistency herein. Individual results may vary. Any perceived slight of specific persons,
+                    peoples, or organizations is unintentional.
+                </p>
+
+                <p style="margin-bottom: 16px;">
+                    <strong style="color: rgba(255, 255, 255, 0.85);">Published by:</strong> Health Gheware<br>
+                    <strong style="color: rgba(255, 255, 255, 0.85);">Website:</strong> health.gheware.com<br>
+                    <strong style="color: rgba(255, 255, 255, 0.85);">First Edition:</strong> February 2026
+                </p>
+
+                <p>
+                    Printed in India 🇮🇳
+                </p>
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <span>© 2026 Health Gheware</span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- PAGE 4: Dedication                           -->
+    <!-- ============================================ -->
+    <div class="page bg-gradient-dark subtle-pattern flex flex-col items-center justify-center text-center"
+        style="padding: 80px 200px;">
+        <div class="mandala-bg" style="top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.3;"></div>
+
+        <div style="position: relative; z-index: 1;">
+            <div
+                style="font-size: 12px; text-transform: uppercase; letter-spacing: 6px; color: rgba(212, 168, 83, 0.5); margin-bottom: 40px;">
+                Dedication
+            </div>
+
+            <div class="divider-gold" style="margin: 0 auto 48px;"></div>
+
+            <p class="serif"
+                style="font-size: 28px; color: rgba(255, 255, 255, 0.85); line-height: 1.8; max-width: 700px; font-style: italic;">
+                "To the 100+ million Indians living with diabetes —<br>
+                and to every family that lovingly adapts their kitchen<br>
+                to keep their loved ones healthy."
+            </p>
+
+            <div class="divider-gold" style="margin: 48px auto 40px;"></div>
+
+            <p style="font-size: 16px; color: rgba(255, 255, 255, 0.5); line-height: 1.6;">
+                This book is also dedicated to every grandmother who knew<br>
+                that karela, methi, and haldi were healing foods<br>
+                long before science confirmed it.
+            </p>
+        </div>
+
+        <div class="corner-ornament corner-tl"></div>
+        <div class="corner-ornament corner-tr"></div>
+        <div class="corner-ornament corner-bl"></div>
+        <div class="corner-ornament corner-br"></div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- PAGE 5: About the Author                     -->
+    <!-- ============================================ -->
+    <div class="page bg-gradient-teal subtle-pattern flex" style="padding: 60px 80px;">
+        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; padding-right: 60px;">
+            <div
+                style="font-size: 12px; text-transform: uppercase; letter-spacing: 5px; color: rgba(212, 168, 83, 0.6); margin-bottom: 20px;">
+                About the Author
+            </div>
+
+            <h2 class="serif" style="font-size: 42px; color: white; margin-bottom: 24px;">
+                Dr. Rajesh <span class="gold">Gheware</span>
+            </h2>
+
+            <div class="divider-gold" style="margin-bottom: 28px;"></div>
+
+            <p style="font-size: 17px; color: rgba(255, 255, 255, 0.75); line-height: 1.7; margin-bottom: 20px;">
+                Dr. Rajesh Gheware is the founder of <strong style="color: #d4a853;">Health Gheware</strong>, a platform
+                dedicated to helping Indians prevent, manage, and reverse lifestyle diseases through evidence-based
+                nutrition and technology.
+            </p>
+
+            <p style="font-size: 17px; color: rgba(255, 255, 255, 0.75); line-height: 1.7; margin-bottom: 20px;">
+                With a deep understanding of Indian dietary patterns, cultural food habits, and modern medical science,
+                Dr. Gheware bridges the gap between traditional Indian wisdom and contemporary diabetes management.
+            </p>
+
+            <p style="font-size: 17px; color: rgba(255, 255, 255, 0.75); line-height: 1.7;">
+                Through health.gheware.com, he provides free tools, guides, and AI-powered insights to help thousands of
+                Indians take control of their blood sugar — the Indian way.
+            </p>
+        </div>
+
+        <div style="flex: 0 0 400px; display: flex; flex-direction: column; justify-content: center; gap: 20px;">
+            <div class="glass-card" style="text-align: center;">
+                <div
+                    style="font-size: 13px; text-transform: uppercase; letter-spacing: 3px; color: rgba(212, 168, 83, 0.7); margin-bottom: 16px;">
+                    Connect</div>
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+                    <div style="font-size: 15px; color: rgba(255, 255, 255, 0.7);">
+                        🌐 <strong style="color: white;">health.gheware.com</strong>
+                    </div>
+                    <div style="font-size: 15px; color: rgba(255, 255, 255, 0.7);">
+                        📺 <strong style="color: white;">YouTube:</strong> @health_gheware
+                    </div>
+                    <div style="font-size: 15px; color: rgba(255, 255, 255, 0.7);">
+                        📖 <strong style="color: white;">Blog:</strong> health.gheware.com/blog
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card" style="text-align: center;">
+                <div
+                    style="font-size: 13px; text-transform: uppercase; letter-spacing: 3px; color: rgba(212, 168, 83, 0.7); margin-bottom: 16px;">
+                    Mission</div>
+                <p class="serif"
+                    style="font-size: 18px; color: rgba(255, 255, 255, 0.85); font-style: italic; line-height: 1.6;">
+                    "Eat Well, Live Better —<br>The Indian Way"
+                </p>
+            </div>
+        </div>
+
+        <div class="corner-ornament corner-tl"></div>
+        <div class="corner-ornament corner-tr"></div>
+        <div class="corner-ornament corner-bl"></div>
+        <div class="corner-ornament corner-br"></div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- PAGE 6: How to Use This Book                 -->
+    <!-- ============================================ -->
+    <div class="page bg-gradient-dark subtle-pattern flex flex-col" style="padding: 50px 80px;">
+        <div style="margin-bottom: 30px;">
+            <div
+                style="font-size: 12px; text-transform: uppercase; letter-spacing: 5px; color: rgba(212, 168, 83, 0.6); margin-bottom: 12px;">
+                Before You Begin
+            </div>
+            <h2 class="serif" style="font-size: 38px; color: white;">How to Use This <span class="gold">Book</span></h2>
+            <div class="divider-gold" style="margin-top: 16px;"></div>
+        </div>
+
+        <div style="flex: 1; display: flex; gap: 30px;">
+            <!-- Left column -->
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 16px;">
+                <div class="glass-card-light" style="flex: 1;">
+                    <div style="font-size: 28px; margin-bottom: 8px;">📖</div>
+                    <h3
+                        style="font-size: 17px; color: #d4a853; margin-bottom: 8px; font-family: 'Inter', sans-serif; font-weight: 600;">
+                        Read Sequentially First</h3>
+                    <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
+                        Parts I through III build upon each other. Start with understanding diabetes, then move to
+                        eating strategies, and finally tracking & management.
+                    </p>
+                </div>
+
+                <div class="glass-card-light" style="flex: 1;">
+                    <div style="font-size: 28px; margin-bottom: 8px;">🔖</div>
+                    <h3
+                        style="font-size: 17px; color: #d4a853; margin-bottom: 8px; font-family: 'Inter', sans-serif; font-weight: 600;">
+                        Reference Anytime</h3>
+                    <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
+                        The GI guide, carb counting tables, and medication reference are designed to be used daily.
+                        Bookmark these chapters for quick access.
+                    </p>
+                </div>
+
+                <div class="glass-card-light" style="flex: 1;">
+                    <div style="font-size: 28px; margin-bottom: 8px;">👨‍👩‍👧‍👦</div>
+                    <h3
+                        style="font-size: 17px; color: #d4a853; margin-bottom: 8px; font-family: 'Inter', sans-serif; font-weight: 600;">
+                        Share with Family</h3>
+                    <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
+                        Diabetes management is a family effort. Share the recipes and meal plans with whoever cooks at
+                        home for maximum impact.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right column -->
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 16px;">
+                <div class="glass-card-light" style="flex: 1;">
+                    <div style="font-size: 28px; margin-bottom: 8px;">📝</div>
+                    <h3
+                        style="font-size: 17px; color: #d4a853; margin-bottom: 8px; font-family: 'Inter', sans-serif; font-weight: 600;">
+                        Use the Trackers</h3>
+                    <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
+                        The 30-day journals and trackers (Chapters 11-12) are the most powerful parts of this book.
+                        Print or photocopy them and use them daily.
+                    </p>
+                </div>
+
+                <div class="glass-card-light" style="flex: 1;">
+                    <div style="font-size: 28px; margin-bottom: 8px;">⚠️</div>
+                    <h3
+                        style="font-size: 17px; color: #d4a853; margin-bottom: 8px; font-family: 'Inter', sans-serif; font-weight: 600;">
+                        Medical Disclaimer</h3>
+                    <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
+                        This book is educational. Always consult your doctor before changing medications, diet, or
+                        exercise routines. Your doctor knows your body best.
+                    </p>
+                </div>
+
+                <div class="glass-card-light" style="flex: 1;">
+                    <div style="font-size: 28px; margin-bottom: 8px;">🎯</div>
+                    <h3
+                        style="font-size: 17px; color: #d4a853; margin-bottom: 8px; font-family: 'Inter', sans-serif; font-weight: 600;">
+                        Icons Guide</h3>
+                    <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.5;">
+                        🟢 Good choice &nbsp; 🟡 Use with caution &nbsp; 🔴 Limit or avoid<br>
+                        💡 Pro Tip &nbsp; ⚠️ Warning &nbsp; 📊 Data/Reference
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <span>The Complete Indian Diabetes Handbook</span>
+            <span class="page-number">vi</span>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- PAGE 7: Table of Contents (Page 1)           -->
+    <!-- ============================================ -->
+    <div class="page bg-gradient-dark subtle-pattern flex" style="padding: 50px 80px;">
+        <div style="flex: 1; padding-right: 50px;">
+            <div
+                style="font-size: 12px; text-transform: uppercase; letter-spacing: 5px; color: rgba(212, 168, 83, 0.6); margin-bottom: 12px;">
+                Navigate Your Journey
+            </div>
+            <h2 class="serif" style="font-size: 38px; color: white; margin-bottom: 8px;">Table of <span
+                    class="gold">Contents</span></h2>
+            <div class="divider-gold" style="margin-bottom: 24px;"></div>
+
+            <div class="part-header">Part I — Understanding Diabetes</div>
+
+            <div class="toc-item">
+                <span class="toc-number">01</span>
+                <span class="toc-title">Indian Foods & Glycemic Index — Complete GI Guide</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number">02</span>
+                <span class="toc-title">Carb Counting Pocket Guide for Indian Foods</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number">03</span>
+                <span class="toc-title">CGM Data Reading Cheat Sheet</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number">04</span>
+                <span class="toc-title">Diabetes Medication Side Effects — Quick Reference</span>
+                <span class="toc-dots"></span>
+            </div>
+
+            <div class="part-header">Part II — Eat Right, Live Better</div>
+
+            <div class="toc-item">
+                <span class="toc-number">05</span>
+                <span class="toc-title">Morning Routine for Stable Blood Sugar</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number">06</span>
+                <span class="toc-title">30 Diabetes-Friendly Indian Breakfast Ideas</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number">07</span>
+                <span class="toc-title">Diabetes-Friendly Indian Breakfast Recipes</span>
+                <span class="toc-dots"></span>
+            </div>
+        </div>
+
+        <div style="flex: 1; padding-left: 20px; padding-top: 100px;">
+            <div class="toc-item">
+                <span class="toc-number">08</span>
+                <span class="toc-title">7-Day Pre-Diabetes Reversal Meal Plan</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number">09</span>
+                <span class="toc-title">7-Day Indian Diabetes Meal Plan</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number">10</span>
+                <span class="toc-title">Diabetes-Friendly Festival Sweets — Diwali & Beyond</span>
+                <span class="toc-dots"></span>
+            </div>
+
+            <div class="part-header">Part III — Track & Manage</div>
+
+            <div class="toc-item">
+                <span class="toc-number">11</span>
+                <span class="toc-title">Sleep & Blood Sugar Connection — 30-Day Tracker</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number">12</span>
+                <span class="toc-title">30-Day Blood Sugar Tracking Journal</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number">13</span>
+                <span class="toc-title">Doctor Visit Preparation Checklist</span>
+                <span class="toc-dots"></span>
+            </div>
+
+            <div class="part-header" style="margin-top: 20px;">Appendix</div>
+
+            <div class="toc-item">
+                <span class="toc-number"></span>
+                <span class="toc-title">Resources & Recommended Reading</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number"></span>
+                <span class="toc-title">Glossary of Diabetes Terms</span>
+                <span class="toc-dots"></span>
+            </div>
+            <div class="toc-item">
+                <span class="toc-number"></span>
+                <span class="toc-title">Emergency Quick Reference Card</span>
+                <span class="toc-dots"></span>
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <span>The Complete Indian Diabetes Handbook</span>
+            <span class="page-number">vii</span>
+        </div>
+    </div>
+
+</body>
+
+</html>

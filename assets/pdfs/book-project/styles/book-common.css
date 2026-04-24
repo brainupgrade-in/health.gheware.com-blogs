@@ -1,0 +1,262 @@
+/* ============================================
+   THE COMPLETE INDIAN DIABETES HANDBOOK
+   Common Styles - Matching NotebookLM Slide Format
+   Page: 1376x768px (19.1x10.7in)
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@page {
+  size: 1376px 768px;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Outfit', sans-serif;
+  color: #1a1a2e;
+  background: #0f0f1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Page Container ---- */
+.page {
+  width: 1376px;
+  height: 768px;
+  position: relative;
+  overflow: hidden;
+  page-break-after: always;
+  display: flex;
+  flex-direction: column;
+}
+
+.page:last-child {
+  page-break-after: avoid;
+}
+
+/* ---- Background Patterns ---- */
+.bg-gradient-teal {
+  background: linear-gradient(135deg, #0d3b3b 0%, #1a5c5c 40%, #0f4f4f 70%, #0a3030 100%);
+}
+
+.bg-gradient-dark {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+}
+
+.bg-gradient-warm {
+  background: linear-gradient(135deg, #1a0f0a 0%, #2d1810 40%, #3d2317 70%, #1f1008 100%);
+}
+
+.bg-gradient-emerald {
+  background: linear-gradient(135deg, #064e3b 0%, #065f46 40%, #047857 70%, #064e3b 100%);
+}
+
+.bg-gradient-navy {
+  background: linear-gradient(135deg, #0c1445 0%, #1e1b4b 50%, #312e81 100%);
+}
+
+.bg-gradient-sunrise {
+  background: linear-gradient(135deg, #1a0520 0%, #2d0a3e 30%, #4a1942 60%, #6b1d3a 100%);
+}
+
+/* ---- Typography ---- */
+.serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.sans {
+  font-family: 'Inter', 'Outfit', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+/* ---- Gold Accent ---- */
+.gold {
+  color: #d4a853;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #d4a853, #f0d78c, #c99d3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---- Decorative Elements ---- */
+.divider-gold {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #d4a853, #f0d78c, #d4a853);
+  border-radius: 2px;
+}
+
+.divider-gold-long {
+  width: 200px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #d4a853, #f0d78c, #d4a853, transparent);
+  border-radius: 2px;
+}
+
+.corner-ornament {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  opacity: 0.2;
+}
+
+.corner-ornament::before,
+.corner-ornament::after {
+  content: '';
+  position: absolute;
+  background: #d4a853;
+}
+
+.corner-ornament::before {
+  width: 60px;
+  height: 2px;
+}
+
+.corner-ornament::after {
+  width: 2px;
+  height: 60px;
+}
+
+.corner-tl { top: 40px; left: 40px; }
+.corner-tl::before { top: 0; left: 0; }
+.corner-tl::after { top: 0; left: 0; }
+
+.corner-tr { top: 40px; right: 40px; }
+.corner-tr::before { top: 0; right: 0; }
+.corner-tr::after { top: 0; right: 0; }
+
+.corner-bl { bottom: 40px; left: 40px; }
+.corner-bl::before { bottom: 0; left: 0; }
+.corner-bl::after { bottom: 0; left: 0; }
+
+.corner-br { bottom: 40px; right: 40px; }
+.corner-br::before { bottom: 0; right: 0; }
+.corner-br::after { bottom: 0; right: 0; }
+
+/* ---- Glassmorphism Cards ---- */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+/* ---- Footer ---- */
+.page-footer {
+  position: absolute;
+  bottom: 24px;
+  left: 60px;
+  right: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'Inter', sans-serif;
+}
+
+/* ---- Chapter number badge ---- */
+.chapter-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #d4a853;
+  color: #d4a853;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.chapter-badge-large {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  border-width: 3px;
+}
+
+/* ---- Utilities ---- */
+.text-white { color: #ffffff; }
+.text-white-80 { color: rgba(255, 255, 255, 0.8); }
+.text-white-60 { color: rgba(255, 255, 255, 0.6); }
+.text-white-40 { color: rgba(255, 255, 255, 0.4); }
+.text-center { text-align: center; }
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.gap-8 { gap: 8px; }
+.gap-16 { gap: 16px; }
+.gap-24 { gap: 24px; }
+.gap-32 { gap: 32px; }
+.gap-40 { gap: 40px; }
+.grow { flex-grow: 1; }
+
+/* ---- Table styles ---- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+th {
+  background: rgba(212, 168, 83, 0.15);
+  color: #d4a853;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 16px;
+  border-bottom: 2px solid rgba(212, 168, 83, 0.3);
+}
+
+td {
+  padding: 8px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* ---- Emoji bullet lists ---- */
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  padding: 6px 0;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+}
+
+/* ---- Page Number ---- */
+.page-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  color: rgba(212, 168, 83, 0.5);
+}
