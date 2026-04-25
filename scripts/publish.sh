@@ -21,6 +21,51 @@ echo "=========================================="
 echo "📝 BLOG PUBLISH PIPELINE"
 echo "=========================================="
 
+# ─── STEP 0: Template-scaffolding guard (new/modified posts only) ─────────────
+# Refuse to publish a post HTML that ships without site styling. Every post must
+# carry either the external CSS trio (../../../css/{critical,blog,responsive}.css)
+# OR an inline <style> block. Caught the 2026-04-21 ultrahuman/cgm-pricing
+# template-skip incident — guard ensures it can't recur for any author.
+echo ""
+echo "0️⃣  Template-scaffolding guard..."
+$PYTHON - << 'PYEOF'
+import re, subprocess, sys
+out = subprocess.run(
+    ["git", "status", "--porcelain", "--", "posts/"],
+    capture_output=True, text=True, check=True,
+).stdout
+targets = []
+for line in out.splitlines():
+    # porcelain XY path; deletions (D) or renames (R) need different handling
+    code, _, path = line[:2], line[2], line[3:].strip()
+    if not path.endswith(".html"):
+        continue
+    if "D" in code:
+        continue
+    # rename "old -> new"
+    if "->" in path:
+        path = path.split("->")[-1].strip()
+    targets.append(path)
+bad = []
+for f in targets:
+    try:
+        h = open(f).read()
+    except FileNotFoundError:
+        continue
+    has_inline = re.search(r"<style[\s>]", h) is not None
+    has_ext = re.search(r'<link[^>]+rel="stylesheet"', h) is not None
+    if not (has_inline or has_ext):
+        bad.append(f)
+if bad:
+    print("   ❌ Template scaffolding missing — refusing to publish:")
+    for f in bad:
+        print(f"      - {f}")
+    print("   Each post needs <link rel='stylesheet' href='../../../css/blog.css'>")
+    print("   plus the critical+responsive trio, OR an inline <style> block.")
+    sys.exit(1)
+print(f"   ✅ {len(targets)} new/modified post(s) carry template scaffolding")
+PYEOF
+
 # ─── STEP 1: Regenerate posts.json + sitemap.xml + feed.xml from disk ─────────
 # The HTML files in posts/ are the source of truth. This rebuilds every index
 # so posts.json can never drift from what is actually on disk. See
