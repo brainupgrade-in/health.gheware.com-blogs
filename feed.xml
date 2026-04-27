@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 26 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Diabetes and Heart Disease India 2026: Cardiovascular Risk Guide</title>
+      <link>https://health.gheware.com/blog/posts/2026/04/diabetes-heart-disease-india-cardiovascular-risk-guide-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/04/diabetes-heart-disease-india-cardiovascular-risk-guide-2026.html</guid>
+      <description>People with diabetes face 2-4x higher heart disease risk. Learn ICMR-backed strategies to protect your heart, lower LDL cholesterol, and reduce cardiovascular risk with Indian diet approaches.</description>
+      <category>Heart Health</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Semaglutide Generic in India: Complete Guide for Type 2 Diabetics (2026)</title>
       <link>https://health.gheware.com/blog/posts/2026/04/semaglutide-generic-india-complete-guide-type-2-diabetes-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Diet &amp; Nutrition</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jamun, Methi &amp; Cinnamon Mix for Blood Sugar: Recipe + 17 More</title>
-      <link>https://health.gheware.com/blog/posts/2026/02/best-indian-foods-lower-blood-sugar-naturally.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/02/best-indian-foods-lower-blood-sugar-naturally.html</guid>
-      <description>Jamun, methi, cinnamon mix recipe + 17 more Indian foods that lower blood sugar. Real CGM data showing 20-40 mg/dL drops. Free PDF inside.</description>
-      <category>Diet &amp; Nutrition</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
