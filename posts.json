@@ -1,6 +1,113 @@
 {
   "posts": [
     {
+      "id": 142,
+      "title": "BeatO vs Sugar.fit India 2026: Diabetes Program Comparison",
+      "slug": "posts/2026/04/beato-vs-sugarfit-diabetes-program-comparison-india-2026.html",
+      "path": "posts/2026/04/beato-vs-sugarfit-diabetes-program-comparison-india-2026.html",
+      "url": "posts/2026/04/beato-vs-sugarfit-diabetes-program-comparison-india-2026.html",
+      "date": "2026-04-28",
+      "category": "diabetes-programs",
+      "categoryLabel": "Diabetes Programs",
+      "description": "Compare BeatO vs Sugar.fit diabetes programs in India 2026. Pricing, HbA1c claims, CGM inclusion, and which program actually delivers results.",
+      "excerpt": "Compare BeatO vs Sugar.fit diabetes programs in India 2026. Pricing, HbA1c claims, CGM inclusion, and which program actually delivers results.",
+      "keywords": [
+        "BeatO vs Sugar.fit",
+        "BeatO diabetes program India",
+        "Sugar.fit reversal program",
+        "diabetes management apps India 2026",
+        "CGM comparison BeatO Sugar.fit"
+      ],
+      "tags": [
+        "BeatO vs Sugar.fit, diabetes program India, CGM comparison, HbA1c tracking"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/beato-vs-sugarfit-comparison-2026-hero.jpg",
+      "readTime": "8 min read",
+      "featured": false
+    },
+    {
+      "id": 141,
+      "title": "Diabetes and Heart Disease India 2026: Cardiovascular Risk Guide",
+      "slug": "posts/2026/04/diabetes-heart-disease-india-cardiovascular-risk-guide-2026.html",
+      "path": "posts/2026/04/diabetes-heart-disease-india-cardiovascular-risk-guide-2026.html",
+      "url": "posts/2026/04/diabetes-heart-disease-india-cardiovascular-risk-guide-2026.html",
+      "date": "2026-04-27",
+      "category": "heart-health",
+      "categoryLabel": "Heart Health",
+      "description": "People with diabetes face 2-4x higher heart disease risk. Learn ICMR-backed strategies to protect your heart, lower LDL cholesterol, and reduce cardiovascular risk with Indian diet approaches.",
+      "excerpt": "People with diabetes face 2-4x higher heart disease risk. Learn ICMR-backed strategies to protect your heart, lower LDL cholesterol, and reduce cardiovascular risk with Indian diet approaches.",
+      "keywords": [
+        "diabetes heart disease India",
+        "cardiovascular risk diabetes",
+        "diabetic heart disease prevention",
+        "LDL cholesterol diabetes India",
+        "ICMR heart guidelines",
+        "type 2 diabetes heart attack"
+      ],
+      "tags": [
+        "diabetes heart disease India, cardiovascular risk, LDL cholesterol diabetes, ICMR guidelines"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/diabetes-heart-disease-india-2026-hero.jpg",
+      "readTime": "7 min read",
+      "featured": false
+    },
+    {
+      "id": 140,
+      "title": "Semaglutide Generic in India: Complete Guide for Type 2 Diabetics (2026)",
+      "slug": "posts/2026/04/semaglutide-generic-india-complete-guide-type-2-diabetes-2026.html",
+      "path": "posts/2026/04/semaglutide-generic-india-complete-guide-type-2-diabetes-2026.html",
+      "url": "posts/2026/04/semaglutide-generic-india-complete-guide-type-2-diabetes-2026.html",
+      "date": "2026-04-26",
+      "category": "medications",
+      "categoryLabel": "Medication & Treatment",
+      "description": "Semaglutide now generic in India 2026. Complete guide to Ozempic alternatives, pricing ₹800-1200, Lupin and Zydus options, side effects, and how to access for type 2 diabetes.",
+      "excerpt": "Semaglutide now generic in India 2026. Complete guide to Ozempic alternatives, pricing ₹800-1200, Lupin and Zydus options, side effects, and how to access for type 2 diabetes.",
+      "keywords": [
+        "semaglutide generic India 2026",
+        "Ozempic India price",
+        "semaglutide cost India",
+        "Lupin semaglutide",
+        "Zydus semaglutide",
+        "type 2 diabetes medication India",
+        "GLP-1 agonist India",
+        "weight loss injection India",
+        "diabetes injection India"
+      ],
+      "tags": [
+        "semaglutide India, Ozempic generic, GLP-1 India, type 2 diabetes medication"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/semaglutide-generic-india-2026-hero.jpg",
+      "readTime": "8 min read",
+      "featured": false
+    },
+    {
+      "id": 139,
+      "title": "Diabetes AI Chatbots India 2026: RAGUS.GPT vs BeatO vs Health Gheware",
+      "slug": "posts/2026/04/diabetes-ai-chatbot-comparison-india-2026.html",
+      "path": "posts/2026/04/diabetes-ai-chatbot-comparison-india-2026.html",
+      "url": "posts/2026/04/diabetes-ai-chatbot-comparison-india-2026.html",
+      "date": "2026-04-26",
+      "category": "ai-health-tech",
+      "categoryLabel": "Technology & AI",
+      "description": "Compare diabetes AI chatbots in India: Sugar.fit RAGUS.GPT, BeatO AI, Health Gheware. Features, accuracy, and which AI assistant helps diabetics best in 2026.",
+      "excerpt": "Compare diabetes AI chatbots in India: Sugar.fit RAGUS.GPT, BeatO AI, Health Gheware. Features, accuracy, and which AI assistant helps diabetics best in 2026.",
+      "keywords": [
+        "diabetes AI chatbot India 2026",
+        "RAGUS.GPT",
+        "BeatO AI",
+        "Health Gheware AI",
+        "Sugar.fit AI",
+        "diabetes management AI",
+        "diabetic chatbot comparison"
+      ],
+      "tags": [
+        "diabetes AI, RAGUS.GPT, BeatO AI, Health Gheware, Sugar.fit AI, CGM India"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/diabetes-ai-chatbot-comparison-2026.jpg",
+      "readTime": "7 min read",
+      "featured": false
+    },
+    {
       "id": 138,
       "title": "Reverse Prediabetes Fast: India's Complete 2026 Guide",
       "slug": "posts/2026/04/reverse-prediabetes-fast-india-2026-guide.html",
@@ -51,7 +158,7 @@
         "Indian summer health guide 2026"
       ],
       "tags": [],
-      "image": "media/summer-diabetes-care-india-2026-hero.jpg",
+      "image": "https://health.gheware.com/blog/assets/images/summer-diabetes-care-india-2026-hero.jpg",
       "readTime": "5 min read",
       "featured": false
     },
@@ -76,43 +183,11 @@
         "continuous glucose monitor"
       ],
       "tags": [
-        "CGM",
-        "BeatO",
-        "Ultrahuman"
+        "CGM India 2026, BeatO CGM, Ultrahuman M1, FreeStyle Libre"
       ],
-      "image": "assets/images/cgm-pricing-wars-india-2026-beato-vs-ultrahuman-vs-abbott-hero.jpg",
+      "image": "https://health.gheware.com/blog/assets/images/cgm-pricing-wars-2026-hero.jpg",
       "readTime": "5 min read",
       "featured": false
-    },
-    {
-      "id": 133,
-      "title": "BeatO vs Sugar.fit vs Health Gheware: Complete Diabetes App Comparison 2026",
-      "slug": "posts/2026/04/besto-vs-sugarfit-vs-healthgheware-comparison-2026.html",
-      "path": "posts/2026/04/besto-vs-sugarfit-vs-healthgheware-comparison-2026.html",
-      "url": "posts/2026/04/besto-vs-sugarfit-vs-healthgheware-comparison-2026.html",
-      "date": "2026-04-18",
-      "category": "diabetes-management",
-      "categoryLabel": "Diabetes Management",
-      "description": "Which diabetes app is best for Indians in 2026? Compare BeatO, Sugar.fit, and Health Gheware on pricing, features, CGM support, doctor consultations, AI coaching, and find the right fit for your diabetes management.",
-      "excerpt": "Which diabetes app is best for Indians in 2026? Compare BeatO, Sugar.fit, and Health Gheware on pricing, features, CGM support, doctor consultations, AI coaching, and find the right fit for your diabetes management.",
-      "keywords": [
-        "BeatO vs Sugar.fit comparison",
-        "best diabetes app India 2026",
-        "diabetes management app comparison",
-        "Health Gheware vs BeatO",
-        "Sugar.fit pricing India",
-        "diabetes app review India",
-        "CGM app India",
-        "diabetes reversal app"
-      ],
-      "tags": [
-        "Diabetes Apps",
-        "India",
-        "Comparison"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/diabetes-apps-comparison-india-2026.jpg",
-      "readTime": "12 min read",
-      "featured": true
     },
     {
       "id": 124,
@@ -1521,36 +1596,6 @@
       "featured": false
     },
     {
-      "id": 83,
-      "title": "Walking After Meals to Lower Blood Sugar: Complete Indian Guide (2026)",
-      "slug": "posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide.html",
-      "path": "posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide.html",
-      "url": "posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide.html",
-      "date": "2026-02-25",
-      "category": "fitness-diabetes",
-      "categoryLabel": "Exercise & Fitness",
-      "description": "Discover how walking after meals can reduce blood sugar spikes by 30-50%. Learn the best timing, duration, and tips for post-meal walks tailored for Indian diabetics. Backed by science.",
-      "excerpt": "Discover how walking after meals can reduce blood sugar spikes by 30-50%. Learn the best timing, duration, and tips for post-meal walks tailored for Indian diabetics. Backed by science.",
-      "keywords": [
-        "walking after meals blood sugar",
-        "post meal walk diabetes",
-        "walk after food sugar control",
-        "post dinner walk benefits diabetes",
-        "walking after eating India",
-        "blood sugar spike walking",
-        "diabetes walk timing",
-        "10 minute walk after meals",
-        "post prandial walk diabetes",
-        "walk after roti rice blood sugar"
-      ],
-      "tags": [
-        "walking after meals diabetes"
-      ],
-      "image": "https://health.gheware.com/blog/posts/2026/02/walking-after-meals-lower-blood-sugar-india-guide-hero.png",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 82,
       "title": "Jamun, Methi & Cinnamon Mix for Blood Sugar: Recipe + 17 More",
       "slug": "posts/2026/02/best-indian-foods-lower-blood-sugar-naturally.html",
@@ -1615,36 +1660,6 @@
       "featured": false
     },
     {
-      "id": 80,
-      "title": "GLP-1 Pills: The Wegovy Pill Revolution for Weight Loss in 2026",
-      "slug": "posts/2026/01/glp1-pills-wegovy-pill-revolution.html",
-      "path": "posts/2026/01/glp1-pills-wegovy-pill-revolution.html",
-      "url": "posts/2026/01/glp1-pills-wegovy-pill-revolution.html",
-      "date": "2026-01-14",
-      "category": "medications",
-      "categoryLabel": "Medication & Treatment",
-      "description": "Oral Wegovy is the first FDA-approved GLP-1 pill for weight loss. Learn about 14-16% weight loss results, $149-$299 pricing, pill vs injection comparison, and who qualifies.",
-      "excerpt": "Oral Wegovy is the first FDA-approved GLP-1 pill for weight loss. Learn about 14-16% weight loss results, $149-$299 pricing, pill vs injection comparison, and who qualifies.",
-      "keywords": [
-        "wegovy pill",
-        "oral wegovy",
-        "GLP-1 pill weight loss",
-        "oral semaglutide",
-        "wegovy tablet",
-        "semaglutide pill",
-        "wegovy pill vs injection",
-        "wegovy pill cost"
-      ],
-      "tags": [
-        "wegovy pill",
-        "GLP-1 medications",
-        "weight loss"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/glp1-pills-wegovy-revolution-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 79,
       "title": "Stop Fasting Coffee: The Truth About Blood Sugar (2026)",
       "slug": "posts/2026/01/coffee-blood-sugar-what-3-cups-really-does.html",
@@ -1671,61 +1686,6 @@
         "glucose management"
       ],
       "image": "https://health.gheware.com/blog/assets/images/coffee-blood-sugar-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 78,
-      "title": "The Truth About Ayurveda for Type 2 Diabetes (2026)",
-      "slug": "posts/2026/01/how-ayurveda-treats-type-2-diabetes.html",
-      "path": "posts/2026/01/how-ayurveda-treats-type-2-diabetes.html",
-      "url": "posts/2026/01/how-ayurveda-treats-type-2-diabetes.html",
-      "date": "2026-01-12",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "8 Ayurvedic herbs, yoga, and Panchakarma for diabetes. 65% reduced meds in studies. Safe with metformin under supervision.",
-      "excerpt": "8 Ayurvedic herbs, yoga, and Panchakarma for diabetes. 65% reduced meds in studies. Safe with metformin under supervision.",
-      "keywords": [
-        "ayurveda diabetes treatment",
-        "madhumeha",
-        "ayurvedic herbs for diabetes",
-        "gymnema diabetes",
-        "panchakarma diabetes",
-        "dosha imbalance diabetes",
-        "holistic diabetes management"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/ayurveda-diabetes-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 77,
-      "title": "Stress & Cortisol: The Hidden Blood Sugar Saboteur Nobody Talks About",
-      "slug": "posts/2026/01/stress-cortisol-blood-sugar-saboteur.html",
-      "path": "posts/2026/01/stress-cortisol-blood-sugar-saboteur.html",
-      "url": "posts/2026/01/stress-cortisol-blood-sugar-saboteur.html",
-      "date": "2026-01-12",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Discover how stress and cortisol can spike your blood sugar by 20-50 mg/dL without eating. Learn evidence-based techniques like MBSR that lower HbA1c by 0.84%.",
-      "excerpt": "Discover how stress and cortisol can spike your blood sugar by 20-50 mg/dL without eating. Learn evidence-based techniques like MBSR that lower HbA1c by 0.84%.",
-      "keywords": [
-        "stress blood sugar",
-        "cortisol blood sugar",
-        "stress diabetes",
-        "cortisol insulin resistance",
-        "stress management diabetes",
-        "dawn phenomenon cortisol",
-        "HPA axis diabetes",
-        "mindfulness diabetes"
-      ],
-      "tags": [
-        "stress blood sugar",
-        "cortisol diabetes",
-        "stress management"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/stress-cortisol-blood-sugar-saboteur-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     },
@@ -1762,35 +1722,6 @@
       "featured": false
     },
     {
-      "id": 75,
-      "title": "Warning: Alcohol and Diabetes - Why Your Next Drink Could Crash Your Blood Sugar",
-      "slug": "posts/2025/12/alcohol-diabetes-drinking-guide.html",
-      "path": "posts/2025/12/alcohol-diabetes-drinking-guide.html",
-      "url": "posts/2025/12/alcohol-diabetes-drinking-guide.html",
-      "date": "2025-12-09",
-      "category": "nutrition-lifestyle",
-      "categoryLabel": "Diet & Nutrition",
-      "description": "Complete guide on alcohol and diabetes. Learn how drinking affects blood sugar, delayed hypoglycemia risks, ADA drinking guidelines and 10 safety tips.",
-      "excerpt": "Complete guide on alcohol and diabetes. Learn how drinking affects blood sugar, delayed hypoglycemia risks, ADA drinking guidelines and 10 safety tips.",
-      "keywords": [
-        "alcohol diabetes",
-        "drinking with diabetes",
-        "alcohol blood sugar",
-        "alcohol hypoglycemia",
-        "diabetes drinking guidelines",
-        "wine diabetes",
-        "beer blood sugar"
-      ],
-      "tags": [
-        "Alcohol",
-        "Blood Sugar",
-        "Diabetes Management"
-      ],
-      "image": "https://health.gheware.com/blog/posts/2025/12/alcohol-diabetes-drinking-guide-hero.png",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 74,
       "title": "Why Your Beta Cells Are Dying: The Hidden Truth About Diabetes (2026 Research)",
       "slug": "posts/2025/12/beta-cells-insulin-factories-diabetes-guide.html",
@@ -1817,35 +1748,6 @@
         "diabetes"
       ],
       "image": "https://health.gheware.com/blog/assets/images/beta-cells-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 73,
-      "title": "Can You Stop Diabetes Medication? The Truth About Lifelong Treatment",
-      "slug": "posts/2025/12/can-you-stop-diabetes-medication-truth-lifelong-treatment.html",
-      "path": "posts/2025/12/can-you-stop-diabetes-medication-truth-lifelong-treatment.html",
-      "url": "posts/2025/12/can-you-stop-diabetes-medication-truth-lifelong-treatment.html",
-      "date": "2025-12-09",
-      "category": "medications",
-      "categoryLabel": "Medication & Treatment",
-      "description": "Can you stop diabetes medication? DiRECT trial shows 26% maintain remission at 5 years. Learn safe discontinuation, relapse risks, and type 1 vs type 2.",
-      "excerpt": "Can you stop diabetes medication? DiRECT trial shows 26% maintain remission at 5 years. Learn safe discontinuation, relapse risks, and type 1 vs type 2.",
-      "keywords": [
-        "stop diabetes medication",
-        "diabetes remission",
-        "stop metformin",
-        "diabetes medication discontinuation",
-        "type 2 diabetes remission",
-        "lifelong diabetes treatment",
-        "stop insulin"
-      ],
-      "tags": [
-        "diabetes medication",
-        "diabetes remission",
-        "metformin"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/stop-diabetes-medication-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     },
@@ -1880,97 +1782,6 @@
       "featured": false
     },
     {
-      "id": 71,
-      "title": "Why Your Doctor Might Miss Your Diabetes Diagnosis (2026 Testing Guide)",
-      "slug": "posts/2025/12/diabetes-diagnosis-complete-testing-guide.html",
-      "path": "posts/2025/12/diabetes-diagnosis-complete-testing-guide.html",
-      "url": "posts/2025/12/diabetes-diagnosis-complete-testing-guide.html",
-      "date": "2025-12-09",
-      "category": "diagnosis",
-      "categoryLabel": "Testing & Diagnosis",
-      "description": "ADA 2025 diabetes diagnostic criteria: HbA1c ≥6.5%, fasting glucose ≥126 mg/dL, OGTT ≥200 mg/dL. Complete guide to autoantibody testing and T1D staging.",
-      "excerpt": "ADA 2025 diabetes diagnostic criteria: HbA1c ≥6.5%, fasting glucose ≥126 mg/dL, OGTT ≥200 mg/dL. Complete guide to autoantibody testing and T1D staging.",
-      "keywords": [
-        "diabetes diagnosis",
-        "HbA1c test",
-        "fasting blood glucose",
-        "OGTT",
-        "oral glucose tolerance test",
-        "diabetes autoantibodies",
-        "GAD65",
-        "Type 1 diabetes staging",
-        "prediabetes diagnosis"
-      ],
-      "tags": [
-        "diabetes diagnosis",
-        "HbA1c",
-        "blood glucose testing"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/diabetes-diagnosis-testing-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 70,
-      "title": "When to Go to Hospital for High Blood Sugar: India ER Guide 2026",
-      "slug": "posts/2025/12/diabetes-emergencies-hhs-hyperglycemic-crisis-guide.html",
-      "path": "posts/2025/12/diabetes-emergencies-hhs-hyperglycemic-crisis-guide.html",
-      "url": "posts/2025/12/diabetes-emergencies-hhs-hyperglycemic-crisis-guide.html",
-      "date": "2025-12-09",
-      "category": "emergencies",
-      "categoryLabel": "Emergencies",
-      "description": "Blood sugar over 300? Know when to go to hospital vs manage at home. HHS symptoms, emergency checklist & Indian ICU costs. Download free guide.",
-      "excerpt": "Blood sugar over 300? Know when to go to hospital vs manage at home. HHS symptoms, emergency checklist & Indian ICU costs. Download free guide.",
-      "keywords": [
-        "diabetes emergency",
-        "hyperosmolar hyperglycemic state",
-        "HHS",
-        "hyperglycemic crisis",
-        "diabetic ketoacidosis",
-        "DKA",
-        "high blood sugar emergency",
-        "diabetes 911",
-        "blood sugar over 600"
-      ],
-      "tags": [
-        "diabetes emergency",
-        "HHS",
-        "hyperglycemic crisis"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/diabetes-emergencies-hhs-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 69,
-      "title": "Warning: Diabetes Doubles Your Heart Attack Risk (2026 Prevention Guide)",
-      "slug": "posts/2025/12/diabetes-heart-disease-cardiovascular-guide.html",
-      "path": "posts/2025/12/diabetes-heart-disease-cardiovascular-guide.html",
-      "url": "posts/2025/12/diabetes-heart-disease-cardiovascular-guide.html",
-      "date": "2025-12-09",
-      "category": "complications",
-      "categoryLabel": "Complications",
-      "description": "People with diabetes have 2-4x higher cardiovascular risk. Learn how blood sugar control protects your heart, ADA 2025 guidelines, and medications that save lives.",
-      "excerpt": "People with diabetes have 2-4x higher cardiovascular risk. Learn how blood sugar control protects your heart, ADA 2025 guidelines, and medications that save lives.",
-      "keywords": [
-        "diabetes heart disease",
-        "cardiovascular disease diabetes",
-        "diabetes cardiovascular risk",
-        "SGLT2 inhibitors",
-        "GLP-1 agonists",
-        "diabetes heart health",
-        "blood sugar heart"
-      ],
-      "tags": [
-        "diabetes heart disease",
-        "cardiovascular disease",
-        "diabetes complications"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/diabetes-heart-disease-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 68,
       "title": "Diabetes Statistics India 2026: 101M Cases, Risk Calculator Free",
       "slug": "posts/2025/12/diabetes-statistics-global-impact-2025.html",
@@ -1998,36 +1809,6 @@
         "IDF diabetes atlas"
       ],
       "image": "https://health.gheware.com/blog/posts/2025/12/diabetes-statistics-global-impact-2025-hero.png",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 67,
-      "title": "Why 40% of Diabetics Lose Their Kidneys (And How to Stop It)",
-      "slug": "posts/2025/12/diabetic-nephropathy-kidney-disease-guide.html",
-      "path": "posts/2025/12/diabetic-nephropathy-kidney-disease-guide.html",
-      "url": "posts/2025/12/diabetic-nephropathy-kidney-disease-guide.html",
-      "date": "2025-12-09",
-      "category": "complications",
-      "categoryLabel": "Complications",
-      "description": "Learn about diabetic kidney disease affecting 20-40% of diabetics. Understand early warning signs, CKD stages, and ADA 2025 prevention strategies.",
-      "excerpt": "Learn about diabetic kidney disease affecting 20-40% of diabetics. Understand early warning signs, CKD stages, and ADA 2025 prevention strategies.",
-      "keywords": [
-        "diabetic nephropathy",
-        "diabetic kidney disease",
-        "CKD",
-        "microalbuminuria",
-        "eGFR",
-        "kidney disease prevention",
-        "diabetes complications",
-        "SGLT2 inhibitors"
-      ],
-      "tags": [
-        "diabetic nephropathy",
-        "kidney disease",
-        "diabetes complications"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/diabetic-nephropathy-guide-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     },
@@ -2064,35 +1845,6 @@
       "featured": false
     },
     {
-      "id": 65,
-      "title": "Stop Blood Sugar Spikes: The Glycemic Index Secret Your Doctor Never Explained",
-      "slug": "posts/2025/12/glycemic-index-food-choices-guide.html",
-      "path": "posts/2025/12/glycemic-index-food-choices-guide.html",
-      "url": "posts/2025/12/glycemic-index-food-choices-guide.html",
-      "date": "2025-12-09",
-      "category": "nutrition-lifestyle",
-      "categoryLabel": "Diet & Nutrition",
-      "description": "Complete guide to glycemic index (GI) and glycemic load (GL). Learn how to choose low-GI foods, reduce blood sugar spikes, and manage diabetes effectively.",
-      "excerpt": "Complete guide to glycemic index (GI) and glycemic load (GL). Learn how to choose low-GI foods, reduce blood sugar spikes, and manage diabetes effectively.",
-      "keywords": [
-        "glycemic index",
-        "glycemic load",
-        "low GI foods",
-        "blood sugar spikes",
-        "diabetes diet",
-        "GI chart",
-        "carbohydrates diabetes"
-      ],
-      "tags": [
-        "Glycemic Index",
-        "Blood Sugar",
-        "Diabetes Diet"
-      ],
-      "image": "https://health.gheware.com/blog/posts/2025/12/glycemic-index-food-choices-guide-hero.png",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 64,
       "title": "Why Your Endocrinologist Wants You on an Insulin Pump (2026 Guide)",
       "slug": "posts/2025/12/insulin-pumps-how-they-work-complete-guide.html",
@@ -2124,38 +1876,6 @@
       "featured": false
     },
     {
-      "id": 63,
-      "title": "Why Your Insulin Therapy Isn't Working: The Hidden Injection Mistakes (2026)",
-      "slug": "posts/2025/12/insulin-therapy-complete-guide.html",
-      "path": "posts/2025/12/insulin-therapy-complete-guide.html",
-      "url": "posts/2025/12/insulin-therapy-complete-guide.html",
-      "date": "2025-12-09",
-      "category": "medications",
-      "categoryLabel": "Medication & Treatment",
-      "description": "Insulin therapy guide: ADA 2025 injection techniques, site rotation to prevent lipohypertrophy, dosing basics, smart pens (InPen, NovoPen 6, Tempo).",
-      "excerpt": "Insulin therapy guide: ADA 2025 injection techniques, site rotation to prevent lipohypertrophy, dosing basics, smart pens (InPen, NovoPen 6, Tempo).",
-      "keywords": [
-        "insulin therapy",
-        "insulin injection technique",
-        "insulin dosing",
-        "smart insulin pens",
-        "insulin site rotation",
-        "InPen",
-        "NovoPen 6",
-        "basal bolus insulin",
-        "insulin pen needles",
-        "diabetes insulin"
-      ],
-      "tags": [
-        "insulin therapy",
-        "injection technique",
-        "smart insulin pens"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/insulin-therapy-guide-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 62,
       "title": "Warning: These 5 Hidden Signs Predict Diabetes Years in Advance (2026)",
       "slug": "posts/2025/12/metabolic-syndrome-diabetes-risk-guide.html",
@@ -2182,99 +1902,6 @@
         "cardiovascular health"
       ],
       "image": "https://health.gheware.com/blog/assets/images/metabolic-syndrome-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 61,
-      "title": "Hidden Diabetes Types: Why LADA and MODY Are Often Misdiagnosed (2026)",
-      "slug": "posts/2025/12/rare-secondary-diabetes-types-lada-mody-guide.html",
-      "path": "posts/2025/12/rare-secondary-diabetes-types-lada-mody-guide.html",
-      "url": "posts/2025/12/rare-secondary-diabetes-types-lada-mody-guide.html",
-      "date": "2025-12-09",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Rare diabetes types: LADA (2-12% of adults), MODY (1-5% genetic), Type 3c, drug-induced, CFRD, and post-transplant diabetes. ADA 2024 diagnosis criteria.",
-      "excerpt": "Rare diabetes types: LADA (2-12% of adults), MODY (1-5% genetic), Type 3c, drug-induced, CFRD, and post-transplant diabetes. ADA 2024 diagnosis criteria.",
-      "keywords": [
-        "LADA diabetes",
-        "MODY diabetes",
-        "Type 3c diabetes",
-        "pancreatogenic diabetes",
-        "drug-induced diabetes",
-        "steroid diabetes",
-        "CFRD",
-        "post-transplant diabetes",
-        "rare diabetes types"
-      ],
-      "tags": [
-        "rare diabetes",
-        "LADA",
-        "MODY"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/rare-diabetes-types-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 60,
-      "title": "Why SGLT2 Inhibitors Are the Secret Weapon for Diabetes Heart and Kidney Protection (2026)",
-      "slug": "posts/2025/12/sglt2-inhibitors-diabetes-heart-kidney-protection.html",
-      "path": "posts/2025/12/sglt2-inhibitors-diabetes-heart-kidney-protection.html",
-      "url": "posts/2025/12/sglt2-inhibitors-diabetes-heart-kidney-protection.html",
-      "date": "2025-12-09",
-      "category": "medications",
-      "categoryLabel": "Medication & Treatment",
-      "description": "SGLT2 inhibitors reduce heart failure hospitalizations by 30-35% and slow kidney disease progression. Learn how empagliflozin, dapagliflozin work and who should take them.",
-      "excerpt": "SGLT2 inhibitors reduce heart failure hospitalizations by 30-35% and slow kidney disease progression. Learn how empagliflozin, dapagliflozin work and who should take them.",
-      "keywords": [
-        "SGLT2 inhibitors",
-        "empagliflozin",
-        "dapagliflozin",
-        "diabetes heart protection",
-        "kidney protection diabetes",
-        "sodium glucose cotransporter",
-        "canagliflozin",
-        "diabetes medications"
-      ],
-      "tags": [
-        "SGLT2 inhibitors",
-        "diabetes medications",
-        "heart protection"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/sglt2-inhibitors-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 59,
-      "title": "Stop Taking the Wrong Diabetes Pill: Type 2 Medications Guide (2026)",
-      "slug": "posts/2025/12/type-2-diabetes-medications-complete-overview.html",
-      "path": "posts/2025/12/type-2-diabetes-medications-complete-overview.html",
-      "url": "posts/2025/12/type-2-diabetes-medications-complete-overview.html",
-      "date": "2025-12-09",
-      "category": "medications",
-      "categoryLabel": "Medication & Treatment",
-      "description": "Complete guide to Type 2 diabetes oral medications: DPP-4 inhibitors, sulfonylureas, TZDs. ADA 2025 guidelines, efficacy, side effects, and when to use.",
-      "excerpt": "Complete guide to Type 2 diabetes oral medications: DPP-4 inhibitors, sulfonylureas, TZDs. ADA 2025 guidelines, efficacy, side effects, and when to use.",
-      "keywords": [
-        "Type 2 diabetes medications",
-        "DPP-4 inhibitors",
-        "sitagliptin",
-        "sulfonylureas",
-        "glimepiride",
-        "glipizide",
-        "thiazolidinediones",
-        "pioglitazone",
-        "oral diabetes drugs",
-        "ADA guidelines"
-      ],
-      "tags": [
-        "diabetes medications",
-        "oral antidiabetics",
-        "Type 2 diabetes treatment"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/type-2-diabetes-medications-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     },
@@ -2401,100 +2028,6 @@
       "featured": false
     },
     {
-      "id": 54,
-      "title": "Stop Type 2 Diabetes: 58% Prevention Success (2026 Guide)",
-      "slug": "posts/2025/12/diabetes-prevention-evidence-based-guide.html",
-      "path": "posts/2025/12/diabetes-prevention-evidence-based-guide.html",
-      "url": "posts/2025/12/diabetes-prevention-evidence-based-guide.html",
-      "date": "2025-12-08",
-      "category": "awareness",
-      "categoryLabel": "Prevention & Awareness",
-      "description": "Prevent Type 2 diabetes with proven strategies. Learn how the DPP study achieved 58% risk reduction through lifestyle changes. Discover the 7% weight loss target, 150 min exercise goal, and India-specific prevention tips.",
-      "excerpt": "Prevent Type 2 diabetes with proven strategies. Learn how the DPP study achieved 58% risk reduction through lifestyle changes. Discover the 7% weight loss target, 150 min exercise goal, and India-specific prevention tips.",
-      "keywords": [
-        "diabetes prevention",
-        "prevent type 2 diabetes",
-        "prediabetes reversal",
-        "diabetes prevention program",
-        "lifestyle intervention diabetes",
-        "how to prevent diabetes",
-        "diabetes risk reduction",
-        "prediabetes treatment"
-      ],
-      "tags": [
-        "diabetes prevention",
-        "prediabetes",
-        "lifestyle intervention"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/diabetes-prevention-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 53,
-      "title": "Stop Diabetic Neuropathy: The Hidden Nerve Damage Warning Signs (2026)",
-      "slug": "posts/2025/12/diabetic-neuropathy-nerve-damage-guide.html",
-      "path": "posts/2025/12/diabetic-neuropathy-nerve-damage-guide.html",
-      "url": "posts/2025/12/diabetic-neuropathy-nerve-damage-guide.html",
-      "date": "2025-12-08",
-      "category": "complications",
-      "categoryLabel": "Complications",
-      "description": "Complete guide to diabetic neuropathy: types, symptoms, causes, diagnosis, treatment options, and prevention strategies for diabetes-related nerve damage.",
-      "excerpt": "Complete guide to diabetic neuropathy: types, symptoms, causes, diagnosis, treatment options, and prevention strategies for diabetes-related nerve damage.",
-      "keywords": [
-        "diabetic neuropathy",
-        "nerve damage diabetes",
-        "peripheral neuropathy",
-        "neuropathy symptoms",
-        "diabetic nerve pain",
-        "neuropathy treatment",
-        "autonomic neuropathy",
-        "diabetic foot",
-        "neuropathy prevention",
-        "diabetes complications"
-      ],
-      "tags": [
-        "diabetic neuropathy",
-        "nerve damage",
-        "diabetes complications"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/diabetic-neuropathy-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 52,
-      "title": "Stop Diabetic Retinopathy: The Vision-Saving Guide (2026)",
-      "slug": "posts/2025/12/diabetic-retinopathy-vision-protection-guide.html",
-      "path": "posts/2025/12/diabetic-retinopathy-vision-protection-guide.html",
-      "url": "posts/2025/12/diabetic-retinopathy-vision-protection-guide.html",
-      "date": "2025-12-08",
-      "category": "complications",
-      "categoryLabel": "Complications",
-      "description": "Complete guide to diabetic retinopathy: understand the stages, symptoms, risk factors, screening, treatment options, and prevention strategies to protect your vision.",
-      "excerpt": "Complete guide to diabetic retinopathy: understand the stages, symptoms, risk factors, screening, treatment options, and prevention strategies to protect your vision.",
-      "keywords": [
-        "diabetic retinopathy",
-        "diabetic eye disease",
-        "retinopathy stages",
-        "vision loss diabetes",
-        "diabetic macular edema",
-        "eye screening diabetes",
-        "retina damage",
-        "diabetes complications",
-        "eye health",
-        "vision protection"
-      ],
-      "tags": [
-        "diabetic retinopathy",
-        "vision loss",
-        "diabetes complications"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/diabetic-retinopathy-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 51,
       "title": "The Truth About Your Fasting Blood Sugar Test (What Results Actually Mean)",
       "slug": "posts/2025/12/fasting-blood-sugar-test-preparation-results-guide.html",
@@ -2590,37 +2123,6 @@
       "featured": false
     },
     {
-      "id": 48,
-      "title": "Stop Low Blood Sugar Emergencies: Hypoglycemia Treatment That Works",
-      "slug": "posts/2025/12/hypoglycemia-causes-symptoms-treatment-guide.html",
-      "path": "posts/2025/12/hypoglycemia-causes-symptoms-treatment-guide.html",
-      "url": "posts/2025/12/hypoglycemia-causes-symptoms-treatment-guide.html",
-      "date": "2025-12-08",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Complete guide to hypoglycemia (low blood sugar): ADA 2025 levels (<70 mg/dL), symptoms, the 15-15 Rule treatment, glucagon emergencies, and prevention. Essential for diabetes management.",
-      "excerpt": "Complete guide to hypoglycemia (low blood sugar): ADA 2025 levels (<70 mg/dL), symptoms, the 15-15 Rule treatment, glucagon emergencies, and prevention. Essential for diabetes management.",
-      "keywords": [
-        "hypoglycemia",
-        "low blood sugar",
-        "hypoglycemia symptoms",
-        "hypoglycemia treatment",
-        "rule of 15",
-        "glucagon",
-        "severe hypoglycemia",
-        "blood sugar levels",
-        "diabetes emergency"
-      ],
-      "tags": [
-        "hypoglycemia",
-        "low blood sugar",
-        "diabetes treatment"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/hypoglycemia-guide-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 47,
       "title": "All Insulin Types Compared: Chart With Indian Prices (2026)",
       "slug": "posts/2025/12/insulin-types-complete-guide.html",
@@ -2651,319 +2153,6 @@
         "insulin types"
       ],
       "image": "https://health.gheware.com/blog/posts/2025/12/insulin-types-complete-guide-hero.png",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 46,
-      "title": "The Truth About Keto for Diabetes: What Your Doctor Won't Tell You",
-      "slug": "posts/2025/12/low-carb-keto-diabetes-guide.html",
-      "path": "posts/2025/12/low-carb-keto-diabetes-guide.html",
-      "url": "posts/2025/12/low-carb-keto-diabetes-guide.html",
-      "date": "2025-12-08",
-      "category": "nutrition-lifestyle",
-      "categoryLabel": "Diet & Nutrition",
-      "description": "Complete guide to low-carb and ketogenic diets for diabetes. Learn how keto can reduce HbA1c by 0.8-1.45%, ADA 2025 guidelines, risks, meal plans, and how to start safely.",
-      "excerpt": "Complete guide to low-carb and ketogenic diets for diabetes. Learn how keto can reduce HbA1c by 0.8-1.45%, ADA 2025 guidelines, risks, meal plans, and how to start safely.",
-      "keywords": [
-        "keto diabetes",
-        "low carb diet diabetes",
-        "ketogenic diet type 2 diabetes",
-        "keto for diabetics",
-        "low carb diabetes meal plan",
-        "diabetes remission diet",
-        "keto HbA1c",
-        "ADA low carb guidelines"
-      ],
-      "tags": [
-        "keto diabetes",
-        "low carb diet",
-        "diabetes nutrition"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/low-carb-keto-diabetes-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 45,
-      "title": "Why Metformin Is Still the #1 Diabetes Medication (2026)",
-      "slug": "posts/2025/12/metformin-diabetes-medication-guide.html",
-      "path": "posts/2025/12/metformin-diabetes-medication-guide.html",
-      "url": "posts/2025/12/metformin-diabetes-medication-guide.html",
-      "date": "2025-12-08",
-      "category": "medications",
-      "categoryLabel": "Medication & Treatment",
-      "description": "Complete guide to metformin for Type 2 diabetes: how it works, dosing, side effects, benefits beyond blood sugar, and tips for managing common issues like GI upset.",
-      "excerpt": "Complete guide to metformin for Type 2 diabetes: how it works, dosing, side effects, benefits beyond blood sugar, and tips for managing common issues like GI upset.",
-      "keywords": [
-        "metformin",
-        "metformin side effects",
-        "diabetes medication",
-        "type 2 diabetes treatment",
-        "metformin dosage",
-        "metformin weight loss",
-        "glucophage",
-        "metformin benefits",
-        "blood sugar medication",
-        "first-line diabetes drug"
-      ],
-      "tags": [
-        "metformin",
-        "diabetes medication",
-        "type 2 diabetes"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/metformin-guide-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 44,
-      "title": "The OGTT Truth: Why This Glucose Test Catches What Others Miss",
-      "slug": "posts/2025/12/oral-glucose-tolerance-test-ogtt-guide.html",
-      "path": "posts/2025/12/oral-glucose-tolerance-test-ogtt-guide.html",
-      "url": "posts/2025/12/oral-glucose-tolerance-test-ogtt-guide.html",
-      "date": "2025-12-08",
-      "category": "diagnosis",
-      "categoryLabel": "Testing & Diagnosis",
-      "description": "Complete OGTT guide: ADA 2025 thresholds (140-199 prediabetes, ≥200 diabetes mg/dL), preparation, procedure, gestational diabetes screening, result interpretation.",
-      "excerpt": "Complete OGTT guide: ADA 2025 thresholds (140-199 prediabetes, ≥200 diabetes mg/dL), preparation, procedure, gestational diabetes screening, result interpretation.",
-      "keywords": [
-        "oral glucose tolerance test",
-        "OGTT",
-        "glucose tolerance test",
-        "diabetes diagnosis",
-        "prediabetes test",
-        "gestational diabetes screening",
-        "OGTT results",
-        "blood sugar test"
-      ],
-      "tags": [
-        "glucose tolerance test",
-        "OGTT",
-        "diabetes diagnosis"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/ogtt-guide-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 43,
-      "title": "Warning: DKA Can Kill in 24 Hours - Diabetic Ketoacidosis Signs",
-      "slug": "posts/2025/12/dka-diabetic-ketoacidosis-emergency-guide.html",
-      "path": "posts/2025/12/dka-diabetic-ketoacidosis-emergency-guide.html",
-      "url": "posts/2025/12/dka-diabetic-ketoacidosis-emergency-guide.html",
-      "date": "2025-12-07",
-      "category": "emergencies",
-      "categoryLabel": "Emergencies",
-      "description": "Complete guide to diabetic ketoacidosis (DKA): recognize warning signs, understand causes, learn emergency response, and prevent this life-threatening diabetes complication.",
-      "excerpt": "Complete guide to diabetic ketoacidosis (DKA): recognize warning signs, understand causes, learn emergency response, and prevent this life-threatening diabetes complication.",
-      "keywords": [
-        "diabetic ketoacidosis",
-        "DKA",
-        "DKA symptoms",
-        "DKA emergency",
-        "ketoacidosis signs",
-        "high blood sugar emergency",
-        "diabetes emergency",
-        "ketones diabetes",
-        "DKA treatment",
-        "DKA prevention"
-      ],
-      "tags": [
-        "diabetic ketoacidosis",
-        "DKA",
-        "diabetes emergency"
-      ],
-      "image": "https://health.gheware.com/blog/posts/2025/12/dka-diabetic-ketoacidosis-emergency-guide-hero.png",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 42,
-      "title": "Gestational Diabetes in Pregnancy: The Truth About Protecting Your Baby",
-      "slug": "posts/2025/12/gestational-diabetes-pregnancy-guide.html",
-      "path": "posts/2025/12/gestational-diabetes-pregnancy-guide.html",
-      "url": "posts/2025/12/gestational-diabetes-pregnancy-guide.html",
-      "date": "2025-12-07",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Complete guide to gestational diabetes: understand causes, risk factors, diagnosis (OGTT), blood sugar targets during pregnancy, management strategies, and protecting your baby's health.",
-      "excerpt": "Complete guide to gestational diabetes: understand causes, risk factors, diagnosis (OGTT), blood sugar targets during pregnancy, management strategies, and protecting your baby's health.",
-      "keywords": [
-        "gestational diabetes",
-        "pregnancy diabetes",
-        "GDM",
-        "glucose tolerance test",
-        "pregnancy blood sugar",
-        "gestational diabetes diet",
-        "diabetes during pregnancy",
-        "OGTT",
-        "pregnancy glucose levels"
-      ],
-      "tags": [
-        "gestational diabetes",
-        "pregnancy",
-        "maternal health"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/gestational-diabetes-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 41,
-      "title": "The Hidden Truth About HbA1c: What Your A1C Really Means (2026)",
-      "slug": "posts/2025/12/hba1c-complete-guide-a1c-meaning.html",
-      "path": "posts/2025/12/hba1c-complete-guide-a1c-meaning.html",
-      "url": "posts/2025/12/hba1c-complete-guide-a1c-meaning.html",
-      "date": "2025-12-07",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Understand HbA1c (A1C) testing: normal ranges, diabetes diagnosis thresholds, how it's calculated, limitations, and why Time in Range complements A1C for complete diabetes management.",
-      "excerpt": "Understand HbA1c (A1C) testing: normal ranges, diabetes diagnosis thresholds, how it's calculated, limitations, and why Time in Range complements A1C for complete diabetes management.",
-      "keywords": [
-        "hba1c",
-        "a1c test",
-        "hba1c normal range",
-        "a1c chart",
-        "glycated hemoglobin",
-        "diabetes diagnosis",
-        "a1c levels",
-        "hba1c test",
-        "average blood sugar",
-        "diabetes management"
-      ],
-      "tags": [
-        "hba1c",
-        "a1c test",
-        "diabetes diagnosis"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/hba1c-guide-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 40,
-      "title": "The Truth About Type 1 Diabetes: Why Your Body Attacks Itself (2026 Guide)",
-      "slug": "posts/2025/12/type-1-diabetes-causes-autoimmunity-living.html",
-      "path": "posts/2025/12/type-1-diabetes-causes-autoimmunity-living.html",
-      "url": "posts/2025/12/type-1-diabetes-causes-autoimmunity-living.html",
-      "date": "2025-12-07",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Complete guide to Type 1 diabetes—understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin therapy and data-driven care.",
-      "excerpt": "Complete guide to Type 1 diabetes—understand the autoimmune causes, symptoms, diagnosis, and daily management. Learn how to thrive with T1D through insulin therapy and data-driven care.",
-      "keywords": [
-        "type 1 diabetes",
-        "T1D",
-        "autoimmune diabetes",
-        "juvenile diabetes",
-        "insulin dependent diabetes",
-        "type 1 diabetes causes",
-        "type 1 diabetes symptoms",
-        "diabetes autoimmunity",
-        "living with type 1 diabetes",
-        "type 1 vs type 2"
-      ],
-      "tags": [
-        "type 1 diabetes",
-        "autoimmune diabetes",
-        "insulin therapy"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/type-1-diabetes-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 39,
-      "title": "Type 2 Diabetes: The Truth About Insulin Resistance and Reversal (2026)",
-      "slug": "posts/2025/12/type-2-diabetes-insulin-resistance-reversal.html",
-      "path": "posts/2025/12/type-2-diabetes-insulin-resistance-reversal.html",
-      "url": "posts/2025/12/type-2-diabetes-insulin-resistance-reversal.html",
-      "date": "2025-12-07",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Comprehensive guide to Type 2 diabetes: understand insulin resistance, progression stages, treatment options, and evidence-based reversal strategies. Learn how lifestyle changes and data tracking can transform your diabetes management.",
-      "excerpt": "Comprehensive guide to Type 2 diabetes: understand insulin resistance, progression stages, treatment options, and evidence-based reversal strategies. Learn how lifestyle changes and data tracking can transform your diabetes management.",
-      "keywords": [
-        "type 2 diabetes",
-        "type 2 diabetes reversal",
-        "insulin resistance",
-        "diabetes treatment",
-        "diabetes management",
-        "blood sugar control",
-        "diabetes remission",
-        "lifestyle intervention",
-        "diabetes medications",
-        "metformin"
-      ],
-      "tags": [
-        "type 2 diabetes",
-        "insulin resistance",
-        "diabetes reversal"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/type-2-diabetes-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 38,
-      "title": "Insulin Resistance: The Hidden Truth Behind Type 2 Diabetes (2026 Guide)",
-      "slug": "posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html",
-      "path": "posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html",
-      "url": "posts/2025/12/insulin-resistance-root-cause-type-2-diabetes.html",
-      "date": "2025-12-06",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Understand insulin resistance—the hidden driver behind Type 2 diabetes. Learn causes, symptoms, diagnosis tests, and 7 evidence-based strategies to reverse it naturally.",
-      "excerpt": "Understand insulin resistance—the hidden driver behind Type 2 diabetes. Learn causes, symptoms, diagnosis tests, and 7 evidence-based strategies to reverse it naturally.",
-      "keywords": [
-        "insulin resistance",
-        "type 2 diabetes cause",
-        "insulin sensitivity",
-        "prediabetes",
-        "metabolic syndrome",
-        "reverse insulin resistance",
-        "HOMA-IR",
-        "glucose intolerance",
-        "diabetes prevention"
-      ],
-      "tags": [
-        "insulin resistance",
-        "type 2 diabetes",
-        "diabetes prevention"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/insulin-resistance-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 37,
-      "title": "Warning: Prediabetes Is Your Last Chance to Prevent Type 2 Diabetes",
-      "slug": "posts/2025/12/prediabetes-prevent-type-2-diabetes.html",
-      "path": "posts/2025/12/prediabetes-prevent-type-2-diabetes.html",
-      "url": "posts/2025/12/prediabetes-prevent-type-2-diabetes.html",
-      "date": "2025-12-06",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Learn what prediabetes is, how to recognize the warning signs, and proven strategies to reverse it. Discover how lifestyle changes can prevent Type 2 diabetes progression.",
-      "excerpt": "Learn what prediabetes is, how to recognize the warning signs, and proven strategies to reverse it. Discover how lifestyle changes can prevent Type 2 diabetes progression.",
-      "keywords": [
-        "prediabetes",
-        "prediabetes symptoms",
-        "prediabetes reversal",
-        "prevent type 2 diabetes",
-        "blood sugar levels",
-        "HbA1c prediabetes",
-        "fasting glucose",
-        "diabetes prevention",
-        "prediabetes diet"
-      ],
-      "tags": [
-        "prediabetes",
-        "diabetes prevention",
-        "blood sugar"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/prediabetes-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     },
@@ -3020,65 +2209,6 @@
       "featured": false
     },
     {
-      "id": 34,
-      "title": "Stop Struggling: 7 Proven Ways to Improve Time in Range (2026)",
-      "slug": "posts/2025/11/7-ways-improve-time-in-range.html",
-      "path": "posts/2025/11/7-ways-improve-time-in-range.html",
-      "url": "posts/2025/11/7-ways-improve-time-in-range.html",
-      "date": "2025-11-20",
-      "category": "diabetes-management",
-      "categoryLabel": "Diabetes Management",
-      "description": "Struggling to improve Time in Range? Get 7 data-backed strategies with specific impact numbers and timelines. Learn meal timing, exercise tactics, sleep optimization, and more to boost TIR by 15-25% in 8-12 weeks.",
-      "excerpt": "Struggling to improve Time in Range? Get 7 data-backed strategies with specific impact numbers and timelines. Learn meal timing, exercise tactics, sleep optimization, and more to boost TIR by 15-25% in 8-12 weeks.",
-      "keywords": [
-        "improve time in range",
-        "how to improve time in range diabetes",
-        "increase time in range",
-        "TIR improvement strategies",
-        "diabetes time in range tips",
-        "boost time in range",
-        "time in range tactics"
-      ],
-      "tags": [
-        "time in range",
-        "diabetes management",
-        "TIR improvement"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/improve-tir-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 33,
-      "title": "The Hidden Truth About Diabetes Management: Your Complete 2026 Guide",
-      "slug": "posts/2025/11/diabetes-101-complete-beginners-guide.html",
-      "path": "posts/2025/11/diabetes-101-complete-beginners-guide.html",
-      "url": "posts/2025/11/diabetes-101-complete-beginners-guide.html",
-      "date": "2025-11-18",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Complete beginner's guide to diabetes management. Learn Type 1 vs Type 2 differences, blood sugar basics, key metrics (TIR, HbA1c), lifestyle factors, and how AI simplifies tracking for better glucose control.",
-      "excerpt": "Complete beginner's guide to diabetes management. Learn Type 1 vs Type 2 differences, blood sugar basics, key metrics (TIR, HbA1c), lifestyle factors, and how AI simplifies tracking for better glucose control.",
-      "keywords": [
-        "diabetes management guide",
-        "type 1 vs type 2 diabetes",
-        "blood sugar basics",
-        "diabetes for beginners",
-        "diabetes tracking tools",
-        "how to manage diabetes",
-        "diabetes education",
-        "glucose monitoring"
-      ],
-      "tags": [
-        "diabetes education",
-        "blood sugar management",
-        "diabetes for beginners"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/diabetes-101-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 32,
       "title": "How to Install My Health Gheware Android App: Complete Guide",
       "slug": "posts/2025/11/install-health-gheware-android-app.html",
@@ -3104,66 +2234,6 @@
         "Tutorial"
       ],
       "image": "https://health.gheware.com/blog/assets/images/install-health-gheware-android-app-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 31,
-      "title": "Why Poor Sleep Destroys Your Blood Sugar Control (2026 Guide)",
-      "slug": "posts/2025/11/how-sleep-affects-blood-sugar.html",
-      "path": "posts/2025/11/how-sleep-affects-blood-sugar.html",
-      "url": "posts/2025/11/how-sleep-affects-blood-sugar.html",
-      "date": "2025-11-15",
-      "category": "sleep-health",
-      "categoryLabel": "Sleep & Lifestyle",
-      "description": "Poor sleep can raise fasting glucose by 10-30 mg/dL. Learn how sleep affects blood sugar, 5 proven sleep habits for better glucose control, and how to track your sleep-glucose correlation automatically.",
-      "excerpt": "Poor sleep can raise fasting glucose by 10-30 mg/dL. Learn how sleep affects blood sugar, 5 proven sleep habits for better glucose control, and how to track your sleep-glucose correlation automatically.",
-      "keywords": [
-        "sleep and blood sugar",
-        "sleep quality diabetes",
-        "how sleep affects glucose",
-        "diabetes sleep habits",
-        "improve fasting glucose",
-        "sleep-glucose correlation",
-        "diabetes sleep quality"
-      ],
-      "tags": [
-        "sleep and blood sugar",
-        "diabetes sleep",
-        "glucose control"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/sleep-glucose-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 30,
-      "title": "Why Time in Range is the Hidden Secret to Diabetes Control (2026)",
-      "slug": "posts/2025/11/what-is-time-in-range-diabetes.html",
-      "path": "posts/2025/11/what-is-time-in-range-diabetes.html",
-      "url": "posts/2025/11/what-is-time-in-range-diabetes.html",
-      "date": "2025-11-13",
-      "category": "diabetes-management",
-      "categoryLabel": "Diabetes Management",
-      "description": "Time in Range (TIR) is the most important diabetes metric. Learn what TIR is, why it matters more than HbA1c, target percentages, and 7 proven ways to improve your glucose control.",
-      "excerpt": "Time in Range (TIR) is the most important diabetes metric. Learn what TIR is, why it matters more than HbA1c, target percentages, and 7 proven ways to improve your glucose control.",
-      "keywords": [
-        "time in range diabetes",
-        "TIR diabetes",
-        "glucose time in range",
-        "what is TIR",
-        "diabetes control",
-        "CGM analysis",
-        "blood sugar management",
-        "diabetes metrics",
-        "HbA1c"
-      ],
-      "tags": [
-        "time in range",
-        "diabetes control",
-        "cgm analysis"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/time-in-range-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     },
@@ -3197,32 +2267,6 @@
       "featured": false
     },
     {
-      "id": 25,
-      "title": "Why Your Personalized Diabetes Care Is Stuck in the Past (2026)",
-      "slug": "posts/2025/11/future-personalized-diabetes-care.html",
-      "path": "posts/2025/11/future-personalized-diabetes-care.html",
-      "url": "posts/2025/11/future-personalized-diabetes-care.html",
-      "date": "2025-11-10",
-      "category": "ai-health-tech",
-      "categoryLabel": "Technology & AI",
-      "description": "Discover how AI, predictive analytics, continuous monitoring, and precision medicine are revolutionizing diabetes care. The future is personalized, proactive, and powered by your unique health data.",
-      "excerpt": "Discover how AI, predictive analytics, continuous monitoring, and precision medicine are revolutionizing diabetes care. The future is personalized, proactive, and powered by your unique health data.",
-      "keywords": [
-        "personalized diabetes care",
-        "AI diabetes management",
-        "predictive analytics diabetes",
-        "precision medicine diabetes",
-        "future of diabetes care",
-        "personalized medicine diabetes",
-        "AI health monitoring",
-        "diabetes technology future"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/future-personalized-care-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 24,
       "title": "Health Gheware vs Dexcom G7 & Libre 3: CGM App Comparison",
       "slug": "posts/2025/11/health-gheware-vs-traditional-cgm-apps.html",
@@ -3245,60 +2289,6 @@
         "diabetes management, cgm apps, ai diabetes care, health tech comparison"
       ],
       "image": "https://health.gheware.com/blog/assets/images/mhg-vs-cgm-comparison-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 22,
-      "title": "The Truth About Intermittent Fasting and Blood Sugar (2026 Guide)",
-      "slug": "posts/2025/11/intermittent-fasting-blood-sugar-data.html",
-      "path": "posts/2025/11/intermittent-fasting-blood-sugar-data.html",
-      "url": "posts/2025/11/intermittent-fasting-blood-sugar-data.html",
-      "date": "2025-11-10",
-      "category": "nutrition-lifestyle",
-      "categoryLabel": "Diet & Nutrition",
-      "description": "Discover what research says about intermittent fasting for diabetes management. Learn which IF protocols improve blood sugar, which don't, and how to track your results safely with AI.",
-      "excerpt": "Discover what research says about intermittent fasting for diabetes management. Learn which IF protocols improve blood sugar, which don't, and how to track your results safely with AI.",
-      "keywords": [
-        "intermittent fasting diabetes",
-        "IF blood sugar",
-        "time restricted eating",
-        "fasting glucose control",
-        "diabetes intermittent fasting",
-        "16:8 fasting diabetes"
-      ],
-      "tags": [
-        "Intermittent Fasting",
-        "Blood Sugar",
-        "Diabetes Management"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/intermittent-fasting-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 21,
-      "title": "Why Your Blood Sugar Ignores Your Perfect Diet (The 3-Pillar Secret)",
-      "slug": "posts/2025/11/nutrition-sleep-activity-glucose-impact.html",
-      "path": "posts/2025/11/nutrition-sleep-activity-glucose-impact.html",
-      "url": "posts/2025/11/nutrition-sleep-activity-glucose-impact.html",
-      "date": "2025-11-10",
-      "category": "nutrition-lifestyle",
-      "categoryLabel": "Diet & Nutrition",
-      "description": "Discover how nutrition, sleep quality, and physical activity interact to affect blood sugar control. Learn the science behind multi-factor glucose impact and optimize all three pillars for better diabetes management.",
-      "excerpt": "Discover how nutrition, sleep quality, and physical activity interact to affect blood sugar control. Learn the science behind multi-factor glucose impact and optimize all three pillars for better diabetes management.",
-      "keywords": [
-        "nutrition and blood sugar",
-        "sleep and glucose",
-        "exercise diabetes",
-        "multi-factor diabetes management",
-        "lifestyle factors glucose control",
-        "diet sleep exercise diabetes",
-        "comprehensive diabetes lifestyle",
-        "holistic glucose management"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/nutrition-sleep-activity-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     },
@@ -3330,63 +2320,6 @@
       "featured": false
     },
     {
-      "id": 19,
-      "title": "Stop Wondering: Your Health Gheware FAQ Questions Answered (2026)",
-      "slug": "posts/2025/11/top-10-questions-health-gheware.html",
-      "path": "posts/2025/11/top-10-questions-health-gheware.html",
-      "url": "posts/2025/11/top-10-questions-health-gheware.html",
-      "date": "2025-11-10",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Get answers to the top 10 questions about My Health Gheware: pricing, data privacy, AI accuracy, CGM compatibility, free credits, and how it compares to other diabetes apps. Everything you need to know before signing up.",
-      "excerpt": "Get answers to the top 10 questions about My Health Gheware: pricing, data privacy, AI accuracy, CGM compatibility, free credits, and how it compares to other diabetes apps. Everything you need to know before signing up.",
-      "keywords": [
-        "health gheware faq",
-        "health gheware pricing",
-        "health gheware review",
-        "my health gheware questions",
-        "diabetes app faq",
-        "cgm app questions",
-        "AI diabetes tool",
-        "health gheware vs other apps"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/top-10-questions-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 18,
-      "title": "Stop Blood Sugar Spikes: 10 Foods That Stabilize Blood Sugar (2026)",
-      "slug": "posts/2025/11/10-foods-stabilize-blood-sugar-naturally.html",
-      "path": "posts/2025/11/10-foods-stabilize-blood-sugar-naturally.html",
-      "url": "posts/2025/11/10-foods-stabilize-blood-sugar-naturally.html",
-      "date": "2025-11-09",
-      "category": "nutrition-lifestyle",
-      "categoryLabel": "Diet & Nutrition",
-      "description": "Discover 10 science-backed foods that naturally stabilize blood sugar. Includes glycemic index data, portion sizes, and meal timing tips for diabetes management.",
-      "excerpt": "Discover 10 science-backed foods that naturally stabilize blood sugar. Includes glycemic index data, portion sizes, and meal timing tips for diabetes management.",
-      "keywords": [
-        "foods that stabilize blood sugar",
-        "best foods for blood sugar control",
-        "natural blood sugar regulation",
-        "diabetes-friendly foods",
-        "low glycemic foods",
-        "glycemic index",
-        "diabetes nutrition",
-        "blood sugar management"
-      ],
-      "tags": [
-        "Nutrition",
-        "Blood Sugar",
-        "Diabetes Diet",
-        "Glycemic Index"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/10-foods-blood-sugar-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 17,
       "title": "5 Sleep Habits That Improve Blood Sugar (Backed by Data)",
       "slug": "posts/2025/11/5-sleep-habits-improve-blood-sugar.html",
@@ -3408,58 +2341,6 @@
       ],
       "tags": [],
       "image": "https://health.gheware.com/blog/assets/images/5-sleep-habits-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 16,
-      "title": "Why Your Perfect A1C Could Be Hiding Dangerous Blood Sugar Swings",
-      "slug": "posts/2025/11/glycemic-variability-cv-explained.html",
-      "path": "posts/2025/11/glycemic-variability-cv-explained.html",
-      "url": "posts/2025/11/glycemic-variability-cv-explained.html",
-      "date": "2025-11-09",
-      "category": "diabetes-management",
-      "categoryLabel": "Diabetes Management",
-      "description": "Learn glycemic variability (CV) and why it matters. CV predicts complications better than A1C. Master glucose stability with AI-powered tracking today.",
-      "excerpt": "Learn glycemic variability (CV) and why it matters. CV predicts complications better than A1C. Master glucose stability with AI-powered tracking today.",
-      "keywords": [
-        "glycemic variability",
-        "coefficient of variation",
-        "CV diabetes",
-        "glucose stability",
-        "A1C limitations",
-        "diabetes complications",
-        "CGM metrics",
-        "glucose fluctuations"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/glycemic-variability-cv-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 15,
-      "title": "The Secret Behind AI Health Analysis: What Your Data Reveals (2026)",
-      "slug": "posts/2025/11/how-ai-analyzes-health-data.html",
-      "path": "posts/2025/11/how-ai-analyzes-health-data.html",
-      "url": "posts/2025/11/how-ai-analyzes-health-data.html",
-      "date": "2025-11-09",
-      "category": "ai-health-tech",
-      "categoryLabel": "Technology & AI",
-      "description": "How AI detects hidden patterns in your CGM glucose data, sleep, and activity — catching diabetes risks your doctor might miss. Free tool with 500 credits.",
-      "excerpt": "How AI detects hidden patterns in your CGM glucose data, sleep, and activity — catching diabetes risks your doctor might miss. Free tool with 500 credits.",
-      "keywords": [
-        "AI health analysis",
-        "machine learning diabetes",
-        "Claude AI health",
-        "glucose pattern recognition",
-        "AI health insights",
-        "multi-data correlation",
-        "health data analysis",
-        "AI diabetes management"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/ai-health-analysis-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     },
@@ -3494,36 +2375,6 @@
       "featured": false
     },
     {
-      "id": 13,
-      "title": "The Secret to Read Glucose Data Like a Doctor (2026 CGM Guide)",
-      "slug": "posts/2025/11/how-to-read-glucose-data-like-doctor.html",
-      "path": "posts/2025/11/how-to-read-glucose-data-like-doctor.html",
-      "url": "posts/2025/11/how-to-read-glucose-data-like-doctor.html",
-      "date": "2025-11-09",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Learn to read glucose data like a doctor with this CGM analysis guide. Master TIR, CV, GMI metrics, identify 7 hidden patterns, and use the SOAP framework doctors use.",
-      "excerpt": "Learn to read glucose data like a doctor with this CGM analysis guide. Master TIR, CV, GMI metrics, identify 7 hidden patterns, and use the SOAP framework doctors use.",
-      "keywords": [
-        "cgm data analysis",
-        "how to read cgm data",
-        "glucose monitoring",
-        "time in range",
-        "coefficient of variation",
-        "diabetes data interpretation",
-        "cgm patterns",
-        "blood sugar trends"
-      ],
-      "tags": [
-        "CGM Data",
-        "Diabetes Education",
-        "Health Data"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/read-glucose-data-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 12,
       "title": "The Hidden Glucose Data Patterns Your CGM Reveals (But You're Missing)",
       "slug": "posts/2025/11/how-to-spot-patterns-glucose-data.html",
@@ -3550,82 +2401,6 @@
       "featured": false
     },
     {
-      "id": 11,
-      "title": "Meal Timing for Blood Sugar: Best Times to Eat for Diabetics",
-      "slug": "posts/2025/11/meal-timing-glucose-control.html",
-      "path": "posts/2025/11/meal-timing-glucose-control.html",
-      "url": "posts/2025/11/meal-timing-glucose-control.html",
-      "date": "2025-11-09",
-      "category": "nutrition-lifestyle",
-      "categoryLabel": "Diet & Nutrition",
-      "description": "Best times to eat for diabetics in India. Meal timing cuts glucose spikes 40-60 mg/dL. Breakfast, lunch & dinner timing guide with CGM data.",
-      "excerpt": "Best times to eat for diabetics in India. Meal timing cuts glucose spikes 40-60 mg/dL. Breakfast, lunch & dinner timing guide with CGM data.",
-      "keywords": [
-        "meal timing diabetes",
-        "when to eat for blood sugar",
-        "glucose spike prevention",
-        "breakfast timing",
-        "dinner timing diabetes",
-        "intermittent fasting blood sugar",
-        "meal schedule diabetes"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/meal-timing-glucose-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 10,
-      "title": "Best Time to Exercise With Diabetes: Morning or Evening?",
-      "slug": "posts/2025/11/morning-evening-exercise-blood-sugar.html",
-      "path": "posts/2025/11/morning-evening-exercise-blood-sugar.html",
-      "url": "posts/2025/11/morning-evening-exercise-blood-sugar.html",
-      "date": "2025-11-09",
-      "category": "fitness-diabetes",
-      "categoryLabel": "Exercise & Fitness",
-      "description": "Should diabetics exercise morning or evening? CGM data shows one timing cuts blood sugar 25% more. See the ideal weekly schedule for type 1 & 2.",
-      "excerpt": "Should diabetics exercise morning or evening? CGM data shows one timing cuts blood sugar 25% more. See the ideal weekly schedule for type 1 & 2.",
-      "keywords": [
-        "morning vs evening exercise diabetes",
-        "best time to exercise for blood sugar",
-        "exercise timing glucose control",
-        "morning workout diabetes",
-        "evening exercise blood sugar",
-        "when to exercise for diabetes",
-        "exercise timing insulin sensitivity"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/morning-evening-exercise-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 9,
-      "title": "Why Single-Metric Tracking Fails: The Multi-Data Health Revolution (2026)",
-      "slug": "posts/2025/11/power-of-multi-data-health-tracking.html",
-      "path": "posts/2025/11/power-of-multi-data-health-tracking.html",
-      "url": "posts/2025/11/power-of-multi-data-health-tracking.html",
-      "date": "2025-11-09",
-      "category": "ai-health-tech",
-      "categoryLabel": "Technology & AI",
-      "description": "Discover how tracking glucose + sleep + activity + food together reveals hidden patterns that single-metric tracking misses. Learn why multi-data correlation is the future of diabetes management.",
-      "excerpt": "Discover how tracking glucose + sleep + activity + food together reveals hidden patterns that single-metric tracking misses. Learn why multi-data correlation is the future of diabetes management.",
-      "keywords": [
-        "multi-data health tracking",
-        "diabetes data correlation",
-        "health data integration",
-        "glucose sleep activity tracking",
-        "comprehensive diabetes management",
-        "multi-variable health analysis",
-        "cgm plus sleep tracking",
-        "integrated health monitoring"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/multi-data-tracking-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 8,
       "title": "Stop Exercise Hypos: Prevent Hypoglycemia During Workouts",
       "slug": "posts/2025/11/prevent-hypoglycemia-during-workouts.html",
@@ -3647,30 +2422,6 @@
       ],
       "tags": [],
       "image": "https://health.gheware.com/blog/assets/images/prevent-hypo-workouts-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 7,
-      "title": "The Hidden Sleep-Glucose Connection Your Doctor Never Explained (2026)",
-      "slug": "posts/2025/11/sleep-glucose-correlations.html",
-      "path": "posts/2025/11/sleep-glucose-correlations.html",
-      "url": "posts/2025/11/sleep-glucose-correlations.html",
-      "date": "2025-11-09",
-      "category": "sleep-health",
-      "categoryLabel": "Sleep & Lifestyle",
-      "description": "Discover the hidden sleep-glucose connection most doctors miss. Learn how 6 vs 8 hours of sleep affects your blood sugar by 40+ mg/dL. AI-powered correlation analysis.",
-      "excerpt": "Discover the hidden sleep-glucose connection most doctors miss. Learn how 6 vs 8 hours of sleep affects your blood sugar by 40+ mg/dL. AI-powered correlation analysis.",
-      "keywords": [
-        "sleep and blood sugar",
-        "sleep-glucose correlation",
-        "diabetes sleep quality",
-        "cgm sleep analysis",
-        "sleep diabetes management",
-        "glucose sleep patterns"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/sleep-glucose-correlations-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     },
@@ -3701,32 +2452,6 @@
       "featured": false
     },
     {
-      "id": 5,
-      "title": "Stop Missing Dangerous Lows: Smart Glucose Alerts Guide (2026)",
-      "slug": "posts/2025/11/smart-glucose-alerts-guide.html",
-      "path": "posts/2025/11/smart-glucose-alerts-guide.html",
-      "url": "posts/2025/11/smart-glucose-alerts-guide.html",
-      "date": "2025-11-09",
-      "category": "diabetes-management",
-      "categoryLabel": "Diabetes Management",
-      "description": "Top CGM devices & smartwatches that alert you (and family) during sudden hypoglycemia. Includes alert fatigue fixes & India pricing for FreeStyle Libre, Dexcom G7.",
-      "excerpt": "Top CGM devices & smartwatches that alert you (and family) during sudden hypoglycemia. Includes alert fatigue fixes & India pricing for FreeStyle Libre, Dexcom G7.",
-      "keywords": [
-        "glucose alerts",
-        "cgm alerts",
-        "diabetes monitoring",
-        "blood sugar alerts",
-        "smart alerts",
-        "time in range alerts",
-        "health notifications",
-        "diabetes management"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/smart-glucose-alerts-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 4,
       "title": "Stop Guessing: Track Activity and Glucose to Fix Your Blood Sugar",
       "slug": "posts/2025/11/tracking-activity-impact-glucose.html",
@@ -3752,88 +2477,6 @@
       "featured": false
     },
     {
-      "id": 3,
-      "title": "Why Poor Sleep Sabotages Diabetes Control (The Science Explained)",
-      "slug": "posts/2025/11/why-poor-sleep-sabotages-diabetes-control.html",
-      "path": "posts/2025/11/why-poor-sleep-sabotages-diabetes-control.html",
-      "url": "posts/2025/11/why-poor-sleep-sabotages-diabetes-control.html",
-      "date": "2025-11-09",
-      "category": "sleep-health",
-      "categoryLabel": "Sleep & Lifestyle",
-      "description": "Poor sleep increases insulin resistance by 30%, raises fasting glucose 20-40 mg/dL, and destroys time in range. Learn why sleep deprivation sabotages diabetes control and what to do about it.",
-      "excerpt": "Poor sleep increases insulin resistance by 30%, raises fasting glucose 20-40 mg/dL, and destroys time in range. Learn why sleep deprivation sabotages diabetes control and what to do about it.",
-      "keywords": [
-        "poor sleep diabetes",
-        "sleep deprivation blood sugar",
-        "insulin resistance sleep",
-        "sleep diabetes control",
-        "diabetes sleep problems",
-        "sleep quality glucose",
-        "sleep deprivation insulin"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/poor-sleep-diabetes-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 26,
-      "title": "Free vs Paid Diabetes Management Tools: What You Need to Know",
-      "slug": "posts/2025/11/free-vs-paid-diabetes-management-tools.html",
-      "path": "posts/2025/11/free-vs-paid-diabetes-management-tools.html",
-      "url": "posts/2025/11/free-vs-paid-diabetes-management-tools.html",
-      "date": "2025-11-07",
-      "category": "health-education",
-      "categoryLabel": "Health Education",
-      "description": "Honest comparison of free and paid diabetes management tools. When free tools work, when paid tools are worth it, ROI analysis, and decision framework for choosing the right option.",
-      "excerpt": "Honest comparison of free and paid diabetes management tools. When free tools work, when paid tools are worth it, ROI analysis, and decision framework for choosing the right option.",
-      "keywords": [
-        "diabetes management tools",
-        "free cgm apps",
-        "paid diabetes apps",
-        "health gheware pricing",
-        "dexcom cost",
-        "diabetes tool comparison"
-      ],
-      "tags": [
-        "diabetes management, free tools, paid tools, cost comparison"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/free-vs-paid-diabetes-tools-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 2,
-      "title": "Why AI Diabetes Management Changes Everything (2026 Guide)",
-      "slug": "posts/2025/11/introducing-my-health-gheware.html",
-      "path": "posts/2025/11/introducing-my-health-gheware.html",
-      "url": "posts/2025/11/introducing-my-health-gheware.html",
-      "date": "2025-11-06",
-      "category": "ai-health-tech",
-      "categoryLabel": "Technology & AI",
-      "description": "Discover why AI diabetes management is revolutionizing blood sugar control. Health Gheware correlates glucose, sleep, and activity data for personalized insights. Start free with Rs500 balance.",
-      "excerpt": "Discover why AI diabetes management is revolutionizing blood sugar control. Health Gheware correlates glucose, sleep, and activity data for personalized insights. Start free with Rs500 balance.",
-      "keywords": [
-        "ai diabetes management",
-        "diabetes management app",
-        "cgm analysis",
-        "health tracking app",
-        "diabetes ai",
-        "glucose monitoring",
-        "diabetes technology",
-        "time in range",
-        "multi-data correlation"
-      ],
-      "tags": [
-        "diabetes management",
-        "ai health",
-        "cgm analysis"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/introducing-my-health-gheware-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
       "id": 27,
       "title": "Do You Need AI for Diabetes Management? (Honest Answer)",
       "slug": "posts/2025/11/do-you-need-ai-for-diabetes-management.html",
@@ -3855,89 +2498,6 @@
       ],
       "tags": [],
       "image": "https://health.gheware.com/blog/assets/images/do-you-need-ai-diabetes-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 23,
-      "title": "Stop Wasting Time: How Healthcare AI Saves 15 Minutes Per Diabetes Patient",
-      "slug": "posts/2025/11/healthcare-professionals-save-time-ai-analysis.html",
-      "path": "posts/2025/11/healthcare-professionals-save-time-ai-analysis.html",
-      "url": "posts/2025/11/healthcare-professionals-save-time-ai-analysis.html",
-      "date": "2025-11-03",
-      "category": "ai-health-tech",
-      "categoryLabel": "Technology & AI",
-      "description": "How endocrinologists, diabetes educators, and primary care doctors save 15 minutes per patient using AI-powered multi-data correlation. Includes workflow integration, clinical benefits, and ROI analysis.",
-      "excerpt": "How endocrinologists, diabetes educators, and primary care doctors save 15 minutes per patient using AI-powered multi-data correlation. Includes workflow integration, clinical benefits, and ROI analysis.",
-      "keywords": [
-        "healthcare AI tools",
-        "diabetes patient care",
-        "clinical workflow optimization",
-        "endocrinology tools",
-        "diabetes educator resources",
-        "patient data analysis",
-        "AI medical tools",
-        "CGM data interpretation",
-        "healthcare time savings"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/healthcare-professionals-ai-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 29,
-      "title": "Stop Guessing: CGM Data Analysis Secrets Your Doctor Uses",
-      "slug": "posts/2025/11/advanced-cgm-data-analysis-techniques.html",
-      "path": "posts/2025/11/advanced-cgm-data-analysis-techniques.html",
-      "url": "posts/2025/11/advanced-cgm-data-analysis-techniques.html",
-      "date": "2025-10-22",
-      "category": "diabetes-management",
-      "categoryLabel": "Diabetes Management",
-      "description": "Discover the CGM data analysis secrets endocrinologists use: AGP reports, pattern recognition, and statistical tricks that reveal why your glucose spikes.",
-      "excerpt": "Discover the CGM data analysis secrets endocrinologists use: AGP reports, pattern recognition, and statistical tricks that reveal why your glucose spikes.",
-      "keywords": [
-        "cgm data analysis",
-        "advanced glucose monitoring",
-        "agp report",
-        "glycemic patterns",
-        "diabetes data interpretation",
-        "continuous glucose monitoring",
-        "statistical glucose analysis",
-        "cgm analytics"
-      ],
-      "tags": [],
-      "image": "https://health.gheware.com/blog/assets/images/advanced-cgm-analysis-hero.jpg",
-      "readTime": "8 min read",
-      "featured": false
-    },
-    {
-      "id": 1,
-      "title": "The Secret Behind 58% to 74% TIR: How Deepti Transformed Her Diabetes Control",
-      "slug": "posts/2025/11/from-58-to-74-tir-success-story.html",
-      "path": "posts/2025/11/from-58-to-74-tir-success-story.html",
-      "url": "posts/2025/11/from-58-to-74-tir-success-story.html",
-      "date": "2025-09-13",
-      "category": "diabetes-management",
-      "categoryLabel": "Diabetes Management",
-      "description": "Real success story: Deepti improved Time in Range from 58% to 74% in 8 weeks using multi-data health tracking. See the exact strategies, timeline, and data that transformed her diabetes management.",
-      "excerpt": "Real success story: Deepti improved Time in Range from 58% to 74% in 8 weeks using multi-data health tracking. See the exact strategies, timeline, and data that transformed her diabetes management.",
-      "keywords": [
-        "time in range success story",
-        "diabetes management success",
-        "improve TIR",
-        "CGM success story",
-        "multi-data health tracking",
-        "diabetes transformation",
-        "glucose control improvement",
-        "health gheware case study"
-      ],
-      "tags": [
-        "time in range",
-        "success story",
-        "diabetes management"
-      ],
-      "image": "https://health.gheware.com/blog/assets/images/tir-success-story-hero.jpg",
       "readTime": "8 min read",
       "featured": false
     }
