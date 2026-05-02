@@ -1,1 +1,21 @@
+# Specific large binary held back from publish
 assets/pdfs/The_Complete_Indian_Diabetes_Handbook.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editor turds
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Node (in case any tooling adds it)
+node_modules/
+
+# Local drafts (post sources stay tracked; these patterns are for scratch)
+*.draft.html
+posts/**/*.draft.html
