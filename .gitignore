@@ -1,6 +1,13 @@
 # Specific large binary held back from publish
 assets/pdfs/The_Complete_Indian_Diabetes_Handbook.pdf
 
+# Video assets — this repo is NOT a video CDN. Reels go to YouTube; FB/IG
+# attach the YouTube Shorts URL as a link share. See CLAUDE.md.
+assets/videos/
+*.mp4
+*.webm
+*.mov
+
 # Python
 __pycache__/
 *.pyc

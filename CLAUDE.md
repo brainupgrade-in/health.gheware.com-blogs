@@ -57,6 +57,14 @@ as `<img src>`. So:
 - Use `docs/scripts/...` and `scripts/...` interchangeably — `docs/scripts`
   is a symlink to `../scripts`, kept for documentation discoverability.
 - `.nojekyll` is intentional (this is a non-Jekyll Pages site). Don't delete.
+- **No video files in this repo.** `assets/videos/`, `*.mp4`, `*.webm`,
+  `*.mov` are gitignored. Reels publish to YouTube Shorts (canonical
+  permanent host) via the YouTube Data API; FB and IG posts then attach
+  the YouTube URL as a link share (FB renders a link card; IG places it
+  in caption text). Native IG/FB Reels would require a real video CDN —
+  intentionally deferred. If you need a temporary URL for any other
+  purpose, use `video-service`'s `/files/<jobId>/<file>.mp4` endpoint
+  (24h TTL on the PVC) — never the blog repo.
 
 ## Operational context
 
