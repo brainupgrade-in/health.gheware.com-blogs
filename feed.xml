@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>D-TechCon India 2026: Diabetes Tech Conference Highlights</title>
+      <link>https://health.gheware.com/blog/posts/2026/05/dtechcon-diabetes-tech-conference-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/05/dtechcon-diabetes-tech-conference-india-2026.html</guid>
+      <description>D-TechCon Mumbai 2026: Key diabetes technology highlights including CGM innovations, AI glucose monitoring, FreeDM2 trial results, and GLP-1 updates for Indian diabetics.</description>
+      <category>Technology &amp; AI</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>5 Indian Kitchen Spices That Lower Blood Sugar — ICMR Research (2026)</title>
       <link>https://health.gheware.com/blog/posts/2026/05/indian-kitchen-spices-lower-blood-sugar-icmr-research-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Diet &amp; Nutrition</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intermittent Fasting for Diabetes: Is It Safe? Complete Indian Guide (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/02/intermittent-fasting-diabetes-india-guide.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/02/intermittent-fasting-diabetes-india-guide.html</guid>
-      <description>Can intermittent fasting help manage Type 2 diabetes? Learn about 16:8, 5:2 fasting methods, Indian meal timing, safety precautions, and what research says. Evidence-based guide for Indian diabetics.</description>
-      <category>Diet &amp; Nutrition</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

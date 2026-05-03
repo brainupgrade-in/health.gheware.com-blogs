@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": 144,
+      "title": "D-TechCon India 2026: Diabetes Tech Conference Highlights",
+      "slug": "posts/2026/05/dtechcon-diabetes-tech-conference-india-2026.html",
+      "path": "posts/2026/05/dtechcon-diabetes-tech-conference-india-2026.html",
+      "url": "posts/2026/05/dtechcon-diabetes-tech-conference-india-2026.html",
+      "date": "2026-05-03",
+      "category": "ai-health-tech",
+      "categoryLabel": "Technology & AI",
+      "description": "D-TechCon Mumbai 2026: Key diabetes technology highlights including CGM innovations, AI glucose monitoring, FreeDM2 trial results, and GLP-1 updates for Indian diabetics.",
+      "excerpt": "D-TechCon Mumbai 2026: Key diabetes technology highlights including CGM innovations, AI glucose monitoring, FreeDM2 trial results, and GLP-1 updates for Indian diabetics.",
+      "keywords": [
+        "D-TechCon India 2026",
+        "diabetes technology conference Mumbai",
+        "CGM AI diabetes",
+        "FreeDM2 trial",
+        "semaglutide India",
+        "tirzepatide Mounjaro",
+        "BeatO Ultrahuman Abbott"
+      ],
+      "tags": [
+        "D-TechCon India 2026, CGM AI diabetes, FreeDM2 trial, semaglutide tirzepatide India"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/dtechcon-diabetes-conference-india-2026-hero.jpg",
+      "readTime": "6 min read",
+      "featured": false
+    },
+    {
       "id": 143,
       "title": "5 Indian Kitchen Spices That Lower Blood Sugar — ICMR Research (2026)",
       "slug": "posts/2026/05/indian-kitchen-spices-lower-blood-sugar-icmr-research-2026.html",
