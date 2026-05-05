@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": 145,
+      "title": "Sugar.fit 77% Revenue Growth & ADA 2025: What to Know",
+      "slug": "posts/2026/05/sugarfit-revenue-growth-ada-2025-research-india-2026.html",
+      "path": "posts/2026/05/sugarfit-revenue-growth-ada-2025-research-india-2026.html",
+      "url": "posts/2026/05/sugarfit-revenue-growth-ada-2025-research-india-2026.html",
+      "date": "2026-05-05",
+      "category": "ai-health-tech",
+      "categoryLabel": "Technology & AI",
+      "description": "Sugar.fit reports 77% revenue growth to ₹66.5 crore in FY25 with four research abstracts accepted at ADA 2025 Chicago. Here's what this means for Indian diabetes care.",
+      "excerpt": "Sugar.fit reports 77% revenue growth to ₹66.5 crore in FY25 with four research abstracts accepted at ADA 2025 Chicago. Here's what this means for Indian diabetes care.",
+      "keywords": [
+        "Sugar.fit FY25 revenue",
+        "Sugar.fit ADA 2025 research",
+        "diabetes management India",
+        "Sugar.fit Series A funding",
+        "CGM coaching India",
+        "HbA1c improvement",
+        "BeatO vs Sugar.fit"
+      ],
+      "tags": [
+        "Sugar.fit FY25, ADA 2025 research, diabetes India, CGM coaching, HbA1c improvement"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/sugarfit-revenue-ada-2025-research-india-2026-hero.jpg",
+      "readTime": "10 min read",
+      "featured": false
+    },
+    {
       "id": 144,
       "title": "D-TechCon India 2026: Diabetes Tech Conference Highlights",
       "slug": "posts/2026/05/dtechcon-diabetes-tech-conference-india-2026.html",
