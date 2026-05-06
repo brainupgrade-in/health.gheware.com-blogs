@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://health.gheware.com/blog/</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/05/diabetes-oral-health-gum-disease-india-guide-2026.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/posts/2026/05/sugarfit-revenue-growth-ada-2025-research-india-2026.html</loc>
