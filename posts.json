@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": 149,
+      "title": "BeatO Clinical Study Deep Dive: ADA 2023 Results Explained",
+      "slug": "posts/2026/05/beato-clinical-study-ada-2023-attd-results-india-2026.html",
+      "path": "posts/2026/05/beato-clinical-study-ada-2023-attd-results-india-2026.html",
+      "url": "posts/2026/05/beato-clinical-study-ada-2023-attd-results-india-2026.html",
+      "date": "2026-05-13",
+      "category": "research",
+      "categoryLabel": "Research",
+      "description": "BeatO's clinical study claims 2.16% HbA1c reduction. We analyze the ADA 2023 and ATTD 2023 published research, methodology, and what it means for Indian diabetics.",
+      "excerpt": "BeatO's clinical study claims 2.16% HbA1c reduction. We analyze the ADA 2023 and ATTD 2023 published research, methodology, and what it means for Indian diabetics.",
+      "keywords": [
+        "BeatO clinical study",
+        "BeatO ADA 2023",
+        "BeatO ATTD 2023",
+        "HbA1c reduction diabetes India",
+        "BeatO research credibility",
+        "CGM clinical trials India",
+        "diabetes outcomes BeatO"
+      ],
+      "tags": [
+        "BeatO clinical study, ADA 2023, ATTD 2023, HbA1c reduction, CGM trials India"
+      ],
+      "image": "https://health.gheware.com/blog/assets/images/beato-clinical-study-ada-2023-hero.jpg",
+      "readTime": "8 min read",
+      "featured": false
+    },
+    {
       "id": 148,
       "title": "Ultrahuman Jade AI Review: India's Biointelligence Platform 2026",
       "slug": "posts/2026/05/ultrahuman-jade-ai-biointelligence-review-india-2026.html",

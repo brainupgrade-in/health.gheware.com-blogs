@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>BeatO Clinical Study Deep Dive: ADA 2023 Results Explained</title>
+      <link>https://health.gheware.com/blog/posts/2026/05/beato-clinical-study-ada-2023-attd-results-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/05/beato-clinical-study-ada-2023-attd-results-india-2026.html</guid>
+      <description>BeatO's clinical study claims 2.16% HbA1c reduction. We analyze the ADA 2023 and ATTD 2023 published research, methodology, and what it means for Indian diabetics.</description>
+      <category>Research</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Ultrahuman Jade AI Review: India's Biointelligence Platform 2026</title>
       <link>https://health.gheware.com/blog/posts/2026/05/ultrahuman-jade-ai-biointelligence-review-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Diet &amp; Nutrition</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Reduce HbA1c Naturally: Complete Indian Diet &amp; Lifestyle Guide (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/how-to-reduce-hba1c-naturally-indian-diet-lifestyle-guide.html</guid>
-      <description>Proven strategies to lower HbA1c naturally with Indian diet modifications, lifestyle changes, and CGM-guided monitoring. From dal-roti swaps to walking routines — a practical guide for Indian diabetics to bring HbA1c below 7% without extreme diets.</description>
-      <category>Diabetes Management</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
