@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>CGM for Gestational Diabetes India: Complete 2026 Guide</title>
+      <link>https://health.gheware.com/blog/posts/2026/05/cgm-gestational-diabetes-india-2026-guide.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/05/cgm-gestational-diabetes-india-2026-guide.html</guid>
+      <description>Is CGM safe for gestational diabetes? ICMR guidelines, BeatO ₹3,999 vs Abbott pricing, and when pregnant women should start continuous glucose monitoring.</description>
+      <category>Gestational Diabetes</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Ultrahuman Ring PRO for Diabetics: Worth ₹44,999? India 2026</title>
       <link>https://health.gheware.com/blog/posts/2026/05/ultrahuman-ring-worth-it-diabetes-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Diet &amp; Nutrition</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Best Fruits for Diabetics in India: Complete Guide (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-complete-guide-2026.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/best-fruits-for-diabetics-india-complete-guide-2026.html</guid>
-      <description>Which fruits can diabetics eat in India? Complete guide to the 10 best low-GI fruits (guava, jamun, amla, apple, papaya), fruits to avoid, GI chart, CGM data, portion guide, seasonal calendar, and 5 myths busted.</description>
-      <category>Diet &amp; Nutrition</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
