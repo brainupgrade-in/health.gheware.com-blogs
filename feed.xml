@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>High Morning Blood Sugar? Dawn Phenomenon vs Somogyi Effect</title>
+      <link>https://health.gheware.com/blog/posts/2026/05/morning-blood-sugar-dawn-phenomenon-vs-somogyi-effect-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/05/morning-blood-sugar-dawn-phenomenon-vs-somogyi-effect-india-2026.html</guid>
+      <description>Why is my blood sugar high in the morning? Learn to tell if it is the dawn phenomenon, Somogyi effect, or dinner timing.</description>
+      <category>Health Education</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>RAGUS AI vs BeatO AI: Sugar.fit vs BeatO Diabetes Chatbot…</title>
       <link>https://health.gheware.com/blog/posts/2026/05/ragus-ai-vs-beato-ai-diabetes-chatbot-comparison-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Diet &amp; Nutrition</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>15 CGM-Tested Indian Breakfasts for Diabetics | Blood Sugar Data</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/best-indian-breakfast-for-diabetics-recipes-that-wont-spike-blood-sugar.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/best-indian-breakfast-for-diabetics-recipes-that-wont-spike-blood-sugar.html</guid>
-      <description>15 Indian breakfasts tested with CGM: Moong chilla (+25 mg/dL), ragi dosa, besan cheela. Real blood sugar data + free PDF meal plan inside.</description>
-      <category>Diet &amp; Nutrition</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
