@@ -1,6 +1,34 @@
 {
   "posts": [
     {
+      "id": 158,
+      "title": "Ultrahuman Photon: Red Light Therapy for Diabetics — Science or Hype?",
+      "slug": "posts/2026/06/red-light-therapy-diabetics-science-vs-hype.html",
+      "path": "posts/2026/06/red-light-therapy-diabetics-science-vs-hype.html",
+      "url": "posts/2026/06/red-light-therapy-diabetics-science-vs-hype.html",
+      "date": "2026-06-02",
+      "category": "diabetes-wellness",
+      "categoryLabel": "Diabetes Wellness",
+      "description": "Ultrahuman's ₹24,999 Photon red light therapy device promises skin healing and muscle recovery. We review the actual science for Indian diabetics. Is it worth it?",
+      "excerpt": "Ultrahuman's ₹24,999 Photon red light therapy device promises skin healing and muscle recovery. We review the actual science for Indian diabetics. Is it worth it?",
+      "keywords": [
+        "Ultrahuman Photon",
+        "red light therapy diabetes",
+        "photobiomodulation diabetes",
+        "diabetic wound healing",
+        "red light therapy India",
+        "diabetic neuropathy treatment",
+        "CGM diabetes management"
+      ],
+      "tags": [
+        "Red Light Therapy",
+        "Diabetes Management"
+      ],
+      "image": "https://health.gheware.com/blog/posts/2026/06/red-light-therapy-diabetics-science-vs-hype.png",
+      "readTime": "6 min read",
+      "featured": false
+    },
+    {
       "id": 157,
       "title": "Ultrahuman Ecosystem Audit (2026): Which Products Actually Help Diabetics?",
       "slug": "posts/2026/06/ultrahuman-ecosystem-audit-diabetes-india-2026.html",
