@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>HbA1c vs Fasting Blood Sugar: Which Matters More for Diabetics in India 2026?</title>
+      <link>https://health.gheware.com/blog/posts/2026/06/hba1c-vs-fasting-blood-sugar-which-matters-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/06/hba1c-vs-fasting-blood-sugar-which-matters-india-2026.html</guid>
+      <description>Confused about HbA1c vs fasting blood sugar? Learn which test truly matters for diabetes management in India, ideal targets, and how to use both for better health outcomes in 2026.</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Sugar.fit GLP-1 Program vs BeatO Consult: ₹29,990 vs ₹49 — Which Is Actually Worth It?</title>
       <link>https://health.gheware.com/blog/posts/2026/06/sugarfit-glp1-vs-beato-consultation-diabetes-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Complications</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Diabetes and Kidney Disease: How to Prevent Diabetic Nephropathy (2026 India Guide)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/diabetes-kidney-disease-diabetic-nephropathy-prevention-india-guide.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/diabetes-kidney-disease-diabetic-nephropathy-prevention-india-guide.html</guid>
-      <description>Complete evidence-based guide on diabetes and kidney disease for Indians. Learn how high blood sugar damages kidneys, early warning signs, creatinine and eGFR tests, Indian diet tips to protect kidneys, and when to see a nephrologist. Updated for World Kidney Day 2026.</description>
-      <category>Complications</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
