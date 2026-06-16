@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Diabetic Foot Care: Prevention Guide for Indians 2026</title>
+      <link>https://health.gheware.com/blog/posts/2026/06/diabetic-foot-care-prevention-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/06/diabetic-foot-care-prevention-india-2026.html</guid>
+      <description>Discover essential diabetic foot care prevention strategies for 2026. Learn about daily inspections, proper footwear, and ICMR guidelines to avoid ulcers and amputat</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>HbA1c vs Fasting Blood Sugar: Which Matters More for Diabetics in India 2026?</title>
       <link>https://health.gheware.com/blog/posts/2026/06/hba1c-vs-fasting-blood-sugar-which-matters-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Medication &amp; Treatment</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Diabetes and Thyroid: The Hidden Connection — Complete India Guide (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/diabetes-and-thyroid-connection-symptoms-diet-india-guide.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/diabetes-and-thyroid-connection-symptoms-diet-india-guide.html</guid>
-      <description>Complete guide to diabetes and thyroid connection for Indians. Learn how hypothyroidism and hyperthyroidism affect blood sugar, which foods to eat and avoid, thyroid tests every diabetic needs, and how to manage both conditions together in India.</description>
-      <category>Complications</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
