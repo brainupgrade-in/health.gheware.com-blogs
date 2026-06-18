@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Managing Diabetes and Hypertension in India: 2026 Guide</title>
+      <link>https://health.gheware.com/blog/posts/2026/06/managing-diabetes-and-hypertension-in-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/06/managing-diabetes-and-hypertension-in-india-2026.html</guid>
+      <description>Comprehensive guide to diabetes and hypertension management in India for 2026. Learn about ICMR guidelines, dietary adjustments, and integrated care strategies for b</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Best Home Exercises to Lower Blood Sugar for Indians 2026</title>
       <link>https://health.gheware.com/blog/posts/2026/06/exercise-for-diabetes-indians-home-workout-2026-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Exercise &amp; Fitness</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Best Dals &amp; Lentils for Diabetics: Complete Indian Guide (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/best-dals-lentils-for-diabetics-india-complete-guide-2026.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/best-dals-lentils-for-diabetics-india-complete-guide-2026.html</guid>
-      <description>Complete guide to the best dals and lentils for Indian diabetics. GI comparison of moong, chana, masoor, toor, urad, rajma, lobhia &amp; kulthi dal. ICMR recommendations, diabetes-friendly dal recipes, cooking methods to lower GI, and real CGM data on blood sugar response. Updated for 2026.</description>
-      <category>Diet &amp; Nutrition</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
