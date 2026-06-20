@@ -1,0 +1,27 @@
+name: validate-template
+
+# Runs on every push/PR to main. Fails if any post in posts/**/*.html ships
+# without site styling + the shared template loader (would render with no
+# header/footer/author-bio/medical-disclaimer). Mirrors scripts/publish.sh
+# STEP 0 and the repo-local pre-commit hook — defense in depth against the
+# 2026-06 off-template drift (27 posts shipped with bespoke inline chrome).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  template-conformance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate every post loads the shared template
+        run: python3 scripts/validate-template.py

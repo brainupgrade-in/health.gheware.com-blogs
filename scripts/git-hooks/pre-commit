@@ -14,6 +14,21 @@ set -e
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 cd "$REPO_ROOT"
 
+# ─── Template conformance gate (staged posts only) ───────────────────────────
+# Reject a commit that stages a post without site styling + the shared template
+# loader (would render with no header/footer/author-bio/disclaimer). Mirrors
+# scripts/publish.sh STEP 0. Backstops the 2026-06 off-template drift.
+PYTHON_T=$(command -v python3 || command -v python || true)
+if [ -n "$PYTHON_T" ] && [ -f scripts/validate-template.py ]; then
+    STAGED_POSTS=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '(^|/)posts/.*\.html$' || true)
+    if [ -n "$STAGED_POSTS" ]; then
+        if ! echo "$STAGED_POSTS" | xargs "$PYTHON_T" scripts/validate-template.py; then
+            echo "[pre-commit] Off-template post(s) staged — commit aborted. Fix, or --no-verify." >&2
+            exit 1
+        fi
+    fi
+fi
+
 REGEN=""
 for p in docs/scripts/regenerate_indexes.py scripts/regenerate_indexes.py; do
     [ -f "$p" ] && REGEN="$p" && break
@@ -21,7 +36,9 @@ done
 [ -z "$REGEN" ] && exit 0
 
 STAGED=$(git diff --cached --name-only --diff-filter=ACMRD)
-if ! echo "$STAGED" | grep -qE '(^|/)posts/[^/]+\.html$|(^|/)blog/posts/[^/]+\.html$'; then
+# Match nested posts too (posts/YYYY/MM/slug.html) — the original [^/]+ only
+# matched flat posts/*.html, so index regen never fired for Alex's dated posts.
+if ! echo "$STAGED" | grep -qE '(^|/)posts/.*\.html$|(^|/)blog/posts/.*\.html$'; then
     exit 0
 fi
 
