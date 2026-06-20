@@ -8,7 +8,12 @@ Live: https://health.gheware.com/blog (proxied — root domain is a separate SPA
 - `posts/{YYYY}/{MM}/*.html` — blog post sources (the source of truth)
 - `posts.json`, `sitemap.xml`, `feed.xml` — **derived**; never hand-edit
 - `assets/{images,pdfs,videos}/` — hero images, lead-magnet PDFs, embedded videos
-- `templates/{header,footer,author-bio,disclaimer}.html` — partials inlined into posts
+- `templates/{header,footer,author-bio,disclaimer}.html` — shared chrome, loaded at
+  runtime by `js/template-loader.js` (injects header→`<body>` top, footer→bottom,
+  fills `#author-bio-placeholder` + `#disclaimer-placeholder` if present). **Self-styling:**
+  each partial carries its own `<style>` — `.header-compact`/`.footer-compact`/`.disclaimer-compact`
+  are in NO `css/` file, so a post needs no css-trio to style the template chrome.
+  Every post MUST load `template-loader.js` (or render with no header/footer/disclaimer).
 - `css/`, `js/` — site-wide stylesheets + scripts
 - `scripts/` — publish pipeline (symlinked from `docs/scripts/`)
 - 25 standalone HTML pages at root (about, lead-magnet landing pages, guides)
@@ -34,6 +39,30 @@ python3 scripts/regenerate_indexes.py && git add -A && git commit && git push
 CI workflow `.github/workflows/validate-indexes.yml` fails any push where
 `posts.json` / `sitemap.xml` / `feed.xml` drift from what
 `regenerate_indexes.py` produces from `posts/*.html`.
+
+## Template-conformance gate (2026-06-20)
+
+`scripts/validate-template.py` fails any post that lacks **(a)** site styling
+(`<style>` or a stylesheet `<link>`) **or (b)** a template loader
+(`template-loader.js`, or legacy `function loadTemplate` / inline
+`fetch('…/templates/…')`) — i.e. would render with no header/footer/author-bio/
+disclaimer. Enforced at **3 layers**: `publish.sh` STEP 0, the repo-local
+**pre-commit** hook (install via `scripts/install-hooks.sh`), and CI
+`.github/workflows/validate-template.yml`. Run standalone:
+`python3 scripts/validate-template.py` (whole tree) or pass specific files.
+
+Backstops the 2026-06 drift where 27 posts shipped with bespoke inline chrome
+instead of the template (all converted + render-verified). **Verify rendering**
+with a real browser, not just grep: `python3 -m http.server 8099` in repo root,
+then `google-chrome-stable --headless --dump-dom http://localhost:8099/posts/…`,
+parse with `bs4`, assert exactly 1 each of `header.header-compact` /
+`footer.footer-compact` / `.author-bio` / `.disclaimer-compact`. (Note: a
+post-title `<header class="post-header"|"hero">` and an in-article
+`<nav class="toc">` are CONTENT, not chrome — never strip them.)
+
+> Running `publish.sh` on the owner machine (not the agent pod)? Its `$PYTHON`
+> is hardcoded to the pod path — call with `PYTHON=/usr/bin/python3`, or just do
+> `python3 scripts/regenerate_indexes.py && git commit && git push` manually.
 
 ## Hero image source-of-truth
 
