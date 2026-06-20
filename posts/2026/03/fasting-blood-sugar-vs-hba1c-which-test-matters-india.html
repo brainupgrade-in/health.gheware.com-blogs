@@ -146,7 +146,6 @@ li{margin:6px 0}
 <body>
 
 <div id="header-placeholder"></div>
-<script>fetch('../../../templates/header.html').then(r=>r.text()).then(h=>{document.getElementById('header-placeholder').outerHTML=h});</script>
 
 <header class="hero">
 <div class="container">
@@ -350,9 +349,11 @@ li{margin:6px 0}
 </div>
 
 </article>
+<div id="author-bio-placeholder"></div>
+<div id="disclaimer-placeholder"></div>
 </div>
 
 <div id="footer-placeholder"></div>
-<script>fetch('../../../templates/footer.html').then(r=>r.text()).then(h=>{document.getElementById('footer-placeholder').outerHTML=h});</script>
+<script defer src="../../../js/template-loader.js"></script>
 </body>
 </html>
