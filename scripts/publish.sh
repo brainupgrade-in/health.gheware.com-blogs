@@ -22,10 +22,16 @@ echo "📝 BLOG PUBLISH PIPELINE"
 echo "=========================================="
 
 # ─── STEP 0: Template-scaffolding guard (new/modified posts only) ─────────────
-# Refuse to publish a post HTML that ships without site styling. Every post must
-# carry either the external CSS trio (../../../css/{critical,blog,responsive}.css)
-# OR an inline <style> block. Caught the 2026-04-21 ultrahuman/cgm-pricing
-# template-skip incident — guard ensures it can't recur for any author.
+# Refuse to publish a post HTML that ships without site styling OR without the
+# shared header/footer template. Every post must carry:
+#   (a) the external CSS trio (../../../css/{critical,blog,responsive}.css) OR an
+#       inline <style> block; AND
+#   (b) a template-loading mechanism — template-loader.js (the standard), or the
+#       legacy `function loadTemplate` / inline `fetch('…/templates/…')` variants
+#       — so the site header, footer, author-bio and medical disclaimer render.
+# Caught the 2026-04-21 ultrahuman/cgm-pricing template-skip incident; (b) added
+# 2026-06-20 after 27 posts shipped with bespoke inline chrome instead of the
+# template (all converted + render-verified, see git log).
 echo ""
 echo "0️⃣  Template-scaffolding guard..."
 $PYTHON - << 'PYEOF'
@@ -47,6 +53,7 @@ for line in out.splitlines():
         path = path.split("->")[-1].strip()
     targets.append(path)
 bad = []
+no_template = []
 for f in targets:
     try:
         h = open(f).read()
@@ -56,14 +63,29 @@ for f in targets:
     has_ext = re.search(r'<link[^>]+rel="stylesheet"', h) is not None
     if not (has_inline or has_ext):
         bad.append(f)
-if bad:
-    print("   ❌ Template scaffolding missing — refusing to publish:")
-    for f in bad:
-        print(f"      - {f}")
-    print("   Each post needs <link rel='stylesheet' href='../../../css/blog.css'>")
-    print("   plus the critical+responsive trio, OR an inline <style> block.")
+    has_template = (
+        "template-loader.js" in h
+        or "function loadTemplate" in h
+        or re.search(r"fetch\([^)]*templates/", h) is not None
+    )
+    if not has_template:
+        no_template.append(f)
+if bad or no_template:
+    if bad:
+        print("   ❌ Site styling missing — refusing to publish:")
+        for f in bad:
+            print(f"      - {f}")
+        print("   Each post needs <link rel='stylesheet' href='../../../css/blog.css'>")
+        print("   plus the critical+responsive trio, OR an inline <style> block.")
+    if no_template:
+        print("   ❌ Shared template not loaded — refusing to publish:")
+        for f in no_template:
+            print(f"      - {f}")
+        print("   Each post must load the template so header/footer/author-bio/")
+        print("   disclaimer render. Add before </body>:")
+        print("     <script defer src=\"../../../js/template-loader.js\"></script>")
     sys.exit(1)
-print(f"   ✅ {len(targets)} new/modified post(s) carry template scaffolding")
+print(f"   ✅ {len(targets)} new/modified post(s) carry styling + the shared template")
 PYEOF
 
 # ─── STEP 1: Regenerate posts.json + sitemap.xml + feed.xml from disk ─────────
