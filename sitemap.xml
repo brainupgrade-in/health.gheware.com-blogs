@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://health.gheware.com/blog/</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/06/blood-sugar-testing-frequency-type-2-diabetes-india-2026.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/06/indian-diabetic-diet-foods-avoid-swaps-india-2026.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/06/low-gi-indian-meals-diabetes-2026-india-2026.html</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/posts/2026/06/managing-diabetes-and-hypertension-in-india-2026.html</loc>
