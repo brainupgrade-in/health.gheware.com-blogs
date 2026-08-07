@@ -2,25 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://health.gheware.com/blog/</loc>
-    <lastmod>2026-07-14</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://health.gheware.com/blog/posts/2026/07/blood-sugar-testing-frequency-type-2-diabetes-india-2026.html</loc>
-    <lastmod>2026-07-14</lastmod>
+    <loc>https://health.gheware.com/blog/posts/2026/08/diabetic-foot-care-prevention-india-2026.html</loc>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://health.gheware.com/blog/posts/2026/07/diabetes-medication-adherence-tips-india-2026.html</loc>
-    <lastmod>2026-07-12</lastmod>
+    <loc>https://health.gheware.com/blog/posts/2026/08/intermittent-fasting-diabetes-india-safe-2026.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/07/prediabetes-reversal-lifestyle-india-2026.html</loc>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://health.gheware.com/blog/posts/2026/07/managing-diabetes-hypertension-india-2026.html</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/07/exercise-for-diabetes-indians-home-workout-2026-india-2026.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/07/indian-foods-diabetics-limit-swap-india-2026.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/07/diabetes-medication-adherence-tips-india-2026.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/07/low-gi-indian-meals-diabetes-2026-india-2026.html</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://health.gheware.com/blog/posts/2026/07/is-cgm-worth-it-india-2026.html</loc>
+    <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -43,12 +79,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://health.gheware.com/blog/posts/2026/06/managing-diabetes-and-hypertension-in-india-2026.html</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://health.gheware.com/blog/posts/2026/06/exercise-for-diabetes-indians-home-workout-2026-india-2026.html</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -57,12 +87,6 @@
   <url>
     <loc>https://health.gheware.com/blog/posts/2026/06/diabetic-foot-care-prevention-india-2026.html</loc>
     <lastmod>2026-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://health.gheware.com/blog/posts/2026/06/hba1c-vs-fasting-blood-sugar-which-matters-india-2026.html</loc>
-    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -453,12 +477,6 @@
   <url>
     <loc>https://health.gheware.com/blog/posts/2026/03/is-horlicks-good-for-diabetics-cgm-data-india.html</loc>
     <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://health.gheware.com/blog/posts/2026/02/intermittent-fasting-diabetes-india-guide.html</loc>
-    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

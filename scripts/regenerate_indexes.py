@@ -185,6 +185,20 @@ def estimate_read_time(html):
     return f"{max(5, round(words / 220))} min read"
 
 
+def is_canonicalised_elsewhere(path_rel, html):
+    """True when a post points its canonical at a DIFFERENT post.
+
+    Near-duplicates consolidated onto a keeper stay live and readable, but must
+    not compete with that keeper in sitemap.xml, posts.json, or feed.xml —
+    submitting a URL for indexing while telling Google to index a different one
+    is self-defeating.
+    """
+    m = re.search(r'<link rel="canonical" href="([^"]*)"', html, re.IGNORECASE)
+    if not m:
+        return False
+    return m.group(1).strip() != f"{BASE}/{path_rel}"
+
+
 def entry_for(path_rel, html, existing=None, next_id_ref=None):
     """Build a fully-populated entry for one post."""
     existing = existing or {}
@@ -279,6 +293,9 @@ def main():
                 continue
             rel = str(full.relative_to(REPO))
             html = full.read_text(encoding="utf-8")
+            if is_canonicalised_elsewhere(rel, html):
+                print(f"  skip canonicalised: {rel}", file=sys.stderr)
+                continue
             existing = existing_by_path.get(rel)
             entries.append(entry_for(rel, html, existing, next_id))
 
