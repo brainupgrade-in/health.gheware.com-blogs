@@ -4,9 +4,11 @@ import json
 import sys
 import urllib.request
 
-INDEXNOW_KEY = "f970ec769364492583a631e0f3c25f55"
+INDEXNOW_KEY = "553c3542c754c271d5375766a3b66d72"
 HOST = "health.gheware.com"
-KEY_LOCATION = f"https://{HOST}/blog/{INDEXNOW_KEY}.txt"
+# Root, not /blog/ — the front proxy (kind-gug health-www-proxy) serves it
+# there. Bing rejected the previous key entirely; see that ConfigMap comment.
+KEY_LOCATION = f"https://{HOST}/{INDEXNOW_KEY}.txt"
 
 ENGINES = [
     "https://api.indexnow.org/indexnow",
