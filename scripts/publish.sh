@@ -101,7 +101,57 @@ echo ""
 echo "2️⃣  Git commit & push..."
 git add -A
 git commit -m "$COMMIT_MSG" 2>/dev/null && echo "   ✅ Committed: $COMMIT_MSG" || echo "   ℹ️  Nothing new to commit"
-git push origin main 2>&1 | tail -2
+
+# Rebase onto anything that landed upstream since this clone last synced (#143).
+# Without this, ONE commit made from another clone diverges this one and every
+# subsequent push is rejected — under `set -euo pipefail` that aborts the script
+# AFTER the commit, so the post stays committed-but-404 with no error anywhere.
+# posts.json / sitemap.xml / feed.xml are derived from posts/ (#65), so a
+# conflict in them is resolved by regenerating rather than merging.
+echo "   ↻ Syncing with origin/main before push..."
+git fetch origin main -q
+if ! git rebase origin/main >/dev/null 2>&1; then
+    CONFLICTS="$(git diff --name-only --diff-filter=U)"
+    DERIVED_ONLY=1
+    for f in $CONFLICTS; do
+        case "$f" in
+            posts.json|sitemap.xml|feed.xml) ;;
+            *) DERIVED_ONLY=0 ;;
+        esac
+    done
+    if [ -n "$CONFLICTS" ] && [ "$DERIVED_ONLY" = "1" ]; then
+        echo "   ↻ Conflict in derived indexes only — regenerating."
+        git checkout --ours -- $CONFLICTS 2>/dev/null || true
+        $PYTHON scripts/regenerate_indexes.py
+        git add $CONFLICTS
+        GIT_EDITOR=true git rebase --continue >/dev/null 2>&1 || {
+            git rebase --abort 2>/dev/null || true
+            echo "   ❌ Could not complete rebase — NOTHING PUSHED, post is not live." >&2
+            exit 1
+        }
+    else
+        git rebase --abort 2>/dev/null || true
+        echo "   ❌ Rebase onto origin/main conflicts outside the derived indexes:" >&2
+        echo "$CONFLICTS" | sed 's/^/        /' >&2
+        echo "   ❌ Resolve by hand — NOTHING PUSHED, post is not live." >&2
+        exit 1
+    fi
+fi
+
+# A 3-way merge of derived files is meaningless and leaves artifacts, so
+# re-derive them from the posts on disk after any rebase.
+$PYTHON scripts/regenerate_indexes.py >/dev/null
+if ! git diff --quiet -- posts.json sitemap.xml feed.xml; then
+    git add posts.json sitemap.xml feed.xml
+    git commit -q --amend --no-edit
+    echo "   ↻ Re-derived indexes after rebase."
+fi
+
+if ! git push origin main 2>&1 | tail -2; then
+    echo "   ❌ git push REJECTED — the post is committed locally but NOT live." >&2
+    echo "      Fix the clone, then re-run publish.sh." >&2
+    exit 1
+fi
 echo "   ✅ Pushed to GitHub Pages"
 
 # ─── STEP 3: Collect URLs to submit ──────────────────────────────────────────
