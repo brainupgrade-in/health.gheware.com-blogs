@@ -192,11 +192,20 @@ def is_canonicalised_elsewhere(path_rel, html):
     not compete with that keeper in sitemap.xml, posts.json, or feed.xml —
     submitting a URL for indexing while telling Google to index a different one
     is self-defeating.
+
+    Scans EVERY canonical tag and is attribute-order agnostic. The original
+    regex required `<link rel="canonical" href=…>` in that order; posts written
+    back through BeautifulSoup serialise as `<link href=… rel="canonical"/>`,
+    so their canonical was invisible here and they kept competing with their
+    own keeper. A post may also carry a stale self-canonical alongside the
+    cross-canonical — any tag pointing elsewhere wins.
     """
-    m = re.search(r'<link rel="canonical" href="([^"]*)"', html, re.IGNORECASE)
-    if not m:
-        return False
-    return m.group(1).strip() != f"{BASE}/{path_rel}"
+    self_url = f"{BASE}/{path_rel}"
+    for tag in re.findall(r"<link\b[^>]*\brel=[\"']canonical[\"'][^>]*>", html, re.IGNORECASE):
+        m = re.search(r'\bhref=["\']([^"\']*)["\']', tag, re.IGNORECASE)
+        if m and m.group(1).strip() != self_url:
+            return True
+    return False
 
 
 def entry_for(path_rel, html, existing=None, next_id_ref=None):
@@ -298,6 +307,35 @@ def main():
                 continue
             existing = existing_by_path.get(rel)
             entries.append(entry_for(rel, html, existing, next_id))
+
+    # Two indexed posts sharing a slug are the same URL split across month
+    # directories: both get submitted for indexing, and they compete for the
+    # same query. Four families drifted in this way before anyone noticed.
+    # Consolidating one onto the other (a canonical pointing at the keeper)
+    # takes the loser out of `entries` above, so reaching here with a
+    # collision means neither has been consolidated yet.
+    by_stem = {}
+    for e in entries:
+        by_stem.setdefault(Path(e["path"]).stem, []).append(e["path"])
+    collisions = {s: ps for s, ps in by_stem.items() if len(ps) > 1}
+    if collisions:
+        print("\nDuplicate slug across month directories:\n", file=sys.stderr)
+        for stem, paths in sorted(collisions.items()):
+            print(f"  {stem}", file=sys.stderr)
+            for p in sorted(paths):
+                print(f"      {p}", file=sys.stderr)
+        print(
+            "\nBoth copies are indexed and competing for the same query.\n"
+            "Pick a keeper (the longer article unless one is demonstrably\n"
+            "ranking) and add to the OTHER one's <head>:\n"
+            '  <link rel="canonical" href="https://health.gheware.com/blog/<keeper path>">\n'
+            "It stays live and readable but drops out of posts.json / sitemap.xml /\n"
+            "feed.xml. Do NOT delete a duplicate that is live, and never delete its\n"
+            "images/<slug>-og.jpg — that file is keyed by slug and shared with the\n"
+            "copies in the other month directories.",
+            file=sys.stderr,
+        )
+        sys.exit(2)
 
     # Sort: date desc, id desc as tiebreak
     entries.sort(key=lambda e: (e["date"], e.get("id") or 0), reverse=True)
