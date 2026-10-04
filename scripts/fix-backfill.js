@@ -77,7 +77,7 @@ for (const fname of fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.html')).s
   head += `<title>${title}</title>\n`;
   head += `<meta content="${excerpt}" name="description"/>\n`;
   head += `<meta content="${slug.replace(/-/g, ' ')}, diabetes india, ${slug}" name="keywords"/>\n`;
-  head += `<meta content="Health Gheware" name="author"/>\n`;
+  head += `<meta content="GlucoRay" name="author"/>\n`;
   head += `<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>\n`;
   head += '<!-- Open Graph / Facebook -->\n';
   head += '<meta content="article" property="og:type"/>\n';
@@ -87,7 +87,7 @@ for (const fname of fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.html')).s
   head += `<meta content="https://health.gheware.com/blog/assets/images/${slug}-hero.jpg" property="og:image"/>\n`;
   head += `<meta content="1200" property="og:image:width"/>\n`;
   head += `<meta content="630" property="og:image:height"/>\n`;
-  head += '<meta content="Health Gheware" property="og:site_name"/>\n';
+  head += '<meta content="GlucoRay" property="og:site_name"/>\n';
   head += '<!-- Twitter -->\n';
   head += '<meta content="summary_large_image" name="twitter:card"/>\n';
   head += `<meta content="${title}" name="twitter:title"/>\n`;

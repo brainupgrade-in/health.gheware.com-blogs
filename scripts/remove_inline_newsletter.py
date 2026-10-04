@@ -90,8 +90,8 @@ def remove_newsletter_section(content):
     content, count9d = re.subn(newsletter_section_pattern, '\n\n', content, flags=re.DOTALL)
     total_changes += count9d
 
-    # Pattern 10: <!-- Newsletter Signup (Health Gheware) --> with class="newsletter-health-signup"
-    newsletter_health_pattern = r'\s*<!-- Newsletter Signup \(Health Gheware\) -->\s*<div class="newsletter-health-signup"[^>]*>.*?</div>\s*'
+    # Pattern 10: <!-- Newsletter Signup (GlucoRay) --> with class="newsletter-health-signup"
+    newsletter_health_pattern = r'\s*<!-- Newsletter Signup \(GlucoRay\) -->\s*<div class="newsletter-health-signup"[^>]*>.*?</div>\s*'
     content, count10 = re.subn(newsletter_health_pattern, '\n\n', content, flags=re.DOTALL)
     total_changes += count10
 

@@ -1,5 +1,5 @@
 /**
- * Template Loader for Health Gheware Blog (GitHub Pages)
+ * Template Loader for GlucoRay Blog (GitHub Pages)
  * Loads HTML templates (header, footer) dynamically to avoid duplication
  */
 
@@ -130,7 +130,7 @@
         await loadTemplate('footer', 'body', {
             position: 'beforeend',
             onLoad: () => {
-                // Hide Trade Gheware newsletter on Health Gheware blog posts
+                // Hide Trade Gheware newsletter on GlucoRay blog posts
                 const path = window.location.pathname;
                 const tradeNewsletter = document.querySelector('.footer-newsletter-trade');
 

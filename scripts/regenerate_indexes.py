@@ -389,7 +389,7 @@ def main():
     feed = ['<?xml version="1.0" encoding="UTF-8"?>',
             '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
             "  <channel>",
-            "    <title>Health Gheware — Diabetes Management for Indians</title>",
+            "    <title>GlucoRay — Diabetes Management for Indians</title>",
             f"    <link>{BASE}/</link>",
             "    <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>",
             "    <language>en-IN</language>",

@@ -56,7 +56,7 @@ for (const fname of fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.html')).s
   headLines.push('<meta content="width=device-width, initial-scale=1.0" name="viewport"/>');
   headLines.push(`<title>${title}</title>`);
   headLines.push(`<meta content="${meta}" name="description"/>`);
-  headLines.push(`<meta content="Health Gheware" name="author"/>`);
+  headLines.push(`<meta content="GlucoRay" name="author"/>`);
   headLines.push('<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>');
   
   // OG tags
@@ -68,7 +68,7 @@ for (const fname of fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.html')).s
   headLines.push(`<meta content="https://health.gheware.com/blog/assets/images/${slug}-hero.jpg" property="og:image"/>`);
   headLines.push('<meta content="1200" property="og:image:width"/>');
   headLines.push('<meta content="630" property="og:image:height"/>');
-  headLines.push('<meta content="Health Gheware" property="og:site_name"/>');
+  headLines.push('<meta content="GlucoRay" property="og:site_name"/>');
   
   // Twitter
   headLines.push('<!-- Twitter -->');
