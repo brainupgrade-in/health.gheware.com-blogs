@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": 184,
+      "title": "Smart Blood Sugar: A Practical Guide for Indians",
+      "slug": "posts/2026/10/smart-blood-sugar-guide-india-2026.html",
+      "path": "posts/2026/10/smart-blood-sugar-guide-india-2026.html",
+      "url": "posts/2026/10/smart-blood-sugar-guide-india-2026.html",
+      "date": "2026-10-06",
+      "category": "diabetes-management",
+      "categoryLabel": "Diabetes Management",
+      "description": "Learn how to manage smart blood sugar levels with Indian diet tips, monitoring strategies, and evidence-based guidelines from ICMR and ADA for better diabetes health",
+      "excerpt": "Learn how to manage smart blood sugar levels with Indian diet tips, monitoring strategies, and evidence-based guidelines from ICMR and ADA for better diabetes health",
+      "keywords": [],
+      "tags": [],
+      "image": "https://health.gheware.com/images/smart-blood-sugar-guide-india-2026-og.jpg",
+      "readTime": "5 min read",
+      "featured": false
+    },
+    {
       "id": 183,
       "title": "Maaza and Glycemic Index: What Diabetics Need to Know",
       "slug": "posts/2026/10/maaza-glycemic-index-study-india-2026.html",

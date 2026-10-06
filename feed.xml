@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 04 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Smart Blood Sugar: A Practical Guide for Indians</title>
+      <link>https://health.gheware.com/blog/posts/2026/10/smart-blood-sugar-guide-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/10/smart-blood-sugar-guide-india-2026.html</guid>
+      <description>Learn how to manage smart blood sugar levels with Indian diet tips, monitoring strategies, and evidence-based guidelines from ICMR and ADA for better diabetes health</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Maaza and Glycemic Index: What Diabetics Need to Know</title>
       <link>https://health.gheware.com/blog/posts/2026/10/maaza-glycemic-index-study-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Diet &amp; Nutrition</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Best Dry Fruits &amp; Nuts for Diabetics in India: Complete Guide with GI Values (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/best-dry-fruits-nuts-for-diabetics-india-complete-guide-2026.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/best-dry-fruits-nuts-for-diabetics-india-complete-guide-2026.html</guid>
-      <description>Which dry fruits and nuts are safe for diabetics? Complete Indian guide with glycemic index values, portion sizes, and blood sugar impact for almonds, walnuts, pistachios, cashews, dates, makhana, and more. Research-backed advice for Type 1 and Type 2 diabetics.</description>
-      <category>Diet &amp; Nutrition</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
