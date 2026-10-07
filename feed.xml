@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GLP-1 Injection Technique: A Safe Guide for India</title>
+      <link>https://health.gheware.com/blog/posts/2026/10/glp1-injection-technique-diabetes-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/10/glp1-injection-technique-diabetes-india-2026.html</guid>
+      <description>Learn the correct GLP-1 injection technique for diabetes in India. Step-by-step guide on administration, storage, and safety tips from ADA and ICMR guidelines.</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Smart Blood Sugar: A Practical Guide for Indians</title>
       <link>https://health.gheware.com/blog/posts/2026/10/smart-blood-sugar-guide-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Complications</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ultra-Processed Foods &amp; Diabetes in India: The Hidden Blood Sugar Killer in Your Kitchen (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/ultra-processed-foods-diabetes-india-upf-blood-sugar-hidden-danger-guide.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/ultra-processed-foods-diabetes-india-upf-blood-sugar-hidden-danger-guide.html</guid>
-      <description>Ultra-processed foods (UPF) are silently fueling India's diabetes epidemic. 90 million Indians are diabetic — and packaged foods are a major driver. Learn which common Indian kitchen staples are UPFs, how they spike blood sugar, and what India's 2026 Sugar Surcharge and metabolic warning labels mean for you.</description>
-      <category>Diet &amp; Nutrition</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
