@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Spotting Early Prediabetes Symptoms: A Guide</title>
+      <link>https://health.gheware.com/blog/posts/2026/10/spotting-early-prediabetes-symptoms-guide-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/10/spotting-early-prediabetes-symptoms-guide-india-2026.html</guid>
+      <description>Learn to identify early prediabetes symptoms and signs. Understand ICMR guidelines, risk factors, and actionable steps to reverse prediabetes before it becomes type </description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>GLP-1 Injection Technique: A Safe Guide for India</title>
       <link>https://health.gheware.com/blog/posts/2026/10/glp1-injection-technique-diabetes-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Seasonal Care</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Diabetic Retinopathy in India: Complete Guide to Diabetes Eye Care &amp; Prevention (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/diabetic-retinopathy-eye-care-prevention-india-complete-guide.html</guid>
-      <description>Diabetic retinopathy is the leading cause of preventable blindness in Indian diabetics. Learn the stages, symptoms, screening options, treatment costs, and prevention strategies to protect your vision. Comprehensive 2026 guide for Indian patients.</description>
-      <category>Complications</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
