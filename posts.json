@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": 188,
+      "title": "Blood Sugar Swings: Why Glucose Variability Matters",
+      "slug": "posts/2026/10/glucose-variability-blood-sugar-swings-india-2026.html",
+      "path": "posts/2026/10/glucose-variability-blood-sugar-swings-india-2026.html",
+      "url": "posts/2026/10/glucose-variability-blood-sugar-swings-india-2026.html",
+      "date": "2026-10-13",
+      "category": "diabetes-management",
+      "categoryLabel": "Diabetes Management",
+      "description": "Learn how glucose variability and blood sugar swings impact health. Discover practical tips for Indian patients to stabilize levels, reduce risks, and improve qualit",
+      "excerpt": "Learn how glucose variability and blood sugar swings impact health. Discover practical tips for Indian patients to stabilize levels, reduce risks, and improve qualit",
+      "keywords": [],
+      "tags": [],
+      "image": "https://health.gheware.com/images/glucose-variability-blood-sugar-swings-india-2026-og.jpg",
+      "readTime": "5 min read",
+      "featured": false
+    },
+    {
       "id": 187,
       "title": "Time in Range: The Diabetes Number That Matters More Than HbA1c",
       "slug": "posts/2026/10/time-in-range-diabetes-what-is-a-good-tir-india-2026.html",
