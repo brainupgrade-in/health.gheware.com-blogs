@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>CGM vs Fingerstick: Accuracy Guide for India</title>
+      <link>https://health.gheware.com/blog/posts/2026/10/cgm-accuracy-vs-fingerstick-glucometer-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/10/cgm-accuracy-vs-fingerstick-glucometer-india-2026.html</guid>
+      <description>Compare CGM accuracy vs fingerstick glucometer for Indian patients. Learn about MARD, ICMR guidelines, costs, and when to use each device for better diabetes managem</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Blood Sugar Swings: Why Glucose Variability Matters</title>
       <link>https://health.gheware.com/blog/posts/2026/10/glucose-variability-blood-sugar-swings-india-2026.html</link>
@@ -445,15 +454,6 @@
       <guid>https://health.gheware.com/blog/posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html</guid>
       <description>Complete guide on millets for diabetes in India. Ragi, bajra, jowar, foxtail millet — GI scores, blood sugar data, recipes, and which millets are safest for Type 1 and Type 2 diabetics. Backed by ICMR and Indian research 2026.</description>
       <category>Diet &amp; Nutrition</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fasting Blood Sugar vs HbA1c: Which Test Matters More?</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/fasting-blood-sugar-vs-hba1c-which-test-matters-india.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/fasting-blood-sugar-vs-hba1c-which-test-matters-india.html</guid>
-      <description>Confused about fasting blood sugar vs HbA1c? This plain-language guide explains what each test measures, normal ranges for Indians, which one your doctor actually cares about, and how often you need both. No medical jargon.</description>
-      <category>Prevention &amp; Awareness</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>

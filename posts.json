@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": 189,
+      "title": "CGM vs Fingerstick: Accuracy Guide for India",
+      "slug": "posts/2026/10/cgm-accuracy-vs-fingerstick-glucometer-india-2026.html",
+      "path": "posts/2026/10/cgm-accuracy-vs-fingerstick-glucometer-india-2026.html",
+      "url": "posts/2026/10/cgm-accuracy-vs-fingerstick-glucometer-india-2026.html",
+      "date": "2026-10-14",
+      "category": "diabetes-management",
+      "categoryLabel": "Diabetes Management",
+      "description": "Compare CGM accuracy vs fingerstick glucometer for Indian patients. Learn about MARD, ICMR guidelines, costs, and when to use each device for better diabetes managem",
+      "excerpt": "Compare CGM accuracy vs fingerstick glucometer for Indian patients. Learn about MARD, ICMR guidelines, costs, and when to use each device for better diabetes managem",
+      "keywords": [],
+      "tags": [],
+      "image": "https://health.gheware.com/images/cgm-accuracy-vs-fingerstick-glucometer-india-2026-og.jpg",
+      "readTime": "6 min read",
+      "featured": false
+    },
+    {
       "id": 188,
       "title": "Blood Sugar Swings: Why Glucose Variability Matters",
       "slug": "posts/2026/10/glucose-variability-blood-sugar-swings-india-2026.html",
