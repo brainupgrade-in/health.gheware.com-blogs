@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>CGM Sensor Placement &amp; Skin Care for Indian Climates</title>
+      <link>https://health.gheware.com/blog/posts/2026/10/cgm-sensor-placement-skin-care-tips-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/10/cgm-sensor-placement-skin-care-tips-india-2026.html</guid>
+      <description>Master CGM sensor placement and skin care tips for Indian weather. Prevent irritation, ensure accuracy, and manage diabetes effectively with practical, evidence-base</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>CGM vs Fingerstick: Accuracy Guide for India</title>
       <link>https://health.gheware.com/blog/posts/2026/10/cgm-accuracy-vs-fingerstick-glucometer-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Diet &amp; Nutrition</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Millets for Diabetes: Ragi, Bajra &amp; Jowar Blood Sugar Guide (2026 India)</title>
-      <link>https://health.gheware.com/blog/posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/03/millets-for-diabetes-ragi-bajra-jowar-blood-sugar-india-guide-2026.html</guid>
-      <description>Complete guide on millets for diabetes in India. Ragi, bajra, jowar, foxtail millet — GI scores, blood sugar data, recipes, and which millets are safest for Type 1 and Type 2 diabetics. Backed by ICMR and Indian research 2026.</description>
-      <category>Diet &amp; Nutrition</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
