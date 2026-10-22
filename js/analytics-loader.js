@@ -10,8 +10,13 @@
 (function() {
   'use strict';
 
-  // Google Analytics 4 (GA4) Measurement ID for health.gheware.com
-  const GA_MEASUREMENT_ID = 'G-3345N5ZH75';
+  // GA4 Measurement ID, chosen by host. The same blog is also served on unigps.in/blog
+  // (unigps-proxy mirrors this repo); until 2026-10-23 those visits landed in the
+  // health.gheware.com property and inflated it. unigps.in now reports to its own property
+  // ("unigps.in migrated from whereismycar.in - GA4", stream G-MZN3E4CBJR).
+  const GA_MEASUREMENT_ID = /(^|\.)unigps\.in$/.test(window.location.hostname)
+    ? 'G-MZN3E4CBJR'    // unigps.in, www.unigps.in
+    : 'G-3345N5ZH75';   // health.gheware.com (and anything else serving this repo)
 
   // Skip loading if Measurement ID not configured
   if (GA_MEASUREMENT_ID === 'GA_MEASUREMENT_ID') {
