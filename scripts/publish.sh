@@ -10,6 +10,39 @@ set -euo pipefail
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_DIR"
 
+# ─── Held drafts (publish hold, #130) ────────────────────────────────────────
+# With the publish hold on, a gate-passed post waits UNTRACKED in this tree for
+# owner approval. `git add -A` below would ship it, and regenerate_indexes.py
+# would list it in the indexes/sitemap/rss, so every held draft and its images
+# are moved aside for this run and restored on exit — whoever calls publish.sh.
+# publish-approved-blog.py names the one approved slug in PUBLISH_APPROVED_SLUG.
+# No held-approvals dir (any clone but the agent's) = no-op. Paths are from the
+# git top-level (this script may be reached through the docs/scripts symlink).
+HELD_DIR="$HOME/.openclaw/workspace/blog-held/approvals"
+HELD_POSTS="posts"; HELD_IMAGES="images"
+if [ -d "$HELD_DIR" ]; then
+    GIT_TOP="$(git rev-parse --show-toplevel)"
+    ASIDE="$HOME/.openclaw/workspace/blog-held/aside"
+    mkdir -p "$ASIDE"
+    trap 'for a in "$ASIDE"/*; do [ -e "$a" ] || continue; o="$GIT_TOP/$(basename "$a" | sed "s#__#/#g")"; mkdir -p "$(dirname "$o")"; mv "$a" "$o"; done' EXIT
+    HELD_SLUGS="$(cat "$HELD_DIR"/* 2>/dev/null | sort -u)"
+    while IFS= read -r f; do
+        [ -n "$f" ] || continue
+        b="$(basename "$f")"
+        for slug in $HELD_SLUGS; do
+            [ "$slug" = "${PUBLISH_APPROVED_SLUG:-}" ] && continue
+            case "$f" in
+                "$HELD_POSTS"/*)  [ "$b" = "$slug.html" ] || continue ;;
+                "$HELD_IMAGES"/*) case "$b" in "$slug"-*|"$slug".*) ;; *) continue ;; esac ;;
+                *) continue ;;
+            esac
+            mv "$GIT_TOP/$f" "$ASIDE/$(printf '%s' "$f" | sed 's#/#__#g')"
+            echo "⏸  held for owner approval, left out of this publish: $f"
+            break
+        done
+    done < <(cd "$GIT_TOP" && git ls-files --others --exclude-standard -- "$HELD_POSTS" "$HELD_IMAGES")
+fi
+
 PYTHON="/home/openclaw/.openclaw/.local/python/cpython-3.12.10-linux-x86_64-gnu/bin/python3.12"
 BLOG_BASE="https://health.gheware.com/blog"
 SA_FILE="/home/openclaw/.openclaw/workspace/google-service-account.json"
