@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Roti vs Rice: Managing Carbs for Diabetes</title>
+      <link>https://health.gheware.com/blog/posts/2026/10/roti-vs-rice-carbs-diabetes-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/10/roti-vs-rice-carbs-diabetes-india-2026.html</guid>
+      <description>Compare roti vs rice carbs for diabetes. Learn portion control, glycemic index differences, and practical tips to manage blood sugar with Indian staples like wheat</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Festival Season with Diabetes: A Sweets Survival Plan</title>
       <link>https://health.gheware.com/blog/posts/2026/10/festival-season-diabetes-sweets-eating-plan-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Medication &amp; Treatment</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Navratri Fasting with Diabetes: Safe Diet Guide for Indian Diabetics (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/04/navratri-fasting-diabetes-safe-guide-india-2026.html</guid>
-      <description>Can diabetics fast during Navratri? Yes — with the right approach. Complete guide covering safe foods, blood sugar monitoring, meal timing, what to avoid, and how to prevent hypoglycemia during Navratri vrat for Type 1 and Type 2 diabetics.</description>
-      <category>Seasonal Care</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
