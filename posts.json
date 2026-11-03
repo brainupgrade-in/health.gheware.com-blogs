@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": 194,
+      "title": "Poha or Upma: Managing Carbs for Diabetics",
+      "slug": "posts/2026/11/poha-upma-carbs-diabetes-breakfast-india-2026.html",
+      "path": "posts/2026/11/poha-upma-carbs-diabetes-breakfast-india-2026.html",
+      "url": "posts/2026/11/poha-upma-carbs-diabetes-breakfast-india-2026.html",
+      "date": "2026-11-01",
+      "category": "diabetes-management",
+      "categoryLabel": "Diabetes Management",
+      "description": "Discover how to enjoy poha and upma for breakfast without spiking blood sugar. Learn carb management tips, portion sizes, and healthier ingredient swaps for",
+      "excerpt": "Discover how to enjoy poha and upma for breakfast without spiking blood sugar. Learn carb management tips, portion sizes, and healthier ingredient swaps for",
+      "keywords": [],
+      "tags": [],
+      "image": "https://health.gheware.com/blog/favicon.png",
+      "readTime": "7 min read",
+      "featured": false
+    },
+    {
       "id": 193,
       "title": "Roti vs Rice: Managing Carbs for Diabetes",
       "slug": "posts/2026/10/roti-vs-rice-carbs-diabetes-india-2026.html",
