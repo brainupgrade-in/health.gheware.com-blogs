@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Healthy Evening Snacks for Indian Diabetics</title>
+      <link>https://health.gheware.com/blog/posts/2026/11/healthy-evening-snacks-for-indian-diabetics-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/11/healthy-evening-snacks-for-indian-diabetics-india-2026.html</guid>
+      <description>Healthy evening snacks for Indian diabetics: low-glycemic, protein-rich options like roasted chana, sprouts and nuts that help keep blood sugar steady.</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Poha or Upma: Managing Carbs for Diabetics</title>
       <link>https://health.gheware.com/blog/posts/2026/11/poha-upma-carbs-diabetes-breakfast-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Diabetes Management</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Diabetic Foot Care India: Complete 2026 Guide — Neuropathy, Ulcers &amp; Prevention</title>
-      <link>https://health.gheware.com/blog/posts/2026/04/diabetic-foot-care-neuropathy-prevention-india-guide-2026.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/04/diabetic-foot-care-neuropathy-prevention-india-guide-2026.html</guid>
-      <description>India has the world's highest rate of diabetic foot amputations. Learn the early warning signs of diabetic neuropathy, daily foot care routine, best footwear, and how to prevent diabetic foot ulcers — a complete guide for Indian diabetics in 2026.</description>
-      <category>Complications</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
