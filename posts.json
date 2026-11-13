@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": 196,
+      "title": "Idli, Dosa and Diabetes: Making South Indian Breakfast Work",
+      "slug": "posts/2026/11/idli-dosa-south-indian-breakfast-diabetes-india-2026.html",
+      "path": "posts/2026/11/idli-dosa-south-indian-breakfast-diabetes-india-2026.html",
+      "url": "posts/2026/11/idli-dosa-south-indian-breakfast-diabetes-india-2026.html",
+      "date": "2026-11-12",
+      "category": "diabetes-management",
+      "categoryLabel": "Diabetes Management",
+      "description": "Discover how to enjoy idli, dosa, and sambar while managing diabetes. Learn practical tips on portion control, pairing, and blood sugar monitoring for South Indian…",
+      "excerpt": "Discover how to enjoy idli, dosa, and sambar while managing diabetes. Learn practical tips on portion control, pairing, and blood sugar monitoring for South Indian…",
+      "keywords": [],
+      "tags": [],
+      "image": "https://health.gheware.com/blog/images/idli-dosa-south-indian-breakfast-diabetes-india-2026-og.jpg",
+      "readTime": "6 min read",
+      "featured": false
+    },
+    {
       "id": 195,
       "title": "Healthy Evening Snacks for Indian Diabetics",
       "slug": "posts/2026/11/healthy-evening-snacks-for-indian-diabetics-india-2026.html",
