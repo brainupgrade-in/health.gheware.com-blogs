@@ -5,8 +5,17 @@
     <link>https://health.gheware.com/blog/</link>
     <description>Practical, evidence-based diabetes guides for Indian patients — nutrition, medication, CGM, HbA1c, complications, and seasonal care.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://health.gheware.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Eating Out with Diabetes: Navigating an Indian Menu</title>
+      <link>https://health.gheware.com/blog/posts/2026/11/eating-out-restaurants-diabetes-indian-menu-india-2026.html</link>
+      <guid>https://health.gheware.com/blog/posts/2026/11/eating-out-restaurants-diabetes-indian-menu-india-2026.html</guid>
+      <description>Discover how to order safely at Indian restaurants with diabetes. Learn smart swaps, portion control tips, and which tandoori and curry dishes to choose.</description>
+      <category>Diabetes Management</category>
+      <author>rajesh@gheware.com (Rajesh Gheware)</author>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Smart Diabetic Lunchbox for Indian Office Workers</title>
       <link>https://health.gheware.com/blog/posts/2026/11/smart-diabetic-lunchbox-for-indian-office-workers-india-2026.html</link>
@@ -447,15 +456,6 @@
       <category>Prediabetes Management</category>
       <author>rajesh@gheware.com (Rajesh Gheware)</author>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Summer Diabetes Care in India: Heat Wave Survival Guide (2026)</title>
-      <link>https://health.gheware.com/blog/posts/2026/04/summer-diabetes-care-india-heat-wave-management-guide-2026.html</link>
-      <guid>https://health.gheware.com/blog/posts/2026/04/summer-diabetes-care-india-heat-wave-management-guide-2026.html</guid>
-      <description>Learn how to manage diabetes effectively during the extreme Indian summer. Comprehensive guide on hydration, heat-safe Indian foods, summer-specific exercise, and avoiding dehydration-induced blood sugar spikes (2026).</description>
-      <category>Diabetes Management</category>
-      <author>rajesh@gheware.com (Rajesh Gheware)</author>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
