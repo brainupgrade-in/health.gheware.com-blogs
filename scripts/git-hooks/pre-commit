@@ -48,12 +48,23 @@ if [ -z "$PYTHON" ]; then
     exit 0
 fi
 
+# #178: the regenerator reads every post file, so an untracked draft awaiting owner approval
+# would land in the indexes. Refuse; move pending drafts aside first.
+UNTRACKED=$(git ls-files --others --exclude-standard | grep -E '(^|/)posts/.*\.html$' || true)
+if [ -n "$UNTRACKED" ]; then
+    echo "[pre-commit] REFUSING: untracked post(s) would be indexed and published (#178):" >&2
+    echo "$UNTRACKED" | sed 's/^/    /' >&2
+    echo "[pre-commit] Move pending drafts out of the tree, commit, then move them back." >&2
+    exit 1
+fi
+
 echo "[pre-commit] Blog post change detected → regenerating indexes via $REGEN…" >&2
 if ! "$PYTHON" "$REGEN" >&2; then
     echo "[pre-commit] regenerate_indexes.py failed — aborting commit" >&2
     exit 1
 fi
 
-git add -A
+# Re-stage tracked files the regenerator rewrote; never add untracked files (#178).
+git add -u
 echo "[pre-commit] Indexes regenerated and re-staged." >&2
 exit 0
